@@ -14,13 +14,9 @@ from ibm_watson_machine_learning.foundation_models import Model
 
 # load_dotenv()
 
-# api_endpoint = os.getenv('API_URL')
-# api_key = os.getenv('API_KEY')
-# project_id = os.getenv('PROJECT_ID')
-
-api_endpoint = "https://us-south.ml.cloud.ibm.com"
-api_key = "1C6jb8U7WQTER5ua5wFeX7HcFaC9OVRo37krWDBifr-n"
-project_id = "717b33f7-c31a-4e0d-9d7e-906a32ad111d"
+api_endpoint = st.secrets('API_URL')
+api_key = st.secrets('API_KEY')
+project_id = st.secrets('PROJECT_ID')
 
 wxai_credentials = {
     "url": api_endpoint,
