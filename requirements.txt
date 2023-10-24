@@ -1,0 +1,5 @@
+requests
+json
+io
+dotenv
+ibm_watson_machine_learning
