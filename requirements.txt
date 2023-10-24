@@ -1,5 +1,8 @@
+pandas==1.5.3
+urllib3==1.26.18
+ibm-cos-sdk-core
 ibm_watson_machine_learning
 urllib3==1.26.18
 pandas==1.5.3
-requests==2.31
+requests==2.28.2
 
