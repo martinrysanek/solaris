@@ -1,4 +1,5 @@
-urllib3==1.26.16
+ibm_watson_machine_learning
+urllib3==1.26.18
 pandas==1.5.3
 requests==2.31
-ibm_watson_machine_learning
+
