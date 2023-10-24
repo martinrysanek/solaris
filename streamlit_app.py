@@ -51,8 +51,8 @@ json_file_url = (
     "https://raw.githubusercontent.com/martinrysanek/solaris/main/input.json"
 )
 
-with open('input.json', 'r') as file:
-    data = json.load(file)
+# with open('input.json', 'r') as file:
+#     data = json.load(file)
 
 response = load_data(json_file_url)
 if response.status_code == 200:
