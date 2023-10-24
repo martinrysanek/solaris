@@ -1,5 +1,3 @@
 requests==2.31
-json
-io
 dotenv
 ibm_watson_machine_learning
