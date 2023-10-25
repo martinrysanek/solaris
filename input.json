@@ -525,5 +525,49 @@
                 "enabled": true
             }
         }
+    },
+    "Quantum Computing [CZ]": {
+        "name": "Quantum Computing [CZ]",
+        "language": "CZ",
+        "buttonName": "Retrive Answer",
+        "inputs": [
+            "Jaké fyzikální vlastnosti využívá kvantový počítač ke své činnosti?",
+            "Co obnáší kvantová dekoherence pro výpočty kvantovými počítači?"
+        ],
+        "topics": {
+            "topic1": {
+                "topicName": "RAG",
+                "modelId": "meta-llama/llama-2-70b-chat",
+                "parameters": {
+                    "decoding_method": "greedy",
+                    "temperature": 0.9,
+                    "top_p": 1,
+                    "top_k": 50,
+                    "min_new_tokens": 15,
+                    "max_new_tokens": 100
+                },
+                "instruction": {
+                    "detailed": "Odpovězte v českém jazyce na následující otázku pouze na základě informací z článku. Pokud v článku není žádná dobrá odpověď, řekněte \"nevím\".",
+                    "summarized": "Odpovězte v českém jazyce na následující otázku pouze na základě informací z článku. Pokud v článku není žádná dobrá odpověď, řekněte \"nevím\"."
+                },
+                "inputPrefix": "Question::",
+                "outputPrefix": "Answer:",
+                "examples": [
+                    {
+                        "input": "Jaký je současný využití kvantových počítačů?",
+                        "output": "Současný stav využití kvantových počítačů je převážně experimentální a nepraktický."
+                    },
+                    {
+                        "input": "Jaké úlohy by uměl řešit rozsáhlý kvantový počítač?",
+                        "output": "Rozsáhlý kvantový počítač by zejména mohl prolomit široce používaná šifrovací schémata a pomoci fyzikům při provádění fyzikálních simulací."
+                    },
+                    {
+                        "input": "Jaké fyzikální vlastnosti využívá kvantový počítač ke své činnosti?",
+                        "output": "Kvantový počítač využívá kvantové superpozice a provázanosti, pomocí specializovaného hardwaru, který podporuje přípravu a manipulaci s kvantovými stavy."
+                    }
+                ],
+                "enabled": true
+            }
+        }
     }
 }
