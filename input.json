@@ -1,5 +1,5 @@
 {
-    "Insurance Car Claim": {
+    "Insurance Car Claim [EN]": {
         "name": "Insurance Car Claim",
         "language": "EN",
         "buttonName": "Claim",
@@ -143,7 +143,7 @@
             }
         }
     },
-    "IT Incident assist": {
+    "IT Incident assist [EN]": {
         "name": "IT Incident assist",
         "language": "EN",
         "buttonName": "Incident",
@@ -243,7 +243,7 @@
             }
         }
     },
-    "Retail - Item Labelling": {
+    "Retail - Item Labelling [EN]": {
         "name": "Retail - Item Labelling",
         "language": "EN",
         "buttonName": "Item",
@@ -292,7 +292,7 @@
             }
         }
     },
-    "Talent Management": {
+    "Talent Management [EN]": {
         "name": "Talent Management",
         "language": "EN",
         "buttonName": "HR Use Case",
@@ -386,7 +386,7 @@
             }
         }
     },
-    "Customer Airport Review": {
+    "Customer Airport Review [EN]": {
         "name": "Customer Airport Review",
         "language": "EN",
         "buttonName": "Customer Review",
