@@ -1,6 +1,6 @@
 {
     "Insurance Car Claim [EN]": {
-        "name": "Insurance Car Claim",
+        "name": "Insurance Car Claim [EN]",
         "language": "EN",
         "buttonName": "Claim",
         "inputs": [
@@ -144,7 +144,7 @@
         }
     },
     "IT Incident assist [EN]": {
-        "name": "IT Incident assist",
+        "name": "IT Incident assist [EN]",
         "language": "EN",
         "buttonName": "Incident",
         "inputs": [
