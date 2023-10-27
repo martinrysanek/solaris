@@ -540,18 +540,18 @@
                 "modelId": "meta-llama/llama-2-70b-chat",
                 "parameters": {
                     "decoding_method": "greedy",
-                    "temperature": 0.9,
+                    "temperature": 0.8,
                     "top_p": 1,
                     "top_k": 50,
                     "min_new_tokens": 15,
-                    "max_new_tokens": 100
+                    "max_new_tokens": 150
                 },
                 "instruction": {
-                    "detailed": "Odpovězte v českém jazyce na následující otázku pouze na základě informací z článku. Pokud v článku není žádná dobrá odpověď, řekněte \"nevím\".",
-                    "summarized": "Odpovězte v českém jazyce na následující otázku pouze na základě informací z článku. Pokud v článku není žádná dobrá odpověď, řekněte \"nevím\"."
+                    "detailed": "Odpovězte na následující otázku pouze na základě informací z článku. Odpověď musí být v českém jazyce. Pokud v článku není žádná dobrá odpověď, řekněte \"nevím\".\nČlánek: \nKvantový počítač je počítač, který využívá kvantově mechanické jevy. V malých měřítkách vykazuje fyzikální hmota vlastnosti částic i vln a kvantové počítače využívají tohoto chování, konkrétně kvantové superpozice a provázanosti, pomocí specializovaného hardwaru, který podporuje přípravu a manipulaci s kvantovými stavy. Klasická fyzika nedokáže vysvětlit fungování těchto kvantových zařízení a škálovatelný kvantový počítač by mohl provádět některé výpočty exponenciálně rychleji než jakýkoli moderní \"klasický\" počítač. Rozsáhlý kvantový počítač by zejména mohl prolomit široce používaná šifrovací schémata a pomoci fyzikům při provádění fyzikálních simulací; současný stav techniky je však převážně experimentální a nepraktický, přičemž užitečným aplikacím brání několik překážek. Škálovatelné kvantové počítače navíc nejsou pro mnoho praktických úloh perspektivní a u mnoha důležitých úloh je kvantové zrychlení prokazatelně nemožné. Základní jednotkou informace v kvantové výpočetní technice je qubit, podobně jako bit v tradiční digitální elektronice. Na rozdíl od klasického bitu může qubit existovat v superpozici svých dvou \"základních\" stavů, což volně znamená, že se nachází v obou stavech současně. Při měření qubitu je výsledkem pravděpodobnostní výstup klasického bitu, proto jsou kvantové počítače obecně nedeterministické. Pokud kvantový počítač manipuluje s qubitem určitým způsobem, mohou vlnové interferenční efekty zesílit požadované výsledky měření. Návrh kvantových algoritmů zahrnuje vytvoření postupů, které umožní kvantovému počítači provádět výpočty efektivně a rychle. Fyzikální inženýrství vysoce kvalitních qubitů se ukázalo jako náročné. Pokud není fyzický qubit dostatečně izolován od svého okolí, trpí kvantovou dekoherencí, která do výpočtů vnáší šum. Paradoxně je dokonalá izolace qubitů také nežádoucí, protože při kvantových výpočtech je obvykle třeba qubity inicializovat, provádět řízené interakce qubitů a měřit výsledné kvantové stavy. Každá z těchto operací přináší chyby a trpí šumem a tyto nepřesnosti se kumulují.",
+                    "summarized": "Odpovězte na následující otázku na základě informací v článku."
                 },
-                "inputPrefix": "Question::",
-                "outputPrefix": "Answer:",
+                "inputPrefix": "Otázka: ",
+                "outputPrefix": "Odpověď: ",
                 "examples": [
                     {
                         "input": "Jaký je současný využití kvantových počítačů?",
