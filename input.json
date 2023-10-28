@@ -520,7 +520,7 @@
       ],
       "topics":{
          "topic1":{
-            "topicName":"Question Answering",
+            "topicName":"RAG",
             "models":[
                {
                   "meta-llama/llama-2-70b-chat":{
@@ -593,7 +593,7 @@
                }
             ],
             "instruction":{
-               "detailed":"Následující dokument je přepisem hovoru o finančních výsledcích.  Přečti si dokument. Vypiš výhradně v českém jazyce v daném dokumentu všechny nalezené entity.",
+               "detailed":"Následující dokument je přepisem hovoru o finančních výsledcích.  Přečtěte si dokument a poté napište výhradně v českém jazyce všechny nalezené entity v daném dokumentu.",
                "summarized":"Vypiš z následujícího dokumenty nalezené entity."
             },
             "inputPrefix":"Vstup: ",
@@ -610,6 +610,86 @@
                {
                   "input":"Microsoft prodá práva na distribuci her společnosti Activision Blizzard mimo území EU hernímu vydavatelství Ubisoft.",
                   "output":"Microsoft: organizace, Activision Blizzard: organizace, Ubisoft: organizace"
+               }
+            ],
+            "enabled":true
+         }
+      }
+   },
+   "Opinions on the product (SK)":{
+      "name":"Opinions on the product (SK)",
+      "language":"SK",
+      "buttonName":"Analyzujte",
+      "inputs":[
+         "Zatial ho mám kratko abysom mohol hodnotiť. V podstate som spokojný.",
+         "Opravdu jsem si myslela, že tyto šaty budou fantastické. Obrázky byly krásné a balení, ve kterém dorazily, bylo prostě dokonalé. Potom jsem si je oblékla a vypadala jsem jako žirafa. Ale aspoň můj pes na nich rád spí a vidět svého pejska šťastně spát mne činí šťastnou.",
+         "Veľmi ochotný pracovník, vyšiel mi v ústrety s mojou požiadavkou ohladne dodania tovaru."
+      ],
+      "topics":{
+         "topic1":{
+            "topicName":"Sentiment Analyses",
+            "models":[
+               {
+                  "meta-llama/llama-2-70b-chat":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "temperature":0.8,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":1,
+                     "max_new_tokens":20
+                  }
+               },
+               {
+                  "ibm/granite-13b-instruct-v1":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "temperature":0.8,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":1,
+                     "max_new_tokens":10
+                  }
+               }
+            ],
+            "instruction":{
+               "detailed":"Následující dokument obsahuje názory uživatelů na produkty. Přečti dokument a urči sentiment uživatele při hodnocení produkt.",
+               "summarized":"Vypiš z následujícího dokumenty nalezené entity."
+            },
+            "inputPrefix":"Text: ",
+            "outputPrefix":"Sentiment: ",
+            "examples":[
+               {
+                  "input":"Tento produkt sa mi vôbec nepáči. Je síce lacný, ale poriadne nefunguje.",
+                  "output":"Negativní."
+               },
+               {
+                  "input":"Nie je to veľmi pekné.",
+                  "output":"Negativní."
+               },
+               {
+                  "input":"Zatiaľ dobré nadštandard.",
+                  "output":"Pozitivní."
+               },
+               {
+                  "input":"Vzhľadovo pekný výkonný dobrá cena odporúčam.",
+                  "output":"Pozitivní."
+               },
+               {
+                  "input":"Nedá sa nikde vypnúť Fast Charging (musím používať iný kábel nech nabíja pomaly aby sa rýchlo neničila baterka).",
+                  "output":"Negativní."
+               },
+               {
+                  "input":"Veľa predinštalovaných nepotrebných hier a aplikácii (navyše práca pred využívaním mobilu).",
+                  "output":"Negativní."
+               },
+               {
+                  "input":"Vzhľadovo pekný výkonný dobrá cena odporúčam.",
+                  "output":"Pozitivní."
+               },
+               {
+                  "input":"Bezproblémové skopirovanie všetkých dát zo starého telefónu do nového a všetko ide ako má.",
+                  "output":"Pozitivní."
                }
             ],
             "enabled":true
