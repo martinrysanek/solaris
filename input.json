@@ -526,6 +526,7 @@
                   "meta-llama/llama-2-70b-chat":{
                      "decoding_method":"greedy",
                      "temperature":0.8,
+                     "repetition_penalty": 1.2,                      
                      "top_p":1,
                      "top_k":50,
                      "min_new_tokens":15,
@@ -551,6 +552,53 @@
                {
                   "input":"Jaké fyzikální vlastnosti využívá kvantový počítač ke své činnosti?",
                   "output":"Kvantový počítač využívá kvantové superpozice a provázanosti, pomocí specializovaného hardwaru, který podporuje přípravu a manipulaci s kvantovými stavy."
+               }
+            ],
+            "enabled":true
+         }
+      }
+   },
+   "Financial News (CZ)":{
+      "name":"Financial News (CZ)",
+      "language":"CZ",
+      "buttonName":"Extract Entities",
+      "inputs":[
+         "Nobelovu cenu za fyziologii a lékařství získala biochemička Katalin Karikóová původem z Maďarska a americký imunolog Drew Weissman, kteří položili základy pro vývoj mRNA vakcín při svém působení na Pensylvánské univerzitě ve Filadelfii a položili tak základy pro vývoj vakcín proti nemoci covid-19."
+      ],
+      "topics":{
+         "topic1":{
+            "topicName":"Entity extraction",
+            "models":[
+               {
+                  "meta-llama/llama-2-70b-chat":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty": 1.2, 
+                     "temperature":0.8,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":5,
+                     "max_new_tokens":80
+                  }
+               }
+            ],
+            "instruction":{
+               "detailed":"Následující dokument je přepisem hovoru o finančních výsledcích.  Přečtěte si dokument a poté napište výhradně v českém jazyce všechny nalezené entity v daném dokumentu.",
+               "summarized":"Vypiš z následujícího dokumenty nalezené entity."
+            },
+            "inputPrefix":"Vstup: ",
+            "outputPrefix":"Entity: ",
+            "examples":[
+               {
+                  "input":"Rami Swarthmore: \"IBM je v USA konkurentem Googlu.\"",
+                  "output":"IBM: společnost, Google: společnost, USA: země, Rami Swarthmore: osoba"
+               },
+               {
+                  "input":"Eric Schmidt uvedl, že podíl společnosti Microsoft na trhu EU klesá.",
+                  "output":"Microsoft: organizace, Eric Schmidt: osoba"
+               },
+               {
+                  "input":"Microsoft prodá práva na distribuci her společnosti Activision Blizzard mimo území EU hernímu vydavatelství Ubisoft.",
+                  "output":"Microsoft: organizace, Activision Blizzard: organizace, Ubisoft: organizace"
                }
             ],
             "enabled":true
