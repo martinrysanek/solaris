@@ -14,7 +14,7 @@
          "topic1":{
             "topicName":"Summary",
             "models":[
-              {
+               {
                   "google/flan-ul2":{
                      "decoding_method":"sample",
                      "temperature":0.7,
@@ -25,7 +25,7 @@
                      "repetition_penalty":2,
                      "random_seed":1050
                   }
-              }
+               }
             ],
             "instruction":{
                "detailed":"The following document is a transcript from an insurance customer representative. Read the document and then write a short 1 paragraph summary.",
@@ -64,7 +64,7 @@
          "topic2":{
             "topicName":"Get Insights",
             "models":[
-              {            
+               {
                   "google/flan-ul2":{
                      "decoding_method":"greedy",
                      "temperature":0.7,
@@ -74,7 +74,7 @@
                      "max_new_tokens":500,
                      "random_seed":1050
                   }
-              }                  
+               }
             ],
             "instruction":{
                "detailed":"Act as a Auto insurance Claim manager and suggest the next steps for this accident claim.",
@@ -105,7 +105,7 @@
          "topic3":{
             "topicName":"Extract Entities",
             "models":[
-              {            
+               {
                   "google/flan-ul2":{
                      "decoding_method":"greedy",
                      "temperature":0.7,
@@ -114,7 +114,7 @@
                      "min_new_tokens":1,
                      "max_new_tokens":50
                   }
-              }                  
+               }
             ],
             "instruction":{
                "detailed":"Read this Insurance claim description and extract the Car make and model, Location of the incident, date of the incident & time of the incident. If you don't find these details in the description, please fill it as Not Found.",
@@ -526,7 +526,7 @@
                   "meta-llama/llama-2-70b-chat":{
                      "decoding_method":"greedy",
                      "temperature":0.8,
-                     "repetition_penalty": 1.2,                      
+                     "repetition_penalty":1.2,
                      "top_p":1,
                      "top_k":50,
                      "min_new_tokens":15,
@@ -572,7 +572,7 @@
                {
                   "meta-llama/llama-2-70b-chat":{
                      "decoding_method":"greedy",
-                     "repetition_penalty": 1.2, 
+                     "repetition_penalty":1.2,
                      "temperature":0.8,
                      "top_p":1,
                      "top_k":50,
@@ -580,15 +580,17 @@
                      "max_new_tokens":80
                   }
                },
-                 "ibm/granite-13b-instruct-v1":{
-                       "decoding_method":"greedy",
-                       "repetition_penalty": 1.2, 
-                       "temperature":0.8,
-                       "top_p":1,
-                       "top_k":50,
-                       "min_new_tokens":5,
-                       "max_new_tokens":80               
-                 }
+               {
+                  "ibm/granite-13b-instruct-v1":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "temperature":0.8,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":5,
+                     "max_new_tokens":80
+                  }
+               }
             ],
             "instruction":{
                "detailed":"Následující dokument je přepisem hovoru o finančních výsledcích.  Přečtěte si dokument a poté napište výhradně v českém jazyce všechny nalezené entity v daném dokumentu.",
