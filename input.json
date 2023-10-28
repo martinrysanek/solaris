@@ -623,7 +623,10 @@
       "inputs":[
          "Zatial ho mám kratko abysom mohol hodnotiť. V podstate som spokojný.",
          "Opravdu jsem si myslela, že tyto šaty budou fantastické. Obrázky byly krásné a balení, ve kterém dorazily, bylo prostě dokonalé. Potom jsem si je oblékla a vypadala jsem jako žirafa. Ale aspoň můj pes na nich rád spí a vidět svého pejska šťastně spát mne činí šťastnou.",
-         "Veľmi ochotný pracovník, vyšiel mi v ústrety s mojou požiadavkou ohladne dodania tovaru."
+         "Veľmi ochotný pracovník, vyšiel mi v ústrety s mojou požiadavkou ohladne dodania tovaru.",
+         "Žiadna normálna nabijacka k tomu nie je v krabičke.",
+         "Konečne telefón, ktorý padne do ruky aj do vrecka.",
+         "Žiadna normálna nabijacka k tomu nie je v krabičke."
       ],
       "topics":{
          "topic1":{
@@ -661,35 +664,35 @@
             "examples":[
                {
                   "input":"Tento produkt sa mi vôbec nepáči. Je síce lacný, ale poriadne nefunguje.",
-                  "output":"Negativní."
+                  "output":"Negatívne."
                },
                {
                   "input":"Nie je to veľmi pekné.",
-                  "output":"Negativní."
+                  "output":"Negatívne."
                },
                {
                   "input":"Zatiaľ dobré nadštandard.",
-                  "output":"Pozitivní."
+                  "output":"Pozitívne."
                },
                {
                   "input":"Vzhľadovo pekný výkonný dobrá cena odporúčam.",
-                  "output":"Pozitivní."
+                  "output":"Pozitívne."
                },
                {
                   "input":"Nedá sa nikde vypnúť Fast Charging (musím používať iný kábel nech nabíja pomaly aby sa rýchlo neničila baterka).",
-                  "output":"Negativní."
+                  "output":"Negatívne."
                },
                {
                   "input":"Veľa predinštalovaných nepotrebných hier a aplikácii (navyše práca pred využívaním mobilu).",
-                  "output":"Negativní."
+                  "output":"Negatívne."
                },
                {
                   "input":"Vzhľadovo pekný výkonný dobrá cena odporúčam.",
-                  "output":"Pozitivní."
+                  "output":"Pozitívne."
                },
                {
                   "input":"Bezproblémové skopirovanie všetkých dát zo starého telefónu do nového a všetko ide ako má.",
-                  "output":"Pozitivní."
+                  "output":"Pozitívne."
                }
             ],
             "enabled":true
