@@ -520,7 +520,7 @@
       ],
       "topics":{
          "topic1":{
-            "topicName":"RAG",
+            "topicName":"Question Answering",
             "models":[
                {
                   "meta-llama/llama-2-70b-chat":{
@@ -593,7 +593,7 @@
                }
             ],
             "instruction":{
-               "detailed":"Následující dokument je přepisem hovoru o finančních výsledcích.  Přečtěte si dokument a poté napište výhradně v českém jazyce všechny nalezené entity v daném dokumentu.",
+               "detailed":"Následující dokument je přepisem hovoru o finančních výsledcích.  Přečti si dokument. Vypiš výhradně v českém jazyce v daném dokumentu všechny nalezené entity.",
                "summarized":"Vypiš z následujícího dokumenty nalezené entity."
             },
             "inputPrefix":"Vstup: ",
