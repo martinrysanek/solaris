@@ -225,11 +225,11 @@
                }
             ],
             "instruction":{
-               "detailed":"Přečti následující dokument a napiš krátké shrnutí v rozsahu 1 odstavce z následujícího dokumentu. Shrnutí napiš výhradně v českém jazyce, nepiš v anglickém jazyce.",
+               "detailed":"Přečti následující dokument a napiš výhradně v českém jazyce krátké shrnutí v rozsahu 1 odstavce z následujícího dokumentu. Shrnutí napiš výhradně v českém jazyce, nepiš v anglickém jazyce.",
                "summarized":"Sepiš shrnutí finančního zpravodajství."
             },
-            "inputPrefix":"Dokument: \n ",
-            "outputPrefix":"Shrnutí: ",
+            "inputPrefix":"Dokument: \n  ",
+            "outputPrefix":"Shrnutí: \n  ",
             "examples":[
             ],
             "enabled":true
