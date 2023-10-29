@@ -736,7 +736,7 @@
                }
             ],
             "instruction":{
-               "detailed":"Následující dokument reprezentuje burzovní zpravodajství českém jazyce. Přečti si dokument. V českém jazyce napiš krátké shrnutí dokumentu v rozsahu 1 odstavce.",
+               "detailed":"Následující dokument reprezentuje burzovní zpravodajství českém jazyce. Přečti si dokument. Výhradně v českém jazyce napiš krátké shrnutí dokumentu v rozsahu 1 odstavce.",
                "summarized":"Sepiš shrnutí následujícího finančního zpravodajství."
             },
             "inputPrefix":"Dokument: ",
