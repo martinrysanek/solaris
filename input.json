@@ -209,7 +209,7 @@
                      "top_p":1,
                      "top_k":50,
                      "min_new_tokens":20,
-                     "max_new_tokens":100
+                     "max_new_tokens":200
                   }
                },
                {
@@ -220,16 +220,16 @@
                      "top_p":1,
                      "top_k":50,
                      "min_new_tokens":20,
-                     "max_new_tokens":100
+                     "max_new_tokens":200
                   }
                }
             ],
             "instruction":{
-               "detailed":"Napiš krátké shrnutí v rozsahu 1 odstavce z následujícího dokumentu. Shrnutí napiš výhradně v českém jazyce, nepiš v anglickém jazyce.",
+               "detailed":"Přečti následující dokument a napiš krátké shrnutí v rozsahu 1 odstavce z následujícího dokumentu. Shrnutí napiš výhradně v českém jazyce, nepiš v anglickém jazyce.",
                "summarized":"Sepiš shrnutí finančního zpravodajství."
             },
             "inputPrefix":"Dokument: \n ",
-            "outputPrefix":"Shrnutí: \n ",
+            "outputPrefix":"Shrnutí: ",
             "examples":[
             ],
             "enabled":true
