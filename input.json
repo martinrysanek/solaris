@@ -225,7 +225,7 @@
                }
             ],
             "instruction":{
-               "detailed":"Napiš krátké shrnutí v rozsahu 1 odstavce z následujícího dokumentu. Shrnutí napiš výhradně v českém jazyce, nikoliv v anglickém jazyce. Zkontroluj vytvořené shrnutí, pokud bude v anglickém jazyce, přelož jej do českého jazyka.",
+               "detailed":"Napiš krátké shrnutí v rozsahu 1 odstavce z následujícího dokumentu. Shrnutí napiš výhradně v českém jazyce, nepiš v anglickém jazyce. Nakonec přelož shrnutí do českého jazyka.",
                "summarized":"Sepiš shrnutí finančního zpravodajství."
             },
             "inputPrefix":"Dokument:  ",
