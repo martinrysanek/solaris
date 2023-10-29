@@ -525,7 +525,7 @@
                {
                   "meta-llama/llama-2-70b-chat":{
                      "decoding_method":"greedy",
-                     "temperature":0.8,
+                     "temperature":0.5,
                      "repetition_penalty":1.2,
                      "top_p":1,
                      "top_k":50,
@@ -573,7 +573,7 @@
                   "meta-llama/llama-2-70b-chat":{
                      "decoding_method":"greedy",
                      "repetition_penalty":1.2,
-                     "temperature":0.8,
+                     "temperature":0.5,
                      "top_p":1,
                      "top_k":50,
                      "min_new_tokens":5,
@@ -584,7 +584,7 @@
                   "ibm/granite-13b-instruct-v1":{
                      "decoding_method":"greedy",
                      "repetition_penalty":1.2,
-                     "temperature":0.8,
+                     "temperature":0.5,
                      "top_p":1,
                      "top_k":50,
                      "min_new_tokens":5,
@@ -638,7 +638,7 @@
                   "meta-llama/llama-2-70b-chat":{
                      "decoding_method":"greedy",
                      "repetition_penalty":1.2,
-                     "temperature":0.8,
+                     "temperature":0.5,
                      "top_p":1,
                      "top_k":50,
                      "min_new_tokens":1,
@@ -649,11 +649,11 @@
                   "ibm/granite-13b-instruct-v1":{
                      "decoding_method":"greedy",
                      "repetition_penalty":1.2,
-                     "temperature":0.8,
+                     "temperature":0.5,
                      "top_p":1,
                      "top_k":50,
                      "min_new_tokens":1,
-                     "max_new_tokens":10
+                     "max_new_tokens":20
                   }
                }
             ],
@@ -716,22 +716,22 @@
                   "meta-llama/llama-2-70b-chat":{
                      "decoding_method":"greedy",
                      "repetition_penalty":1.2,
-                     "temperature":0.8,
+                     "temperature":0.2,
                      "top_p":1,
                      "top_k":50,
                      "min_new_tokens":20,
-                     "max_new_tokens":200
+                     "max_new_tokens":100
                   }
                },
                {
                   "ibm/granite-13b-instruct-v1":{
                      "decoding_method":"greedy",
                      "repetition_penalty":1.2,
-                     "temperature":0.8,
+                     "temperature":0.2,
                      "top_p":1,
                      "top_k":50,
                      "min_new_tokens":20,
-                     "max_new_tokens":200
+                     "max_new_tokens":100
                   }
                }
             ],
