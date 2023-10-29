@@ -202,14 +202,11 @@
             "topicName":"Document summary",
             "models":[
                {
-                  "meta-llama/llama-2-70b-chat":{
-                     "decoding_method":"greedy",
-                     "repetition_penalty":1.2,
-                     "temperature":0.2,
-                     "top_p":1,
-                     "top_k":50,
-                     "min_new_tokens":20,
-                     "max_new_tokens":200
+                  "meta-llama/llama-2-70b":{
+                      "decoding_method": "greedy",
+                      "repetition_penalty": 1.2,
+                      "min_new_tokens": 20,
+                      "max_new_tokens": 200
                   }
                },
                {
@@ -228,8 +225,8 @@
                "detailed":"Přečti následující dokument a napiš výhradně v českém jazyce krátké shrnutí v rozsahu 1 odstavce z následujícího dokumentu. Shrnutí napiš výhradně v českém jazyce, nepiš v anglickém jazyce.",
                "summarized":"Sepiš shrnutí finančního zpravodajství."
             },
-            "inputPrefix":"Dokument: \n  ",
-            "outputPrefix":"Shrnutí: \n  ",
+            "inputPrefix":"Dokument: \n ",
+            "outputPrefix":"Shrnutí: \n ",
             "examples":[
             ],
             "enabled":true
