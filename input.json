@@ -1,4 +1,241 @@
 {
+   "Quantum Computing (CZ)":{
+      "name":"Quantum Computing",
+      "language":"CZ",
+      "buttonName":"Retrive Answer",
+      "inputs":[
+         "Jaké fyzikální vlastnosti využívá kvantový počítač ke své činnosti?",
+         "Co obnáší kvantová dekoherence pro výpočty kvantovými počítači?"
+      ],
+      "topics":{
+         "topic1":{
+            "topicName":"RAG",
+            "models":[
+               {
+                  "meta-llama/llama-2-70b-chat":{
+                     "decoding_method":"greedy",
+                     "temperature":0.5,
+                     "repetition_penalty":1.2,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":15,
+                     "max_new_tokens":150
+                  }
+               }
+            ],
+            "instruction":{
+               "detailed":"Odpovězte na následující otázku pouze na základě informací z článku. Odpověď musí být v českém jazyce. Pokud v článku není žádná dobrá odpověď, řekněte \"nevím\".\nČlánek: \nKvantový počítač je počítač, který využívá kvantově mechanické jevy. V malých měřítkách vykazuje fyzikální hmota vlastnosti částic i vln a kvantové počítače využívají tohoto chování, konkrétně kvantové superpozice a provázanosti, pomocí specializovaného hardwaru, který podporuje přípravu a manipulaci s kvantovými stavy. Klasická fyzika nedokáže vysvětlit fungování těchto kvantových zařízení a škálovatelný kvantový počítač by mohl provádět některé výpočty exponenciálně rychleji než jakýkoli moderní \"klasický\" počítač. Rozsáhlý kvantový počítač by zejména mohl prolomit široce používaná šifrovací schémata a pomoci fyzikům při provádění fyzikálních simulací; současný stav techniky je však převážně experimentální a nepraktický, přičemž užitečným aplikacím brání několik překážek. Škálovatelné kvantové počítače navíc nejsou pro mnoho praktických úloh perspektivní a u mnoha důležitých úloh je kvantové zrychlení prokazatelně nemožné. Základní jednotkou informace v kvantové výpočetní technice je qubit, podobně jako bit v tradiční digitální elektronice. Na rozdíl od klasického bitu může qubit existovat v superpozici svých dvou \"základních\" stavů, což volně znamená, že se nachází v obou stavech současně. Při měření qubitu je výsledkem pravděpodobnostní výstup klasického bitu, proto jsou kvantové počítače obecně nedeterministické. Pokud kvantový počítač manipuluje s qubitem určitým způsobem, mohou vlnové interferenční efekty zesílit požadované výsledky měření. Návrh kvantových algoritmů zahrnuje vytvoření postupů, které umožní kvantovému počítači provádět výpočty efektivně a rychle. Fyzikální inženýrství vysoce kvalitních qubitů se ukázalo jako náročné. Pokud není fyzický qubit dostatečně izolován od svého okolí, trpí kvantovou dekoherencí, která do výpočtů vnáší šum. Paradoxně je dokonalá izolace qubitů také nežádoucí, protože při kvantových výpočtech je obvykle třeba qubity inicializovat, provádět řízené interakce qubitů a měřit výsledné kvantové stavy. Každá z těchto operací přináší chyby a trpí šumem a tyto nepřesnosti se kumulují.",
+               "summarized":"Odpovězte na následující otázku na základě informací v článku."
+            },
+            "inputPrefix":"Otázka: ",
+            "outputPrefix":"Odpověď: ",
+            "examples":[
+               {
+                  "input":"Jaký je současný využití kvantových počítačů?",
+                  "output":"Současný stav využití kvantových počítačů je převážně experimentální a nepraktický."
+               },
+               {
+                  "input":"Jaké úlohy by uměl řešit rozsáhlý kvantový počítač?",
+                  "output":"Rozsáhlý kvantový počítač by zejména mohl prolomit široce používaná šifrovací schémata a pomoci fyzikům při provádění fyzikálních simulací."
+               },
+               {
+                  "input":"Jaké fyzikální vlastnosti využívá kvantový počítač ke své činnosti?",
+                  "output":"Kvantový počítač využívá kvantové superpozice a provázanosti, pomocí specializovaného hardwaru, který podporuje přípravu a manipulaci s kvantovými stavy."
+               }
+            ],
+            "enabled":true
+         }
+      }
+   },
+   "Financial News (CZ)":{
+      "name":"Financial News (CZ)",
+      "language":"CZ",
+      "buttonName":"Extract Entities",
+      "inputs":[
+         "Nobelovu cenu za fyziologii a lékařství získala biochemička Katalin Karikóová původem z Maďarska a americký imunolog Drew Weissman, kteří položili základy pro vývoj mRNA vakcín při svém působení na Pensylvánské univerzitě ve Filadelfii a položili tak základy pro vývoj vakcín proti nemoci covid-19."
+      ],
+      "topics":{
+         "topic1":{
+            "topicName":"Entity extraction",
+            "models":[
+               {
+                  "meta-llama/llama-2-70b-chat":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "temperature":0.5,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":5,
+                     "max_new_tokens":80
+                  }
+               },
+               {
+                  "ibm/granite-13b-instruct-v1":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "temperature":0.5,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":5,
+                     "max_new_tokens":80
+                  }
+               }
+            ],
+            "instruction":{
+               "detailed":"Následující dokument je přepisem hovoru o finančních výsledcích.  Přečtěte si dokument a poté napište výhradně v českém jazyce všechny nalezené entity v daném dokumentu.",
+               "summarized":"Vypiš z následujícího dokumenty nalezené entity."
+            },
+            "inputPrefix":"Vstup: ",
+            "outputPrefix":"Entity: ",
+            "examples":[
+               {
+                  "input":"Rami Swarthmore: \"IBM je v USA konkurentem Googlu.\"",
+                  "output":"IBM: společnost, Google: společnost, USA: země, Rami Swarthmore: osoba"
+               },
+               {
+                  "input":"Eric Schmidt uvedl, že podíl společnosti Microsoft na trhu EU klesá.",
+                  "output":"Microsoft: organizace, Eric Schmidt: osoba"
+               },
+               {
+                  "input":"Microsoft prodá práva na distribuci her společnosti Activision Blizzard mimo území EU hernímu vydavatelství Ubisoft.",
+                  "output":"Microsoft: organizace, Activision Blizzard: organizace, Ubisoft: organizace"
+               }
+            ],
+            "enabled":true
+         }
+      }
+   },
+   "Opinions on the product (SK)":{
+      "name":"Opinions on the product (SK)",
+      "language":"SK",
+      "buttonName":"Analyzujte",
+      "inputs":[
+         "Zatial ho mám kratko abysom mohol hodnotiť. V podstate som spokojný.",
+         "Opravdu jsem si myslela, že tyto šaty budou fantastické. Obrázky byly krásné a balení, ve kterém dorazily, bylo prostě dokonalé. Potom jsem si je oblékla a vypadala jsem jako žirafa. Ale aspoň můj pes na nich rád spí a vidět svého pejska šťastně spát mne činí šťastnou.",
+         "Veľmi ochotný pracovník, vyšiel mi v ústrety s mojou požiadavkou ohladne dodania tovaru.",
+         "Žiadna normálna nabijacka k tomu nie je v krabičke.",
+         "Konečne telefón, ktorý padne do ruky aj do vrecka.",
+         "Amoled displej, kompaktný mobil, procesor, svižný systém, iphone medzi androidom.",
+         "Som mierne sklamaný z kvality fotiek počas dňa (chýba makro)",
+         "Po pár dňoch používania som nenašla nič čo by som hodnotila negatívne."
+      ],
+      "topics":{
+         "topic1":{
+            "topicName":"Sentiment Analyses",
+            "models":[
+               {
+                  "meta-llama/llama-2-70b-chat":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "temperature":0.5,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":1,
+                     "max_new_tokens":20
+                  }
+               },
+               {
+                  "ibm/granite-13b-instruct-v1":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "temperature":0.5,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":1,
+                     "max_new_tokens":20
+                  }
+               }
+            ],
+            "instruction":{
+               "detailed":"Následující dokument obsahuje názory uživatelů na produkty. Přečti dokument a urči sentiment uživatele při hodnocení produkt.",
+               "summarized":"Vypiš z následujícího dokumenty nalezené entity."
+            },
+            "inputPrefix":"Text: ",
+            "outputPrefix":"Sentiment: ",
+            "examples":[
+               {
+                  "input":"Tento produkt sa mi vôbec nepáči. Je síce lacný, ale poriadne nefunguje.",
+                  "output":"Negatívne."
+               },
+               {
+                  "input":"Nie je to veľmi pekné.",
+                  "output":"Negatívne."
+               },
+               {
+                  "input":"Zatiaľ dobré nadštandard.",
+                  "output":"Pozitívne."
+               },
+               {
+                  "input":"Vzhľadovo pekný výkonný dobrá cena odporúčam.",
+                  "output":"Pozitívne."
+               },
+               {
+                  "input":"Nedá sa nikde vypnúť Fast Charging (musím používať iný kábel nech nabíja pomaly aby sa rýchlo neničila baterka).",
+                  "output":"Negatívne."
+               },
+               {
+                  "input":"Telefón má kvalitný fotoaparát, s najnovším androidom. Dobre sa drží v ruke, má krásny display.",
+                  "output":"Pozitívne."
+               },
+               {
+                  "input":"Doposiaľ nemám žiadne negatívne skúsenosti.",
+                  "output":"Neutrálne."
+               },
+               {
+                  "input":"Bezproblémové skopirovanie všetkých dát zo starého telefónu do nového a všetko ide ako má.",
+                  "output":"Pozitívne."
+               }
+            ],
+            "enabled":true
+         }
+      }
+   },
+   "Stock exchange news (CZ)":{
+      "name":"Stock exchange news (CZ)",
+      "language":"CZ",
+      "buttonName":"Shrnutí",
+      "inputs":[
+         "Konferenční hovor po výsledcích za 3Q23 naznačil zajímavou dividendu nad odhadovaných 7,5 Kč. Moneta zvýšila svůj výhled čistého zisku pro rok 2023 s výsledky za třetí kvartál 2023 na 5,0 mld. Kč z předchozích nejméně 4,7 mld. Kč. Management uvedl, že střednědobý výhled se reviduje a aktualizace bude vydána s prezentací celoročních výsledků. Zatímco výhled provozního zisku na rok 2024 by mohl být upraven níže, výhled čistého zisku ve výši minimálně 4,8 mld. Kč by měl zůstat nezměněn. Moneta se bude snažit pokles úrokových výnosů z titulu zrušení úročení minimálních rezerv ČNB kompenzovat silnějším a výnosnějším růstem vkladů, ale i úvěrů. Možností je i snížení nákladů management vidí prostor v roce 2024 pro cca ~100 mil. Kč) a pomoci by mohly i nižší než dříve předpokládané rizikové náklady.  Nedávné snížení požadavku SREP na rok 2024 a předchozí snížení proticyklické kapitálové rezervy zvýšilo přebytečný kapitál očekávaný pro rok 2023. Management uvedl, že zváží různé možnosti pro přebytečný kapitál. Podle našeho názoru lze tedy očekávat atraktivní dividendu za rok 2023, potenciálně nad naším odhadem 7,5 Kč/akcii( cca 8,6% hrubý výnos)."
+        ],
+      "topics":{
+         "topic1":{
+            "topicName":"Document summary",
+            "models":[
+               {
+                  "meta-llama/llama-2-70b-chat":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "temperature":0.2,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":20,
+                     "max_new_tokens":100
+                  }
+               },
+               {
+                  "ibm/granite-13b-instruct-v1":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "temperature":0.2,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":20,
+                     "max_new_tokens":100
+                  }
+               }
+            ],
+            "instruction":{
+               "detailed":"Napiš krátké shrnutí v rozsahu 1 odstavce z následujícího dokumentu. Shrnutí napiš výhradně v českém jazyce, nikoliv v anglickém jazyce.",
+               "summarized":"Sepiš shrnutí finančního zpravodajství."
+            },
+            "inputPrefix":"Dokument:  ",
+            "outputPrefix":"Shrnutí:  ",
+            "examples":[
+            ],
+            "enabled":true
+         }
+      }
+   },
    "Insurance Car Claim (EN)":{
       "name":"Insurance Car Claim",
       "language":"EN",
@@ -509,242 +746,5 @@
             "enabled":true
          }
       }
-   },
-   "Quantum Computing (CZ)":{
-      "name":"Quantum Computing",
-      "language":"CZ",
-      "buttonName":"Retrive Answer",
-      "inputs":[
-         "Jaké fyzikální vlastnosti využívá kvantový počítač ke své činnosti?",
-         "Co obnáší kvantová dekoherence pro výpočty kvantovými počítači?"
-      ],
-      "topics":{
-         "topic1":{
-            "topicName":"RAG",
-            "models":[
-               {
-                  "meta-llama/llama-2-70b-chat":{
-                     "decoding_method":"greedy",
-                     "temperature":0.5,
-                     "repetition_penalty":1.2,
-                     "top_p":1,
-                     "top_k":50,
-                     "min_new_tokens":15,
-                     "max_new_tokens":150
-                  }
-               }
-            ],
-            "instruction":{
-               "detailed":"Odpovězte na následující otázku pouze na základě informací z článku. Odpověď musí být v českém jazyce. Pokud v článku není žádná dobrá odpověď, řekněte \"nevím\".\nČlánek: \nKvantový počítač je počítač, který využívá kvantově mechanické jevy. V malých měřítkách vykazuje fyzikální hmota vlastnosti částic i vln a kvantové počítače využívají tohoto chování, konkrétně kvantové superpozice a provázanosti, pomocí specializovaného hardwaru, který podporuje přípravu a manipulaci s kvantovými stavy. Klasická fyzika nedokáže vysvětlit fungování těchto kvantových zařízení a škálovatelný kvantový počítač by mohl provádět některé výpočty exponenciálně rychleji než jakýkoli moderní \"klasický\" počítač. Rozsáhlý kvantový počítač by zejména mohl prolomit široce používaná šifrovací schémata a pomoci fyzikům při provádění fyzikálních simulací; současný stav techniky je však převážně experimentální a nepraktický, přičemž užitečným aplikacím brání několik překážek. Škálovatelné kvantové počítače navíc nejsou pro mnoho praktických úloh perspektivní a u mnoha důležitých úloh je kvantové zrychlení prokazatelně nemožné. Základní jednotkou informace v kvantové výpočetní technice je qubit, podobně jako bit v tradiční digitální elektronice. Na rozdíl od klasického bitu může qubit existovat v superpozici svých dvou \"základních\" stavů, což volně znamená, že se nachází v obou stavech současně. Při měření qubitu je výsledkem pravděpodobnostní výstup klasického bitu, proto jsou kvantové počítače obecně nedeterministické. Pokud kvantový počítač manipuluje s qubitem určitým způsobem, mohou vlnové interferenční efekty zesílit požadované výsledky měření. Návrh kvantových algoritmů zahrnuje vytvoření postupů, které umožní kvantovému počítači provádět výpočty efektivně a rychle. Fyzikální inženýrství vysoce kvalitních qubitů se ukázalo jako náročné. Pokud není fyzický qubit dostatečně izolován od svého okolí, trpí kvantovou dekoherencí, která do výpočtů vnáší šum. Paradoxně je dokonalá izolace qubitů také nežádoucí, protože při kvantových výpočtech je obvykle třeba qubity inicializovat, provádět řízené interakce qubitů a měřit výsledné kvantové stavy. Každá z těchto operací přináší chyby a trpí šumem a tyto nepřesnosti se kumulují.",
-               "summarized":"Odpovězte na následující otázku na základě informací v článku."
-            },
-            "inputPrefix":"Otázka: ",
-            "outputPrefix":"Odpověď: ",
-            "examples":[
-               {
-                  "input":"Jaký je současný využití kvantových počítačů?",
-                  "output":"Současný stav využití kvantových počítačů je převážně experimentální a nepraktický."
-               },
-               {
-                  "input":"Jaké úlohy by uměl řešit rozsáhlý kvantový počítač?",
-                  "output":"Rozsáhlý kvantový počítač by zejména mohl prolomit široce používaná šifrovací schémata a pomoci fyzikům při provádění fyzikálních simulací."
-               },
-               {
-                  "input":"Jaké fyzikální vlastnosti využívá kvantový počítač ke své činnosti?",
-                  "output":"Kvantový počítač využívá kvantové superpozice a provázanosti, pomocí specializovaného hardwaru, který podporuje přípravu a manipulaci s kvantovými stavy."
-               }
-            ],
-            "enabled":true
-         }
-      }
-   },
-   "Financial News (CZ)":{
-      "name":"Financial News (CZ)",
-      "language":"CZ",
-      "buttonName":"Extract Entities",
-      "inputs":[
-         "Nobelovu cenu za fyziologii a lékařství získala biochemička Katalin Karikóová původem z Maďarska a americký imunolog Drew Weissman, kteří položili základy pro vývoj mRNA vakcín při svém působení na Pensylvánské univerzitě ve Filadelfii a položili tak základy pro vývoj vakcín proti nemoci covid-19."
-      ],
-      "topics":{
-         "topic1":{
-            "topicName":"Entity extraction",
-            "models":[
-               {
-                  "meta-llama/llama-2-70b-chat":{
-                     "decoding_method":"greedy",
-                     "repetition_penalty":1.2,
-                     "temperature":0.5,
-                     "top_p":1,
-                     "top_k":50,
-                     "min_new_tokens":5,
-                     "max_new_tokens":80
-                  }
-               },
-               {
-                  "ibm/granite-13b-instruct-v1":{
-                     "decoding_method":"greedy",
-                     "repetition_penalty":1.2,
-                     "temperature":0.5,
-                     "top_p":1,
-                     "top_k":50,
-                     "min_new_tokens":5,
-                     "max_new_tokens":80
-                  }
-               }
-            ],
-            "instruction":{
-               "detailed":"Následující dokument je přepisem hovoru o finančních výsledcích.  Přečtěte si dokument a poté napište výhradně v českém jazyce všechny nalezené entity v daném dokumentu.",
-               "summarized":"Vypiš z následujícího dokumenty nalezené entity."
-            },
-            "inputPrefix":"Vstup: ",
-            "outputPrefix":"Entity: ",
-            "examples":[
-               {
-                  "input":"Rami Swarthmore: \"IBM je v USA konkurentem Googlu.\"",
-                  "output":"IBM: společnost, Google: společnost, USA: země, Rami Swarthmore: osoba"
-               },
-               {
-                  "input":"Eric Schmidt uvedl, že podíl společnosti Microsoft na trhu EU klesá.",
-                  "output":"Microsoft: organizace, Eric Schmidt: osoba"
-               },
-               {
-                  "input":"Microsoft prodá práva na distribuci her společnosti Activision Blizzard mimo území EU hernímu vydavatelství Ubisoft.",
-                  "output":"Microsoft: organizace, Activision Blizzard: organizace, Ubisoft: organizace"
-               }
-            ],
-            "enabled":true
-         }
-      }
-   },
-   "Opinions on the product (SK)":{
-      "name":"Opinions on the product (SK)",
-      "language":"SK",
-      "buttonName":"Analyzujte",
-      "inputs":[
-         "Zatial ho mám kratko abysom mohol hodnotiť. V podstate som spokojný.",
-         "Opravdu jsem si myslela, že tyto šaty budou fantastické. Obrázky byly krásné a balení, ve kterém dorazily, bylo prostě dokonalé. Potom jsem si je oblékla a vypadala jsem jako žirafa. Ale aspoň můj pes na nich rád spí a vidět svého pejska šťastně spát mne činí šťastnou.",
-         "Veľmi ochotný pracovník, vyšiel mi v ústrety s mojou požiadavkou ohladne dodania tovaru.",
-         "Žiadna normálna nabijacka k tomu nie je v krabičke.",
-         "Konečne telefón, ktorý padne do ruky aj do vrecka.",
-         "Amoled displej, kompaktný mobil, procesor, svižný systém, iphone medzi androidom.",
-         "Som mierne sklamaný z kvality fotiek počas dňa (chýba makro)",
-         "Po pár dňoch používania som nenašla nič čo by som hodnotila negatívne."
-      ],
-      "topics":{
-         "topic1":{
-            "topicName":"Sentiment Analyses",
-            "models":[
-               {
-                  "meta-llama/llama-2-70b-chat":{
-                     "decoding_method":"greedy",
-                     "repetition_penalty":1.2,
-                     "temperature":0.5,
-                     "top_p":1,
-                     "top_k":50,
-                     "min_new_tokens":1,
-                     "max_new_tokens":20
-                  }
-               },
-               {
-                  "ibm/granite-13b-instruct-v1":{
-                     "decoding_method":"greedy",
-                     "repetition_penalty":1.2,
-                     "temperature":0.5,
-                     "top_p":1,
-                     "top_k":50,
-                     "min_new_tokens":1,
-                     "max_new_tokens":20
-                  }
-               }
-            ],
-            "instruction":{
-               "detailed":"Následující dokument obsahuje názory uživatelů na produkty. Přečti dokument a urči sentiment uživatele při hodnocení produkt.",
-               "summarized":"Vypiš z následujícího dokumenty nalezené entity."
-            },
-            "inputPrefix":"Text: ",
-            "outputPrefix":"Sentiment: ",
-            "examples":[
-               {
-                  "input":"Tento produkt sa mi vôbec nepáči. Je síce lacný, ale poriadne nefunguje.",
-                  "output":"Negatívne."
-               },
-               {
-                  "input":"Nie je to veľmi pekné.",
-                  "output":"Negatívne."
-               },
-               {
-                  "input":"Zatiaľ dobré nadštandard.",
-                  "output":"Pozitívne."
-               },
-               {
-                  "input":"Vzhľadovo pekný výkonný dobrá cena odporúčam.",
-                  "output":"Pozitívne."
-               },
-               {
-                  "input":"Nedá sa nikde vypnúť Fast Charging (musím používať iný kábel nech nabíja pomaly aby sa rýchlo neničila baterka).",
-                  "output":"Negatívne."
-               },
-               {
-                  "input":"Telefón má kvalitný fotoaparát, s najnovším androidom. Dobre sa drží v ruke, má krásny display.",
-                  "output":"Pozitívne."
-               },
-               {
-                  "input":"Doposiaľ nemám žiadne negatívne skúsenosti.",
-                  "output":"Neutrálne."
-               },
-               {
-                  "input":"Bezproblémové skopirovanie všetkých dát zo starého telefónu do nového a všetko ide ako má.",
-                  "output":"Pozitívne."
-               }
-            ],
-            "enabled":true
-         }
-      }
-   },
-   "Stock exchange news (CZ)":{
-      "name":"Stock exchange news (CZ)",
-      "language":"CZ",
-      "buttonName":"Shrnutí",
-      "inputs":[
-         "Konferenční hovor po výsledcích za 3Q23 naznačil zajímavou dividendu nad odhadovaných 7,5 Kč. Moneta zvýšila svůj výhled čistého zisku pro rok 2023 s výsledky za třetí kvartál 2023 na 5,0 mld. Kč z předchozích nejméně 4,7 mld. Kč. Management uvedl, že střednědobý výhled se reviduje a aktualizace bude vydána s prezentací celoročních výsledků. Zatímco výhled provozního zisku na rok 2024 by mohl být upraven níže, výhled čistého zisku ve výši minimálně 4,8 mld. Kč by měl zůstat nezměněn. Moneta se bude snažit pokles úrokových výnosů z titulu zrušení úročení minimálních rezerv ČNB kompenzovat silnějším a výnosnějším růstem vkladů, ale i úvěrů. Možností je i snížení nákladů management vidí prostor v roce 2024 pro cca ~100 mil. Kč) a pomoci by mohly i nižší než dříve předpokládané rizikové náklady.  Nedávné snížení požadavku SREP na rok 2024 a předchozí snížení proticyklické kapitálové rezervy zvýšilo přebytečný kapitál očekávaný pro rok 2023. Management uvedl, že zváží různé možnosti pro přebytečný kapitál. Podle našeho názoru lze tedy očekávat atraktivní dividendu za rok 2023, potenciálně nad naším odhadem 7,5 Kč/akcii( cca 8,6% hrubý výnos)."
-        ],
-      "topics":{
-         "topic1":{
-            "topicName":"Document summary",
-            "models":[
-               {
-                  "meta-llama/llama-2-70b-chat":{
-                     "decoding_method":"greedy",
-                     "repetition_penalty":1.2,
-                     "temperature":0.2,
-                     "top_p":1,
-                     "top_k":50,
-                     "min_new_tokens":20,
-                     "max_new_tokens":100
-                  }
-               },
-               {
-                  "ibm/granite-13b-instruct-v1":{
-                     "decoding_method":"greedy",
-                     "repetition_penalty":1.2,
-                     "temperature":0.2,
-                     "top_p":1,
-                     "top_k":50,
-                     "min_new_tokens":20,
-                     "max_new_tokens":100
-                  }
-               }
-            ],
-            "instruction":{
-               "detailed":"Nepiš v anglickém jazyce, piš pouze v českém jazyce. Napiš krátké shrnutí v rozsahu 1 odstavce z následujícího dokumentu, který reprezentuje burzovní zpravodajství.",
-               "summarized":"Sepiš shrnutí finančního zpravodajství."
-            },
-            "inputPrefix":"Dokument:  ",
-            "outputPrefix":"Shrnutí:  ",
-            "examples":[
-            ],
-            "enabled":true
-         }
-      }
-   }
+   }   
 }
