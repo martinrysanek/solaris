@@ -5,7 +5,8 @@
       "buttonName":"Retrive Answer",
       "inputs":[
          "Jaké fyzikální vlastnosti využívá kvantový počítač ke své činnosti?",
-         "Co obnáší kvantová dekoherence pro výpočty kvantovými počítači?"
+         "Co obnáší kvantová dekoherence pro výpočty kvantovými počítači?",
+         "Jaké je očekávané škávané zrychlejí výpočtů u kvantového proti klasikému počítači a jaké musí být splěny podmínky?"
       ],
       "topics":{
          "topic1":{
