@@ -202,7 +202,7 @@
             "topicName":"Document summary",
             "models":[
                {
-                  "meta-llama/llama-2-70b":{
+                  "meta-llama/llama-2-70b-chat":{
                       "decoding_method": "greedy",
                       "repetition_penalty": 1.2,
                       "min_new_tokens": 20,
