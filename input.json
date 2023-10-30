@@ -9,7 +9,7 @@
       ],
       "topics":{
          "topic1":{
-            "topicName":"RAG",
+            "topicName":"Question Answering",
             "models":[
                {
                   "meta-llama/llama-2-70b-chat":{
@@ -228,6 +228,10 @@
             "inputPrefix":"Dokument: \n ",
             "outputPrefix":"Shrnutí: \n ",
             "examples":[
+               {
+                  "input":"Americký Ford oznámil za 3Q roku meziroční růst tržeb o 11% směrem k 43,8 mld. USD. Čistý zisk ve 3Q dosáhl úrovně 1,2 mld. USD = 30 centů na akcii oproti loňské ztrátě ve výši 827 mil. USD respektive 21 centů na akcii. Po očištění o jednorázové vlivy dosáhl čistý zisk úrovně 39 centů oproti trhem očekávaným 45 centům. Podle vedení se na tomto vývoji podepsal především negativní vliv stávky odborů a problémy s dodržováním kvality a nákladů. Podle vedení automobilka zbrzdí původní plán rozvoje elektromobility v rozsahu cca 12 mld. USD, což v sobě zahrnuje zpomalení konstrukčních prací pro vybudování továrny na baterie v Kentucky. Zájem o elektromobily byl nižší, než se očekávalo. Podle vedení společnosti téměř šestitýdenní stávka zaměstnanců pod taktovkou odborů UAW ukončená tento týden ve středu stála automobilku cca 1,3 mld USD. Nyní automobilka usilovně pracovat na zlepšení mnoha procesů a ukazatelů, aby se dokázala vyrovnat s růstem zaměstnaneckých nákladů, který přinesla dohoda o ukončení stávky. Podle analytiků Deutsche Bank bude nová kolektivní dohoda platná následujících 4,5 roku stát automobilku celkem cca 6,2 mld. USD ve zvýšených nákladech.",
+                  "output":"Ford v 3. čtvrtletí zaznamenal růst tržeb a čistého zisku, ale stávka odborů a problémy s kvalitou a náklady ovlivnily výsledky. Plány na elektromobilitu budou zpomaleny kvůli nižšímu zájmu, a Ford pracuje na zlepšení procesů po stávce."
+               }
             ],
             "enabled":true
          }
