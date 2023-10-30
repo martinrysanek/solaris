@@ -83,7 +83,18 @@
                      "min_new_tokens":5,
                      "max_new_tokens":80
                   }
-               }
+               },
+               {
+                  "google/flan-ul2":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "temperature":0.5,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":5,
+                     "max_new_tokens":80
+                  }
+               }               
             ],
             "instruction":{
                "detailed":"Následující dokument je přepisem hovoru o finančních výsledcích.  Přečtěte si dokument a poté napište výhradně v českém jazyce všechny nalezené entity v daném dokumentu.",
@@ -140,6 +151,28 @@
                },
                {
                   "ibm/granite-13b-instruct-v1":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "temperature":0.5,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":1,
+                     "max_new_tokens":20
+                  }
+               },
+               {
+                  "bigscience/mt0-xxl":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "temperature":0.5,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":1,
+                     "max_new_tokens":20
+                  }
+               },
+               {
+                  "google/flan-ul2":{
                      "decoding_method":"greedy",
                      "repetition_penalty":1.2,
                      "temperature":0.5,
