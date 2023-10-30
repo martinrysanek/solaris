@@ -48,13 +48,15 @@
          }
       }
    },
-   "Financial News (CZ)":{
-      "name":"Financial News (CZ)",
+   "Public News (CZ)":{
+      "name":"Public News (CZ)",
       "language":"CZ",
       "buttonName":"Extract Entities",
       "inputs":[
          "Nobelovu cenu za fyziologii a lékařství získala biochemička Katalin Karikóová původem z Maďarska a americký imunolog Drew Weissman, kteří položili základy pro vývoj mRNA vakcín při svém působení na Pensylvánské univerzitě ve Filadelfii a položili tak základy pro vývoj vakcín proti nemoci covid-19.",
-         "Neumím si představit, že poslední týdny nezanechají hlubokou emoční, politickou i společenskou stopu na straně Izraelců a Palestinců na dekády,“ komentuje vraždy Hamásu a následnou odvetu Izraele analytik z Institutu politologických studií Jakub Záhora. Situace je podle něj nejhorší za 70 let. Na to, že by mohl vzniknout svobodný palestinský stát, mohou teď Palestinci zapomenout."
+         "Neumím si představit, že poslední týdny nezanechají hlubokou emoční, politickou i společenskou stopu na straně Izraelců a Palestinců na dekády,“ komentuje vraždy Hamásu a následnou odvetu Izraele analytik z Institutu politologických studií Jakub Záhora. Situace je podle něj nejhorší za 70 let. Na to, že by mohl vzniknout svobodný palestinský stát, mohou teď Palestinci zapomenout.",
+         "Ruské sily pri pokuse obkľúčiť a ovládnuť Avdijivku na východe Ukrajiny stratili už najmenej brigádu vojaka, uviedol dnes ukrajinský prezident Volodymyr Zelenskyj. Podľa ukrajinskej prezidentskej kancelárie to povedal pri telefonáte britskému premiérovi Rishimu Sunakovi, s ktorým hovoril o situácii pri tomto meste na ukrajinskom Donbase. Brigáda má v ruskej armáde podľa agentúry TASS 1000 až 4000 vojakov. Nie je ale jasné, či mal Zelenskyj na mysli ekvivalent brigády v ruskej alebo inej armáde. Podľa agentúry Reuters môžu mať brigády v rôznych armádach od 1500 do 8000 vojakov.",
+         "Posledná trasa, ktorou prúdi ruský plyn do Európy plynovodmi, zostala paradoxne tá cez Ukrajinu na Slovensko. Ukrajinci tvrdia, že tranzitnú zmluvu po invázii nevypovedali, aby neohrozili svojich partnerov v Európskej únii, teda aj Slovensko. Jej platnosť však čoskoro končí a jej obnovenie sa už z pochopiteľných dôvodov nechystá. Ukrajina nepredĺži dohodu o tranzite ruského plynu cez svoje územie. Uviedol to šéf ukrajinskej štátnej plynárenskej spoločnosti Naftogaz Oleksij Černyšov. Ruský plyn tak bude plynovodmi na Slovensko prúdiť zrejme už iba niekoľko mesiacov. Posledná trasa dodávok ruského plynu plynovodmi do Európskej únie totiž vedie paradoxne práve cez Ukrajinu na Slovensko."
       ],
       "topics":{
          "topic1":{
