@@ -74,7 +74,7 @@
                   }
                },
                {
-                  "ibm/granite-13b-instruct-v1":{
+                  "ibm/granite-13b-chat-v1":{
                      "decoding_method":"greedy",
                      "repetition_penalty":1.2,
                      "temperature":0.5,
@@ -84,6 +84,17 @@
                      "max_new_tokens":80
                   }
                },
+               {
+                  "bigscience/mt0-xxl":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "temperature":0.5,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":5,
+                     "max_new_tokens":80
+                  }
+               },               
                {
                   "google/flan-ul2":{
                      "decoding_method":"greedy",
@@ -150,7 +161,7 @@
                   }
                },
                {
-                  "ibm/granite-13b-instruct-v1":{
+                  "ibm/granite-13b-chat-v1":{
                      "decoding_method":"greedy",
                      "repetition_penalty":1.2,
                      "temperature":0.5,
@@ -249,10 +260,10 @@
                   }
                },
                {
-                  "ibm/granite-13b-instruct-v1":{
+                  "ibm/granite-13b-chat-v1":{
                      "decoding_method":"greedy",
                      "repetition_penalty":1.2,
-                     "temperature":0.2,
+                     "temperature":0.5,
                      "top_p":1,
                      "top_k":50,
                      "min_new_tokens":20,
@@ -296,10 +307,10 @@
                   }
                },
                {
-                  "ibm/granite-13b-instruct-v1":{
+                  "ibm/granite-13b-chat-v1":{
                      "decoding_method":"greedy",
                      "repetition_penalty":1.2,
-                     "temperature":0.2,
+                     "temperature":0.5,
                      "top_p":1,
                      "top_k":50,
                      "min_new_tokens":20,
