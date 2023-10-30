@@ -408,6 +408,28 @@
                      "repetition_penalty":2,
                      "random_seed":1050
                   }
+               },
+               {
+                  "ibm/granite-13b-chat-v1":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "temperature":0.5,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":5,
+                     "max_new_tokens":100
+                  }
+               },
+               {
+                  "bigscience/mt0-xxl":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "temperature":0.5,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":5,
+                     "max_new_tokens":100
+                  }
                }
             ],
             "instruction":{
@@ -589,6 +611,28 @@
                      "min_new_tokens":1,
                      "max_new_tokens":200
                   }
+               },
+               {
+                  "ibm/granite-13b-chat-v1":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "temperature":0.5,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":1,
+                     "max_new_tokens":200
+                  }
+               },
+               {
+                  "bigscience/mt0-xxl":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "temperature":0.5,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":1,
+                     "max_new_tokens":200
+                  }
                }
             ],
             "instruction":{
@@ -668,6 +712,39 @@
                      "min_new_tokens":100,
                      "max_new_tokens":400
                   }
+               },
+               {
+                  "ibm/granite-13b-chat-v1":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "temperature":0.5,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":100,
+                     "max_new_tokens":400
+                  }
+               },
+               {
+                  "bigscience/mt0-xxl":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "temperature":0.5,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":100,
+                     "max_new_tokens":400
+                  }
+               },
+               {
+                  "google/flan-ul2":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "temperature":0.5,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":100,
+                     "max_new_tokens":400
+                  }
                }
             ],
             "instruction":{
@@ -691,6 +768,17 @@
                   "meta-llama/llama-2-70b-chat":{
                      "decoding_method":"greedy",
                      "temperature":0.7,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":1,
+                     "max_new_tokens":60
+                  }
+               },
+               {
+                  "ibm/granite-13b-chat-v1":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "temperature":0.5,
                      "top_p":1,
                      "top_k":50,
                      "min_new_tokens":1,
@@ -728,6 +816,28 @@
                      "min_new_tokens":50,
                      "max_new_tokens":600,
                      "repetition_penalty":1.28
+                  }
+               },
+               {
+                  "ibm/granite-13b-chat-v1":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "temperature":0.5,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":50,
+                     "max_new_tokens":600
+                  }
+               },
+               {
+                  "google/flan-ul2":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "temperature":0.5,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":50,
+                     "max_new_tokens":600
                   }
                }
             ],
