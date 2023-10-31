@@ -109,7 +109,7 @@
             ],
             "instruction":{
                "detailed":"Následující dokument je přepisem hovoru o finančních výsledcích.  Přečtěte si dokument a poté napište výhradně v českém jazyce všechny nalezené entity v daném dokumentu.",
-               "summarized":"Vypiš z následujícího dokumenty nalezené entity."
+               "summarized":"Vypiš z dokumentu všechny nalezené entity."
             },
             "inputPrefix":"Vstup: ",
             "outputPrefix":"Entity: ",
@@ -196,7 +196,7 @@
             ],
             "instruction":{
                "detailed":"Následující dokument obsahuje názory uživatelů na produkty. Přečti dokument a urči sentiment uživatele při hodnocení produkt.",
-               "summarized":"Vypiš z následujícího dokumenty nalezené entity."
+               "summarized":"Identifikujte sentiment nasledujúcich správ."
             },
             "inputPrefix":"Text: ",
             "outputPrefix":"Sentiment: ",
@@ -307,7 +307,7 @@
             ],
             "instruction":{
                "detailed":"Následující dokument obsahuje názory uživatelů na produkty. Přečti dokument a urči sentiment uživatele při hodnocení produkt.",
-               "summarized":"Vypiš z následujícího dokumenty nalezené entity."
+               "summarized":"Urči sentiment následujících sdělení."
             },
             "inputPrefix":"Text: ",
             "outputPrefix":"Sentiment: ",
