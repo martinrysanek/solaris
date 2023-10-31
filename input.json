@@ -134,7 +134,7 @@
    "Opinions on the product (SK)":{
       "name":"Opinions on the product (SK)",
       "language":"SK",
-      "buttonName":"Analyzujte",
+      "buttonName":"Analyzuj",
       "inputs":[
          "Zatial ho mám kratko abysom mohol hodnotiť. V podstate som spokojný.",
          "Opravdu jsem si myslela, že tyto šaty budou fantastické. Obrázky byly krásné a balení, ve kterém dorazily, bylo prostě dokonalé. Potom jsem si je oblékla a vypadala jsem jako žirafa. Ale aspoň můj pes na nich rád spí a vidět svého pejska šťastně spát mne činí šťastnou.",
@@ -232,6 +232,105 @@
                {
                   "input":"Bezproblémové skopirovanie všetkých dát zo starého telefónu do nového a všetko ide ako má.",
                   "output":"Pozitívne."
+               }
+            ],
+            "enabled":true
+         }
+      }
+   },
+   "Opinions on the product (CZ)":{
+      "name":"Opinions on the product (CZ)",
+      "language":"SK",
+      "buttonName":"Analyzuj",
+      "inputs":[
+         "Možná jsem čekala delší výdrž baterie.",
+         "S telefonem jsem spokojená. Obecně mám značku Samsung ráda a myslím, že A34 je dobrý volba pro ty, kteří volí poměr cena/výkon.",
+         "Za mě velmi dobrý telefon a baterii mi drží dva dny a to u předchozích se mi nestávalo.",
+         "Rychlé či superrychlé nabíjení není až tak rychlé.",
+         "Tenký, lehký, výkonný a v neposlední řadě krásný mobil.",
+         "v ČR není podpora výrobce, proto dlouhé reklamační lhůty",
+         "schází mi pouze možnost zapojení sluchátek přes jack, ale nic není vždy dokonalé",
+         "Příjemné rozměry (žádné pádlo).",
+         "Mobil vydrží dva dny v provozu při středním zatížení.",
+         "prodávající přidal dárek - budík s rychlonabíječkou, ale není schopen dodat manuál v češtině.",
+         "Bojuji s přesností GPS (zamrzá na jednom místě i několik minut).",
+         "Nemožnost si přizpůsobit spodní ovládací lištu (jako to má Samsung)."
+      ],
+      "topics":{
+         "topic1":{
+            "topicName":"Sentiment Analyses",
+            "models":[
+               {
+                  "meta-llama/llama-2-70b-chat":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "temperature":0.5,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":1,
+                     "max_new_tokens":20
+                  }
+               },
+               {
+                  "ibm/granite-13b-chat-v1":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "temperature":0.5,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":1,
+                     "max_new_tokens":20
+                  }
+               },
+               {
+                  "bigscience/mt0-xxl":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "temperature":0.5,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":1,
+                     "max_new_tokens":20
+                  }
+               },
+               {
+                  "google/flan-ul2":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "temperature":0.5,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":1,
+                     "max_new_tokens":20
+                  }
+               }
+            ],
+            "instruction":{
+               "detailed":"Následující dokument obsahuje názory uživatelů na produkty. Přečti dokument a urči sentiment uživatele při hodnocení produkt.",
+               "summarized":"Vypiš z následujícího dokumenty nalezené entity."
+            },
+            "inputPrefix":"Text: ",
+            "outputPrefix":"Sentiment: ",
+            "examples":[
+               {
+                  "input":"Součástí balení není nabíječka, ale ani nabíjecí kabel.",
+                  "output":"Negativní."
+               },
+               {
+                  "input":"Úchvatný displej, propracovaný design a dostatečně kvalitní foťák.",
+                  "output":"Pozitivní."
+               },
+               {
+                  "input":"Mám krátce, uvidím časem.",
+                  "output":"Neutrální."
+               },
+               {
+                  "input":"mizerný senzor otisku prstu",
+                  "output":"Negativní."
+               },
+               {
+                  "input":"Nadprůměrný fotoaparát s 3x optickým zoomem",
+                  "output":"Pozitivní."
                }
             ],
             "enabled":true
