@@ -434,8 +434,8 @@
          }
       }
    },
-   "Business talks (CZ)":{
-      "name":"Business talks (CZ)",
+   "Business Talks (CZ)":{
+      "name":"Business Talks (CZ)",
       "language":"CZ",
       "buttonName":"Shrnutí",
       "inputs":[
@@ -475,7 +475,7 @@
             "examples":[
                {
                   "input":"\n   Partner: Dobrý den, těší mě, že jsme se mohli setkat. Jak jste se měli od naší poslední schůzky?\n   Obchodník: Dobrý den, ano, bylo to pěkných pár měsíců. Děkuji, že jste naši schůzku uspořádali. Měl jsem se dobře a jak jste vy?\n   Partner: Díky za otázku. Měl jsem taky hezké měsíce. Kromě toho jsme měli několik významných změn ve firmě od naší poslední schůzky. Rozšířili jsme naši produktovou řadu a také jsme zaznamenali růst tržeb o 20 %.\n   Obchodník: To zní skvěle, gratuluji k úspěchům! My jsme také měli nějaké změny. Naše inženýrský tým pracuje na vylepšení našich produktů a zároveň se snažíme rozšířit naše tržní zastoupení. Máme něco nového, co by vás mohlo zajímat.\n   Partner: To zní zajímavě. Můžete mi o tom říct více?\n   Obchodník: Samozřejmě, rádi bychom vám představili naši novou produktovou řadu, která zahrnuje několik inovativních prvků, které by mohly zvýšit efektivitu vašeho podnikání. Rádi bychom také diskutovali o možnostech spolupráce, které by mohly být pro obě strany prospěšné.\n   Partner: To zní slibně. Měli bychom se podívat na vaši prezentaci a projednat detaily. Máme určitý rozpočet na investice do nových produktů, takže bychom rádi slyšeli i o cenových podmínkách.\n   Obchodník: Samozřejmě, rádi vám představíme naši prezentaci a diskutujeme o ceně. Můžeme také zvážit různé formy spolupráce, včetně slev na objednávky ve větším množství.",
-                  "output":"Partner během rozhovoru informoval o pozitivních změnách ve firmě, včetně růstu tržeb, a obchodník nabídl novou produktovou řadu a možnosti spolupráce. Partner projevil zájem o další detaily a cenovou diskuzi."
+                  "output":"\n   Partner během rozhovoru informoval o pozitivních změnách ve firmě, včetně růstu tržeb, a obchodník nabídl novou produktovou řadu a možnosti spolupráce. Partner projevil zájem o další detaily a cenovou diskuzi."
                }
             ],
             "enabled":true
