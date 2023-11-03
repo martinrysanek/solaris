@@ -467,7 +467,7 @@
                }
             ],
             "instruction":{
-               "detailed":"Napiš výhradně v českém jazyce Shrnutí následujícího obchodního Rozhovoru mezi partnerem a obchodníkem:",
+               "detailed":"Výhradně v českém jazyce vytvoř Shrnutí následujícího obchodního Rozhovoru mezi partnerem a obchodníkem:",
                "summarized":"Napiš shrnutí následujícího obchodního rozhovoru."
             },
             "inputPrefix":"Rozhovor: \n ",
