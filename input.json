@@ -183,7 +183,7 @@
                   }
                },
                {
-                  "google/flan-ul2":{
+                  "eleutherai/gpt-neox-20b":{
                      "decoding_method":"greedy",
                      "repetition_penalty":1.2,
                      "temperature":0.5,
