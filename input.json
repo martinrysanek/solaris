@@ -461,6 +461,72 @@
          }
       }
    },
+   "Entities Extraction (SR)": {
+      "name": "Entities Extraction",
+      "language": "SR",
+      "buttonName": "Entities Extraction",
+      "inputs": [
+         "Nobelova nagrada za fiziologiju ili medicinu dodeljena je biohemičarki poreklom iz Mađarske Katalin Kariko i američkom imunologu Dru Vajsmanu, koji su postavili temelje za razvoj mRNK vakcina tokom svog boravka na Univerzitetu Pensilvanije u Filadelfiji, postavljajući temelje za razvoj vakcine protiv bolesti Covid-19.",
+         "Ne mogu da zamislim da poslednjih nekoliko nedelja neće ostaviti dubok emocionalni, politički i društveni trag na Izraelce i Palestince decenijama, komentariše Jakub Zahora, analitičar Instituta za političke studije, o ubistvima Hamasa i naknadnoj odmazdi Izraela. . Situacija je, kaže, najgora u poslednjih 70 godina. Palestinci sada mogu da zaborave na mogućnost slobodne palestinske države.",
+         "Ironično, poslednja ruta kojom ruski gas gasovodima ide u Evropu ostala je ona preko Ukrajine do Slovačke. Ukrajinci tvrde da nisu raskinuli ugovor o tranzitu nakon invazije da ne bi ugrozili svoje partnere u Evropskoj uniji, uključujući Slovačku. Međutim, uskoro će isteći i, iz očiglednih razloga, neće se obnavljati. Ukrajina neće obnoviti ugovor o tranzitu ruskog gasa preko svoje teritorije. Ovo je izjavio šef ukrajinske državne gasne kompanije Naftogas Aleksij Černišov. Tako će ruski gas najverovatnije tek nekoliko meseci cevovodima do Slovačke. Ironično, poslednja ruta za snabdevanje ruskog gasa Evropskoj uniji preko gasovoda vodi preko Ukrajine do Slovačke.",
+         "Pokrenuo se najveći ledeni breg na svetu. Džinovski komad leda, nazvan A23a, koji pokriva skoro četiri hiljade kvadratnih kilometara, odvojio se od antarktičkog kopna 1986. godine, ali se ubrzo usidrio u Vedelovom moru, postavši praktično ledeno ostrvo. Ali u protekloj godini počeo je da se udaljava velikom brzinom i sada je spreman da isplovi iz antarktičkih voda, prenosi Bi-Bi-Si."
+      ],
+      "topics": {
+         "topic1": {
+            "topicName": "Entities Extraction",
+            "models": [
+               {
+                  "meta-llama/llama-2-70b-chat": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm/granite-13b-chat-v1": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
+                  "google/flan-ul2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               }
+            ],
+            "instruction": {
+               "detailed": "Sledeći dokument je transkript poziva o finansijskom rezultatu. Pročitajte dokument, a zatim navedite sve pronađene entitete. ",
+               "summarized": "Navedite sve entitete pronađene u dokumentu. "
+            },
+            "inputPrefix": "Input:",
+            "outputPrefix": "Entity:",
+            "examples": [
+               {
+                  "input": "Rami Svarthmore: IBM je Googleov konkurent u SAD",
+                  "output": "IBM: kompanija, Google: kompanija, SAD: država, Rami Svarthmore: osoba "
+               },
+               {
+                  "input": "Erik Šmit je rekao da Microsoftov tržišni udeo u EU opada",
+                  "output": "Microsoft: organizacija, Eric Schmidt: osoba "
+               },
+               {
+                  "input": "Microsoft će prodati prava za distribuciju igara Activision Blizzarda van EU izdavaču igara Ubisoftu.",
+                  "output": "Microsoft: organizacija, Activision Blizzard: organizacija, Ubisoft: organizacija "
+               }
+            ],
+            "enabled": true
+         }
+      }
+   },
    "Topics (CZ)": {
       "name": "Topics",
       "language": "CZ",
@@ -917,6 +983,72 @@
                {
                   "input": "Procesoarele Meteor Lake amintesc puțin de lansarea primei generații reale de procesoare Intel pe 10 nm (Ice Lake), lansată în urmă cu patru ani. Deși ar trebui să aibă o eficiență energetică bună, vitezele de ceas au scăzut datorită tehnologiei pe 4nm, astfel că performanța procesorului nu s-a schimbat prea mult (și nici nucleele nu au câștigat prea mult). Dar există un domeniu în care Meteor Lake ar putea fi puternic - în cazul GPU-ului integrat. Acesta a atins și ar putea chiar depăși grafica RDNA 3 din Ryzen mobil.",
                   "output": "Performanța GPU-ului integrat de la Intel"
+               }
+            ],
+            "enabled": true
+         }
+      }
+   },
+   "Topics (SR)": {
+      "name": "Topics",
+      "language": "SR",
+      "buttonName": "Topics",
+      "inputs": [
+         "Nobelova nagrada za fiziologiju ili medicinu dodeljena je biohemičarki poreklom iz Mađarske Katalin Kariko i američkom imunologu Dru Vajsmanu, koji su postavili temelje za razvoj mRNK vakcina tokom svog boravka na Univerzitetu Pensilvanije u Filadelfiji, postavljajući temelje za razvoj vakcine protiv bolesti Covid-19.",
+         "Ne mogu da zamislim da poslednjih nekoliko nedelja neće ostaviti dubok emocionalni, politički i društveni trag na Izraelce i Palestince decenijama, komentariše Jakub Zahora, analitičar Instituta za političke studije, o ubistvima Hamasa i naknadnoj odmazdi Izraela. . Situacija je, kaže, najgora u poslednjih 70 godina. Palestinci sada mogu da zaborave na mogućnost slobodne palestinske države.",
+         "Ironično, poslednja ruta kojom ruski gas gasovodima ide u Evropu ostala je ona preko Ukrajine do Slovačke. Ukrajinci tvrde da nisu raskinuli ugovor o tranzitu nakon invazije da ne bi ugrozili svoje partnere u Evropskoj uniji, uključujući Slovačku. Međutim, uskoro će isteći i, iz očiglednih razloga, neće se obnavljati. Ukrajina neće obnoviti ugovor o tranzitu ruskog gasa preko svoje teritorije. Ovo je izjavio šef ukrajinske državne gasne kompanije Naftogas Aleksij Černišov. Tako će ruski gas najverovatnije tek nekoliko meseci cevovodima do Slovačke. Ironično, poslednja ruta za snabdevanje ruskog gasa Evropskoj uniji preko gasovoda vodi preko Ukrajine do Slovačke.",
+         "Pokrenuo se najveći ledeni breg na svetu. Džinovski komad leda, nazvan A23a, koji pokriva skoro četiri hiljade kvadratnih kilometara, odvojio se od antarktičkog kopna 1986. godine, ali se ubrzo usidrio u Vedelovom moru, postavši praktično ledeno ostrvo. Ali u protekloj godini počeo je da se udaljava velikom brzinom i sada je spreman da isplovi iz antarktičkih voda, prenosi Bi-Bi-Si."
+      ],
+      "topics": {
+         "topic1": {
+            "topicName": "Topics",
+            "models": [
+               {
+                  "meta-llama/llama-2-70b-chat": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm/granite-13b-chat-v1": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
+                  "google/flan-ul2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               }
+            ],
+            "instruction": {
+               "detailed": "Read the following document, create a short and concise title for the document:",
+               "summarized": "Create a title for the document:"
+            },
+            "inputPrefix": "Document:",
+            "outputPrefix": "Topic:",
+            "examples": [
+               {
+                  "input": "Kineska vlada najavila je niz mera za sprečavanje daljeg širenja respiratornih bolesti u zemlji. Putnicima koji stižu u Kinu trebalo bi da se izmeri temperatura na granici, a takođe bi trebalo da budu strože prevencije i kontrole u školama i domovima za stare. Kina je nedavno zabeležila porast broja respiratornih bolesti u zemlji.",
+                  "output": "Sprečavanje širenja respiratornih bolesti u Kini"
+               },
+               {
+                  "input": "Džinovski komad leda po imenu A23a, koji pokriva skoro 4.000 kvadratnih kilometara i najveći glečer na svetu, uskoro će isploviti iz antarktičkih voda. Vođen vetrom i morskim strujama, bio je u pokretu više od 30 godina i sada prolazi pored severnog vrha Antarktičkog poluostrva, navodi Bi-Bi-Si.",
+                  "output": "Kretanje džinovskog antarktičkog ledenog brega"
+               },
+               {
+                  "input": "Meteor Lake procesori pomalo podsećaju na izdavanje Intelove prve prave generacije 10nm procesora (Ice Lake) pre četiri godine. Iako bi trebalo da imaju dobru energetsku efikasnost, njihove brzine takta su pale zbog 4nm tehnologije, tako da se performanse CPU-a nisu mnogo promenile (niti su jezgra mnogo dobila). Ali postoji jedna oblast u kojoj bi Meteorsko jezero moglo biti jako – u integrisanom GPU-u. Dotaknuo je, a mogao bi čak i da nadmaši, RDNA 3 grafiku u mobilnom Rizenu.",
+                  "output": "Intelove integrisane performanse GPU-a"
                }
             ],
             "enabled": true
@@ -1526,6 +1658,91 @@
          }
       }
    },
+   "Sentiment Analyses (SR)": {
+      "name": "Sentiment Analyses",
+      "language": "SR",
+      "buttonName": "Sentiment Analyses",
+      "inputs": [
+         "Možda sam očekivao duže trajanje baterije",
+         "Zadovoljan sam telefonom. Generalno, sviđa mi se Samsung brend i mislim da je A34 dobar izbor za one koji biraju vrednost za novac.",
+         "Zaista sam mislila da će ova haljina biti fantastična. Slike su bile prelepe, a pakovanje u kome je stiglo bilo je savršeno. Kasnije sam ga nosio i izgledao sam kao žirafa. Ali moj pas barem voli da spava na njima i kada vidim mog psa kako srećno spava čini me srećnim.",
+         "Veoma dobar telefon za mene i baterija mi traje dva dana a to nisam dobio kod prethodnih. ",
+         "Tanak, lagan, moćan i na kraju, ali ne i najmanje važno, prelep telefon.",
+         "Nedostaje mi samo mogućnost povezivanja slušalica preko utičnice, ali ništa uvek nije savršeno",
+         "Prijatne dimenzije (bez vesla).",
+         "Mobilni izdrži dva dana rada pod srednjim opterećenjem.",
+         "Prodavac je dodao poklon – budilnik sa brzim punjačem, ali nije u mogućnosti da isporuči uputstvo na engleskom.",
+         "Mučim se sa preciznošću GPS-a (zamrzava se na jednom mestu čak i na nekoliko minuta).",
+         "Nemogućnost prilagođavanja donje kontrolne trake (kao što ima Samsung)."
+      ],
+      "topics": {
+         "topic1": {
+            "topicName": "Sentiment Analyses",
+            "models": [
+               {
+                  "meta-llama/llama-2-70b-chat": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm/granite-13b-chat-v1": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
+                  "google/flan-ul2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               }
+            ],
+            "instruction": {
+               "detailed": "Sledeći dokument sadrži mišljenja korisnika o proizvodima. Pročitajte dokument i odredite mišljenje korisnika kada ocenjujete proizvod",
+               "summarized": "Odredite šta je mišljenje korisnika"
+            },
+            "inputPrefix": "Document: ",
+            "outputPrefix": "Sentiment: ",
+            "examples": [
+               {
+                  "input": "Ni punjač ni kabl za punjenje nisu uključeni",
+                  "output": "Negativno"
+               },
+               {
+                  "input": "Zadivljujući ekran, sofisticiran dizajn i dovoljno dobra kamera.",
+                  "output": "Pozitivno"
+               },
+               {
+                  "input": "Imam ga kratko, videću vremenom",
+                  "output": "Neutralno"
+               },
+               {
+                  "input": "Loš senzor otiska prsta ",
+                  "output": "Negativno"
+               },
+               {
+                  "input": "Kamera iznad proseka sa 3k optičkim zumom",
+                  "output": "Pozitivno"
+               },
+               {
+                  "input": "Kamera je dobra danju ali užasna noću",
+                  "output": "Negativno"
+               }
+            ],
+            "enabled": true
+         }
+      }
+   },
    "Document Summary (CZ)": {
       "name": "Document Summary",
       "language": "CZ",
@@ -1954,6 +2171,68 @@
                {
                   "input": "În Europa, Windows încă așteaptă ca Microsoft să adauge funcții legate de inteligența artificială. Dar Redmond avansează deja cu dezvoltarea ulterioară. Marea noutate de la conferința Ignite este prezentarea unor noi cipuri pentru a se asigura că utilizatorii nu trebuie să aștepte ca AI să răspundă. De asemenea, Microsoft s-a lăudat cu primele rezultate de la companii în care utilizatorii se simt mai eficienți cu ajutorul asistentului inteligent Copilot. Mai mult de jumătate dintre respondenți petrec mai puțin timp cu e-mailurile datorită AI.",
                   "output": "Microsoft a dezvăluit noi cipuri pentru a accelera utilizarea AI pentru utilizatori. Primele rezultate arată că utilizatorii de afaceri cu asistentul inteligent Copilot sunt mai eficienți și petrec mai puțin timp cu e-mailurile. În Europa, Windows așteaptă încă implementarea acestor caracteristici."
+               }
+            ],
+            "enabled": true
+         }
+      }
+   },
+   "Rezime dokumenta (SR)": {
+      "name": "Rezime dokumenta",
+      "language": "SR",
+      "buttonName": "Rezime dokumenta",
+      "inputs": [
+         "Tržišta akcija su značajno porasla i skoro svi sektori su u sredu bili u plusu. Popularni indeks S&P 500 dodao je skoro dva procenta i već je u porastu za više od devet procenata u odnosu na najniži nivo u oktobru. Akcije manjih američkih kompanija u indeksu Russell 2000 reagovale su posebno naglim rastom, dobivši preko pet odsto u jednom danu. Investicioni fondovi za nekretnine takođe su bili među dobitnicima, takođe u porastu od pet odsto.",
+         "Sve više zemalja, od SAD preko Francuske do Južne Koreje, želi da produži vek svojih nuklearnih elektrana, a Kina i Indija nameravaju da ulažu u izgradnju novih nuklearnih elektrana. Kao rezultat toga, cene uranijuma su skočile na najviši nivo u poslednjih petnaest godina. Energetske kompanije žele da obezbede važno gorivo za svoje resurse, povećavajući cenu.",
+         "Elon Musk je predstavio veliki jezički model, Grok, koji je manje cenzurisan od OpenAI GPT-4 ili Meta Platforms Llama2. Social Ks pretplatnici će imati prioritetni pristup ovom sistemu. Mask je demonstrirao mogućnosti sistema, na primer, receptom za proizvodnju kokaina. Međutim, prema objavljenim demonstracijama, Grok znatno zaostaje za OpenAI-ovim modelima.",
+         "Investitori sa obe strane Atlantika traže početak ciklusa monetarnog popuštanja, ali ekonomisti ističu da visoke kamate još nisu imale svoj puni efekat na privredu zbog efekta kašnjenja. Prema ekspertima Morgan Stenlija, razvijene ekonomije će se sledeće godine suočiti sa rastom ispod trenda upravo zbog dosadašnjeg smanjenja monetarne politike, ali recesija nije osnovni scenario. Ekonomije u razvoju, prema banci, suočavaju se sa mešovitim razvojem situacije, pri čemu njeni stručnjaci pozitivno gledaju na ekonomije Indije, Indonezije i Filipina, ali će Kina i dalje patiti od slabosti."
+      ],
+      "topics": {
+         "topic1": {
+            "topicName": "Rezime dokumenta",
+            "models": [
+               {
+                  "meta-llama/llama-2-70b-chat": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 150,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm/granite-13b-chat-v1": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 150
+                  }
+               },
+               {
+                  "google/flan-ul2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 150
+                  }
+               }
+            ],
+            "instruction": {
+               "detailed": "Pročitajte sledeći dokument i napišite kratak rezime od 1 pasusa iz sledećeg dokumenta",
+               "summarized": "Napišite rezime finansijske vesti"
+            },
+            "inputPrefix": "Document:",
+            "outputPrefix": "Summary:",
+            "examples": [
+               {
+                  "input": "Američki Ford prijavio je rast prodaje u trećem kvartalu od 11% na 43,8 milijardi dolara u odnosu na prethodnu godinu. Neto profit u trećem kvartalu dostigao je 1,2 milijarde USD = 30 centi po akciji u poređenju sa prošlogodišnjim gubitkom od 827 miliona USD. 827 miliona dolara ili 21 cent po akciji. Korigovano za jednokratne efekte, neto profit je bio 39 centi u odnosu na 45 centi koje je očekivalo tržište. Menadžment je rekao da je to uglavnom zbog negativnog uticaja sindikalnog štrajka i pitanja kvaliteta i usklađenosti sa troškovima. Menadžment je rekao da će proizvođač automobila usporiti svoj prvobitni plan za proširenje svoje flote električnih vozila od približno 12 milijardi dolara, što uključuje usporavanje radova na projektovanju za izgradnju fabrike baterija u Kentakiju. Interesovanje za električna vozila je niže od očekivanog. Menadžment je saopštio da je skoro šestonedeljni štrajk radnika UAV-a koji je završen u sredu ove nedelje koštao proizvođača automobila oko 1,3 milijarde dolara. Sada proizvođač automobila naporno radi na poboljšanju mnogih procesa i metrika kako bi se izborio sa porastom troškova zaposlenih do kojih je došlo zbog sporazuma o okončanju štrajka. Prema analitičarima Dojče banke, novi kolektivni ugovor koji važi za naredne 4,5 godine koštaće proizvođača automobila ukupno oko 6,2 milijarde dolara povećanih troškova.",
+                  "output": "Ford je zabeležio rast prodaje i neto profita u K3, ali štrajk sindikata i problemi sa kvalitetom i troškovima uticali su na rezultate. Planove za električnu mobilnost usporiće manje interesovanje, a Ford radi na poboljšanju procesa nakon štrajka"
+               },
+               {
+                  "input": "Vindovs u Evropi još uvek čeka da Microsoft doda funkcije povezane sa veštačkom inteligencijom. Ali oni već idu napred sa daljim razvojem u Redmondu. Glavna vest sa Ignite konferencije je predstavljanje novih čipova kako bi se osiguralo da korisnici ne moraju da čekaju odgovore veštačke inteligencije. Microsoft se takođe pohvalio prvim rezultatima kompanija u kojima se korisnici osećaju efikasnije sa inteligentnim asistentom Copilot. Više od polovine ispitanika troši manje vremena na e-poštu zahvaljujući veštačkoj inteligenciji.",
+                  "output": "Microsoft je predstavio nove čipove dizajnirane da ubrzaju upotrebu veštačke inteligencije za korisnike. Prvi rezultati pokazuju da su poslovni korisnici sa Copilot inteligentnim asistentom efikasniji i provode manje vremena sa e-poštom. Vindovs u Evropi još uvek čeka na implementaciju ovih funkcija."
                }
             ],
             "enabled": true
@@ -2527,6 +2806,87 @@
          }
       }
    },
+   "Kategorizacija (SR)": {
+      "name": "Kategorizacija",
+      "language": "SR",
+      "buttonName": "Kategorizacija",
+      "inputs": [
+         "Endi: Odlično i dobro održavano. Visoko organizovan i efikasan. Tako dobro podnosi saobraćaj čak i u ovo doba godine kada postoji ogroman priliv međunarodnih studenata koji dolaze da započnu svoje univerzitete u Vankuveru. Mnogo taksi usluga dostupno je odmah ispred aerodroma. Izuzetno uslužno osoblje. ",
+         "Kris Martin: Više od 50% letova u i iz IVR kasni, osoblje obezbeđenja ili službe na ivičnjaku, posebno ono koje se bavi pitanjima parkiranja, je nepristojno, kupatila su većinu vremena prljava",
+         "Džoi: Veoma udoban aerodrom za čekanje na svoj let. Udobna sedišta i različiti rasporedi sedišta oko umetničkih energija, uključujući skulpturu Bila Rida i druge vodene karakteristike i skulpture. Postoje prodavnice hrane i maloprodaje. Oseća se skoro kao tržni centar, a ne kao aerodrom, što je veoma lepo. Verovatno bi moglo da se uradi sa više stanica za punjenje u blizini mesta za sedenje"
+      ],
+      "topics": {
+         "topic1": {
+            "topicName": "Kategorizacija",
+            "models": [
+               {
+                  "meta-llama/llama-2-70b-chat": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 100,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm/granite-13b-chat-v1": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 100
+                  }
+               },
+               {
+                  "google/flan-ul2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 100
+                  }
+               }
+            ],
+            "instruction": {
+               "detailed": "Kategorizuj recenziju kao pozitivnu, negativnu ili mešovitu i rezimira ključne tačke.",
+               "summarized": "Kategorizuj recenziju i rezimira ključne tačke."
+            },
+            "inputPrefix": "Review:",
+            "outputPrefix": "Summary:",
+            "examples": [
+               {
+                  "input": "Dizajn aerodroma je lep, sa prirodnim svetlom koje pada i čini ga veoma svetlim i udobnim. Prodavnice i kafići su veoma dobro organizovani. Česme su izvan kupatila, vrlo lako dostupne. Kupatila su čista i ima jedan odeljak koji je dovoljno velik da u njega uđu kolica. Veoma zgodno. Oduzeo sam jednu zvezdicu za nepristojno ponašanje na koje sam naišao na bezbednosnoj proveri. Uputstva osoblja su bila nejasna, a ona uopšte nije bila od pomoći. Mislim da ne treba očekivati prijateljsko ponašanje na bezbednosnim proverama u Severnoj Americi, kao što su govorila moja prošla iskustva sa putovanja.",
+                  "output": "Pozitivna recenzija - Dobri objekti i sadržaji - Dobra usluga za korisnike - Dobro okruženje"
+               },
+               {
+                  "input": "Kakva sramota. Ko god da je planirao gradnju u petak pre dugog vikenda treba malo pažnje i temeljnog razumevanja situacije. Trebalo je neko vreme da dobijemo taksi nakon dugog čekanja. Cargo je bio isti. Nijedan auto nije stigao. Zašto ste odlučili da blokirate čitave trake osim jedne kada znate da ćete imati mnogo putnika?",
+                  "output": "Negativna recenzija - Loše planiranje građevinskih aktivnosti - Dugo čekanje na taksi i Cargo.Frustrirajuće iskustvo "
+               },
+               {
+                  "input": "Doleteli smo ovde kao posada avio-kompanije nakon 12-satnog leta, fizički već dovoljno umorni kada su stigli. Svedočenje jedne posade našeg tima je na licu mesta proveralo prtljag skoro 1 sat. Čuo sam da je to samo za obuku za mlađeg carinika! (Nisam siguran. Upravo sam čuo za to.) Nismo mogli da ostavimo našeg kolegu na aerodromu pre nego što krenemo u hotel. Ali tako smo iscrpljeni, da moramo odmah da se odmorimo! Sve što smo mogli da uradimo je samo da čekamo. Može li nam carina dati malo humanosti? Poštujemo sav vaš rad. Ali molimo vas da završite posao sa proverom prtljaga na vreme jer i mi zaslužujemo poštovanje!",
+                  "output": "Negativna recenzija - Dugo čekanje na provjeru prtljaga na licu mjesta - Nedostatak empatije i poštovanja prema posadi aviokompanije - Nehumano postupanje "
+               },
+               {
+                  "input": "Aerodrom je lep. Ipak, nema dovoljno osoblja. Avio-kompanije su super spore sa velikim linijama. Udaljenost do određenih kapija može biti blizu jedne milje. Inače, lepa i suva atmosfera ",
+                  "output": "Mešovita recenzija - Aerodrom je lep - Nema dovoljno osoblja - Spore linije - Velika udaljenost do određenih kapija "
+               },
+               {
+                  "input": "Doleteli smo ovde kao posada avio-kompanije nakon 12-satnog leta, fizički već dovoljno umorni kada su stigli. Svedočenje jedne posade našeg tima je na licu mesta proveralo prtljag skoro 1 sat. Čuo sam da je to samo za obuku za mlađeg carinika! (Nisam siguran. Upravo sam čuo za to.) Nismo mogli da ostavimo našeg kolegu na aerodromu pre nego što krenemo u hotel. Ali tako smo iscrpljeni, da moramo odmah da se odmorimo! Sve što smo mogli da uradimo je samo da čekamo. Može li nam carinski organ dati malo humanosti? Poštujemo sav vaš rad. Ali molimo vas da završite posao sa proverom prtljaga na vreme jer i mi zaslužujemo poštovanje! ",
+                  "output": "Negativna recenzija - Dugo čekanje na provjeru prtljaga na licu mjesta - Nedostatak empatije i poštovanja prema posadi aviokompanije - Nehumano postupanje "
+               },
+               {
+                  "input": "Signalizacija nije bila dobra. Morao sam da pitam gde su toaleti, a onda sam zalutao u salon kada sam hteo svoju kapiju za odlazak. Inače prilično dobar pristup ulaznim vratima ",
+                  "output": "Mešovita recenzija - Loše oznake - Zbunjujući raspored Dobar pristup izlaznim kapijama "
+               },
+               {
+                  "input": "To je veliki aerodrom, tako da morate nastaviti da hodate i vodite računa da pratite znakove. Sigurnosne linije mogu biti dugačke, ali se barem kreću razumnom brzinom. Izbor hrane je u redu. Parkiranje je veoma zbunjujuće. Ako neko dođe po vas, teško je naći se, pa se uverite da možete telefonirati da saznate ko je gde. ",
+                  "output": "Mešovita recenzija - Veliki aerodrom, duge šetnje - Duge bezbednosne linije - U redu izbor hrane - Zbunjujući parking "
+               }
+            ],
+            "enabled": true
+         }
+      }
+   },
    "Document Summary (CZ)": {
       "name": "Document Summary",
       "language": "CZ",
@@ -3074,6 +3434,85 @@
                {
                   "input": "Vehiculul asigurat, a luat foc pe 1 aprilie din cauza unei defecțiuni mecanice. Incendiul a provocat daune semnificative vehiculului, inclusiv daune la motor, interior și exterior. Asiguratul a contactat imediat departamentul de pompieri, iar incidentul a fost raportat la poliție. Asiguratul a depus o cerere de despăgubire pentru reparații și a furnizat raportul departamentului de pompieri ca dovadă a incidentului de incendiu.",
                   "output": "Vehiculul asigurat a luat foc la 1 aprilie din cauza unei defecțiuni mecanice, provocând daune semnificative la motor, interior și exterior. Cererea de despăgubire depusă pentru reparații, susținută de raportul departamentului de pompieri ca dovadă."
+               }
+            ],
+            "enabled": true
+         }
+      }
+   },
+   "Document Summary (SR)": {
+      "name": "Document Summary",
+      "language": "SR",
+      "buttonName": "Document Summary",
+      "inputs": [
+         "Osigurano vozilo se zapalilo 1. aprila zbog mehaničkog kvara, pri čemu je došlo do značajnih oštećenja motora, unutrašnjosti i eksterijera. Podneta tužba za popravku, potkrepljena izveštajem vatrogasne službe kao dokazom.",
+         "Osigurano vozilo, Tesla Model S, bilo je parkirano napolju 15. aprila 2023. kada je neočekivana i silovita oluja s gradom pogodila oblast. Kamenje grada različitih veličina, od malih kuglica do velikih loptica za golf, pljuštalo je na vozilo nemilosrdnom snagom. Udar kamena grada izazvao je veliku štetu na spoljašnjosti vozila, ostavljajući iza sebe mnoštvo udubljenja i udubljenja na krovu, haubi, prtljažniku i svim stranama. Grad je bio toliko snažan da je razbio šoferšajbnu i bočna stakla, što je dovelo do razbijenih fragmenata stakla rasutih po unutrašnjosti vozila. Osiguranici su odmah kontaktirali svoju osiguravajuću kompaniju kako bi prijavili incident i pokrenuli proces odšteta. Prepoznavši ozbiljnost štete, osiguravajuće društvo je odmah poslalo iskusnog auto-procenitelja da proceni obim štete od grada. Procenjivač je pažljivo pregledao vozilo, dokumentujući svako udubljenje, udubljenje i razbijeno staklo. Na osnovu njihove procene, procenitelj je procenio troškove popravke, uzimajući u obzir potrebu za uklanjanjem udubljenja bez farbe, zamenom panela, zamenom vetrobranskog stakla i popravkom prozora. Sa izveštajem o proceni u ruci, osiguranik sada podnosi sveobuhvatan zahtev za neophodne popravke. Uz izveštaj, osiguranik dostavlja detaljne fotografije oštećenog vozila iz više uglova, hvatajući obim štete od grada. Osiguranik razume važnost pružanja ubedljivih dokaza u prilog svom zahtevu i pažljivo je dokumentovao štetu. Oni takođe uključuju sve dodatne informacije ili dokumentaciju koju traži osiguravajuće društvo. Osiguranici željno iščekuju ishod svog zahteva, nadajući se da će ga osiguravajuća kompanija brzo obraditi. Oni su svesni da će popravke potrebne da se njihov voljeni Tesla Model S vrati u stanje pre udara grada biti obimne i skupe. Međutim, oni imaju poverenja u posvećenost osiguravajućeg društva da obezbedi neophodno pokriće i podršku. Njihov krajnji cilj je da vide svoje vozilo vraćeno u svoju originalnu lepotu i performanse, spremno da ponovo krene na put, bez uticaja razorne oluje sa gradom.",
+         "Osigurano vozilo, Honda Accord, pozadi je 5. juna 2023. na raskrsnici Elm Street i Maple Avenue. Osigurani vozač je čekao na crveno svetlo kada se drugo vozilo nije zaustavilo i naletelo na zadnji deo osiguranog vozila. U udesu je pričinjena šteta na braniku i gepeku na osiguranom vozilu. Osiguranik je razmenio informacije o osiguranju sa drugim vozačem i odmah prijavio incident svom osiguravajućem društvu. Osiguranik podnosi zahtev za popravku i daje podatke o osiguranju druge uključene strane.",
+         "10. avgusta 2023. godine, osigurano vozilo, Tojota Kamri, učestvovalo je u teškoj nesreći na autoputu. Osigurani vozač se kretao unutar dozvoljene brzine kada je drugo vozilo iznenada skrenulo u njihovu traku i izazvalo sudar. Udar je bio značajan, što je dovelo do velike štete na oba vozila. Osigurani vozač je odmah kontaktirao Hitnu pomoć i ukazana mu je medicinska pomoć na licu mesta. Osigurano vozilo je pretrpelo oštećenja na prednjem i zadnjem delu, uključujući aktiviran vazdušni jastuk, smrskanu haubu i razbijeno vetrobransko staklo. Osiguranik vozač je zadobio lakše telesne povrede i u toku je lekarska pomoć. Osiguranik je podneo zahtev svom osiguravajućem društvu, navodeći detalje o nezgodi, policijski izveštaj i medicinsku dokumentaciju. Osiguravajuća kompanija je pokrenula istragu radi utvrđivanja odgovornosti i snosiće troškove popravke vozila i medicinske troškove.",
+         "Osigurano vozilo, BMV serije 3, ukradeno je 12.04.2023.godine sa parkinga stambenog naselja osiguranika u ulici Pine. Osiguranik je parkirao vozilo na za to određenom mestu i sledećeg jutra otkrio da ga nema. Osiguranici su krađu odmah prijavili policiji i pribavili policijski izveštaj. Osiguranik podnosi zahtev za ukradeno vozilo i kao dokaz daje policijski izveštaj. Osiguravajuća kuća je pokrenula istragu o krađi."
+      ],
+      "topics": {
+         "topic1": {
+            "topicName": "Document Summary",
+            "models": [
+               {
+                  "meta-llama/llama-2-70b-chat": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm/granite-13b-chat-v1": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               },
+               {
+                  "google/flan-ul2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               }
+            ],
+            "instruction": {
+               "detailed": "Sledeći dokument je transkript  agenta osiguranja. Pročitajte dokument, a zatim napišite kratak rezime od 1 pasusa. ",
+               "summarized": "Napišite rezime teksta incidenta sa automobilom"
+            },
+            "inputPrefix": "Document:",
+            "outputPrefix": "Summary:",
+            "examples": [
+               {
+                  "input": "Saobraćajna nesreća dogodila se 1. januara 2023. godine u 17 časova na raskrsnici kod mosta. Osigurano vozilo, Honda Civic, naletelo je na drugo vozilo koje je prešlo na crveno svetlo. Osigurani vozač Džon vozio je dozvoljenu brzinu i pridržavao se svih saobraćajnih pravila. U udesu je pričinjena značajna šteta na osiguranom vozilu, uključujući polomljen branik i oštećen prednji blatobran. Nije bilo izveštaja o povređenima. Osiguranik podnosi zahtev za popravke i sve neophodne medicinske troškove.",
+                  "output": "Saobraćajna nesreća na raskrsnici kod mosta u kojoj je učestvovala Honda Civic koju je osigurao Nikola dogodila se zbog toga što je drugo vozilo prešlo na crveno svetlo, što je dovelo do značajne štete na osiguranom vozilu, ali nije bilo povređenih. Podnosi se tužba za popravke i potencijalne medicinske troškove."
+               },
+               {
+                  "input": "Osigurano vozilo, Ford RAM, ukradeno je iz Niša 2. decembra 2022. Vozilo je bilo parkirano na bezbednom parkingu i preduzete su sve neophodne mere predostrožnosti, kao što su zaključavanje vrata i aktiviranje alarmnog sistema. Osiguranici su krađu odmah prijavili policiji i pribavili policijski izveštaj. Vozilo je bilo pokriveno kasko osiguranjem, a osiguranik podnosi zahtev za ukradeno vozilo, uključujući njegovu procenjenu vrednost, pribor i lične stvari koje su se nalazile u vozilu u trenutku krađe.",
+                  "output": "Vozilo sa Ford RAM osiguranjem ukradeno je sa sigurnog parkinga u Nišu 2. decembra 2022. godine, uprkos preduzimanju neophodnih mera predostrožnosti, a osiguranik podnosi zahtev za kasko osiguranje za ukradeno vozilo, njegovu procenjenu vrednost, dodatnu opremu i lične stvari unutra."
+               },
+               {
+                  "input": "Osigurano vozilo, Tesla model Ks, vandalizovano je 23. marta dok je bilo parkirano ispred stana osiguranika u Prizrenskoj ulici. Vandalizam je uključivao izgrebane boje, razbijene prozore i oštećenje bočnih retrovizora. Osiguranik je odmah prijavio incident policiji i pribavio policijski izveštaj. Osiguranik podnosi zahtev za popravku i sve neophodne zamenske delove. Procenjena cena popravke je procenjena od strane ugledne automehaničarske radnje.",
+                  "output": "Osigurano vozilo Tesla Model Ks je vandalizovano 23. marta, sa oštećenjem uključujući izgrebane boje, razbijene prozore i oštećene bočne retrovizore dok je bilo parkirano ispred stana osiguranika u Prizrenskoj ulici. Osiguranik je prijavio incident policiji, pribavio policijski izveštaj i podnosi zahtev za popravku i neophodne rezervne delove na osnovu procenjenih troškova od strane ugledne automehaničarske radnje."
+               },
+               {
+                  "input": "Osigurano vozilo, bilo je parkirano napolju tokom jakog nevremena. Kao rezultat toga, vozilo je pretrpelo veliku štetu od grada, uključujući udubljenja na krovu, haubi i prtljažniku. Osiguranik je odmah prijavio incident i podnosi zahtev za neophodne popravke. Procenjeni trošak popravke je procenjen od strane ovlašćenog automehaničara.",
+                  "output": "Osigurano vozilo je pretrpelo veliku štetu od grada dok je bilo parkirano napolju tokom jakog nevremena, što je dovelo do zahteva za neophodne popravke sa procenjenim troškovima od strane ovlašćene automehaničarske radionice."
+               },
+               {
+                  "input": "Vozeći se Dušanovom ulicom 1. juna, osigurano vozilo, BMV K1, naletelo je na veliku životinju (npr. jelena) koja je iznenada prešla put. U nesreći su oštećeni prednji branik, maska hladnjaka i farovi. Osiguranik je odmah prijavio incident i podnosi zahtev za popravku. Osim toga, osiguranik je zatražio medicinsku pomoć zbog eventualnih povreda koje su nastale u sudaru.",
+                  "output": "Osigurani BMV K1 se sudario sa krupnom životinjom u Dušanovom ulici, pri čemu su oštećeni prednji branik, maska hladnjaka i farovi. Zahtev je podnet za popravku, a osiguranik je zatražio medicinsku pomoć zbog potencijalnih povreda."
+               },
+               {
+                  "input": "Osigurano vozilo se zapalilo 1. aprila zbog mehaničke neispravnosti. U požaru je pričinjena značajna šteta na vozilu, uključujući oštećenje motora, unutrašnjosti i eksterijera. Osiguranici su odmah kontaktirali vatrogasnu službu, a incident je prijavljen policiji. Osiguranik podnosi zahtev za popravku i dostavlja izveštaj vatrogasne službe kao dokaz o požaru.",
+                  "output": "Insured vehicle caught fire on April 1st due to a mechanical malfunction, resulting in significant damage to the engine, interior, and exterior. Claim filed for repairs, supported by fire department report as evidence."
                }
             ],
             "enabled": true
@@ -3759,449 +4198,100 @@
          }
       }
    },
-   "Quantum Computing (CZ)": {
-      "name": "Quantum Computing",
-      "language": "CZ",
-      "buttonName": "Retrive Answer",
+   "Generisanje odgovora (SR)": {
+      "name": "Generisanje odgovora",
+      "language": "SR",
+      "buttonName": "Generisanje odgovora",
       "inputs": [
-         "Jaké fyzikální vlastnosti využívá kvantový počítač ke své činnosti?",
-         "Co obnáší kvantová dekoherence pro výpočty kvantovými počítači?",
-         "Jaké může dosahovat zrychlení výpočtů u kvantových počítačů proti klasikým počítačům, avšak jaké musí být splněny podmínky?"
+         "Endi: Odlično i dobro održavano. Visoko organizovan i efikasan. Tako dobro podnosi saobraćaj čak i u ovo doba godine kada postoji ogroman priliv međunarodnih studenata koji dolaze da započnu svoje univerzitete u Vankuveru. Mnogo taksi usluga dostupno je odmah ispred aerodroma. Izuzetno uslužno osoblje.",
+         "Kris Martin: Više od 50% letova u i iz IVR kasni, osoblje obezbeđenja ili službe na ivičnjaku, posebno ono koje se bavi pitanjima parkiranja, je nepristojno, kupatila su većinu vremena prljava.",
+         "Džoi: Veoma udoban aerodrom za čekanje na svoj let. Udobna sedišta i različiti rasporedi sedišta oko umetničkih energija, uključujući skulpturu Bila Rida i druge vodene karakteristike i skulpture. Postoje prodavnice hrane i maloprodaje. Oseća se skoro kao tržni centar, a ne kao aerodrom, što je veoma lepo. Verovatno bi moglo da se uradi sa više stanica za punjenje u blizini mesta za sedenje."
       ],
       "topics": {
          "topic1": {
-            "topicName": "Question Answering",
+            "topicName": "Generisanje odgovora",
             "models": [
                {
                   "meta-llama/llama-2-70b-chat": {
                      "decoding_method": "greedy",
-                     "temperature": 0.5,
-                     "repetition_penalty": 1.2,
-                     "top_p": 1,
-                     "top_k": 50,
-                     "min_new_tokens": 15,
-                     "max_new_tokens": 150
-                  }
-               }
-            ],
-            "instruction": {
-               "detailed": "Odpovězte na následující otázku pouze na základě informací z článku. Odpověď musí být v českém jazyce. Pokud v článku není žádná dobrá odpověď, řekněte \"nevím\".\nČlánek: \nKvantový počítač je počítač, který využívá kvantově mechanické jevy. V malých měřítkách vykazuje fyzikální hmota vlastnosti částic i vln a kvantové počítače využívají tohoto chování, konkrétně kvantové superpozice a provázanosti, pomocí specializovaného hardwaru, který podporuje přípravu a manipulaci s kvantovými stavy. Klasická fyzika nedokáže vysvětlit fungování těchto kvantových zařízení a škálovatelný kvantový počítač by mohl provádět některé výpočty exponenciálně rychleji než jakýkoli moderní \"klasický\" počítač. Rozsáhlý kvantový počítač by zejména mohl prolomit široce používaná šifrovací schémata a pomoci fyzikům při provádění fyzikálních simulací; současný stav techniky je však převážně experimentální a nepraktický, přičemž užitečným aplikacím brání několik překážek. Škálovatelné kvantové počítače navíc nejsou pro mnoho praktických úloh perspektivní a u mnoha důležitých úloh je kvantové zrychlení prokazatelně nemožné. Základní jednotkou informace v kvantové výpočetní technice je qubit, podobně jako bit v tradiční digitální elektronice. Na rozdíl od klasického bitu může qubit existovat v superpozici svých dvou \"základních\" stavů, což volně znamená, že se nachází v obou stavech současně. Při měření qubitu je výsledkem pravděpodobnostní výstup klasického bitu, proto jsou kvantové počítače obecně nedeterministické. Pokud kvantový počítač manipuluje s qubitem určitým způsobem, mohou vlnové interferenční efekty zesílit požadované výsledky měření. Návrh kvantových algoritmů zahrnuje vytvoření postupů, které umožní kvantovému počítači provádět výpočty efektivně a rychle. Fyzikální inženýrství vysoce kvalitních qubitů se ukázalo jako náročné. Pokud není fyzický qubit dostatečně izolován od svého okolí, trpí kvantovou dekoherencí, která do výpočtů vnáší šum. Paradoxně je dokonalá izolace qubitů také nežádoucí, protože při kvantových výpočtech je obvykle třeba qubity inicializovat, provádět řízené interakce qubitů a měřit výsledné kvantové stavy. Každá z těchto operací přináší chyby a trpí šumem a tyto nepřesnosti se kumulují.",
-               "summarized": "Odpovězte na následující otázku na základě informací v článku."
-            },
-            "inputPrefix": "Otázka: ",
-            "outputPrefix": "Odpověď: ",
-            "examples": [
-               {
-                  "input": "Jaký je současný využití kvantových počítačů?",
-                  "output": "Současný stav využití kvantových počítačů je převážně experimentální a nepraktický."
-               },
-               {
-                  "input": "Jaké úlohy by uměl řešit rozsáhlý kvantový počítač?",
-                  "output": "Rozsáhlý kvantový počítač by zejména mohl prolomit široce používaná šifrovací schémata a pomoci fyzikům při provádění fyzikálních simulací."
-               },
-               {
-                  "input": "Jaké fyzikální vlastnosti využívá kvantový počítač ke své činnosti?",
-                  "output": "Kvantový počítač využívá kvantové superpozice a provázanosti, pomocí specializovaného hardwaru, který podporuje přípravu a manipulaci s kvantovými stavy."
-               }
-            ],
-            "enabled": true
-         }
-      }
-   },
-   "Stock exchange news (CZ)": {
-      "name": "Stock exchange news (CZ)",
-      "language": "CZ",
-      "buttonName": "Shrnutí",
-      "inputs": [
-         "Konferenční hovor po výsledcích za 3Q23 naznačil zajímavou dividendu nad odhadovaných 7,5 Kč. Moneta zvýšila svůj výhled čistého zisku pro rok 2023 s výsledky za třetí kvartál 2023 na 5,0 mld. Kč z předchozích nejméně 4,7 mld. Kč. Management uvedl, že střednědobý výhled se reviduje a aktualizace bude vydána s prezentací celoročních výsledků. Zatímco výhled provozního zisku na rok 2024 by mohl být upraven níže, výhled čistého zisku ve výši minimálně 4,8 mld. Kč by měl zůstat nezměněn. Moneta se bude snažit pokles úrokových výnosů z titulu zrušení úročení minimálních rezerv ČNB kompenzovat silnějším a výnosnějším růstem vkladů, ale i úvěrů. Možností je i snížení nákladů management vidí prostor v roce 2024 pro cca ~100 mil. Kč) a pomoci by mohly i nižší než dříve předpokládané rizikové náklady.  Nedávné snížení požadavku SREP na rok 2024 a předchozí snížení proticyklické kapitálové rezervy zvýšilo přebytečný kapitál očekávaný pro rok 2023. Management uvedl, že zváží různé možnosti pro přebytečný kapitál. Podle našeho názoru lze tedy očekávat atraktivní dividendu za rok 2023, potenciálně nad naším odhadem 7,5 Kč/akcii( cca 8,6% hrubý výnos).",
-         "Intel svými výsledky za 3Q překročil očekávání analytiků. EPS dosáhlo 0,41 USD (očekávání bylo 0,22 USD). Tržby byly ve výši 14,16 mld. USD oproti odhadu, jež činil 13,6 mld. USD. Nejvyšší část tržeb představoval segment výpočetní techniky zahrnující hlavně stolní počítače a notebooky s 7,9 mld. USD (-3,2 % r/r, nicméně +16 % q/q). Daný segment se dle managementu již pravděpodobně odrazil od svého minima v 1Q23. Avšak relativním zklamáním byl segment datových center a AI s 3,8 mld. USD (-10,4 % r/r a -4,7 % q/q). Slibný růst tržeb předvedl segment výroby čipů pro jiné společnosti s 311 mil. USD (+300 % r/r) a dle managementu splnil jeho očekávání. Tržby Mobileye dosáhly 530 mil. USD (oproti 450 mil. USD v 3Q22), což jen utvrzuje potenciál dané firmy, ve které má Intel majoritní podíl. Pro 4Q CEO Pat Gelsinger zvedl odhad tržeb na 14,6 – 15,6 mld. USD oproti původnímu odhadu 14,34 mld. USD a zisk na akcii očekává okolo 0,44 USD. Akcie po uzavření trhu reagovaly skokem o 7,8 %.",
-         "Ruská centrální banka v pátek zvýšila svou základní úrokovou sazbu o dva procentní body na 15 procent. Pokračujícím zpřísňováním měnové politiky reaguje na slabý kurz domácí měny a vzestup inflačních tlaků. Většina analytiků v anketě agentury Reuters předpovídala, že banka základní sazbu zvýší pouze o jeden procentní bod. Banka rovněž zlepšila odhad letošního růstu ruské ekonomiky. Ruský rubl se po zprávě o překvapivě výrazném zvýšení úroků vyšplhal až na šestitýdenní maximum vůči dolaru, později však o část zisků přišel. Dolar vůči rublu sestoupil až na zhruba 92,5 RUB/USD, nejníže od 12. září. Krátce po 16:00 SELČ se nicméně pohyboval v blízkosti 93,6 RUB/USD, oproti čtvrtku tak ztrácel pouze 0,4 procenta, napsala agentura Reuters."
-      ],
-      "topics": {
-         "topic1": {
-            "topicName": "Document summary",
-            "models": [
-               {
-                  "meta-llama/llama-2-70b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.2,
-                     "min_new_tokens": 20,
-                     "max_new_tokens": 200
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
                   }
                },
                {
                   "ibm/granite-13b-chat-v1": {
                      "decoding_method": "greedy",
-                     "repetition_penalty": 1.2,
-                     "temperature": 0.5,
-                     "top_p": 1,
-                     "top_k": 50,
-                     "min_new_tokens": 20,
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
                      "max_new_tokens": 200
-                  }
-               }
-            ],
-            "instruction": {
-               "detailed": "Přečti následující dokument a napiš výhradně v českém jazyce krátké shrnutí v rozsahu 1 odstavce z následujícího dokumentu. Shrnutí napiš výhradně v českém jazyce, nepiš v anglickém jazyce.",
-               "summarized": "Sepiš shrnutí finančního zpravodajství."
-            },
-            "inputPrefix": "Dokument: \n ",
-            "outputPrefix": "Shrnutí: \n ",
-            "examples": [
-               {
-                  "input": "Americký Ford oznámil za 3Q roku meziroční růst tržeb o 11% směrem k 43,8 mld. USD. Čistý zisk ve 3Q dosáhl úrovně 1,2 mld. USD = 30 centů na akcii oproti loňské ztrátě ve výši 827 mil. USD respektive 21 centů na akcii. Po očištění o jednorázové vlivy dosáhl čistý zisk úrovně 39 centů oproti trhem očekávaným 45 centům. Podle vedení se na tomto vývoji podepsal především negativní vliv stávky odborů a problémy s dodržováním kvality a nákladů. Podle vedení automobilka zbrzdí původní plán rozvoje elektromobility v rozsahu cca 12 mld. USD, což v sobě zahrnuje zpomalení konstrukčních prací pro vybudování továrny na baterie v Kentucky. Zájem o elektromobily byl nižší, než se očekávalo. Podle vedení společnosti téměř šestitýdenní stávka zaměstnanců pod taktovkou odborů UAW ukončená tento týden ve středu stála automobilku cca 1,3 mld USD. Nyní automobilka usilovně pracovat na zlepšení mnoha procesů a ukazatelů, aby se dokázala vyrovnat s růstem zaměstnaneckých nákladů, který přinesla dohoda o ukončení stávky. Podle analytiků Deutsche Bank bude nová kolektivní dohoda platná následujících 4,5 roku stát automobilku celkem cca 6,2 mld. USD ve zvýšených nákladech.",
-                  "output": "Ford v 3. čtvrtletí zaznamenal růst tržeb a čistého zisku, ale stávka odborů a problémy s kvalitou a náklady ovlivnily výsledky. Plány na elektromobilitu budou zpomaleny kvůli nižšímu zájmu, a Ford pracuje na zlepšení procesů po stávce."
-               }
-            ],
-            "enabled": true
-         }
-      }
-   },
-   "Business Talks (CZ)": {
-      "name": "Business Talks (CZ)",
-      "language": "CZ",
-      "buttonName": "Shrnutí",
-      "inputs": [
-         "Obchodník: Dobrý den. Chtěl bych s vámi dnes projednat náš dlouhodobý obchodní vztah. Jak jste byl spokojen s naší dosavadní spoluprací?\n   Partner: Spolupráce s vaší firmou byla dosud velmi uspokojivá. Jsme spokojeni s kvalitou vašich produktů a vaší podporou. Myslím si, že jsme dosáhli významného pokroku.\n   Obchodník: To je skvělé slyšet. Rádi bychom pokračovali v tomto vzájemně prospěšném vztahu. Máme některé nové produkty a služby, které by se vám mohly líbit. Chtěli bychom s vámi diskutovat o možnosti rozšíření naší spolupráce a zvážit, jak bychom mohli lépe vyhovět vašim potřebám.\n   Partner: To zní zajímavě. Rádi bychom se dozvěděli více o těchto nových produktech a službách. Máme některé nové projekty, na kterých pracujeme, a myslím si, že by vaše řešení mohla být pro nás užitečná. Můžete nám poskytnout podrobnější informace?\n   Obchodník: Určitě, rádi bychom vám představili naše novinky a zvážili, jak by mohly být přizpůsobeny vašim projektům. Také bychom rádi projednali podmínky spolupráce a cenovou strukturu. Máte nějaký konkrétní časový plán, kdy byste chtěli tyto nové produkty zavést?\n   Partner: Budeme se potřebovat interně poradit ohledně našeho plánu, ale myslím si, že bychom mohli být připraveni začít spolupracovat během několika měsíců. Rádi bychom se dozvěděli více o cenách a podmínkách. Mohli byste nám připravit nějakou nabídku?\n   Obchodník: Samozřejmě, rádi vám připravíme podrobnou nabídku a provedeme vás celým procesem. Myslím si, že máme velký potenciál v tomto obchodním vztahu. Děkuji za váš čas a těším se na další spolupráci.\n",
-         "Obchodník: Dobrý den, pane Smith. Děkuji, že jste si našel čas dnes se mnou hovořit ohledně tohoto obchodního sporu.\n   Partner: Dobrý den, pane Johnson. Je to pro mě také důležité. Máme několik věcí, které bychom měli projednat, abychom našli společné řešení.\n   Obchodník: Souhlasím. Nejdříve bych rád zopakoval náš pohled na situaci. Podle našeho pohledu, smlouva jasně stanovuje, že dodání mělo být provedeno do konce října, ale bohužel jsme zjistili, že došlo k prodlení.\n   Partner: Máte pravdu, pane Johnson. Pro nás bylo prodlení také nepříjemné. Máme však důvody, které toto prodlení způsobily. Měli jsme problémy se získáním surovin včas kvůli nedostupnosti dodavatele.\n   Obchodník: Chápu, že může dojít k neočekávaným problémům. Ale měli jsme také náklady na skladování kvůli tomu, že jsme nemohli včas začít s výrobou. Jak byste navrhovali vyřešit tuto situaci?\n   Partner: Navrhuji, abychom společně hledali kompromis. Mohli bychom snížit sankce za prodlení dodání a prodloužit termíny pro dokončení dalších fází projektu. Tak bychom mohli minimalizovat naše ztráty a dosáhnout pozitivního výsledku pro obě strany.\n   Obchodník: To zní rozumně. Mohli bychom také zvážit dodatek ke smlouvě, který by obsahoval tyto změny a uzávěrku, která by je potvrdila. To by nám pomohlo vyhnout se budoucím nesrovnalostem.\n   Partner: Souhlasím. Myslím si, že dodatek by byl dobrým způsobem, jak zpevnit naši dohodu. Budeme potřebovat také konkrétní termíny a podmínky, které budou v dodatku uvedeny.\n   Obchodník: Můžeme pracovat na návrhu dodatku a společně zkontrolovat podmínky, abychom se ujistili, že jsou pro obě strany spravedlivé. Jaké jsou vaše další myšlenky ohledně tohoto sporu?\n   Partner: Rád bych také viděl, zda bychom mohli dohodnout nějaký postup pro řešení podobných problémů v budoucnu, abychom se vyvarovali opakování těchto obtíží.\n   Obchodník: To zní jako skvělý nápad. Můžeme zvážit vytvoření postupu pro řešení sporů a jeho začlenění do našich budoucích smluvních dohod.\n"
-      ],
-      "topics": {
-         "topic1": {
-            "topicName": "Business talk summary",
-            "models": [
-               {
-                  "meta-llama/llama-2-70b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.2,
-                     "min_new_tokens": 20,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.2,
-                     "temperature": 0.5,
-                     "top_p": 1,
-                     "top_k": 50,
-                     "min_new_tokens": 20,
-                     "max_new_tokens": 200
-                  }
-               }
-            ],
-            "instruction": {
-               "detailed": "Výhradně v českém jazyce vytvoř Shrnutí následujícího obchodního Rozhovoru mezi partnerem a obchodníkem:",
-               "summarized": "Napiš shrnutí následujícího obchodního rozhovoru."
-            },
-            "inputPrefix": "Rozhovor: \n ",
-            "outputPrefix": "Shrnutí: \n ",
-            "examples": [
-               {
-                  "input": "\n   Partner: Dobrý den, těší mě, že jsme se mohli setkat. Jak jste se měli od naší poslední schůzky?\n   Obchodník: Dobrý den, ano, bylo to pěkných pár měsíců. Děkuji, že jste naši schůzku uspořádali. Měl jsem se dobře a jak jste vy?\n   Partner: Díky za otázku. Měl jsem taky hezké měsíce. Kromě toho jsme měli několik významných změn ve firmě od naší poslední schůzky. Rozšířili jsme naši produktovou řadu a také jsme zaznamenali růst tržeb o 20 %.\n   Obchodník: To zní skvěle, gratuluji k úspěchům! My jsme také měli nějaké změny. Naše inženýrský tým pracuje na vylepšení našich produktů a zároveň se snažíme rozšířit naše tržní zastoupení. Máme něco nového, co by vás mohlo zajímat.\n   Partner: To zní zajímavě. Můžete mi o tom říct více?\n   Obchodník: Samozřejmě, rádi bychom vám představili naši novou produktovou řadu, která zahrnuje několik inovativních prvků, které by mohly zvýšit efektivitu vašeho podnikání. Rádi bychom také diskutovali o možnostech spolupráce, které by mohly být pro obě strany prospěšné.\n   Partner: To zní slibně. Měli bychom se podívat na vaši prezentaci a projednat detaily. Máme určitý rozpočet na investice do nových produktů, takže bychom rádi slyšeli i o cenových podmínkách.\n   Obchodník: Samozřejmě, rádi vám představíme naši prezentaci a diskutujeme o ceně. Můžeme také zvážit různé formy spolupráce, včetně slev na objednávky ve větším množství.",
-                  "output": "\n   Partner během rozhovoru informoval o pozitivních změnách ve firmě, včetně růstu tržeb, a obchodník nabídl novou produktovou řadu a možnosti spolupráce. Partner projevil zájem o další detaily a cenovou diskuzi."
-               }
-            ],
-            "enabled": true
-         }
-      }
-   },
-   "IT Incident assist (EN)": {
-      "name": "IT Incident assist",
-      "language": "EN",
-      "buttonName": "Incident",
-      "inputs": [
-         "Date: September 5, 2023\nTime: 8:45 AM - 12:30 PM\nLocation: Data Center Facility\n\nIncident Details:\n\n    At 8:45 AM, a sudden power outage occurred in the data center, affecting all servers, networking equipment, and storage systems.\n    The incident was caused by a fault in the electrical grid, resulting in a complete loss of power to the facility.\n    As a result of the power outage, all hosted applications, websites, and online services became inaccessible.\n\nImpact Assessment:\n\n    The power outage caused a significant disruption to business operations, resulting in a loss of productivity and potential revenue.\n    Customer access to online services was severely impacted, leading to dissatisfaction and potential reputation damage.\n    No data loss or hardware damage occurred during the incident.\n\nRoot Cause Analysis:\n\n    The root cause of the incident was determined to be an external electrical grid failure, which led to a complete loss of power to the data center.\n    The electrical grid failure was caused by a severe storm that damaged power lines in the vicinity.",
-         "Date: June 15, 2023\nTime: 10:30 AM - 12:00 PM\nLocation: Office Building\n\nIncident Details:\n\n    At 10:30 AM, users reported experiencing intermittent connectivity issues.\n    IT team identified the problem to be a network hardware failure that caused a cascading impact on multiple systems.\n    The incident affected all departments across the organization, resulting in a complete loss of productivity.\n    Attempts were made to troubleshoot and resolve the issue internally but were unsuccessful.\n\nImpact Assessment:\n\n    The system outage resulted in a significant disruption of business operations, causing a loss of productivity and revenue.\n    Customer service was severely impacted, leading to dissatisfaction and potential reputation damage.\n    Data loss or corruption did not occur during the incident.\n\nRoot Cause Analysis:\n\n    The root cause of the incident was identified as a hardware failure in the network switch that caused network congestion and subsequent system failures.\n    The failure was attributed to a manufacturing defect in the hardware component.",
-         "Date: July 10, 2023\nTime: 2:00 PM - 4:30 PM\nLocation: Virtual Meeting\n\nIncident Details:\n\n    On July 10, 2023, the IT security team detected anomalous activities indicating a potential security breach.\n    Investigation revealed that a hacker gained unauthorized access to the customer database by exploiting a vulnerability in the system.\n    The breach affected approximately 50,000 customer records, including personally identifiable information (PII) such as names, addresses, and email addresses.\n    The incident occurred due to a misconfigured firewall rule that allowed unauthorized access to the database server.\n\nImpact Assessment:\n\n    The security breach resulted in potential exposure of sensitive customer data, leading to concerns over privacy and identity theft.\n    Reputation damage and loss of customer trust were identified as significant impacts.\n    No evidence of financial data or credit card information being compromised was found during the investigation.\n\nRoot Cause Analysis:\n\n    The root cause of the incident was traced back to a misconfigured firewall rule that allowed unauthorized access to the database server.\n    The misconfiguration occurred during a recent system update, which inadvertently altered the firewall settings."
-      ],
-      "topics": {
-         "topic1": {
-            "topicName": "Classify",
-            "models": [
-               {
-                  "google/flan-ul2": {
-                     "decoding_method": "greedy",
-                     "temperature": 0.7,
-                     "top_p": 1,
-                     "top_k": 50,
-                     "min_new_tokens": 1,
-                     "max_new_tokens": 50
-                  }
-               }
-            ],
-            "instruction": {
-               "detailed": "Classify this IT Incident:",
-               "summarized": "Classify this IT Incident:"
-            },
-            "inputPrefix": "Input:",
-            "outputPrefix": "Named entities:",
-            "examples": [
-               {
-                  "input": "Date: June 15, 2023\nTime: 10:30 AM - 12:00 PM\nLocation: Office Building\n\nIncident Details:\n\n    At 10:30 AM, users reported experiencing intermittent connectivity issues.\n    IT team identified the problem to be a network hardware failure that caused a cascading impact on multiple systems.\n    The incident affected all departments across the organization, resulting in a complete loss of productivity.\n    Attempts were made to troubleshoot and resolve the issue internally but were unsuccessful.\n\nImpact Assessment:\n\n    The system outage resulted in a significant disruption of business operations, causing a loss of productivity and revenue.\n    Customer service was severely impacted, leading to dissatisfaction and potential reputation damage.\n    Data loss or corruption did not occur during the incident.\n\nRoot Cause Analysis:\n\n    The root cause of the incident was identified as a hardware failure in the network switch that caused network congestion and subsequent system failures.\n    The failure was attributed to a manufacturing defect in the hardware component.",
-                  "output": " IT System Outage Incident Transcript"
-               },
-               {
-                  "input": "Date: July 10, 2023\nTime: 2:00 PM - 4:30 PM\nLocation: Virtual Meeting\n\nIncident Details:\n\n    On July 10, 2023, the IT security team detected anomalous activities indicating a potential security breach.\n    Investigation revealed that a hacker gained unauthorized access to the customer database by exploiting a vulnerability in the system.\n    The breach affected approximately 50,000 customer records, including personally identifiable information (PII) such as names, addresses, and email addresses.\n    The incident occurred due to a misconfigured firewall rule that allowed unauthorized access to the database server.\n\nImpact Assessment:\n\n    The security breach resulted in potential exposure of sensitive customer data, leading to concerns over privacy and identity theft.\n    Reputation damage and loss of customer trust were identified as significant impacts.\n    No evidence of financial data or credit card information being compromised was found during the investigation.\n\nRoot Cause Analysis:\n\n    The root cause of the incident was traced back to a misconfigured firewall rule that allowed unauthorized access to the database server.\n    The misconfiguration occurred during a recent system update, which inadvertently altered the firewall settings.",
-                  "output": "Security Breach Incident Transcript"
-               }
-            ],
-            "enabled": true
-         },
-         "topic2": {
-            "topicName": "Recommend actions",
-            "models": [
-               {
-                  "google/flan-ul2": {
-                     "decoding_method": "greedy",
-                     "temperature": 0.7,
-                     "top_p": 1,
-                     "top_k": 50,
-                     "min_new_tokens": 1,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.2,
-                     "temperature": 0.5,
-                     "top_p": 1,
-                     "top_k": 50,
-                     "min_new_tokens": 1,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "bigscience/mt0-xxl": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.2,
-                     "temperature": 0.5,
-                     "top_p": 1,
-                     "top_k": 50,
-                     "min_new_tokens": 1,
-                     "max_new_tokens": 200
-                  }
-               }
-            ],
-            "instruction": {
-               "detailed": "Please recommend the responses and actions to be taken for the following",
-               "summarized": "Please recommend the responses and actions to be taken for the following"
-            },
-            "inputPrefix": "Incident Transcript:",
-            "outputPrefix": "Response and Actions Taken:",
-            "examples": [
-               {
-                  "input": "Date: June 15, 2023\nTime: 10:30 AM - 12:00 PM\nLocation: Office Building\n\nIncident Details:\n\n    At 10:30 AM, users reported experiencing intermittent connectivity issues.\n    IT team identified the problem to be a network hardware failure that caused a cascading impact on multiple systems.\n    The incident affected all departments across the organization, resulting in a complete loss of productivity.\n    Attempts were made to troubleshoot and resolve the issue internally but were unsuccessful.\n\nImpact Assessment:\n\n    The system outage resulted in a significant disruption of business operations, causing a loss of productivity and revenue.\n    Customer service was severely impacted, leading to dissatisfaction and potential reputation damage.\n    Data loss or corruption did not occur during the incident.\n\nRoot Cause Analysis:\n\n    The root cause of the incident was identified as a hardware failure in the network switch that caused network congestion and subsequent system failures.\n    The failure was attributed to a manufacturing defect in the hardware component.",
-                  "output": " Response and Actions Taken:\n\nThe IT team immediately initiated the incident response process and formed a cross-functional team to address the situation.\n    External support from the network hardware vendor was engaged to expedite the troubleshooting process.\n    A temporary workaround was implemented to restore partial system functionality and provide limited access to critical applications.\n    Regular communication updates were provided to users and stakeholders regarding the progress of the resolution efforts."
-               },
-               {
-                  "input": "Date: July 10, 2023\nTime: 2:00 PM - 4:30 PM\nLocation: Virtual Meeting\n\nIncident Details:\n\n    On July 10, 2023, the IT security team detected anomalous activities indicating a potential security breach.\n    Investigation revealed that a hacker gained unauthorized access to the customer database by exploiting a vulnerability in the system.\n    The breach affected approximately 50,000 customer records, including personally identifiable information (PII) such as names, addresses, and email addresses.\n    The incident occurred due to a misconfigured firewall rule that allowed unauthorized access to the database server.\n\nImpact Assessment:\n\n    The security breach resulted in potential exposure of sensitive customer data, leading to concerns over privacy and identity theft.\n    Reputation damage and loss of customer trust were identified as significant impacts.\n    No evidence of financial data or credit card information being compromised was found during the investigation.\n\nRoot Cause Analysis:\n\n    The root cause of the incident was traced back to a misconfigured firewall rule that allowed unauthorized access to the database server.\n    The misconfiguration occurred during a recent system update, which inadvertently altered the firewall settings.",
-                  "output": " Response and Actions Taken:\n\nThe IT security team immediately activated the incident response plan and isolated the affected systems to prevent further unauthorized access.\n \nExternal cybersecurity experts were engaged to assist in forensic analysis and identify the extent of the breach.\nA notification was sent to all affected customers, informing them about the incident, potential risks, and steps to protect their personal information.\n    The compromised firewall rule was promptly corrected, and additional security measures were implemented to enhance the database security."
-               }
-            ],
-            "enabled": false
-         },
-         "topic3": {
-            "topicName": "generate response",
-            "models": [
-               {
-                  "google/flan-t5-xxl": {
-                     "decoding_method": "greedy",
-                     "temperature": 0.7,
-                     "top_p": 1,
-                     "top_k": 50,
-                     "min_new_tokens": 50,
-                     "max_new_tokens": 500,
-                     "repetition_penalty": 1.28
-                  }
-               }
-            ],
-            "instruction": {
-               "detailed": "Please recommend a response email for the following",
-               "summarized": "Please recommend a response email for the following"
-            },
-            "inputPrefix": "Incident Transcript:",
-            "outputPrefix": "Email to customer:",
-            "examples": [
-               {
-                  "input": "Date: June 15, 2023\nTime: 10:30 AM - 12:00 PM\nLocation: Office Building\n\nIncident Details:\n\n    At 10:30 AM, users reported experiencing intermittent connectivity issues.\n    IT team identified the problem to be a network hardware failure that caused a cascading impact on multiple systems.\n    The incident affected all departments across the organization, resulting in a complete loss of productivity.\n    Attempts were made to troubleshoot and resolve the issue internally but were unsuccessful.\n\nImpact Assessment:\n\n    The system outage resulted in a significant disruption of business operations, causing a loss of productivity and revenue.\n    Customer service was severely impacted, leading to dissatisfaction and potential reputation damage.\n    Data loss or corruption did not occur during the incident.\n\nRoot Cause Analysis:\n\n    The root cause of the incident was identified as a hardware failure in the network switch that caused network congestion and subsequent system failures.\n    The failure was attributed to a manufacturing defect in the hardware component.",
-                  "output": "Subject: IT System Outage Incident - Helpline Support Update\n\nDear [Customer/Employee Name],\n\nWe apologize for the inconvenience caused by the recent IT system outage incident on [Date]. Our team has been working diligently to restore system functionality and address the disruption.\n\nIf you require any assistance or have questions about the incident or the current status of your services, our helpline support team is available to assist you. Please contact our helpline support team at [Helpline Phone Number] or [Helpline Email Address].\n\nWe appreciate your patience and understanding during this incident. We are committed to resolving any concerns you may have and ensuring a smooth transition during the recovery process.\n\nThank you for your cooperation.\n\nSincerely,\n\n[Your Name]\n[Your Position]\n[Company Name]\n[Contact Information]"
-               },
-               {
-                  "input": "Date: July 10, 2023\nTime: 2:00 PM - 4:30 PM\nLocation: Virtual Meeting\n\nIncident Details:\n\n    On July 10, 2023, the IT security team detected anomalous activities indicating a potential security breach.\n    Investigation revealed that a hacker gained unauthorized access to the customer database by exploiting a vulnerability in the system.\n    The breach affected approximately 50,000 customer records, including personally identifiable information (PII) such as names, addresses, and email addresses.\n    The incident occurred due to a misconfigured firewall rule that allowed unauthorized access to the database server.\n\nImpact Assessment:\n\n    The security breach resulted in potential exposure of sensitive customer data, leading to concerns over privacy and identity theft.\n    Reputation damage and loss of customer trust were identified as significant impacts.\n    No evidence of financial data or credit card information being compromised was found during the investigation.\n\nRoot Cause Analysis:\n\n    The root cause of the incident was traced back to a misconfigured firewall rule that allowed unauthorized access to the database server.\n    The misconfiguration occurred during a recent system update, which inadvertently altered the firewall settings.",
-                  "output": "Subject: Security Breach Incident - Helpline Support Update\n\nDear [Customer/Employee Name],\n\nWe are writing to provide you with an update regarding the recent security breach incident that occurred on [Date]. We understand the concern and potential impact this incident may have caused, and we sincerely apologize for any inconvenience caused.\n\nOur dedicated IT security team has been working tirelessly to address the breach and mitigate any potential risks. We have taken immediate steps to enhance our security measures and protect your data.\n\nIf you have any questions or require assistance regarding the incident, your personal information, or steps to safeguard your data, our helpline support team is here to help. Please don't hesitate to reach out to our helpline support team at [Helpline Phone Number] or [Helpline Email Address].\n\nWe want to assure you that protecting your privacy and maintaining the security of your information is of utmost importance to us. We are committed to resolving any concerns you may have and providing the necessary support during this challenging time.\n\nThank you for your understanding and patience throughout this incident. We are actively working to strengthen our security measures and prevent similar incidents in the future.\n\nSincerely,\n\n[Your Name]\n[Your Position]\n[Company Name]\n[Contact Information]"
-               }
-            ],
-            "enabled": false
-         }
-      }
-   },
-   "Talent Management (EN)": {
-      "name": "Talent Management",
-      "language": "EN",
-      "buttonName": "HR Use Case",
-      "inputs": [
-         "software developer with strong JAVA and Javascript skills.Do not include the location.",
-         "Data Scientist with track record in time series analysis and experience in air transport industry",
-         "Casey Hall\ncasey.z.hall@gmail.com\n916-566-6124\n\nPROFESSIONAL SUMMARY\nExperienced financial analyst with excellent analytical skills as well as a devotion to customer service. Proposed changes to account opening procedures led to a 15% drop in wait time and processing errors. Looking to leverage banking skills at Merrill National.\n\nWORK EXPERIENCE\nBANKING ANALYST\nRJ Savings and Trust\nDec 2016- Dec 2019\n* Managed 100 investors' due diligence processes and coordinated with international operations managers when required.\n* Performed financial risk assessments and studied banking and financial market trends to prepare activity and progress reports to management.\n* Navigated marketing activities by reaching out to 150+ VC and lead 5% prospects.\n\nASSOCIATE BANKER\nMerriweather Bank\nSept 2015-Dec 2016\n* Reviewed and processed credit and loan applications according to best practices and law.\n* Supported identifying potential sales opportunities to new business clients.\n* Handling daily reconcilement of payments as well as maintaining incoming and outgoing cash records.\n\nEDUCATION\n2011-2014, B.A. in Economics\nUniversity of South Dakota\nPresident of the student finance club for 1 year.\n\nSKILLS\nAbility to work under pressure\nFinancial planning\nRisk assessment\nCustomer service\nProblem solving\nTechnical skills\nInterpersonal skills\n\nCERTIFICATIONS\n* Certified Financial Planner (CFP)\n* Certified Financial Analyst (CFA)",
-         "Goal: become an Analytics Manager\nCurrent role: Senior Data Analyst",
-         "Goal: become an Aviation Maintenance Technician\nCurrent role: Airfield Operations Specialist"
-      ],
-      "topics": {
-         "topic1": {
-            "topicName": "Job Description",
-            "models": [
-               {
-                  "meta-llama/llama-2-70b-chat": {
-                     "decoding_method": "greedy",
-                     "temperature": 0.7,
-                     "top_p": 1,
-                     "top_k": 50,
-                     "min_new_tokens": 100,
-                     "max_new_tokens": 400
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.2,
-                     "temperature": 0.5,
-                     "top_p": 1,
-                     "top_k": 50,
-                     "min_new_tokens": 100,
-                     "max_new_tokens": 400
-                  }
-               },
-               {
-                  "bigscience/mt0-xxl": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.2,
-                     "temperature": 0.5,
-                     "top_p": 1,
-                     "top_k": 50,
-                     "min_new_tokens": 100,
-                     "max_new_tokens": 400
                   }
                },
                {
                   "google/flan-ul2": {
                      "decoding_method": "greedy",
-                     "repetition_penalty": 1.2,
-                     "temperature": 0.5,
-                     "top_p": 1,
-                     "top_k": 50,
-                     "min_new_tokens": 100,
-                     "max_new_tokens": 400
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
                   }
                }
             ],
             "instruction": {
-               "detailed": "Generate a job description for the following job title and required skills",
-               "summarized": "Generate a job description for the following job title and required skills"
+               "detailed": "Generišite odgovor na recenziju putnika sa Međunarodnog aerodroma Beograd.",
+               "summarized": "Generišite odgovor na recenziju putnika"
             },
-            "inputPrefix": "Inputs:",
-            "outputPrefix": "Job Description:",
+            "inputPrefix": "Review:",
+            "outputPrefix": "Response:",
             "examples": [
                {
-                  "input": "",
-                  "output": ""
+                  "input": "Mira Grujić: Parkiranje je bilo lako, a signalizacija nam je jasno govorila gde da se prijavimo na let. Ispraćao sam svoju decu tinejdžere, a osoblje Er Srbije je bilo od velike pomoći.",
+                  "output": "Zdravo Tara!Drago nam je što ste vi i vaša deca imali sjajno iskustvo!"
+               },
+               {
+                  "input": "Daniel Ksu: Tako moderno! Veoma čista i odlična atmosfera. ",
+                  "output": "Zdravo Danijel\nHvala vam na recenziji, srećni smo što ste uživali u poseti!"
+               },
+               {
+                  "input": "Nazima London: Imam dete sa invaliditetom koje koristi AAC Tobi Dinavok da govori. Proputovali smo skoro celu Evropu gde je moje dete rođeno i NIKADA TSA joj nije oduzeo AAC da bi ga pregledao. Moje dete je vrištalo i rečeno mu je da mora da odustane od toga ako želi da ide kući. To je smešno da niko nikada ne treba da bude tako tretiran. Ovaj AAC je njen glas kako se usuđuju to da urade. Imali smo kasni večernji let 23.8. Moje dete je plakalo i plakalo nije mogla da razume zašto bi joj oduzeli glas. Supervizor mi je rekao da nije vezan za nju pa mora da prođe kroz skrining, a nakon što je prošlo oni su joj ga držali dok su ga tapšali. nije imala načina da im kaže da li su je povredili ili je sramotili. Moj savet svim roditeljima ili osobama koje koriste govorne uređaje NE LETE U KANADU, imaju najstrašnije ljude u TSA. Nikada nećemo moći da vidite našu stariju porodicu koja živi u Kanadi. Neko treba da popravi ovo sada!!!",
+                  "output": "Zdravo Nazima, strašno nam je žao što ste morali da prođete kroz ovo. Odmah ćemo istražiti ovo pitanje."
+               },
+               {
+                  "input": "Jelena Jović: Imam predrasude jer je to moja matična luka, ali Nikola Tesla je zaista najbolji aerodrom na svetu. ",
+                  "output": "Zdravo Jelena! Drago nam je da ste se dobro proveli!"
+               },
+               {
+                  "input": "Zoran Jović: Ovo je dok se krećete prema hodniku D. Salon je dobro održavan i ima dovoljno prostora za sedenje. Nema mnogo za jelo, osnovne stvari i čaj/kafa. Opcije su veoma ograničene. Samouslužni salon.",
+                  "output": "Zdravo Zorane!\nHvala na povratnim informacijama, pogledaćemo da proširimo opcije hrane u salonu."
+               },
+               {
+                  "input": "Petar Jovičić: Na ovom aerodromu nema dovoljno kafića, posebno mesta za doručak. U blizini naše kapije bio je kafić koji je izgledao kao da je trajno zatvoren. Bio je mrak, kapije su bile spuštene i zaključane, a ako pogledate kroz zaključane kapije, izgledalo je kao da unutra spremaju mnogo stvari. Dugo sam šetao okolo tražeći nešto za doručak i konačno odlučio da čekam u zaista dugom redu preko 20 minuta u Tim Horton\u2019s. Dobio sam mafin i sok. Razgovarao sam sa nekoliko drugih ljudi na aerodromu ko",
+                  "output": "Zdravo Petre! Žao nam je što ste imali problema da nađete mesto za doručak. U budućnosti ćemo razmotriti dodavanje više opcija za doručak."
+               },
+               {
+                  "input": "DS C: Kakva šteta. Ko god da je planirao gradnju u petak pre dugog vikenda treba malo pažnje i temeljnog razumevanja situacije. Trebalo je neko vreme da dobijemo taksi nakon dugog čekanja. Rideshare je bio isti. Nijedan auto nije stigao. Zašto ste odlučili da blokirate čitave trake osim jedne kada znate da ćete imati mnogo putnika?",
+                  "output": "Zdravo DS C, Izvinjavamo se zbog neprijatnosti izazvanih izgradnjom. Razumemo da je vreme bilo naporno i tražićemo načine da minimiziramo uticaj budućih građevinskih projekata."
+               },
+               {
+                  "input": "Sandra: Aerodrom je lep. Ipak, nema dovoljno osoblja. Avio-kompanije su super spore sa velikim linijama. Udaljenost do određenih kapija može biti blizu jedne milje. Inače, lepa i suva atmosfera.",
+                  "output": "Zdravo Sandra! Hvala na povratnim informacijama. Razmotrićemo dodavanje više osoblja kako bismo poboljšali efikasnost prijavljivanja i smanjili vreme čekanja."
+               },
+               {
+                  "input": "Crni-pas: Najgori aerodrom na svetu. Budite tamo 2 sata iznad onoga što vam preporučuju. 89% šanse da će vam izgubiti prtljag, pa spakujte AirTags. Imaju dobru hranu, tako da bar nećete ostati sa lošim ukusom u ustima iako je to najgori aerodrom na svetu.",
+                  "output": "Zdravo Crni, Žao nam je što ste imali negativno iskustvo. Daćemo sve od sebe da poboljšamo naše usluge i smanjimo rizik od gubitka prtljaga. Hvala vam na povratnim informacijama."
+               },
+               {
+                  "input": "Vajahat Faiz: OVAJ AERODROM NEMA JEDNU PEKARU VEĆ DVE! ",
+                  "output": "Zdravo Vajahat! Drago nam je da ste uzbuđeni zbog pekara! Potrudićemo se da budu otvorene i spremne za vašu sledeću posetu"
+               },
+               {
+                  "input": "Majkl Smit: Pretpostavlja se da je jedan od najboljih aerodroma u Srbiji. Ne bih ovo ocenio sa aerodromima trećeg sveta. Sadržaji posle 21:00 su skoro nepostojeći. Nemoguće je pronaći pivo ili vino. Ako volite brzu hranu i kafu, imate sreće sa 4 otvorene lokacije u restoranu. Osoblje je bilo prijatno, ali na svim šalterima avio-kompanija nije bilo osoblja. Da mi nije jedina kapija ka istoku u Srbiji, svakako bih to izbegao.",
+                  "output": "Zdravo Majkl, žao nam je što nismo imali pozitivno iskustvo. Potrudićemo se da dodamo još pogodnosti i produžimo radno vreme za opcije hrane i pića. Hvala na povratnim informacijama"
                }
             ],
             "enabled": true
-         },
-         "topic2": {
-            "topicName": "Resume Analysis",
-            "models": [
-               {
-                  "meta-llama/llama-2-70b-chat": {
-                     "decoding_method": "greedy",
-                     "temperature": 0.7,
-                     "top_p": 1,
-                     "top_k": 50,
-                     "min_new_tokens": 1,
-                     "max_new_tokens": 60
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.2,
-                     "temperature": 0.5,
-                     "top_p": 1,
-                     "top_k": 50,
-                     "min_new_tokens": 1,
-                     "max_new_tokens": 60
-                  }
-               }
-            ],
-            "instruction": {
-               "detailed": "Read this Resume and extract the Name, the Email, the Degree, the Latest job title and the Latest employer . If you don't find these details in the Resume, fill it as Not Found. ",
-               "summarized": "Read this Resume and extract the Name, the Email, the Degree, the Latest job title and the Latest employer . If you don't find these details in the Resume, fill it as Not Found. "
-            },
-            "inputPrefix": "Resume:",
-            "outputPrefix": "Entities:",
-            "examples": [
-               {
-                  "input": "Rosie Miller\nPittsburgh, PA 15201\n(555) 555-5555\nrosie.miller@msn.com\n\nPROFESSIONAL SUMMARY\nExperienced Restaurant Manager bringing demonstrated success in developing and motivating strong restaurant teams capable of handling over 200 customers hourly. Keeps all areas clean and sanitized while managing inventory and preventing waste. Consistent career history of operations improvement, team building and revenue increases.\n\nWORK HISTORY\nMarch 2014 to Current\nOutback Steakhouse \u2013 Pittsburgh, PA\nRestaurant Manager\n* Reduced labor costs by 17% percent while maintaining excellent service and profit levels\nManaged a 7-person team of cooks and back of house staff and a team of 8 front house staff for a busy steakhouse restaurant\n* Continuously evaluated business operations to effectively align workflows for optimal area coverage increasing customer satisfaction rating by 80%\n\nDecember 2010 to February 2014\nTGI Fridays \u2013 Pittsburgh, PA Assistant\nRestaurant Manager\n* Reduced restaurant's annual food and labor costs by 15% through proper budgeting, scheduling and management of inventory\n* Kept restaurant compliant with all federal, state and local hygiene and food safety regulations which kept food safety score between 95-100 every inspection\n* Coordinated kitchen stations with managers to cut down on customer wait times by 50%\n\nJuly 2007 to November 2010\nBJ's Restaurants, Inc \u2013 Pittsburgh, PA\nRestaurant Team Leader\n* Assisted customers in placing special orders for large-scale events such as corporate events and birthday parties\n* Recruited and hired over 10 employees offering talent, charisma and experience to restaurant team\nPitched in to help host, waitstaff and bussers during exceptionally busy times such as dinner hour\n\nSKILLS\nConflict resolution techniques\nPerformance improvement\nStaff management\nService-oriented\nTrained in performance and wage reviews\nBusiness operations\nInventory control and record keeping\nMarketing and advertising\n\nEDUCATION\nPark Point University Pittsburgh, PA\nBachelor of Arts Hospitality Management",
-                  "output": "Name: Rosie Miller\nEmail: rosie.miller@msn.com\nDegree: Bachelor of Arts Hospitality Management\nLatest job title: Restaurant Manager\nLatest Employer: Outback Steakhouse"
-               },
-               {
-                  "input": "Nick Parker\n123 Somewhere Road, Niceville, FL\n(777) 555-0100\nnickparker@email.com\n\nOBJECTIVE\nAn MBA with 5 years of experience developing and managing marketing campaigns and specialized working knowledge of Google Analytics and AdWords, seeks the role of Social Media Marketing Manager with XYZ Inc. to implement successful digital marketing campaigns and provide exceptional thought leadership.\n\nSUMMARY OF SKILLS\nThree years of specialized experience leading PPC and SEO marketing strategies\nManaged social media accounts for four businesses with yearly sales over $500,000\nCertified Digital Marketer 2016, Udacity\nReceived Employee of the Year Award at ABC Company 2018 and 2019\n\nWORK EXPERIENCE\nSocial Media Marketing Associate, ABC Company, Nashville, TN, 2017-2020\nBuilt a 15k Facebook following and 20k Instagram following for new startup, increasing leads by 160%\nDeveloped compelling CTAs for website and social media copy, producing a 60% increase in sales\nFormulated Instagram strategy and collaborated with influencers in our market to promote top-selling products, resulting in $200,000 net sales in three months\n\nWebsite Manager, 123 Company, Austin, TX, 2014-2017\nTeam leader for the design and development of new mobile application\nConducted A/B testing on paid Facebook and Instagram campaigns, resulting in a boost in conversion from 70% to 90%.\nImplemented innovative SEO strategy to increase organic website traffic 200% in five months\n\nEDUCATION\nUniversity of Michigan, Ann Arbor, MI, 2006-2010\n\nREFERENCES\nAvailable upon request",
-                  "output": "Name: Nick Parker\nEmail: nickparker@email.com\nDegree: Bachelor of Commerce\nLatest job title: Social Media Marketing Associate\nLatest Employer: Awesome Company"
-               }
-            ],
-            "enabled": false
-         },
-         "topic3": {
-            "topicName": "Career Development ",
-            "models": [
-               {
-                  "meta-llama/llama-2-70b-chat": {
-                     "decoding_method": "greedy",
-                     "temperature": 0.7,
-                     "top_p": 1,
-                     "top_k": 50,
-                     "min_new_tokens": 50,
-                     "max_new_tokens": 600,
-                     "repetition_penalty": 1.28
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.2,
-                     "temperature": 0.5,
-                     "top_p": 1,
-                     "top_k": 50,
-                     "min_new_tokens": 50,
-                     "max_new_tokens": 600
-                  }
-               },
-               {
-                  "google/flan-ul2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.2,
-                     "temperature": 0.5,
-                     "top_p": 1,
-                     "top_k": 50,
-                     "min_new_tokens": 50,
-                     "max_new_tokens": 600
-                  }
-               }
-            ],
-            "instruction": {
-               "detailed": "suggest a short and concise career development plan in 5 steps with concrete target objectives for the following employee based on his/her current role to reach his/her career goal provided.",
-               "summarized": "suggest a short and concise career development plan in 5 steps with concrete target objectives for the following employee based on his/her current role to reach his/her career goal provided."
-            },
-            "inputPrefix": "Employee profile:",
-            "outputPrefix": "Suggested career development plan:",
-            "examples": [
-               {
-                  "input": "",
-                  "output": ""
-               }
-            ],
-            "enabled": false
          }
       }
    }
