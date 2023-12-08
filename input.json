@@ -25,7 +25,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -107,7 +107,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -189,7 +189,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -271,7 +271,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -353,7 +353,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -435,7 +435,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -517,7 +517,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -599,7 +599,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -681,7 +681,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -763,7 +763,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -845,7 +845,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -927,7 +927,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -1009,7 +1009,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -1091,7 +1091,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -1173,7 +1173,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -1255,7 +1255,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -1346,7 +1346,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -1448,7 +1448,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -1550,7 +1550,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -1652,7 +1652,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -1754,7 +1754,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -1856,7 +1856,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -1958,7 +1958,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -2059,7 +2059,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -2153,7 +2153,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -2231,7 +2231,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -2309,7 +2309,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -2387,7 +2387,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -2465,7 +2465,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -2543,7 +2543,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -2621,7 +2621,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -2699,7 +2699,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -2776,7 +2776,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -2873,7 +2873,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -2970,7 +2970,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -3067,7 +3067,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -3164,7 +3164,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -3261,7 +3261,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -3358,7 +3358,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -3455,7 +3455,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -3554,7 +3554,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -3649,7 +3649,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -3744,7 +3744,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -3839,7 +3839,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -3934,7 +3934,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -4029,7 +4029,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -4124,7 +4124,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -4219,7 +4219,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -4312,7 +4312,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -4425,7 +4425,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -4538,7 +4538,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -4651,7 +4651,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -4764,7 +4764,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -4877,7 +4877,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -4990,7 +4990,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -5103,7 +5103,7 @@
                   }
                },
                {
-                  "ibm/granite.13b.chat.v2": {
+                  "ibm/granite-13b-chat-v2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -5191,6 +5191,7 @@
          }
       }
    },
+
    "Quantum Computing (CZ)":{
       "name":"Quantum Computing",
       "language":"CZ",
