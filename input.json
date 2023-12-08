@@ -25,6 +25,22 @@
                   }
                },
                {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
                   "ibm/granite-13b-chat-v1": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
@@ -88,6 +104,22 @@
                      "stop_sequences": [
                         "\n\n"
                      ]
+                  }
+               },
+               {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
                   }
                },
                {
@@ -157,6 +189,22 @@
                   }
                },
                {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
                   "ibm/granite-13b-chat-v1": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
@@ -220,6 +268,22 @@
                      "stop_sequences": [
                         "\n\n"
                      ]
+                  }
+               },
+               {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
                   }
                },
                {
@@ -289,6 +353,22 @@
                   }
                },
                {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
                   "ibm/granite-13b-chat-v1": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
@@ -352,6 +432,22 @@
                      "stop_sequences": [
                         "\n\n"
                      ]
+                  }
+               },
+               {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
                   }
                },
                {
@@ -421,6 +517,22 @@
                   }
                },
                {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
                   "ibm/granite-13b-chat-v1": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
@@ -484,6 +596,22 @@
                      "stop_sequences": [
                         "\n\n"
                      ]
+                  }
+               },
+               {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
                   }
                },
                {
@@ -553,6 +681,22 @@
                   }
                },
                {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
                   "ibm/granite-13b-chat-v1": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
@@ -616,6 +760,22 @@
                      "stop_sequences": [
                         "\n\n"
                      ]
+                  }
+               },
+               {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
                   }
                },
                {
@@ -685,6 +845,22 @@
                   }
                },
                {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
                   "ibm/granite-13b-chat-v1": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
@@ -748,6 +924,22 @@
                      "stop_sequences": [
                         "\n\n"
                      ]
+                  }
+               },
+               {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
                   }
                },
                {
@@ -817,6 +1009,22 @@
                   }
                },
                {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
                   "ibm/granite-13b-chat-v1": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
@@ -880,6 +1088,22 @@
                      "stop_sequences": [
                         "\n\n"
                      ]
+                  }
+               },
+               {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
                   }
                },
                {
@@ -949,6 +1173,22 @@
                   }
                },
                {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
                   "ibm/granite-13b-chat-v1": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
@@ -1012,6 +1252,22 @@
                      "stop_sequences": [
                         "\n\n"
                      ]
+                  }
+               },
+               {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
                   }
                },
                {
@@ -1087,6 +1343,22 @@
                      "stop_sequences": [
                         "\n\n"
                      ]
+                  }
+               },
+               {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
                   }
                },
                {
@@ -1176,6 +1448,22 @@
                   }
                },
                {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
                   "ibm/granite-13b-chat-v1": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
@@ -1259,6 +1547,22 @@
                      "stop_sequences": [
                         "\n\n"
                      ]
+                  }
+               },
+               {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
                   }
                },
                {
@@ -1348,6 +1652,22 @@
                   }
                },
                {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
                   "ibm/granite-13b-chat-v1": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
@@ -1431,6 +1751,22 @@
                      "stop_sequences": [
                         "\n\n"
                      ]
+                  }
+               },
+               {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
                   }
                },
                {
@@ -1520,6 +1856,22 @@
                   }
                },
                {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
                   "ibm/granite-13b-chat-v1": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
@@ -1603,6 +1955,22 @@
                      "stop_sequences": [
                         "\n\n"
                      ]
+                  }
+               },
+               {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
                   }
                },
                {
@@ -1691,6 +2059,22 @@
                   }
                },
                {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               },
+               {
                   "ibm/granite-13b-chat-v1": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
@@ -1769,6 +2153,22 @@
                   }
                },
                {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 150
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 150
+                  }
+               },
+               {
                   "ibm/granite-13b-chat-v1": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
@@ -1828,6 +2228,22 @@
                      "stop_sequences": [
                         "\n\n"
                      ]
+                  }
+               },
+               {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 150
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 150
                   }
                },
                {
@@ -1893,6 +2309,22 @@
                   }
                },
                {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 150
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 150
+                  }
+               },
+               {
                   "ibm/granite-13b-chat-v1": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
@@ -1952,6 +2384,22 @@
                      "stop_sequences": [
                         "\n\n"
                      ]
+                  }
+               },
+               {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 150
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 150
                   }
                },
                {
@@ -2017,6 +2465,22 @@
                   }
                },
                {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 150
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 150
+                  }
+               },
+               {
                   "ibm/granite-13b-chat-v1": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
@@ -2076,6 +2540,22 @@
                      "stop_sequences": [
                         "\n\n"
                      ]
+                  }
+               },
+               {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 150
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 150
                   }
                },
                {
@@ -2141,6 +2621,22 @@
                   }
                },
                {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 150
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 150
+                  }
+               },
+               {
                   "ibm/granite-13b-chat-v1": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
@@ -2203,6 +2699,22 @@
                   }
                },
                {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 150
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 150
+                  }
+               },
+               {
                   "ibm/granite-13b-chat-v1": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
@@ -2261,6 +2773,22 @@
                      "stop_sequences": [
                         "\n\n"
                      ]
+                  }
+               },
+               {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 100
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 100
                   }
                },
                {
@@ -2345,6 +2873,22 @@
                   }
                },
                {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 100
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 100
+                  }
+               },
+               {
                   "ibm/granite-13b-chat-v1": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
@@ -2423,6 +2967,22 @@
                      "stop_sequences": [
                         "\n\n"
                      ]
+                  }
+               },
+               {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 100
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 100
                   }
                },
                {
@@ -2507,6 +3067,22 @@
                   }
                },
                {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 100
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 100
+                  }
+               },
+               {
                   "ibm/granite-13b-chat-v1": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
@@ -2585,6 +3161,22 @@
                      "stop_sequences": [
                         "\n\n"
                      ]
+                  }
+               },
+               {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 100
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 100
                   }
                },
                {
@@ -2669,6 +3261,22 @@
                   }
                },
                {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 100
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 100
+                  }
+               },
+               {
                   "ibm/granite-13b-chat-v1": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
@@ -2750,6 +3358,22 @@
                   }
                },
                {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 100
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 100
+                  }
+               },
+               {
                   "ibm/granite-13b-chat-v1": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
@@ -2828,6 +3452,22 @@
                      "stop_sequences": [
                         "\n\n"
                      ]
+                  }
+               },
+               {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 100
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 100
                   }
                },
                {
@@ -2914,6 +3554,22 @@
                   }
                },
                {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               },
+               {
                   "ibm/granite-13b-chat-v1": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
@@ -2990,6 +3646,22 @@
                      "stop_sequences": [
                         "\n\n"
                      ]
+                  }
+               },
+               {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
                   }
                },
                {
@@ -3072,6 +3744,22 @@
                   }
                },
                {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               },
+               {
                   "ibm/granite-13b-chat-v1": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
@@ -3148,6 +3836,22 @@
                      "stop_sequences": [
                         "\n\n"
                      ]
+                  }
+               },
+               {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
                   }
                },
                {
@@ -3230,6 +3934,22 @@
                   }
                },
                {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               },
+               {
                   "ibm/granite-13b-chat-v1": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
@@ -3306,6 +4026,22 @@
                      "stop_sequences": [
                         "\n\n"
                      ]
+                  }
+               },
+               {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
                   }
                },
                {
@@ -3388,6 +4124,22 @@
                   }
                },
                {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               },
+               {
                   "ibm/granite-13b-chat-v1": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
@@ -3467,6 +4219,22 @@
                   }
                },
                {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               },
+               {
                   "ibm/granite-13b-chat-v1": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
@@ -3541,6 +4309,22 @@
                      "stop_sequences": [
                         "\n\n"
                      ]
+                  }
+               },
+               {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
                   }
                },
                {
@@ -3641,6 +4425,22 @@
                   }
                },
                {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               },
+               {
                   "ibm/granite-13b-chat-v1": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
@@ -3735,6 +4535,22 @@
                      "stop_sequences": [
                         "\n\n"
                      ]
+                  }
+               },
+               {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
                   }
                },
                {
@@ -3835,6 +4651,22 @@
                   }
                },
                {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               },
+               {
                   "ibm/granite-13b-chat-v1": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
@@ -3929,6 +4761,22 @@
                      "stop_sequences": [
                         "\n\n"
                      ]
+                  }
+               },
+               {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
                   }
                },
                {
@@ -4029,6 +4877,22 @@
                   }
                },
                {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               },
+               {
                   "ibm/granite-13b-chat-v1": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
@@ -4126,6 +4990,22 @@
                   }
                },
                {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               },
+               {
                   "ibm/granite-13b-chat-v1": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
@@ -4220,6 +5100,22 @@
                      "stop_sequences": [
                         "\n\n"
                      ]
+                  }
+               },
+               {
+                  "ibm/granite.13b.chat.v2": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               },
+               {
+                  "meta-llama/llama-2-13b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
                   }
                },
                {
@@ -4344,89 +5240,6 @@
          }
       }
    },
-   "Public News (CZ)":{
-      "name":"Public News (CZ)",
-      "language":"CZ",
-      "buttonName":"Extract Entities",
-      "inputs":[
-         "Nobelovu cenu za fyziologii a lékařství získala biochemička Katalin Karikóová původem z Maďarska a americký imunolog Drew Weissman, kteří položili základy pro vývoj mRNA vakcín při svém působení na Pensylvánské univerzitě ve Filadelfii a položili tak základy pro vývoj vakcín proti nemoci covid-19.",
-         "Neumím si představit, že poslední týdny nezanechají hlubokou emoční, politickou i společenskou stopu na straně Izraelců a Palestinců na dekády,“ komentuje vraždy Hamásu a následnou odvetu Izraele analytik z Institutu politologických studií Jakub Záhora. Situace je podle něj nejhorší za 70 let. Na to, že by mohl vzniknout svobodný palestinský stát, mohou teď Palestinci zapomenout.",
-         "Ruské sily pri pokuse obkľúčiť a ovládnuť Avdijivku na východe Ukrajiny stratili už najmenej brigádu vojaka, uviedol dnes ukrajinský prezident Volodymyr Zelenskyj. Podľa ukrajinskej prezidentskej kancelárie to povedal pri telefonáte britskému premiérovi Rishimu Sunakovi, s ktorým hovoril o situácii pri tomto meste na ukrajinskom Donbase. Brigáda má v ruskej armáde podľa agentúry TASS 1000 až 4000 vojakov. Nie je ale jasné, či mal Zelenskyj na mysli ekvivalent brigády v ruskej alebo inej armáde. Podľa agentúry Reuters môžu mať brigády v rôznych armádach od 1500 do 8000 vojakov.",
-         "Posledná trasa, ktorou prúdi ruský plyn do Európy plynovodmi, zostala paradoxne tá cez Ukrajinu na Slovensko. Ukrajinci tvrdia, že tranzitnú zmluvu po invázii nevypovedali, aby neohrozili svojich partnerov v Európskej únii, teda aj Slovensko. Jej platnosť však čoskoro končí a jej obnovenie sa už z pochopiteľných dôvodov nechystá. Ukrajina nepredĺži dohodu o tranzite ruského plynu cez svoje územie. Uviedol to šéf ukrajinskej štátnej plynárenskej spoločnosti Naftogaz Oleksij Černyšov. Ruský plyn tak bude plynovodmi na Slovensko prúdiť zrejme už iba niekoľko mesiacov. Posledná trasa dodávok ruského plynu plynovodmi do Európskej únie totiž vedie paradoxne práve cez Ukrajinu na Slovensko."
-      ],
-      "topics":{
-         "topic1":{
-            "topicName":"Entity extraction",
-            "models":[
-               {
-                  "meta-llama/llama-2-70b-chat":{
-                     "decoding_method":"greedy",
-                     "repetition_penalty":1.2,
-                     "temperature":0.5,
-                     "top_p":1,
-                     "top_k":50,
-                     "min_new_tokens":5,
-                     "max_new_tokens":80
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1":{
-                     "decoding_method":"greedy",
-                     "repetition_penalty":1.2,
-                     "temperature":0.5,
-                     "top_p":1,
-                     "top_k":50,
-                     "min_new_tokens":5,
-                     "max_new_tokens":80
-                  }
-               },
-               {
-                  "bigscience/mt0-xxl":{
-                     "decoding_method":"greedy",
-                     "repetition_penalty":1.2,
-                     "temperature":0.5,
-                     "top_p":1,
-                     "top_k":50,
-                     "min_new_tokens":5,
-                     "max_new_tokens":80
-                  }
-               },
-               {
-                  "google/flan-ul2":{
-                     "decoding_method":"greedy",
-                     "repetition_penalty":1.2,
-                     "temperature":0.5,
-                     "top_p":1,
-                     "top_k":50,
-                     "min_new_tokens":5,
-                     "max_new_tokens":80
-                  }
-               }
-            ],
-            "instruction":{
-               "detailed":"Následující dokument je přepisem hovoru o finančních výsledcích.  Přečtěte si dokument a poté napište výhradně v českém jazyce všechny nalezené entity v daném dokumentu.",
-               "summarized":"Vypiš z dokumentu všechny nalezené entity."
-            },
-            "inputPrefix":"Vstup: ",
-            "outputPrefix":"Entity: ",
-            "examples":[
-               {
-                  "input":"Rami Swarthmore: \"IBM je v USA konkurentem Googlu.\"",
-                  "output":"IBM: společnost, Google: společnost, USA: země, Rami Swarthmore: osoba"
-               },
-               {
-                  "input":"Eric Schmidt uvedl, že podíl společnosti Microsoft na trhu EU klesá.",
-                  "output":"Microsoft: organizace, Eric Schmidt: osoba"
-               },
-               {
-                  "input":"Microsoft prodá práva na distribuci her společnosti Activision Blizzard mimo území EU hernímu vydavatelství Ubisoft.",
-                  "output":"Microsoft: organizace, Activision Blizzard: organizace, Ubisoft: organizace"
-               }
-            ],
-            "enabled":true
-         }
-      }
-   },
    "Opinions on the product (SK)":{
       "name":"Opinions on the product (SK)",
       "language":"SK",
@@ -4533,155 +5346,6 @@
          }
       }
    },
-   "Opinions on the product (CZ)":{
-      "name":"Opinions on the product (CZ)",
-      "language":"CZ",
-      "buttonName":"Analyzuj",
-      "inputs":[
-         "Možná jsem čekala delší výdrž baterie.",
-         "S telefonem jsem spokojená. Obecně mám značku Samsung ráda a myslím, že A34 je dobrý volba pro ty, kteří volí poměr cena/výkon.",
-         "Opravdu jsem si myslela, že tyto šaty budou fantastické. Obrázky byly krásné a balení, ve kterém dorazily, bylo prostě dokonalé. Potom jsem si je oblékla a vypadala jsem jako žirafa. Ale aspoň můj pes na nich rád spí a vidět svého pejska šťastně spát mne činí šťastnou.",
-         "Za mě velmi dobrý telefon a baterii mi drží dva dny a to u předchozích se mi nestávalo.",
-         "Rychlé či superrychlé nabíjení není až tak rychlé.",
-         "Tenký, lehký, výkonný a v neposlední řadě krásný mobil.",
-         "v ČR není podpora výrobce, proto dlouhé reklamační lhůty",
-         "schází mi pouze možnost zapojení sluchátek přes jack, ale nic není vždy dokonalé",
-         "Příjemné rozměry (žádné pádlo).",
-         "Mobil vydrží dva dny v provozu při středním zatížení.",
-         "prodávající přidal dárek - budík s rychlonabíječkou, ale není schopen dodat manuál v češtině.",
-         "Bojuji s přesností GPS (zamrzá na jednom místě i několik minut).",
-         "Nemožnost si přizpůsobit spodní ovládací lištu (jako to má Samsung)."
-      ],
-      "topics":{
-         "topic1":{
-            "topicName":"Sentiment Analyses",
-            "models":[
-               {
-                  "meta-llama/llama-2-70b-chat":{
-                     "decoding_method":"greedy",
-                     "repetition_penalty":1.2,
-                     "temperature":0.5,
-                     "top_p":1,
-                     "top_k":50,
-                     "min_new_tokens":1,
-                     "max_new_tokens":20
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1":{
-                     "decoding_method":"greedy",
-                     "repetition_penalty":1.2,
-                     "temperature":0.5,
-                     "top_p":1,
-                     "top_k":50,
-                     "min_new_tokens":1,
-                     "max_new_tokens":20
-                  }
-               },
-               {
-                  "bigscience/mt0-xxl":{
-                     "decoding_method":"greedy",
-                     "repetition_penalty":1.2,
-                     "temperature":0.5,
-                     "top_p":1,
-                     "top_k":50,
-                     "min_new_tokens":1,
-                     "max_new_tokens":20
-                  }
-               },
-               {
-                  "google/flan-ul2":{
-                     "decoding_method":"greedy",
-                     "repetition_penalty":1.2,
-                     "temperature":0.5,
-                     "top_p":1,
-                     "top_k":50,
-                     "min_new_tokens":1,
-                     "max_new_tokens":20
-                  }
-               }
-            ],
-            "instruction":{
-               "detailed":"Následující dokument obsahuje názory uživatelů na produkty. Přečti dokument a urči sentiment uživatele při hodnocení produkt.",
-               "summarized":"Urči sentiment následujících sdělení."
-            },
-            "inputPrefix":"Text: ",
-            "outputPrefix":"Sentiment: ",
-            "examples":[
-               {
-                  "input":"Součástí balení není nabíječka, ale ani nabíjecí kabel.",
-                  "output":"Negativní."
-               },
-               {
-                  "input":"Úchvatný displej, propracovaný design a dostatečně kvalitní foťák.",
-                  "output":"Pozitivní."
-               },
-               {
-                  "input":"Mám krátce, uvidím časem.",
-                  "output":"Neutrální."
-               },
-               {
-                  "input":"mizerný senzor otisku prstu",
-                  "output":"Negativní."
-               },
-               {
-                  "input":"Nadprůměrný fotoaparát s 3x optickým zoomem",
-                  "output":"Pozitivní."
-               }
-            ],
-            "enabled":true
-         }
-      }
-   },
-   "Stock exchange news (CZ)":{
-      "name":"Stock exchange news (CZ)",
-      "language":"CZ",
-      "buttonName":"Shrnutí",
-      "inputs":[
-         "Konferenční hovor po výsledcích za 3Q23 naznačil zajímavou dividendu nad odhadovaných 7,5 Kč. Moneta zvýšila svůj výhled čistého zisku pro rok 2023 s výsledky za třetí kvartál 2023 na 5,0 mld. Kč z předchozích nejméně 4,7 mld. Kč. Management uvedl, že střednědobý výhled se reviduje a aktualizace bude vydána s prezentací celoročních výsledků. Zatímco výhled provozního zisku na rok 2024 by mohl být upraven níže, výhled čistého zisku ve výši minimálně 4,8 mld. Kč by měl zůstat nezměněn. Moneta se bude snažit pokles úrokových výnosů z titulu zrušení úročení minimálních rezerv ČNB kompenzovat silnějším a výnosnějším růstem vkladů, ale i úvěrů. Možností je i snížení nákladů management vidí prostor v roce 2024 pro cca ~100 mil. Kč) a pomoci by mohly i nižší než dříve předpokládané rizikové náklady.  Nedávné snížení požadavku SREP na rok 2024 a předchozí snížení proticyklické kapitálové rezervy zvýšilo přebytečný kapitál očekávaný pro rok 2023. Management uvedl, že zváží různé možnosti pro přebytečný kapitál. Podle našeho názoru lze tedy očekávat atraktivní dividendu za rok 2023, potenciálně nad naším odhadem 7,5 Kč/akcii( cca 8,6% hrubý výnos).",
-         "Intel svými výsledky za 3Q překročil očekávání analytiků. EPS dosáhlo 0,41 USD (očekávání bylo 0,22 USD). Tržby byly ve výši 14,16 mld. USD oproti odhadu, jež činil 13,6 mld. USD. Nejvyšší část tržeb představoval segment výpočetní techniky zahrnující hlavně stolní počítače a notebooky s 7,9 mld. USD (-3,2 % r/r, nicméně +16 % q/q). Daný segment se dle managementu již pravděpodobně odrazil od svého minima v 1Q23. Avšak relativním zklamáním byl segment datových center a AI s 3,8 mld. USD (-10,4 % r/r a -4,7 % q/q). Slibný růst tržeb předvedl segment výroby čipů pro jiné společnosti s 311 mil. USD (+300 % r/r) a dle managementu splnil jeho očekávání. Tržby Mobileye dosáhly 530 mil. USD (oproti 450 mil. USD v 3Q22), což jen utvrzuje potenciál dané firmy, ve které má Intel majoritní podíl. Pro 4Q CEO Pat Gelsinger zvedl odhad tržeb na 14,6 – 15,6 mld. USD oproti původnímu odhadu 14,34 mld. USD a zisk na akcii očekává okolo 0,44 USD. Akcie po uzavření trhu reagovaly skokem o 7,8 %.",
-         "Ruská centrální banka v pátek zvýšila svou základní úrokovou sazbu o dva procentní body na 15 procent. Pokračujícím zpřísňováním měnové politiky reaguje na slabý kurz domácí měny a vzestup inflačních tlaků. Většina analytiků v anketě agentury Reuters předpovídala, že banka základní sazbu zvýší pouze o jeden procentní bod. Banka rovněž zlepšila odhad letošního růstu ruské ekonomiky. Ruský rubl se po zprávě o překvapivě výrazném zvýšení úroků vyšplhal až na šestitýdenní maximum vůči dolaru, později však o část zisků přišel. Dolar vůči rublu sestoupil až na zhruba 92,5 RUB/USD, nejníže od 12. září. Krátce po 16:00 SELČ se nicméně pohyboval v blízkosti 93,6 RUB/USD, oproti čtvrtku tak ztrácel pouze 0,4 procenta, napsala agentura Reuters."
-      ],
-      "topics":{
-         "topic1":{
-            "topicName":"Document summary",
-            "models":[
-               {
-                  "meta-llama/llama-2-70b-chat":{
-                     "decoding_method":"greedy",
-                     "repetition_penalty":1.2,
-                     "min_new_tokens":20,
-                     "max_new_tokens":200
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1":{
-                     "decoding_method":"greedy",
-                     "repetition_penalty":1.2,
-                     "temperature":0.5,
-                     "top_p":1,
-                     "top_k":50,
-                     "min_new_tokens":20,
-                     "max_new_tokens":200
-                  }
-               }
-            ],
-            "instruction":{
-               "detailed":"Přečti následující dokument a napiš výhradně v českém jazyce krátké shrnutí v rozsahu 1 odstavce z následujícího dokumentu. Shrnutí napiš výhradně v českém jazyce, nepiš v anglickém jazyce.",
-               "summarized":"Sepiš shrnutí finančního zpravodajství."
-            },
-            "inputPrefix":"Dokument: \n ",
-            "outputPrefix":"Shrnutí: \n ",
-            "examples":[
-               {
-                  "input":"Americký Ford oznámil za 3Q roku meziroční růst tržeb o 11% směrem k 43,8 mld. USD. Čistý zisk ve 3Q dosáhl úrovně 1,2 mld. USD = 30 centů na akcii oproti loňské ztrátě ve výši 827 mil. USD respektive 21 centů na akcii. Po očištění o jednorázové vlivy dosáhl čistý zisk úrovně 39 centů oproti trhem očekávaným 45 centům. Podle vedení se na tomto vývoji podepsal především negativní vliv stávky odborů a problémy s dodržováním kvality a nákladů. Podle vedení automobilka zbrzdí původní plán rozvoje elektromobility v rozsahu cca 12 mld. USD, což v sobě zahrnuje zpomalení konstrukčních prací pro vybudování továrny na baterie v Kentucky. Zájem o elektromobily byl nižší, než se očekávalo. Podle vedení společnosti téměř šestitýdenní stávka zaměstnanců pod taktovkou odborů UAW ukončená tento týden ve středu stála automobilku cca 1,3 mld USD. Nyní automobilka usilovně pracovat na zlepšení mnoha procesů a ukazatelů, aby se dokázala vyrovnat s růstem zaměstnaneckých nákladů, který přinesla dohoda o ukončení stávky. Podle analytiků Deutsche Bank bude nová kolektivní dohoda platná následujících 4,5 roku stát automobilku celkem cca 6,2 mld. USD ve zvýšených nákladech.",
-                  "output":"Ford v 3. čtvrtletí zaznamenal růst tržeb a čistého zisku, ale stávka odborů a problémy s kvalitou a náklady ovlivnily výsledky. Plány na elektromobilitu budou zpomaleny kvůli nižšímu zájmu, a Ford pracuje na zlepšení procesů po stávce."
-               }
-            ],
-            "enabled":true
-         }
-      }
-   },
    "Business Talks (CZ)":{
       "name":"Business Talks (CZ)",
       "language":"CZ",
@@ -4730,5 +5394,4 @@
          }
       }
    }
-  
 }
