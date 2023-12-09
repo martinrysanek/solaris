@@ -17,7 +17,7 @@
                   "meta-llama/llama-2-70b-chat": {
                      "decoding_method": "greedy",
                      "min_new_tokens": 4,
-                     "max_new_tokens": 40,
+                     "max_new_tokens": 50,
                      "repetition_penalty": 1.1,
                      "stop_sequences": [
                         "\n\n"
@@ -29,7 +29,7 @@
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
-                     "max_new_tokens": 40
+                     "max_new_tokens": 50
                   }
                },
                {
@@ -37,7 +37,7 @@
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
-                     "max_new_tokens": 40
+                     "max_new_tokens": 50
                   }
                },
                {
@@ -45,7 +45,7 @@
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
-                     "max_new_tokens": 40
+                     "max_new_tokens": 50
                   }
                },
                {
@@ -53,7 +53,7 @@
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
-                     "max_new_tokens": 40
+                     "max_new_tokens": 50
                   }
                }
             ],
