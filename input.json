@@ -6,7 +6,7 @@
       "inputs": [
          "Nobelovu cenu za fyziologii a lékařství získala biochemička Katalin Karikóová původem z Maďarska a americký imunolog Drew Weissman, kteří položili základy pro vývoj mRNA vakcín při svém působení na Pensylvánské univerzitě ve Filadelfii a položili tak základy pro vývoj vakcín proti nemoci covid-19.",
          "Neumím si představit, že poslední týdny nezanechají hlubokou emoční, politickou i společenskou stopu na straně Izraelců a Palestinců na dekády, komentuje vraždy Hamásu a následnou odvetu Izraele analytik z Institutu politologických studií Jakub Záhora. Situace je podle něj nejhorší za 70 let. Na to, že by mohl vzniknout svobodný palestinský stát, mohou teď Palestinci zapomenout.",
-         "Posledná trasa, ktorou prúdi ruský plyn do Európy plynovodmi, zostala paradoxne tá cez Ukrajinu na Slovensko. Ukrajinci tvrdia, že tranzitnú zmluvu po invázii nevypovedali, aby neohrozili svojich partnerov v Európskej únii, teda aj Slovensko. Jej platnosť však čoskoro končí a jej obnovenie sa už z pochopiteľných dôvodov nechystá. Ukrajina nepredĺži dohodu o tranzite ruského plynu cez svoje územie. Uviedol to šéf ukrajinskej štátnej plynárenskej spoločnosti Naftogaz Oleksij Černyšov. Ruský plyn tak bude plynovodmi na Slovensko prúdiť zrejme už iba niekoľko mesiacov. Posledná trasa dodávok ruského plynu plynovodmi do Európskej únie totiž vedie paradoxne práve cez Ukrajinu na Slovensko.",
+         "Gernot Döllner vede Audi od začátku září, kdy vystřídal Markuse Duesmanna. Ten skončil kvůli roztržce s představenstvem Audi, kterému se nelíbilo, že značka ztrácí v přímé konkurenci dalších německých prémiových výrobců BMW a Mercedes-Benz. Vlak jí ujíždí především v elektromobilitě. V rozhovoru pro německý deník Handelsblatt Döllner řekl, že bude trvat mnohem déle, než Audi vygeneruje stejné výnosy u elektromobilů jako u spalovacích motorů. „Původně jsme předpokládali, že toho u Audi dosáhneme do poloviny dekády. To se nyní velmi pravděpodobně opozdí.“ Jako jeden z důvodů uvedl, že Audi trápí vysoké náklady na výrobu baterií a pořízení surovin pro elektromobily, zvláště vzácných kovů. ",
          "Největší ledovec světa se dal do pohybu. Obří kus ledu pojmenovaný A23a o rozloze téměř čtyř tisíc kilometrů čtverečních se v roce 1986 oddělil od antarktické pevniny, brzy však zakotvil ve Weddellově moři, a stal se tak prakticky ledovým ostrovem. V uplynulém roce však začal být unášen značnou rychlostí pryč a nyní se chystá vyplout mimo vody Antarktidy, informuje BBC."
       ],
       "topics": {
@@ -26,30 +26,6 @@
                },
                {
                   "ibm/granite-13b-chat-v2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "google/flan-ul2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -88,7 +64,7 @@
       "inputs": [
          "The Nobel Prize in Physiology or Medicine was awarded to Hungarian-born biochemist Katalin Karikó and American immunologist Drew Weissman, who laid the groundwork for the development of mRNA vaccines during their time at the University of Pennsylvania in Philadelphia, laying the foundation for the development of vaccines against covid-19 disease.",
          "I can't imagine that the last few weeks will not leave a deep emotional, political and social mark on the Israelis and Palestinians for decades, comments Jakub Zahora, an analyst at the Institute for Policy Studies, on the Hamas killings and Israel's subsequent retaliation. The situation, he says, is the worst in 70 years. The Palestinians can now forget about the possibility of a free Palestinian state.",
-         "Ironically, the last route through which Russian gas flows to Europe via pipelines remained that via Ukraine to Slovakia. The Ukrainians claim that they did not terminate the transit contract after the invasion so as not to endanger their partners in the European Union, including Slovakia. However, it will soon expire and, for obvious reasons, it is not going to be renewed. Ukraine will not renew the agreement on the transit of Russian gas through its territory. This was stated by the head of the Ukrainian state gas company Naftogaz Oleksiy Chernyshov. Thus, Russian gas will probably flow through pipelines to Slovakia only for a few months. Ironically, the last Russian gas supply route to the European Union via pipelines runs through Ukraine to Slovakia.",
+         "Gernot Döllner has been in charge of Audi since the beginning of September, when he replaced Markus Duesmann. He quit over a falling out with Audi's board, which did not like the brand losing out to direct competition from other German premium manufacturers BMW and Mercedes-Benz. It is missing the train especially in electromobility. In an interview with the German daily Handelsblatt, Döllner said it would take much longer for Audi to generate the same revenues from electric cars as from internal combustion engines. "We originally expected to achieve this at Audi by the middle of the decade. That is now very likely to be delayed." He cited the high cost of battery production and the acquisition of raw materials for electric vehicles, particularly rare metals, as one reason for Audi's woes. ",
          "The world's largest iceberg has set in motion. A giant chunk of ice, named A23a, covering almost four thousand square kilometres, broke away from the Antarctic mainland in 1986, but soon anchored in the Weddell Sea, becoming virtually an ice island. But in the past year it has begun drifting away at considerable speed and is now poised to sail out of Antarctic waters, the BBC reports."
       ],
       "topics": {
@@ -108,30 +84,6 @@
                },
                {
                   "ibm/granite-13b-chat-v2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "google/flan-ul2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -170,7 +122,7 @@
       "inputs": [
          "Der Nobelpreis für Physiologie oder Medizin ging an die in Ungarn geborene Biochemikerin Katalin Karikó und den amerikanischen Immunologen Drew Weissman, die während ihrer Zeit an der University of Pennsylvania in Philadelphia den Grundstein für die Entwicklung von mRNA-Impfstoffen legten und damit den Grundstein für die Entwicklung von Impfstoffen gegen die Covid-19-Krankheit legten.",
          "Ich kann mir nicht vorstellen, dass die letzten Wochen nicht über Jahrzehnte hinweg tiefe emotionale, politische und soziale Spuren bei Israelis und Palästinensern hinterlassen werden, kommentiert Jakub Zahora, Analyst am Institute for Policy Studies, die Morde der Hamas und die anschließenden Vergeltungsmaßnahmen Israels. Die Situation ist seiner Meinung nach die schlimmste seit 70 Jahren. Die Palästinenser können die Möglichkeit eines freien palästinensischen Staates jetzt vergessen.",
-         "Ironischerweise blieb der letzte Weg, über den russisches Gas durch Pipelines nach Europa fließt, der über die Ukraine in die Slowakei. Die Ukrainer behaupten, dass sie den Transitvertrag nach der Invasion nicht gekündigt haben, um ihre Partner in der Europäischen Union, darunter die Slowakei, nicht zu gefährden. Der Vertrag läuft jedoch bald aus, und aus offensichtlichen Gründen wird er nicht verlängert. Die Ukraine wird das Abkommen über den Transit von russischem Gas durch ihr Gebiet nicht verlängern. Dies erklärte der Leiter des staatlichen ukrainischen Gasunternehmens Naftogaz Oleksiy Chernyshov. Somit wird russisches Gas wahrscheinlich nur noch einige Monate lang durch die Pipelines in die Slowakei fließen. Ironischerweise verläuft die letzte russische Gaslieferroute in die Europäische Union über Pipelines durch die Ukraine in die Slowakei.",
+         "Gernot Döllner ist seit Anfang September an der Spitze von Audi, als er Markus Duesmann ablöste. Er verließ das Unternehmen nach einem Zerwürfnis mit dem Audi-Vorstand, dem es nicht gefiel, dass die Marke im direkten Wettbewerb mit den anderen deutschen Premiumherstellern BMW und Mercedes-Benz unterlegen war. Vor allem bei der Elektromobilität hat Audi den Anschluss verpasst. In einem Interview mit dem Handelsblatt sagte Döllner, dass es viel länger dauern werde, bis Audi mit Elektroautos den gleichen Umsatz wie mit Verbrennungsmotoren erzielen werde. "Ursprünglich hatten wir erwartet, dies bei Audi bis Mitte des Jahrzehnts zu erreichen. Das wird sich nun sehr wahrscheinlich verzögern." Er nannte die hohen Kosten für die Batterieproduktion und die Beschaffung von Rohstoffen für Elektrofahrzeuge, insbesondere seltene Metalle, als einen Grund für Audis Probleme. ",
          "Der größte Eisberg der Welt hat sich in Bewegung gesetzt. Ein riesiger Eisbrocken mit dem Namen A23a, der fast viertausend Quadratkilometer groß ist, brach 1986 vom antarktischen Festland ab, blieb aber bald im Weddellmeer liegen und wurde praktisch zu einer Eisinsel. Doch im vergangenen Jahr hat er begonnen, mit beträchtlicher Geschwindigkeit abzudriften und steht nun kurz davor, die antarktischen Gewässer zu verlassen, berichtet die BBC."
       ],
       "topics": {
@@ -190,30 +142,6 @@
                },
                {
                   "ibm/granite-13b-chat-v2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "google/flan-ul2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -252,7 +180,7 @@
       "inputs": [
          "De Nobelprijs voor Fysiologie of Geneeskunde werd toegekend aan de in Hongarije geboren biochemicus Katalin Karikó en de Amerikaanse immunoloog Drew Weissman, die tijdens hun periode aan de Universiteit van Pennsylvania in Philadelphia de basis legden voor de ontwikkeling van mRNA-vaccins en daarmee de basis legden voor de ontwikkeling van vaccins tegen de ziekte van covid-19.",
          "Ik kan me niet voorstellen dat de afgelopen weken geen diepe emotionele, politieke en sociale sporen zullen nalaten op de Israëli's en Palestijnen voor tientallen jaren, zegt Jakub Zahora, een analist aan het Institute for Policy Studies, over de Hamas-moorden en de daaropvolgende vergelding door Israël. De situatie, zegt hij, is de ergste in 70 jaar. De Palestijnen kunnen de mogelijkheid van een vrije Palestijnse staat nu wel vergeten.",
-         "Ironisch genoeg is de laatste route waarlangs Russisch gas via pijpleidingen naar Europa stroomt nog steeds die via Oekraïne naar Slowakije. De Oekraïners beweren dat ze het doorvoercontract na de invasie niet hebben opgezegd om hun partners in de Europese Unie, waaronder Slowakije, niet in gevaar te brengen. Het zal echter binnenkort aflopen en om voor de hand liggende redenen zal het niet worden verlengd. Oekraïne zal de overeenkomst over de doorvoer van Russisch gas over zijn grondgebied niet verlengen. Dit heeft het hoofd van het Oekraïense staatsgasbedrijf Naftogaz Oleksiy Chernyshov verklaard. Het Russische gas zal dus waarschijnlijk nog maar een paar maanden via pijpleidingen naar Slowakije stromen. Ironisch genoeg loopt de laatste route van Russisch gas via pijpleidingen naar de Europese Unie door Oekraïne naar Slowakije.",
+         "Gernot Döllner heeft sinds begin september de leiding over Audi, toen hij Markus Duesmann verving. Hij stapte op na een ruzie met het bestuur van Audi, dat niet wilde dat het merk het zou afleggen tegen de directe concurrentie van andere Duitse premiumfabrikanten BMW en Mercedes-Benz. Vooral op het gebied van elektromobiliteit mist het merk de trein. In een interview met het Duitse dagblad Handelsblatt zei Döllner dat het veel langer zou duren voordat Audi dezelfde inkomsten uit elektrische auto's zou genereren als uit verbrandingsmotoren. "We hadden oorspronkelijk verwacht dat we dit bij Audi halverwege het decennium zouden bereiken. Dat zal nu zeer waarschijnlijk worden uitgesteld." Hij noemde de hoge kosten van de batterijproductie en de aankoop van grondstoffen voor elektrische voertuigen, met name zeldzame metalen, als een van de redenen voor Audi's problemen. ",
          "De grootste ijsberg ter wereld is in beweging gekomen. Een gigantische brok ijs, A23a genaamd, met een oppervlakte van bijna vierduizend vierkante kilometer, brak in 1986 los van het vaste land van Antarctica, maar ging al snel voor anker in de Weddellzee en werd bijna een ijseiland. Maar het afgelopen jaar begon het met een aanzienlijke snelheid weg te drijven en het staat nu op het punt om de Antarctische wateren uit te varen, meldt de BBC."
       ],
       "topics": {
@@ -272,30 +200,6 @@
                },
                {
                   "ibm/granite-13b-chat-v2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "google/flan-ul2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -327,15 +231,19 @@
          }
       }
    },
-   "Entities Extraction (SLO)": {
+   "Entities Extraction (SI)": {
       "name": "Entities Extraction",
-      "language": "SLO",
+      "language": "SI",
       "buttonName": "Entities Extraction",
       "inputs": [
          "Nobelovo nagrado za fiziologijo ali medicino sta prejela biokemičarka madžarskega rodu Katalin Karikó in ameriški imunolog Drew Weissman, ki sta v času svojega delovanja na Univerzi Pensilvanija v Philadelphiji postavila temelje za razvoj cepiv z mRNA in s tem postavila temelje za razvoj cepiv proti bolezni covid-19.",
          "Ne morem si predstavljati, da zadnjih nekaj tednov na Izraelcih in Palestincih ne bo za desetletja pustilo globokega čustvenega, političnega in družbenega pečata, komentira Jakub Zahora, analitik na Inštitutu za politične študije, poboje v Hamasu in poznejši izraelski povračilni ukrep. Po njegovih besedah so razmere najslabše v zadnjih 70 letih. Palestinci lahko zdaj pozabijo na možnost svobodne palestinske države.",
          "Ironično je, da je zadnja pot, po kateri ruski plin po cevovodih teče v Evropo, še vedno pot preko Ukrajine na Slovaško. Ukrajinci trdijo, da po invaziji niso prekinili tranzitne pogodbe, da ne bi ogrozili svojih partnerjev v Evropski uniji, vključno s Slovaško. Vendar se bo pogodba kmalu iztekla in iz očitnih razlogov ne bo podaljšana. Ukrajina ne bo obnovila sporazuma o tranzitu ruskega plina prek svojega ozemlja. To je izjavil vodja ukrajinskega državnega plinskega podjetja Naftogaz Oleksiy Chernyshov. Tako bo ruski plin po plinovodih na Slovaško verjetno tekel le še nekaj mesecev. Ironično je, da zadnja pot za dobavo ruskega plina v Evropsko unijo prek plinovodov poteka prek Ukrajine na Slovaško.",
-         "Največja ledena gora na svetu se je začela premikati. Velikanski kos ledu z imenom A23a, ki pokriva skoraj štiri tisoč kvadratnih kilometrov, se je leta 1986 odtrgal od antarktične celine, vendar se je kmalu zasidral v Weddellovem morju in postal tako rekoč ledeni otok. V zadnjem letu pa se je s precejšnjo hitrostjo začel oddaljevati in zdaj je pripravljen odpluti iz antarktičnih voda, poroča BBC."
+         "Največja ledena gora na svetu se je začela premikati. Velikanski kos ledu z imenom A23a, ki pokriva skoraj štiri tisoč kvadratnih kilometrov, se je leta 1986 odtrgal od antarktične celine, vendar se je kmalu zasidral v Weddellovem morju in postal tako rekoč ledeni otok. V zadnjem letu pa se je s precejšnjo hitrostjo začel oddaljevati in zdaj je pripravljen odpluti iz antarktičnih voda, poroča BBC.",
+         "Svet EU-ja in Evropski parlament sta v petek dosegla okvirni dogovor o aktu o umetni inteligenci, ki vsebuje pravila za njeno uporabo v Uniji. To je prva tovrstna zakonodaja na svetu. Namen zakonodaje je zagotoviti varnost sistemov umetne inteligence ter spoštovanje temeljnih pravic in vrednot, obenem pa spodbujati vlaganje in inovacije na tem področju.",
+         "Švicarski znanstveniki so razvili umetno inteligenco, ki bo, so prepričani, poenostavila boj proti vinskim ponaredkom na evropskem trgu, obenem pa pomagala pri pridelavi še boljšega vina. Umetna inteligenca je lahko tudi zelo koristno orodje za preprečevanje pogostih in težko dokazljivih prevar v vinski industriji, so ugotovili raziskovalci z ženevske univerze. Razvili so namreč umetno inteligenco, ki lahko na podlagi majhnega vzorca vina izjemno natančno ugotovi, od kod vino izvira. Ne določi zgolj ožjega geografskega območja, ampak točen vinograd oz. vinsko klet, raziskavo povzema Guardian.",
+         "Skoraj ni tekme, na kateri Luka Dončić ne bi navdušil s kakšno potezo. Tokrat je za enega izmed vrhuncev na obračunu z Los Angeles Lakersi (127:125) poskrbel z dih jemajočo podajo. Dončić je sicer na osmi zaporedni tekmi presegel mejo 30 točk, tretjič zapored je na parketu odigral vsaj 40 minut. Takšne minutaže ni imel vse od končnice leta 2021.",
+         "Slovenija bo aprila prihodnje leto častna gostja na mednarodnem sejmu otroških knjig v Bologni. Otroški sejem v Bologni je poleg frankfurtskega knjižnega sejma mednarodna platforma, na kateri se predstavlja največje število slovenskih založnikov s področja otroške in mladinske literature, samostojno ali v sklopu slovenske nacionalne stojnice."
       ],
       "topics": {
          "topic1": {
@@ -354,30 +262,6 @@
                },
                {
                   "ibm/granite-13b-chat-v2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "google/flan-ul2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -416,8 +300,7 @@
       "inputs": [
          "Az élettani vagy orvosi Nobel-díjat Karikó Katalin magyar származású biokémikus és Drew Weissman amerikai immunológus kapta, akik a philadelphiai Pennsylvaniai Egyetemen töltött idejük alatt megalapozták az mRNS-vakcinák kifejlesztését, és ezzel megalapozták a covid-19 betegség elleni vakcinák kifejlesztését.",
          "Nem tudom elképzelni, hogy az elmúlt hetek ne hagynának évtizedekre mély érzelmi, politikai és társadalmi nyomot az izraeliekben és a palesztinokban - kommentálja a Hamász-gyilkosságokat és az azt követő izraeli megtorlást Jakub Zahora, a Politikai Tanulmányok Intézetének elemzője. Szerinte a helyzet az elmúlt 70 év legrosszabbja. A palesztinok most már elfelejthetik a szabad palesztin állam lehetőségét.",
-         "Ironikus módon az utolsó útvonal, amelyen keresztül az orosz gáz csővezetéken keresztül Európába áramlik, továbbra is az Ukrajnán keresztül Szlovákiába vezet. Az ukránok azt állítják, hogy azért nem mondták fel a tranzitszerződést az invázió után, hogy ne veszélyeztessék európai uniós partnereiket, köztük Szlovákiát. A szerződés azonban hamarosan lejár, és nyilvánvaló okokból nem fogják megújítani. Ukrajna nem fogja megújítani a területén keresztül történő orosz gáztranzitról szóló megállapodást. Ezt az ukrán állami gázszolgáltató Naftogaz vezetője, Olekszij Csernyiszov jelentette ki. Így az orosz gáz valószínűleg csak néhány hónapig fog áramlani a Szlovákiába vezető vezetékeken keresztül. A sors iróniája, hogy az Európai Unióba irányuló utolsó orosz gázszállítási útvonal a vezetéken keresztül Ukrajnán keresztül Szlovákiába vezet.",
-         "A világ legnagyobb jéghegye mozgásba lendült. Az A23a névre keresztelt, közel négyezer négyzetkilométeres óriási jégdarab 1986-ban szakadt le az antarktiszi szárazföldről, de hamarosan lehorgonyzott a Weddell-tengerben, és gyakorlatilag jégszigetté vált. Az elmúlt évben azonban jelentős sebességgel sodródni kezdett, és most arra készül, hogy kihajózik az antarktiszi vizekből - írja a BBC."
+         "Gernot Döllner szeptember eleje óta áll az Audi élén, amikor Markus Duesmannt váltotta. Az Audi igazgatótanácsával való összezördülése miatt távozott, amely nem szerette, ha a márka a BMW és a Mercedes-Benz közvetlen konkurenciájával szemben veszít a német prémiumgyártókkal szemben. Különösen az elektromobilitás terén marad le a vonatról. A Handelsblatt című német napilapnak adott interjújában Döllner azt mondta, hogy az Audinak sokkal több időbe fog telni, amíg az elektromos autókból ugyanannyi bevételt tud majd termelni, mint a belsőégésű motorokból. "Eredetileg arra számítottunk, hogy ezt az Audinál az évtized közepére elérjük. Ez most már nagyon valószínű, hogy késni fog"." Az Audi gondjainak egyik okaként az akkumulátorgyártás magas költségeit és az elektromos járművekhez szükséges nyersanyagok, különösen a ritka fémek beszerzését említette. ", "A világ legnagyobb jéghegye mozgásba lendült. Az A23a névre keresztelt, közel négyezer négyzetkilométeres óriási jégdarab 1986-ban szakadt le az antarktiszi szárazföldről, de hamarosan lehorgonyzott a Weddell-tengerben, és gyakorlatilag jégszigetté vált. Az elmúlt évben azonban jelentős sebességgel sodródni kezdett, és most arra készül, hogy kihajózik az antarktiszi vizekből - írja a BBC."
       ],
       "topics": {
          "topic1": {
@@ -436,30 +319,6 @@
                },
                {
                   "ibm/granite-13b-chat-v2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "google/flan-ul2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -498,7 +357,7 @@
       "inputs": [
          "Premiul Nobel pentru Fiziologie sau Medicină a fost acordat biochimistului de origine maghiară Katalin Karikó și imunologului american Drew Weissman, care au pus bazele dezvoltării vaccinurilor cu ARNm în timpul petrecut la Universitatea Pennsylvania din Philadelphia, punând bazele dezvoltării vaccinurilor împotriva bolii covid-19.",
          "Nu-mi pot imagina că ultimele săptămâni nu vor lăsa o amprentă emoțională, politică și socială profundă asupra israelienilor și palestinienilor timp de zeci de ani, comentează Jakub Zahora, analist la Institutul pentru Studii Politice, cu privire la asasinatele comise de Hamas și la represaliile ulterioare ale Israelului. Situația, spune el, este cea mai gravă din ultimii 70 de ani. Palestinienii pot uita acum de posibilitatea unui stat palestinian liber.",
-         "În mod ironic, ultima rută prin care gazul rusesc ajunge în Europa prin conducte a rămas cea prin Ucraina către Slovacia. Ucrainenii susțin că nu au reziliat contractul de tranzit după invazie pentru a nu-și pune în pericol partenerii din Uniunea Europeană, inclusiv Slovacia. Totuși, acesta va expira în curând și, din motive evidente, nu va fi reînnoit. Ucraina nu va reînnoi acordul privind tranzitul gazului rusesc pe teritoriul său. Acest lucru a fost declarat de șeful companiei de stat ucrainene de gaze Naftogaz, Oleksiy Chernyshov. Astfel, gazul rusesc va curge prin conducte către Slovacia probabil doar pentru câteva luni. În mod ironic, ultima rută de furnizare a gazului rusesc către Uniunea Europeană prin conducte trece prin Ucraina până în Slovacia.",
+         "Gernot Döllner se află la conducerea Audi de la începutul lunii septembrie, când l-a înlocuit pe Markus Duesmann. Acesta a demisionat în urma unei neînțelegeri cu consiliul de administrație al Audi, care nu a apreciat faptul că marca a pierdut în fața concurenței directe a altor producători germani premium, BMW și Mercedes-Benz. Pierde trenul mai ales în domeniul electromobilității. Într-un interviu acordat cotidianului german Handelsblatt, Döllner a declarat că va dura mult mai mult timp pentru ca Audi să genereze aceleași venituri din mașinile electrice ca și din motoarele cu combustie internă. "Inițial ne așteptam să realizăm acest lucru la Audi până la mijlocul deceniului. Acum este foarte probabil ca acest lucru să fie amânat". El a citat costul ridicat al producției de baterii și al achiziției de materii prime pentru vehiculele electrice, în special metale rare, ca fiind unul dintre motivele pentru problemele Audi. ",
          "Cel mai mare iceberg din lume s-a pus în mișcare. O bucată uriașă de gheață, denumită A23a, care acoperă aproape patru mii de kilometri pătrați, s-a desprins de continentul Antarcticii în 1986, dar în scurt timp s-a ancorat în Marea Weddell, devenind practic o insulă de gheață. Însă în ultimul an a început să se îndepărteze cu o viteză considerabilă, iar acum este gata să părăsească apele Antarcticii, relatează BBC."
       ],
       "topics": {
@@ -518,30 +377,6 @@
                },
                {
                   "ibm/granite-13b-chat-v2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "google/flan-ul2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -605,30 +440,6 @@
                      "min_new_tokens": 4,
                      "max_new_tokens": 50
                   }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "google/flan-ul2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
                }
             ],
             "instruction": {
@@ -662,7 +473,7 @@
       "inputs": [
          "Nobelovu cenu za fyziologii a lékařství získala biochemička Katalin Karikóová původem z Maďarska a americký imunolog Drew Weissman, kteří položili základy pro vývoj mRNA vakcín při svém působení na Pensylvánské univerzitě ve Filadelfii a položili tak základy pro vývoj vakcín proti nemoci covid-19.",
          "Neumím si představit, že poslední týdny nezanechají hlubokou emoční, politickou i společenskou stopu na straně Izraelců a Palestinců na dekády, komentuje vraždy Hamásu a následnou odvetu Izraele analytik z Institutu politologických studií Jakub Záhora. Situace je podle něj nejhorší za 70 let. Na to, že by mohl vzniknout svobodný palestinský stát, mohou teď Palestinci zapomenout.",
-         "Posledná trasa, ktorou prúdi ruský plyn do Európy plynovodmi, zostala paradoxne tá cez Ukrajinu na Slovensko. Ukrajinci tvrdia, že tranzitnú zmluvu po invázii nevypovedali, aby neohrozili svojich partnerov v Európskej únii, teda aj Slovensko. Jej platnosť však čoskoro končí a jej obnovenie sa už z pochopiteľných dôvodov nechystá. Ukrajina nepredĺži dohodu o tranzite ruského plynu cez svoje územie. Uviedol to šéf ukrajinskej štátnej plynárenskej spoločnosti Naftogaz Oleksij Černyšov. Ruský plyn tak bude plynovodmi na Slovensko prúdiť zrejme už iba niekoľko mesiacov. Posledná trasa dodávok ruského plynu plynovodmi do Európskej únie totiž vedie paradoxne práve cez Ukrajinu na Slovensko.",
+         "Gernot Döllner vede Audi od začátku září, kdy vystřídal Markuse Duesmanna. Ten skončil kvůli roztržce s představenstvem Audi, kterému se nelíbilo, že značka ztrácí v přímé konkurenci dalších německých prémiových výrobců BMW a Mercedes-Benz. Vlak jí ujíždí především v elektromobilitě. V rozhovoru pro německý deník Handelsblatt Döllner řekl, že bude trvat mnohem déle, než Audi vygeneruje stejné výnosy u elektromobilů jako u spalovacích motorů. „Původně jsme předpokládali, že toho u Audi dosáhneme do poloviny dekády. To se nyní velmi pravděpodobně opozdí.“ Jako jeden z důvodů uvedl, že Audi trápí vysoké náklady na výrobu baterií a pořízení surovin pro elektromobily, zvláště vzácných kovů. ",
          "Největší ledovec světa se dal do pohybu. Obří kus ledu pojmenovaný A23a o rozloze téměř čtyř tisíc kilometrů čtverečních se v roce 1986 oddělil od antarktické pevniny, brzy však zakotvil ve Weddellově moři, a stal se tak prakticky ledovým ostrovem. V uplynulém roce však začal být unášen značnou rychlostí pryč a nyní se chystá vyplout mimo vody Antarktidy, informuje BBC."
       ],
       "topics": {
@@ -682,30 +493,6 @@
                },
                {
                   "ibm/granite-13b-chat-v2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "google/flan-ul2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -744,7 +531,7 @@
       "inputs": [
          "The Nobel Prize in Physiology or Medicine was awarded to Hungarian-born biochemist Katalin Karikó and American immunologist Drew Weissman, who laid the groundwork for the development of mRNA vaccines during their time at the University of Pennsylvania in Philadelphia, laying the foundation for the development of vaccines against covid-19 disease.",
          "I can't imagine that the last few weeks will not leave a deep emotional, political and social mark on the Israelis and Palestinians for decades, comments Jakub Zahora, an analyst at the Institute for Policy Studies, on the Hamas killings and Israel's subsequent retaliation. The situation, he says, is the worst in 70 years. The Palestinians can now forget about the possibility of a free Palestinian state.",
-         "Ironically, the last route through which Russian gas flows to Europe via pipelines remained that via Ukraine to Slovakia. The Ukrainians claim that they did not terminate the transit contract after the invasion so as not to endanger their partners in the European Union, including Slovakia. However, it will soon expire and, for obvious reasons, it is not going to be renewed. Ukraine will not renew the agreement on the transit of Russian gas through its territory. This was stated by the head of the Ukrainian state gas company Naftogaz Oleksiy Chernyshov. Thus, Russian gas will probably flow through pipelines to Slovakia only for a few months. Ironically, the last Russian gas supply route to the European Union via pipelines runs through Ukraine to Slovakia.",
+         "Gernot Döllner has been in charge of Audi since the beginning of September, when he replaced Markus Duesmann. He quit over a falling out with Audi's board, which did not like the brand losing out to direct competition from other German premium manufacturers BMW and Mercedes-Benz. It is missing the train especially in electromobility. In an interview with the German daily Handelsblatt, Döllner said it would take much longer for Audi to generate the same revenues from electric cars as from internal combustion engines. "We originally expected to achieve this at Audi by the middle of the decade. That is now very likely to be delayed." He cited the high cost of battery production and the acquisition of raw materials for electric vehicles, particularly rare metals, as one reason for Audi's woes. ",
          "The world's largest iceberg has set in motion. A giant chunk of ice, named A23a, covering almost four thousand square kilometres, broke away from the Antarctic mainland in 1986, but soon anchored in the Weddell Sea, becoming virtually an ice island. But in the past year it has begun drifting away at considerable speed and is now poised to sail out of Antarctic waters, the BBC reports."
       ],
       "topics": {
@@ -764,30 +551,6 @@
                },
                {
                   "ibm/granite-13b-chat-v2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "google/flan-ul2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -826,7 +589,7 @@
       "inputs": [
          "Der Nobelpreis für Physiologie oder Medizin ging an die in Ungarn geborene Biochemikerin Katalin Karikó und den amerikanischen Immunologen Drew Weissman, die während ihrer Zeit an der University of Pennsylvania in Philadelphia den Grundstein für die Entwicklung von mRNA-Impfstoffen legten und damit den Grundstein für die Entwicklung von Impfstoffen gegen die Covid-19-Krankheit legten.",
          "Ich kann mir nicht vorstellen, dass die letzten Wochen nicht über Jahrzehnte hinweg tiefe emotionale, politische und soziale Spuren bei Israelis und Palästinensern hinterlassen werden, kommentiert Jakub Zahora, Analyst am Institute for Policy Studies, die Morde der Hamas und die anschließenden Vergeltungsmaßnahmen Israels. Die Situation ist seiner Meinung nach die schlimmste seit 70 Jahren. Die Palästinenser können die Möglichkeit eines freien palästinensischen Staates jetzt vergessen.",
-         "Ironischerweise blieb der letzte Weg, über den russisches Gas durch Pipelines nach Europa fließt, der über die Ukraine in die Slowakei. Die Ukrainer behaupten, dass sie den Transitvertrag nach der Invasion nicht gekündigt haben, um ihre Partner in der Europäischen Union, darunter die Slowakei, nicht zu gefährden. Der Vertrag läuft jedoch bald aus, und aus offensichtlichen Gründen wird er nicht verlängert. Die Ukraine wird das Abkommen über den Transit von russischem Gas durch ihr Gebiet nicht verlängern. Dies erklärte der Leiter des staatlichen ukrainischen Gasunternehmens Naftogaz Oleksiy Chernyshov. Somit wird russisches Gas wahrscheinlich nur noch einige Monate lang durch die Pipelines in die Slowakei fließen. Ironischerweise verläuft die letzte russische Gaslieferroute in die Europäische Union über Pipelines durch die Ukraine in die Slowakei.",
+         "Gernot Döllner ist seit Anfang September an der Spitze von Audi, als er Markus Duesmann ablöste. Er verließ das Unternehmen nach einem Zerwürfnis mit dem Audi-Vorstand, dem es nicht gefiel, dass die Marke im direkten Wettbewerb mit den anderen deutschen Premiumherstellern BMW und Mercedes-Benz unterlegen war. Vor allem bei der Elektromobilität hat Audi den Anschluss verpasst. In einem Interview mit dem Handelsblatt sagte Döllner, dass es viel länger dauern werde, bis Audi mit Elektroautos den gleichen Umsatz wie mit Verbrennungsmotoren erzielen werde. "Ursprünglich hatten wir erwartet, dies bei Audi bis Mitte des Jahrzehnts zu erreichen. Das wird sich nun sehr wahrscheinlich verzögern." Er nannte die hohen Kosten für die Batterieproduktion und die Beschaffung von Rohstoffen für Elektrofahrzeuge, insbesondere seltene Metalle, als einen Grund für Audis Probleme. ",
          "Der größte Eisberg der Welt hat sich in Bewegung gesetzt. Ein riesiger Eisbrocken mit dem Namen A23a, der fast viertausend Quadratkilometer groß ist, brach 1986 vom antarktischen Festland ab, blieb aber bald im Weddellmeer liegen und wurde praktisch zu einer Eisinsel. Doch im vergangenen Jahr hat er begonnen, mit beträchtlicher Geschwindigkeit abzudriften und steht nun kurz davor, die antarktischen Gewässer zu verlassen, berichtet die BBC."
       ],
       "topics": {
@@ -846,30 +609,6 @@
                },
                {
                   "ibm/granite-13b-chat-v2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "google/flan-ul2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -908,7 +647,7 @@
       "inputs": [
          "De Nobelprijs voor Fysiologie of Geneeskunde werd toegekend aan de in Hongarije geboren biochemicus Katalin Karikó en de Amerikaanse immunoloog Drew Weissman, die tijdens hun periode aan de Universiteit van Pennsylvania in Philadelphia de basis legden voor de ontwikkeling van mRNA-vaccins en daarmee de basis legden voor de ontwikkeling van vaccins tegen de ziekte van covid-19.",
          "Ik kan me niet voorstellen dat de afgelopen weken geen diepe emotionele, politieke en sociale sporen zullen nalaten op de Israëli's en Palestijnen voor tientallen jaren, zegt Jakub Zahora, een analist aan het Institute for Policy Studies, over de Hamas-moorden en de daaropvolgende vergelding door Israël. De situatie, zegt hij, is de ergste in 70 jaar. De Palestijnen kunnen de mogelijkheid van een vrije Palestijnse staat nu wel vergeten.",
-         "Ironisch genoeg is de laatste route waarlangs Russisch gas via pijpleidingen naar Europa stroomt nog steeds die via Oekraïne naar Slowakije. De Oekraïners beweren dat ze het doorvoercontract na de invasie niet hebben opgezegd om hun partners in de Europese Unie, waaronder Slowakije, niet in gevaar te brengen. Het zal echter binnenkort aflopen en om voor de hand liggende redenen zal het niet worden verlengd. Oekraïne zal de overeenkomst over de doorvoer van Russisch gas over zijn grondgebied niet verlengen. Dit heeft het hoofd van het Oekraïense staatsgasbedrijf Naftogaz Oleksiy Chernyshov verklaard. Het Russische gas zal dus waarschijnlijk nog maar een paar maanden via pijpleidingen naar Slowakije stromen. Ironisch genoeg loopt de laatste route van Russisch gas via pijpleidingen naar de Europese Unie door Oekraïne naar Slowakije.",
+         "Gernot Döllner heeft sinds begin september de leiding over Audi, toen hij Markus Duesmann verving. Hij stapte op na een ruzie met het bestuur van Audi, dat niet wilde dat het merk het zou afleggen tegen de directe concurrentie van andere Duitse premiumfabrikanten BMW en Mercedes-Benz. Vooral op het gebied van elektromobiliteit mist het merk de trein. In een interview met het Duitse dagblad Handelsblatt zei Döllner dat het veel langer zou duren voordat Audi dezelfde inkomsten uit elektrische auto's zou genereren als uit verbrandingsmotoren. "We hadden oorspronkelijk verwacht dat we dit bij Audi halverwege het decennium zouden bereiken. Dat zal nu zeer waarschijnlijk worden uitgesteld." Hij noemde de hoge kosten van de batterijproductie en de aankoop van grondstoffen voor elektrische voertuigen, met name zeldzame metalen, als een van de redenen voor Audi's problemen. ",
          "De grootste ijsberg ter wereld is in beweging gekomen. Een gigantische brok ijs, A23a genaamd, met een oppervlakte van bijna vierduizend vierkante kilometer, brak in 1986 los van het vaste land van Antarctica, maar ging al snel voor anker in de Weddellzee en werd bijna een ijseiland. Maar het afgelopen jaar begon het met een aanzienlijke snelheid weg te drijven en het staat nu op het punt om de Antarctische wateren uit te varen, meldt de BBC."
       ],
       "topics": {
@@ -928,30 +667,6 @@
                },
                {
                   "ibm/granite-13b-chat-v2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "google/flan-ul2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -983,15 +698,19 @@
          }
       }
    },
-   "Topics (SLO)": {
+   "Topics (SI)": {
       "name": "Topics",
-      "language": "SLO",
+      "language": "SI",
       "buttonName": "Topics",
       "inputs": [
          "Nobelovo nagrado za fiziologijo ali medicino sta prejela biokemičarka madžarskega rodu Katalin Karikó in ameriški imunolog Drew Weissman, ki sta v času svojega delovanja na Univerzi Pensilvanija v Philadelphiji postavila temelje za razvoj cepiv z mRNA in s tem postavila temelje za razvoj cepiv proti bolezni covid-19.",
          "Ne morem si predstavljati, da zadnjih nekaj tednov na Izraelcih in Palestincih ne bo za desetletja pustilo globokega čustvenega, političnega in družbenega pečata, komentira Jakub Zahora, analitik na Inštitutu za politične študije, poboje v Hamasu in poznejši izraelski povračilni ukrep. Po njegovih besedah so razmere najslabše v zadnjih 70 letih. Palestinci lahko zdaj pozabijo na možnost svobodne palestinske države.",
          "Ironično je, da je zadnja pot, po kateri ruski plin po cevovodih teče v Evropo, še vedno pot preko Ukrajine na Slovaško. Ukrajinci trdijo, da po invaziji niso prekinili tranzitne pogodbe, da ne bi ogrozili svojih partnerjev v Evropski uniji, vključno s Slovaško. Vendar se bo pogodba kmalu iztekla in iz očitnih razlogov ne bo podaljšana. Ukrajina ne bo obnovila sporazuma o tranzitu ruskega plina prek svojega ozemlja. To je izjavil vodja ukrajinskega državnega plinskega podjetja Naftogaz Oleksiy Chernyshov. Tako bo ruski plin po plinovodih na Slovaško verjetno tekel le še nekaj mesecev. Ironično je, da zadnja pot za dobavo ruskega plina v Evropsko unijo prek plinovodov poteka prek Ukrajine na Slovaško.",
-         "Največja ledena gora na svetu se je začela premikati. Velikanski kos ledu z imenom A23a, ki pokriva skoraj štiri tisoč kvadratnih kilometrov, se je leta 1986 odtrgal od antarktične celine, vendar se je kmalu zasidral v Weddellovem morju in postal tako rekoč ledeni otok. V zadnjem letu pa se je s precejšnjo hitrostjo začel oddaljevati in zdaj je pripravljen odpluti iz antarktičnih voda, poroča BBC."
+         "Največja ledena gora na svetu se je začela premikati. Velikanski kos ledu z imenom A23a, ki pokriva skoraj štiri tisoč kvadratnih kilometrov, se je leta 1986 odtrgal od antarktične celine, vendar se je kmalu zasidral v Weddellovem morju in postal tako rekoč ledeni otok. V zadnjem letu pa se je s precejšnjo hitrostjo začel oddaljevati in zdaj je pripravljen odpluti iz antarktičnih voda, poroča BBC.",
+         "Svet EU-ja in Evropski parlament sta v petek dosegla okvirni dogovor o aktu o umetni inteligenci, ki vsebuje pravila za njeno uporabo v Uniji. To je prva tovrstna zakonodaja na svetu. Namen zakonodaje je zagotoviti varnost sistemov umetne inteligence ter spoštovanje temeljnih pravic in vrednot, obenem pa spodbujati vlaganje in inovacije na tem področju.",
+         "Švicarski znanstveniki so razvili umetno inteligenco, ki bo, so prepričani, poenostavila boj proti vinskim ponaredkom na evropskem trgu, obenem pa pomagala pri pridelavi še boljšega vina. Umetna inteligenca je lahko tudi zelo koristno orodje za preprečevanje pogostih in težko dokazljivih prevar v vinski industriji, so ugotovili raziskovalci z ženevske univerze. Razvili so namreč umetno inteligenco, ki lahko na podlagi majhnega vzorca vina izjemno natančno ugotovi, od kod vino izvira. Ne določi zgolj ožjega geografskega območja, ampak točen vinograd oz. vinsko klet, raziskavo povzema Guardian.",
+         "Skoraj ni tekme, na kateri Luka Dončić ne bi navdušil s kakšno potezo. Tokrat je za enega izmed vrhuncev na obračunu z Los Angeles Lakersi (127:125) poskrbel z dih jemajočo podajo. Dončić je sicer na osmi zaporedni tekmi presegel mejo 30 točk, tretjič zapored je na parketu odigral vsaj 40 minut. Takšne minutaže ni imel vse od končnice leta 2021.",
+         "Slovenija bo aprila prihodnje leto častna gostja na mednarodnem sejmu otroških knjig v Bologni. Otroški sejem v Bologni je poleg frankfurtskega knjižnega sejma mednarodna platforma, na kateri se predstavlja največje število slovenskih založnikov s področja otroške in mladinske literature, samostojno ali v sklopu slovenske nacionalne stojnice."
       ],
       "topics": {
          "topic1": {
@@ -1015,30 +734,6 @@
                      "min_new_tokens": 4,
                      "max_new_tokens": 50
                   }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "google/flan-ul2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
                }
             ],
             "instruction": {
@@ -1046,7 +741,7 @@
                "summarized": "Ustvarite naslov dokumenta:"
             },
             "inputPrefix": "Dokument:",
-            "outputPrefix": "Tema: Dokument: Tema:",
+            "outputPrefix": "Tema: ",
             "examples": [
                {
                   "input": "Kitajska vlada je napovedala vrsto ukrepov za preprečevanje nadaljnjega širjenja bolezni dihal v državi. Potnikom, ki prihajajo na Kitajsko, je treba na meji izmeriti temperaturo, strožje pa je tudi preprečevanje in preverjanje v šolah in domovih za ostarele. Na Kitajskem se je v zadnjem času povečalo število bolezni dihal v državi.",
@@ -1072,8 +767,7 @@
       "inputs": [
          "Az élettani vagy orvosi Nobel-díjat Karikó Katalin magyar származású biokémikus és Drew Weissman amerikai immunológus kapta, akik a philadelphiai Pennsylvaniai Egyetemen töltött idejük alatt megalapozták az mRNS-vakcinák kifejlesztését, és ezzel megalapozták a covid-19 betegség elleni vakcinák kifejlesztését.",
          "Nem tudom elképzelni, hogy az elmúlt hetek ne hagynának évtizedekre mély érzelmi, politikai és társadalmi nyomot az izraeliekben és a palesztinokban - kommentálja a Hamász-gyilkosságokat és az azt követő izraeli megtorlást Jakub Zahora, a Politikai Tanulmányok Intézetének elemzője. Szerinte a helyzet az elmúlt 70 év legrosszabbja. A palesztinok most már elfelejthetik a szabad palesztin állam lehetőségét.",
-         "Ironikus módon az utolsó útvonal, amelyen keresztül az orosz gáz csővezetéken keresztül Európába áramlik, továbbra is az Ukrajnán keresztül Szlovákiába vezet. Az ukránok azt állítják, hogy azért nem mondták fel a tranzitszerződést az invázió után, hogy ne veszélyeztessék európai uniós partnereiket, köztük Szlovákiát. A szerződés azonban hamarosan lejár, és nyilvánvaló okokból nem fogják megújítani. Ukrajna nem fogja megújítani a területén keresztül történő orosz gáztranzitról szóló megállapodást. Ezt az ukrán állami gázszolgáltató Naftogaz vezetője, Olekszij Csernyiszov jelentette ki. Így az orosz gáz valószínűleg csak néhány hónapig fog áramlani a Szlovákiába vezető vezetékeken keresztül. A sors iróniája, hogy az Európai Unióba irányuló utolsó orosz gázszállítási útvonal a vezetéken keresztül Ukrajnán keresztül Szlovákiába vezet.",
-         "A világ legnagyobb jéghegye mozgásba lendült. Az A23a névre keresztelt, közel négyezer négyzetkilométeres óriási jégdarab 1986-ban szakadt le az antarktiszi szárazföldről, de hamarosan lehorgonyzott a Weddell-tengerben, és gyakorlatilag jégszigetté vált. Az elmúlt évben azonban jelentős sebességgel sodródni kezdett, és most arra készül, hogy kihajózik az antarktiszi vizekből - írja a BBC."
+         "Gernot Döllner szeptember eleje óta áll az Audi élén, amikor Markus Duesmannt váltotta. Az Audi igazgatótanácsával való összezördülése miatt távozott, amely nem szerette, ha a márka a BMW és a Mercedes-Benz közvetlen konkurenciájával szemben veszít a német prémiumgyártókkal szemben. Különösen az elektromobilitás terén marad le a vonatról. A Handelsblatt című német napilapnak adott interjújában Döllner azt mondta, hogy az Audinak sokkal több időbe fog telni, amíg az elektromos autókból ugyanannyi bevételt tud majd termelni, mint a belsőégésű motorokból. "Eredetileg arra számítottunk, hogy ezt az Audinál az évtized közepére elérjük. Ez most már nagyon valószínű, hogy késni fog"." Az Audi gondjainak egyik okaként az akkumulátorgyártás magas költségeit és az elektromos járművekhez szükséges nyersanyagok, különösen a ritka fémek beszerzését említette. ", "A világ legnagyobb jéghegye mozgásba lendült. Az A23a névre keresztelt, közel négyezer négyzetkilométeres óriási jégdarab 1986-ban szakadt le az antarktiszi szárazföldről, de hamarosan lehorgonyzott a Weddell-tengerben, és gyakorlatilag jégszigetté vált. Az elmúlt évben azonban jelentős sebességgel sodródni kezdett, és most arra készül, hogy kihajózik az antarktiszi vizekből - írja a BBC."
       ],
       "topics": {
          "topic1": {
@@ -1092,30 +786,6 @@
                },
                {
                   "ibm/granite-13b-chat-v2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "google/flan-ul2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -1154,7 +824,7 @@
       "inputs": [
          "Premiul Nobel pentru Fiziologie sau Medicină a fost acordat biochimistului de origine maghiară Katalin Karikó și imunologului american Drew Weissman, care au pus bazele dezvoltării vaccinurilor cu ARNm în timpul petrecut la Universitatea Pennsylvania din Philadelphia, punând bazele dezvoltării vaccinurilor împotriva bolii covid-19.",
          "Nu-mi pot imagina că ultimele săptămâni nu vor lăsa o amprentă emoțională, politică și socială profundă asupra israelienilor și palestinienilor timp de zeci de ani, comentează Jakub Zahora, analist la Institutul pentru Studii Politice, cu privire la asasinatele comise de Hamas și la represaliile ulterioare ale Israelului. Situația, spune el, este cea mai gravă din ultimii 70 de ani. Palestinienii pot uita acum de posibilitatea unui stat palestinian liber.",
-         "În mod ironic, ultima rută prin care gazul rusesc ajunge în Europa prin conducte a rămas cea prin Ucraina către Slovacia. Ucrainenii susțin că nu au reziliat contractul de tranzit după invazie pentru a nu-și pune în pericol partenerii din Uniunea Europeană, inclusiv Slovacia. Totuși, acesta va expira în curând și, din motive evidente, nu va fi reînnoit. Ucraina nu va reînnoi acordul privind tranzitul gazului rusesc pe teritoriul său. Acest lucru a fost declarat de șeful companiei de stat ucrainene de gaze Naftogaz, Oleksiy Chernyshov. Astfel, gazul rusesc va curge prin conducte către Slovacia probabil doar pentru câteva luni. În mod ironic, ultima rută de furnizare a gazului rusesc către Uniunea Europeană prin conducte trece prin Ucraina până în Slovacia.",
+         "Gernot Döllner se află la conducerea Audi de la începutul lunii septembrie, când l-a înlocuit pe Markus Duesmann. Acesta a demisionat în urma unei neînțelegeri cu consiliul de administrație al Audi, care nu a apreciat faptul că marca a pierdut în fața concurenței directe a altor producători germani premium, BMW și Mercedes-Benz. Pierde trenul mai ales în domeniul electromobilității. Într-un interviu acordat cotidianului german Handelsblatt, Döllner a declarat că va dura mult mai mult timp pentru ca Audi să genereze aceleași venituri din mașinile electrice ca și din motoarele cu combustie internă. "Inițial ne așteptam să realizăm acest lucru la Audi până la mijlocul deceniului. Acum este foarte probabil ca acest lucru să fie amânat". El a citat costul ridicat al producției de baterii și al achiziției de materii prime pentru vehiculele electrice, în special metale rare, ca fiind unul dintre motivele pentru problemele Audi. ",
          "Cel mai mare iceberg din lume s-a pus în mișcare. O bucată uriașă de gheață, denumită A23a, care acoperă aproape patru mii de kilometri pătrați, s-a desprins de continentul Antarcticii în 1986, dar în scurt timp s-a ancorat în Marea Weddell, devenind practic o insulă de gheață. Însă în ultimul an a început să se îndepărteze cu o viteză considerabilă, iar acum este gata să părăsească apele Antarcticii, relatează BBC."
       ],
       "topics": {
@@ -1174,30 +844,6 @@
                },
                {
                   "ibm/granite-13b-chat-v2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "google/flan-ul2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -1256,30 +902,6 @@
                },
                {
                   "ibm/granite-13b-chat-v2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "google/flan-ul2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -1347,30 +969,6 @@
                },
                {
                   "ibm/granite-13b-chat-v2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "google/flan-ul2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -1454,30 +1052,6 @@
                      "min_new_tokens": 4,
                      "max_new_tokens": 50
                   }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "google/flan-ul2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
                }
             ],
             "instruction": {
@@ -1551,30 +1125,6 @@
                },
                {
                   "ibm/granite-13b-chat-v2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "google/flan-ul2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -1658,30 +1208,6 @@
                      "min_new_tokens": 4,
                      "max_new_tokens": 50
                   }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "google/flan-ul2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
                }
             ],
             "instruction": {
@@ -1720,18 +1246,18 @@
          }
       }
    },
-   "Sentiment Analyses (SLO)": {
+   "Sentiment Analyses (SI)": {
       "name": "Sentiment Analyses",
-      "language": "SLO",
+      "language": "SI",
       "buttonName": "Sentiment Analyses",
       "inputs": [
          "Pričakoval sem daljše trajanje baterije.",
          "S telefonom sem zadovoljen. Na splošno mi je blagovna znamka Samsung všeč in menim, da je A34 dobra izbira za tiste, ki izbirajo razmerje med kakovostjo in ceno.",
-         "Resnično sem mislila, da bo ta obleka fantastična. Slike so bile čudovite, embalaža, v kateri je prišla, pa je bila popolna. Ko sem jo oblekla, sem bila videti kot žirafa. Ampak vsaj moj pes rad spi na njih in ko vidim, kako moj psiček srečno spi, sem srečna.",
+         "Resnično sem mislila, da bo ta obleka fantastična. Slike so bile čudovite in embalaža, v kateri je prišla, pa je bila popolna. Ko sem jo oblekla, sem bila videti kot žirafa. Ampak vsaj moj pes rad spi na njej in ko vidim, kako moj psiček srečno spi, sem srečna.",
          "Zelo dober telefon zame in baterija mi zdrži dva dni, tega pa pri prejšnjih nisem imela.",
          "Hitro ali super hitro polnjenje ni tako hitro.",
          "Tanek, lahek, zmogljiv in nenazadnje lep telefon.",
-         "Pogrešam le možnost priključitve slušalk prek vtičnice, vendar nič ni vedno popolno",
+         "Pogrešam le možnost priključitve slušalk prek vtičnice, vendar nič ni vedno popolno.",
          "Prijetne mere (brez lopatice).",
          "Mobilni telefon zdrži dva dni delovanja pri srednji obremenitvi.",
          "Prodajalec je dodal darilo - budilko s hitrim polnilcem, vendar ne more dostaviti priročnika v angleščini.",
@@ -1760,30 +1286,6 @@
                      "min_new_tokens": 4,
                      "max_new_tokens": 50
                   }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "google/flan-ul2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
                }
             ],
             "instruction": {
@@ -1806,7 +1308,7 @@
                   "output": "Nevtralno."
                },
                {
-                  "input": "Slabo tipalo prstnih odtisov",
+                  "input": "Slabo tipalo prstnih odtisov.",
                   "output": "Negativno."
                },
                {
@@ -1857,30 +1359,6 @@
                },
                {
                   "ibm/granite-13b-chat-v2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "google/flan-ul2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 4,
@@ -1964,30 +1442,6 @@
                      "min_new_tokens": 4,
                      "max_new_tokens": 50
                   }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "google/flan-ul2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
                }
             ],
             "instruction": {
@@ -2065,30 +1519,6 @@
                      "min_new_tokens": 4,
                      "max_new_tokens": 50
                   }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
-               },
-               {
-                  "google/flan-ul2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 4,
-                     "max_new_tokens": 50
-                  }
                }
             ],
             "instruction": {
@@ -2159,30 +1589,6 @@
                      "min_new_tokens": 10,
                      "max_new_tokens": 150
                   }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 150
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 150
-                  }
-               },
-               {
-                  "google/flan-ul2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 150
-                  }
                }
             ],
             "instruction": {
@@ -2232,30 +1638,6 @@
                },
                {
                   "ibm/granite-13b-chat-v2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 150
-                  }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 150
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 150
-                  }
-               },
-               {
-                  "google/flan-ul2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -2315,30 +1697,6 @@
                      "min_new_tokens": 10,
                      "max_new_tokens": 150
                   }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 150
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 150
-                  }
-               },
-               {
-                  "google/flan-ul2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 150
-                  }
                }
             ],
             "instruction": {
@@ -2393,30 +1751,6 @@
                      "min_new_tokens": 10,
                      "max_new_tokens": 150
                   }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 150
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 150
-                  }
-               },
-               {
-                  "google/flan-ul2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 150
-                  }
                }
             ],
             "instruction": {
@@ -2439,9 +1773,9 @@
          }
       }
    },
-   "Document Summary (SLO)": {
+   "Document Summary (SI)": {
       "name": "Document Summary",
-      "language": "SLO",
+      "language": "SI",
       "buttonName": "Document Summary",
       "inputs": [
          "Delniški trgi so se v sredo precej povečali in skoraj vsi sektorji so bili v zelenih številkah. Priljubljeni indeks S&P 500 je dodal skoraj dva odstotka in se je z oktobrskega dna povzpel že za več kot devet odstotkov. Delnice manjših ameriških podjetij iz indeksa Russell 2000 so se odzvale s posebno močno rastjo in v enem dnevu pridobile več kot pet odstotkov. Med zmagovalci so bili tudi nepremičninski investicijski skladi, ki so se prav tako povečali za pet odstotkov.",
@@ -2471,34 +1805,10 @@
                      "min_new_tokens": 10,
                      "max_new_tokens": 150
                   }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 150
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 150
-                  }
-               },
-               {
-                  "google/flan-ul2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 150
-                  }
                }
             ],
             "instruction": {
-               "detailed": "Preberite naslednji dokument in napišite kratek povzetek enega odstavka iz naslednjega dokumenta. ",
+               "detailed": "Preberite naslednji dokument in napišite kratek povzetek v enem odstavku iz naslednjega dokumenta. ",
                "summarized": "Napišite povzetek finančne novice."
             },
             "inputPrefix": "Dokument:",
@@ -2544,30 +1854,6 @@
                },
                {
                   "ibm/granite-13b-chat-v2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 150
-                  }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 150
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 150
-                  }
-               },
-               {
-                  "google/flan-ul2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -2627,30 +1913,6 @@
                      "min_new_tokens": 10,
                      "max_new_tokens": 150
                   }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 150
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 150
-                  }
-               },
-               {
-                  "google/flan-ul2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 150
-                  }
                }
             ],
             "instruction": {
@@ -2705,30 +1967,6 @@
                      "min_new_tokens": 10,
                      "max_new_tokens": 150
                   }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 150
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 150
-                  }
-               },
-               {
-                  "google/flan-ul2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 150
-                  }
                }
             ],
             "instruction": {
@@ -2777,30 +2015,6 @@
                },
                {
                   "ibm/granite-13b-chat-v2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
-               },
-               {
-                  "google/flan-ul2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -2879,30 +2093,6 @@
                      "min_new_tokens": 10,
                      "max_new_tokens": 100
                   }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
-               },
-               {
-                  "google/flan-ul2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
                }
             ],
             "instruction": {
@@ -2971,30 +2161,6 @@
                },
                {
                   "ibm/granite-13b-chat-v2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
-               },
-               {
-                  "google/flan-ul2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -3073,30 +2239,6 @@
                      "min_new_tokens": 10,
                      "max_new_tokens": 100
                   }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
-               },
-               {
-                  "google/flan-ul2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
                }
             ],
             "instruction": {
@@ -3139,9 +2281,9 @@
          }
       }
    },
-   "Categorization (SLO)": {
+   "Categorization (SI)": {
       "name": "Categorization",
-      "language": "SLO",
+      "language": "SI",
       "buttonName": "Categorization",
       "inputs": [
          "Andy: \n Odlično in dobro vzdrževano. Visoko organiziran in učinkovit. Dobro obvladuje promet tudi v tem letnem času, ko je velik naval mednarodnih študentov, ki prihajajo na univerze v Vancouvru. Veliko taksi služb, ki so na voljo tik pred letališčem.  Izjemno ustrežljivo osebje.",
@@ -3165,30 +2307,6 @@
                },
                {
                   "ibm/granite-13b-chat-v2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
-               },
-               {
-                  "google/flan-ul2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -3224,7 +2342,7 @@
                   "output": "Negativno mnenje\n- Dolgo čakanje na pregled prtljage\n- Pomanjkanje empatije in spoštovanja do letalskega osebja\n- Nečloveško ravnanje"
                },
                {
-                  "input": "Oznake niso bile dobre. Moral sem vprašati, kje so stranišča, nato pa sem se zmotil v salonu, ko sem želel odletni izhod. Sicer pa je bil dostop do odhodnih vrat dokaj dober.",
+                  "input": "Oznake niso bile dobre. Moral sem vprašati, kje so stranišča, nato pa sem se zmotil in šel v salon namesto na izhod za odhode. Sicer pa je bil dostop do izhodov za odhode dokaj dober.",
                   "output": "Mešano mnenje\n- Slaba označba\n- Zavajajoča postavitev\n- Dober dostop do izhodov za odhode"
                },
                {
@@ -3262,30 +2380,6 @@
                },
                {
                   "ibm/granite-13b-chat-v2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
-               },
-               {
-                  "google/flan-ul2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -3364,30 +2458,6 @@
                      "min_new_tokens": 10,
                      "max_new_tokens": 100
                   }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
-               },
-               {
-                  "google/flan-ul2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
                }
             ],
             "instruction": {
@@ -3456,30 +2526,6 @@
                },
                {
                   "ibm/granite-13b-chat-v2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
-               },
-               {
-                  "google/flan-ul2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -3560,30 +2606,6 @@
                      "min_new_tokens": 10,
                      "max_new_tokens": 200
                   }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "google/flan-ul2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
                }
             ],
             "instruction": {
@@ -3650,30 +2672,6 @@
                },
                {
                   "ibm/granite-13b-chat-v2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "google/flan-ul2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -3750,30 +2748,6 @@
                      "min_new_tokens": 10,
                      "max_new_tokens": 200
                   }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "google/flan-ul2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
                }
             ],
             "instruction": {
@@ -3845,30 +2819,6 @@
                      "min_new_tokens": 10,
                      "max_new_tokens": 200
                   }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "google/flan-ul2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
                }
             ],
             "instruction": {
@@ -3907,9 +2857,9 @@
          }
       }
    },
-   "Document Summary (SLO)": {
+   "Document Summary (SI)": {
       "name": "Document Summary",
-      "language": "SLO",
+      "language": "SLI",
       "buttonName": "Document Summary",
       "inputs": [
          "Zavarovano vozilo Chevrolet Silverado je bilo 10. septembra 2023 ob 15.30 vpleteno v prometno nesrečo s pobegom. Med parkiranjem na ulici Oak Street je drugo vozilo trčilo v zavarovano vozilo in pobegnilo s kraja nesreče, ne da bi posredovalo kakršne koli podatke. Zavarovanec je škodo odkril pozneje in dogodek prijavil policiji. Zavarovanec je vložil zahtevek za popravilo in kot dokazilo o nesreči s pobegom predložil policijsko poročilo.",
@@ -3935,30 +2885,6 @@
                },
                {
                   "ibm/granite-13b-chat-v2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "google/flan-ul2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -4035,30 +2961,6 @@
                      "min_new_tokens": 10,
                      "max_new_tokens": 200
                   }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "google/flan-ul2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
                }
             ],
             "instruction": {
@@ -4125,30 +3027,6 @@
                },
                {
                   "ibm/granite-13b-chat-v2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "google/flan-ul2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -4225,30 +3103,6 @@
                      "min_new_tokens": 10,
                      "max_new_tokens": 200
                   }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "google/flan-ul2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
                }
             ],
             "instruction": {
@@ -4313,30 +3167,6 @@
                },
                {
                   "ibm/granite-13b-chat-v2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "google/flan-ul2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -4431,30 +3261,6 @@
                      "min_new_tokens": 10,
                      "max_new_tokens": 200
                   }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "google/flan-ul2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
                }
             ],
             "instruction": {
@@ -4539,30 +3345,6 @@
                },
                {
                   "ibm/granite-13b-chat-v2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "google/flan-ul2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -4657,30 +3439,6 @@
                      "min_new_tokens": 10,
                      "max_new_tokens": 200
                   }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "google/flan-ul2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
                }
             ],
             "instruction": {
@@ -4739,9 +3497,9 @@
          }
       }
    },
-   "Generate Response (SLO)": {
+   "Generate Response (SI)": {
       "name": "Generate Response",
-      "language": "SLO",
+      "language": "SI",
       "buttonName": "Generate Response",
       "inputs": [
          "Andy: \n Odlično in dobro vzdrževano. Visoko organiziran in učinkovit. Dobro obvladuje promet tudi v tem letnem času, ko je velik naval mednarodnih študentov, ki prihajajo na univerze v Vancouvru. Veliko taksi služb, ki so na voljo tik pred letališčem.  Izjemno ustrežljivo osebje.",
@@ -4770,30 +3528,6 @@
                      "min_new_tokens": 10,
                      "max_new_tokens": 200
                   }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "google/flan-ul2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
                }
             ],
             "instruction": {
@@ -4809,11 +3543,11 @@
                },
                {
                   "input": "Daniel Xu: \nTako sodobno! Zelo čisto in odlično vzdušje.",
-                  "output": "Pozdravljeni Daniel\nDakaj za mnenje, veseli nas, da ste uživali v obisku!"
+                  "output": "Pozdravljeni Daniel\nHvala za mnenje, veseli nas, da ste uživali v obisku!"
                },
                {
-                  "input": "C. Nazima London:\nMam invalidnega otroka, ki uporablja AAC Tobi Dynavox, da govori.\nPotovali smo skoraj vse Združene države Amerike, kjer se je moj otrok rodil, in NIKOLI ni TSA vzel njen AAC od nje, da bi ga pregledal.\nMoj otrok je kričal in rekel, da ga mora dati, če želi iti domov.\nTo je smešno, nihče nikoli ne bi smel biti obravnavan na tak način. Ta AAC je njen glas, kako si drznejo to storiti.\nNa let smo imeli pozno zvečer 8. 9. 23. Moj otrok je jokal in jokal, ni mogel razumeti, zakaj bi ji odvzeli glas.Nadzornik mi je rekel, da ni pritrjen nanjo, zato mora iti skozi pregled, potem ko je šel skozi, pa so ga držali stran od nje, medtem ko so jo pretipavali, ni mogla povedati, ali jo bolijo ali spravljajo v zadrego. \nSvetujem vsem staršem ali osebam, ki uporabljajo govorni pripomoček, da NE LETIJO V KANADO, saj imajo najbolj grozne ljudi pri TSA.Nikoli ne bomo mogli videti naše starejše družine, ki živi v Kanadi.Nekdo mora to takoj popraviti!!!",
-                  "output": "Pozdravljena Nazima,\nMi je zelo žal, da ste morali skozi to. Takoj bomo raziskali to težavo."
+                  "input": "C. Nazima London:\nMam invalidnega otroka, ki uporablja AAC Tobi Dynavox, da govori.\nPrepotovali smo skoraj vse Združene države Amerike, kjer se je moj otrok rodil, in NIKOLI ni TSA vzel njen AAC od nje, da bi ga pregledal.\nMoj otrok je kričal in rekel, da ga mora dati, če želi iti domov.\nTo je smešno, nihče nikoli ne bi smel biti obravnavan na tak način. Ta AAC je njen glas, kako si drznejo to storiti.\nNa let smo imeli pozno zvečer 8. 9. 23. Moj otrok je jokal in jokal, ni mogel razumeti, zakaj bi ji odvzeli glas.Nadzornik mi je rekel, da ni pritrjen nanjo, zato mora iti skozi pregled, potem ko je šel skozi, pa so ga držali stran od nje, medtem ko so jo pretipavali, ni mogla povedati, ali jo bolijo ali spravljajo v zadrego. \nSvetujem vsem staršem ali osebam, ki uporabljajo govorni pripomoček, da NE LETIJO V KANADO, saj imajo najbolj grozne ljudi pri TSA.Nikoli ne bomo mogli videti naše starejše družine, ki živi v Kanadi.Nekdo mora to takoj popraviti!!!",
+                  "output": "Pozdravljena Nazima,\nZelo mi je žal, da ste morali skozi to. To težavo bomo takoj raziskali."
                },
                {
                   "input": "Reg Natarajan:\nSicer imam predsodke, saj je to moje domače pristanišče, vendar je YVR res najboljše letališče na svetu.",
@@ -4829,14 +3563,14 @@
                },
                {
                   "input": "DS C:\nTo je sramota.\nKdorkoli je načrtoval gradnjo v petek pred dolgim vikendom, potrebuje nekaj pozornosti in temeljito razumevanje razmer. Po precej dolgem čakanju je trajalo kar nekaj časa, da smo dobili taksi. Enako je bilo tudi pri prevozu z drugimi vozili. Noben avto ni prišel.\nPreprosto, zakaj ste se odločili blokirati vse vozne pasove razen enega, ko ste vedeli, da bo veliko potnikov?",
-                  "output": "Pozdravljeni DS C,\nOsmiljujemo se za nevšečnosti, ki so nastale zaradi gradnje. Razumemo, da je bil to prometno naporen čas, in preučili bomo načine, kako zmanjšati vpliv prihodnjih gradbenih projektov."
+                  "output": "Pozdravljeni DS C,\nOpravičujemo se za nevšečnosti, ki so nastale zaradi gradnje. Razumemo, da je bil to prometno naporen čas, in preučili bomo načine, kako zmanjšati vpliv prihodnjih gradbenih projektov."
                },
                {
                   "input": "Wareef Kabbani:\nLetališče je lepo. Vendar je na njem precej premalo osebja. Letalske družbe so zelo počasne in imajo velike čakalne vrste. Razdalja do določenih izhodov je lahko skoraj en kilometer. Sicer pa je vzdušje lepo in suho.",
                   "output": "Pozdravljeni, Wareef!\nZa vaše mnenje se vam zahvaljujem. Preučili bomo možnost, da bi dodali več osebja, da bi izboljšali učinkovitost prijave in skrajšali čas čakanja."
                },
                {
-                  "input": "Cheekeye the-dog:\nNajslabše letališče na svetu\nBiti tam 2 uri poleg tega, kar priporočajo.\n89 % možnosti, da bodo izgubili vašo prtljago, zato spakirajte AirTags\nMajo čistokrvnega psa, zato vsaj ne boste ostali s slabim okusom v ustih, čeprav je to najslabše letališče na svetu.",
+                  "input": "Cheekeye the-dog:\nNajslabše letališče na svetu\nBodite tam največ 2 uri poleg tega, kar priporočajo.\n89 % možnosti, da bodo izgubili vašo prtljago, zato spakirajte AirTags\nMajo čistokrvnega psa, zato vsaj ne boste ostali s slabim okusom v ustih, čeprav je to najslabše letališče na svetu.",
                   "output": "Pozdravljen, Cheekeye,\nOžalujemo, da ste imeli negativno izkušnjo. Potrudili se bomo, da bomo izboljšali svoje storitve in zmanjšali tveganje izgubljene prtljage. Zahvaljujemo se vam za povratne informacije."
                },
                {
@@ -4878,30 +3612,6 @@
                },
                {
                   "ibm/granite-13b-chat-v2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "google/flan-ul2": {
                      "decoding_method": "greedy",
                      "repetition_penalty": 1.1,
                      "min_new_tokens": 10,
@@ -4996,30 +3706,6 @@
                      "min_new_tokens": 10,
                      "max_new_tokens": 200
                   }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "google/flan-ul2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
                }
             ],
             "instruction": {
@@ -5109,30 +3795,6 @@
                      "min_new_tokens": 10,
                      "max_new_tokens": 200
                   }
-               },
-               {
-                  "meta-llama/llama-2-13b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
-               },
-               {
-                  "google/flan-ul2": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 200
-                  }
                }
             ],
             "instruction": {
@@ -5191,61 +3853,60 @@
          }
       }
    },
-
-   "Quantum Computing (CZ)":{
-      "name":"Quantum Computing",
-      "language":"CZ",
-      "buttonName":"Retrive Answer",
-      "inputs":[
+   "Quantum Computing (CZ)": {
+      "name": "Quantum Computing",
+      "language": "CZ",
+      "buttonName": "Retrive Answer",
+      "inputs": [
          "Jaké fyzikální vlastnosti využívá kvantový počítač ke své činnosti?",
          "Co obnáší kvantová dekoherence pro výpočty kvantovými počítači?",
          "Jaké může dosahovat zrychlení výpočtů u kvantových počítačů proti klasikým počítačům, avšak jaké musí být splněny podmínky?"
       ],
-      "topics":{
-         "topic1":{
-            "topicName":"Question Answering",
-            "models":[
+      "topics": {
+         "topic1": {
+            "topicName": "Question Answering",
+            "models": [
                {
-                  "meta-llama/llama-2-70b-chat":{
-                     "decoding_method":"greedy",
-                     "temperature":0.5,
-                     "repetition_penalty":1.2,
-                     "top_p":1,
-                     "top_k":50,
-                     "min_new_tokens":15,
-                     "max_new_tokens":150
+                  "meta-llama/llama-2-70b-chat": {
+                     "decoding_method": "greedy",
+                     "temperature": 0.5,
+                     "repetition_penalty": 1.2,
+                     "top_p": 1,
+                     "top_k": 50,
+                     "min_new_tokens": 15,
+                     "max_new_tokens": 150
                   }
                }
             ],
-            "instruction":{
-               "detailed":"Odpovězte na následující otázku pouze na základě informací z článku. Odpověď musí být v českém jazyce. Pokud v článku není žádná dobrá odpověď, řekněte \"nevím\".\nČlánek: \nKvantový počítač je počítač, který využívá kvantově mechanické jevy. V malých měřítkách vykazuje fyzikální hmota vlastnosti částic i vln a kvantové počítače využívají tohoto chování, konkrétně kvantové superpozice a provázanosti, pomocí specializovaného hardwaru, který podporuje přípravu a manipulaci s kvantovými stavy. Klasická fyzika nedokáže vysvětlit fungování těchto kvantových zařízení a škálovatelný kvantový počítač by mohl provádět některé výpočty exponenciálně rychleji než jakýkoli moderní \"klasický\" počítač. Rozsáhlý kvantový počítač by zejména mohl prolomit široce používaná šifrovací schémata a pomoci fyzikům při provádění fyzikálních simulací; současný stav techniky je však převážně experimentální a nepraktický, přičemž užitečným aplikacím brání několik překážek. Škálovatelné kvantové počítače navíc nejsou pro mnoho praktických úloh perspektivní a u mnoha důležitých úloh je kvantové zrychlení prokazatelně nemožné. Základní jednotkou informace v kvantové výpočetní technice je qubit, podobně jako bit v tradiční digitální elektronice. Na rozdíl od klasického bitu může qubit existovat v superpozici svých dvou \"základních\" stavů, což volně znamená, že se nachází v obou stavech současně. Při měření qubitu je výsledkem pravděpodobnostní výstup klasického bitu, proto jsou kvantové počítače obecně nedeterministické. Pokud kvantový počítač manipuluje s qubitem určitým způsobem, mohou vlnové interferenční efekty zesílit požadované výsledky měření. Návrh kvantových algoritmů zahrnuje vytvoření postupů, které umožní kvantovému počítači provádět výpočty efektivně a rychle. Fyzikální inženýrství vysoce kvalitních qubitů se ukázalo jako náročné. Pokud není fyzický qubit dostatečně izolován od svého okolí, trpí kvantovou dekoherencí, která do výpočtů vnáší šum. Paradoxně je dokonalá izolace qubitů také nežádoucí, protože při kvantových výpočtech je obvykle třeba qubity inicializovat, provádět řízené interakce qubitů a měřit výsledné kvantové stavy. Každá z těchto operací přináší chyby a trpí šumem a tyto nepřesnosti se kumulují.",
-               "summarized":"Odpovězte na následující otázku na základě informací v článku."
+            "instruction": {
+               "detailed": "Odpovězte na následující otázku pouze na základě informací z článku. Odpověď musí být v českém jazyce. Pokud v článku není žádná dobrá odpověď, řekněte \"nevím\".\nČlánek: \nKvantový počítač je počítač, který využívá kvantově mechanické jevy. V malých měřítkách vykazuje fyzikální hmota vlastnosti částic i vln a kvantové počítače využívají tohoto chování, konkrétně kvantové superpozice a provázanosti, pomocí specializovaného hardwaru, který podporuje přípravu a manipulaci s kvantovými stavy. Klasická fyzika nedokáže vysvětlit fungování těchto kvantových zařízení a škálovatelný kvantový počítač by mohl provádět některé výpočty exponenciálně rychleji než jakýkoli moderní \"klasický\" počítač. Rozsáhlý kvantový počítač by zejména mohl prolomit široce používaná šifrovací schémata a pomoci fyzikům při provádění fyzikálních simulací; současný stav techniky je však převážně experimentální a nepraktický, přičemž užitečným aplikacím brání několik překážek. Škálovatelné kvantové počítače navíc nejsou pro mnoho praktických úloh perspektivní a u mnoha důležitých úloh je kvantové zrychlení prokazatelně nemožné. Základní jednotkou informace v kvantové výpočetní technice je qubit, podobně jako bit v tradiční digitální elektronice. Na rozdíl od klasického bitu může qubit existovat v superpozici svých dvou \"základních\" stavů, což volně znamená, že se nachází v obou stavech současně. Při měření qubitu je výsledkem pravděpodobnostní výstup klasického bitu, proto jsou kvantové počítače obecně nedeterministické. Pokud kvantový počítač manipuluje s qubitem určitým způsobem, mohou vlnové interferenční efekty zesílit požadované výsledky měření. Návrh kvantových algoritmů zahrnuje vytvoření postupů, které umožní kvantovému počítači provádět výpočty efektivně a rychle. Fyzikální inženýrství vysoce kvalitních qubitů se ukázalo jako náročné. Pokud není fyzický qubit dostatečně izolován od svého okolí, trpí kvantovou dekoherencí, která do výpočtů vnáší šum. Paradoxně je dokonalá izolace qubitů také nežádoucí, protože při kvantových výpočtech je obvykle třeba qubity inicializovat, provádět řízené interakce qubitů a měřit výsledné kvantové stavy. Každá z těchto operací přináší chyby a trpí šumem a tyto nepřesnosti se kumulují.",
+               "summarized": "Odpovězte na následující otázku na základě informací v článku."
             },
-            "inputPrefix":"Otázka: ",
-            "outputPrefix":"Odpověď: ",
-            "examples":[
+            "inputPrefix": "Otázka: ",
+            "outputPrefix": "Odpověď: ",
+            "examples": [
                {
-                  "input":"Jaký je současný využití kvantových počítačů?",
-                  "output":"Současný stav využití kvantových počítačů je převážně experimentální a nepraktický."
+                  "input": "Jaký je současný využití kvantových počítačů?",
+                  "output": "Současný stav využití kvantových počítačů je převážně experimentální a nepraktický."
                },
                {
-                  "input":"Jaké úlohy by uměl řešit rozsáhlý kvantový počítač?",
-                  "output":"Rozsáhlý kvantový počítač by zejména mohl prolomit široce používaná šifrovací schémata a pomoci fyzikům při provádění fyzikálních simulací."
+                  "input": "Jaké úlohy by uměl řešit rozsáhlý kvantový počítač?",
+                  "output": "Rozsáhlý kvantový počítač by zejména mohl prolomit široce používaná šifrovací schémata a pomoci fyzikům při provádění fyzikálních simulací."
                },
                {
-                  "input":"Jaké fyzikální vlastnosti využívá kvantový počítač ke své činnosti?",
-                  "output":"Kvantový počítač využívá kvantové superpozice a provázanosti, pomocí specializovaného hardwaru, který podporuje přípravu a manipulaci s kvantovými stavy."
+                  "input": "Jaké fyzikální vlastnosti využívá kvantový počítač ke své činnosti?",
+                  "output": "Kvantový počítač využívá kvantové superpozice a provázanosti, pomocí specializovaného hardwaru, který podporuje přípravu a manipulaci s kvantovými stavy."
                }
             ],
-            "enabled":true
+            "enabled": true
          }
       }
    },
-   "Opinions on the product (SK)":{
-      "name":"Opinions on the product (SK)",
-      "language":"SK",
-      "buttonName":"Analyzuj",
-      "inputs":[
+   "Opinions on the product (SK)": {
+      "name": "Opinions on the product (SK)",
+      "language": "SK",
+      "buttonName": "Analyzuj",
+      "inputs": [
          "Zatial ho mám kratko abysom mohol hodnotiť. V podstate som spokojný.",
          "Veľmi ochotný pracovník, vyšiel mi v ústrety s mojou požiadavkou ohladne dodania tovaru.",
          "Žiadna normálna nabijacka k tomu nie je v krabičke.",
@@ -5254,144 +3915,144 @@
          "Som mierne sklamaný z kvality fotiek počas dňa (chýba makro)",
          "Po pár dňoch používania som nenašla nič čo by som hodnotila negatívne."
       ],
-      "topics":{
-         "topic1":{
-            "topicName":"Sentiment Analyses",
-            "models":[
+      "topics": {
+         "topic1": {
+            "topicName": "Sentiment Analyses",
+            "models": [
                {
-                  "meta-llama/llama-2-70b-chat":{
-                     "decoding_method":"greedy",
-                     "repetition_penalty":1.2,
-                     "temperature":0.5,
-                     "top_p":1,
-                     "top_k":50,
-                     "min_new_tokens":1,
-                     "max_new_tokens":20
+                  "meta-llama/llama-2-70b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.2,
+                     "temperature": 0.5,
+                     "top_p": 1,
+                     "top_k": 50,
+                     "min_new_tokens": 1,
+                     "max_new_tokens": 20
                   }
                },
                {
-                  "ibm/granite-13b-chat-v1":{
-                     "decoding_method":"greedy",
-                     "repetition_penalty":1.2,
-                     "temperature":0.5,
-                     "top_p":1,
-                     "top_k":50,
-                     "min_new_tokens":1,
-                     "max_new_tokens":20
+                  "ibm/granite-13b-chat-v1": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.2,
+                     "temperature": 0.5,
+                     "top_p": 1,
+                     "top_k": 50,
+                     "min_new_tokens": 1,
+                     "max_new_tokens": 20
                   }
                },
                {
-                  "bigscience/mt0-xxl":{
-                     "decoding_method":"greedy",
-                     "repetition_penalty":1.2,
-                     "temperature":0.5,
-                     "top_p":1,
-                     "top_k":50,
-                     "min_new_tokens":1,
-                     "max_new_tokens":20
+                  "bigscience/mt0-xxl": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.2,
+                     "temperature": 0.5,
+                     "top_p": 1,
+                     "top_k": 50,
+                     "min_new_tokens": 1,
+                     "max_new_tokens": 20
                   }
                },
                {
-                  "eleutherai/gpt-neox-20b":{
-                     "decoding_method":"greedy",
-                     "repetition_penalty":1.2,
-                     "temperature":0.5,
-                     "top_p":1,
-                     "top_k":50,
-                     "min_new_tokens":1,
-                     "max_new_tokens":20
+                  "eleutherai/gpt-neox-20b": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.2,
+                     "temperature": 0.5,
+                     "top_p": 1,
+                     "top_k": 50,
+                     "min_new_tokens": 1,
+                     "max_new_tokens": 20
                   }
                }
             ],
-            "instruction":{
-               "detailed":"Následující dokument obsahuje názory uživatelů na produkty. Přečti dokument a urči sentiment uživatele při hodnocení produkt.",
-               "summarized":"Identifikujte sentiment nasledujúcich správ."
+            "instruction": {
+               "detailed": "Následující dokument obsahuje názory uživatelů na produkty. Přečti dokument a urči sentiment uživatele při hodnocení produkt.",
+               "summarized": "Identifikujte sentiment nasledujúcich správ."
             },
-            "inputPrefix":"Text: ",
-            "outputPrefix":"Sentiment: ",
-            "examples":[
+            "inputPrefix": "Text: ",
+            "outputPrefix": "Sentiment: ",
+            "examples": [
                {
-                  "input":"Tento produkt sa mi vôbec nepáči. Je síce lacný, ale poriadne nefunguje.",
-                  "output":"Negatívne."
+                  "input": "Tento produkt sa mi vôbec nepáči. Je síce lacný, ale poriadne nefunguje.",
+                  "output": "Negatívne."
                },
                {
-                  "input":"Nie je to veľmi pekné.",
-                  "output":"Negatívne."
+                  "input": "Nie je to veľmi pekné.",
+                  "output": "Negatívne."
                },
                {
-                  "input":"Zatiaľ dobré nadštandard.",
-                  "output":"Pozitívne."
+                  "input": "Zatiaľ dobré nadštandard.",
+                  "output": "Pozitívne."
                },
                {
-                  "input":"Vzhľadovo pekný výkonný dobrá cena odporúčam.",
-                  "output":"Pozitívne."
+                  "input": "Vzhľadovo pekný výkonný dobrá cena odporúčam.",
+                  "output": "Pozitívne."
                },
                {
-                  "input":"Nedá sa nikde vypnúť Fast Charging (musím používať iný kábel nech nabíja pomaly aby sa rýchlo neničila baterka).",
-                  "output":"Negatívne."
+                  "input": "Nedá sa nikde vypnúť Fast Charging (musím používať iný kábel nech nabíja pomaly aby sa rýchlo neničila baterka).",
+                  "output": "Negatívne."
                },
                {
-                  "input":"Telefón má kvalitný fotoaparát, s najnovším androidom. Dobre sa drží v ruke, má krásny display.",
-                  "output":"Pozitívne."
+                  "input": "Telefón má kvalitný fotoaparát, s najnovším androidom. Dobre sa drží v ruke, má krásny display.",
+                  "output": "Pozitívne."
                },
                {
-                  "input":"Doposiaľ nemám žiadne negatívne skúsenosti.",
-                  "output":"Neutrálne."
+                  "input": "Doposiaľ nemám žiadne negatívne skúsenosti.",
+                  "output": "Neutrálne."
                },
                {
-                  "input":"Bezproblémové skopirovanie všetkých dát zo starého telefónu do nového a všetko ide ako má.",
-                  "output":"Pozitívne."
+                  "input": "Bezproblémové skopirovanie všetkých dát zo starého telefónu do nového a všetko ide ako má.",
+                  "output": "Pozitívne."
                }
             ],
-            "enabled":true
+            "enabled": true
          }
       }
    },
-   "Business Talks (CZ)":{
-      "name":"Business Talks (CZ)",
-      "language":"CZ",
-      "buttonName":"Shrnutí",
-      "inputs":[
+   "Business Talks (CZ)": {
+      "name": "Business Talks (CZ)",
+      "language": "CZ",
+      "buttonName": "Shrnutí",
+      "inputs": [
          "Obchodník: Dobrý den. Chtěl bych s vámi dnes projednat náš dlouhodobý obchodní vztah. Jak jste byl spokojen s naší dosavadní spoluprací?\n   Partner: Spolupráce s vaší firmou byla dosud velmi uspokojivá. Jsme spokojeni s kvalitou vašich produktů a vaší podporou. Myslím si, že jsme dosáhli významného pokroku.\n   Obchodník: To je skvělé slyšet. Rádi bychom pokračovali v tomto vzájemně prospěšném vztahu. Máme některé nové produkty a služby, které by se vám mohly líbit. Chtěli bychom s vámi diskutovat o možnosti rozšíření naší spolupráce a zvážit, jak bychom mohli lépe vyhovět vašim potřebám.\n   Partner: To zní zajímavě. Rádi bychom se dozvěděli více o těchto nových produktech a službách. Máme některé nové projekty, na kterých pracujeme, a myslím si, že by vaše řešení mohla být pro nás užitečná. Můžete nám poskytnout podrobnější informace?\n   Obchodník: Určitě, rádi bychom vám představili naše novinky a zvážili, jak by mohly být přizpůsobeny vašim projektům. Také bychom rádi projednali podmínky spolupráce a cenovou strukturu. Máte nějaký konkrétní časový plán, kdy byste chtěli tyto nové produkty zavést?\n   Partner: Budeme se potřebovat interně poradit ohledně našeho plánu, ale myslím si, že bychom mohli být připraveni začít spolupracovat během několika měsíců. Rádi bychom se dozvěděli více o cenách a podmínkách. Mohli byste nám připravit nějakou nabídku?\n   Obchodník: Samozřejmě, rádi vám připravíme podrobnou nabídku a provedeme vás celým procesem. Myslím si, že máme velký potenciál v tomto obchodním vztahu. Děkuji za váš čas a těším se na další spolupráci.\n",
-         "Obchodník: Dobrý den, pane Smith. Děkuji, že jste si našel čas dnes se mnou hovořit ohledně tohoto obchodního sporu.\n   Partner: Dobrý den, pane Johnson. Je to pro mě také důležité. Máme několik věcí, které bychom měli projednat, abychom našli společné řešení.\n   Obchodník: Souhlasím. Nejdříve bych rád zopakoval náš pohled na situaci. Podle našeho pohledu, smlouva jasně stanovuje, že dodání mělo být provedeno do konce října, ale bohužel jsme zjistili, že došlo k prodlení.\n   Partner: Máte pravdu, pane Johnson. Pro nás bylo prodlení také nepříjemné. Máme však důvody, které toto prodlení způsobily. Měli jsme problémy se získáním surovin včas kvůli nedostupnosti dodavatele.\n   Obchodník: Chápu, že může dojít k neočekávaným problémům. Ale měli jsme také náklady na skladování kvůli tomu, že jsme nemohli včas začít s výrobou. Jak byste navrhovali vyřešit tuto situaci?\n   Partner: Navrhuji, abychom společně hledali kompromis. Mohli bychom snížit sankce za prodlení dodání a prodloužit termíny pro dokončení dalších fází projektu. Tak bychom mohli minimalizovat naše ztráty a dosáhnout pozitivního výsledku pro obě strany.\n   Obchodník: To zní rozumně. Mohli bychom také zvážit dodatek ke smlouvě, který by obsahoval tyto změny a uzávěrku, která by je potvrdila. To by nám pomohlo vyhnout se budoucím nesrovnalostem.\n   Partner: Souhlasím. Myslím si, že dodatek by byl dobrým způsobem, jak zpevnit naši dohodu. Budeme potřebovat také konkrétní termíny a podmínky, které budou v dodatku uvedeny.\n   Obchodník: Můžeme pracovat na návrhu dodatku a společně zkontrolovat podmínky, abychom se ujistili, že jsou pro obě strany spravedlivé. Jaké jsou vaše další myšlenky ohledně tohoto sporu?\n   Partner: Rád bych také viděl, zda bychom mohli dohodnout nějaký postup pro řešení podobných problémů v budoucnu, abychom se vyvarovali opakování těchto obtíží.\n   Obchodník: To zní jako skvělý nápad. Můžeme zvážit vytvoření postupu pro řešení sporů a jeho začlenění do našich budoucích smluvních dohod.\n" 
+         "Obchodník: Dobrý den, pane Smith. Děkuji, že jste si našel čas dnes se mnou hovořit ohledně tohoto obchodního sporu.\n   Partner: Dobrý den, pane Johnson. Je to pro mě také důležité. Máme několik věcí, které bychom měli projednat, abychom našli společné řešení.\n   Obchodník: Souhlasím. Nejdříve bych rád zopakoval náš pohled na situaci. Podle našeho pohledu, smlouva jasně stanovuje, že dodání mělo být provedeno do konce října, ale bohužel jsme zjistili, že došlo k prodlení.\n   Partner: Máte pravdu, pane Johnson. Pro nás bylo prodlení také nepříjemné. Máme však důvody, které toto prodlení způsobily. Měli jsme problémy se získáním surovin včas kvůli nedostupnosti dodavatele.\n   Obchodník: Chápu, že může dojít k neočekávaným problémům. Ale měli jsme také náklady na skladování kvůli tomu, že jsme nemohli včas začít s výrobou. Jak byste navrhovali vyřešit tuto situaci?\n   Partner: Navrhuji, abychom společně hledali kompromis. Mohli bychom snížit sankce za prodlení dodání a prodloužit termíny pro dokončení dalších fází projektu. Tak bychom mohli minimalizovat naše ztráty a dosáhnout pozitivního výsledku pro obě strany.\n   Obchodník: To zní rozumně. Mohli bychom také zvážit dodatek ke smlouvě, který by obsahoval tyto změny a uzávěrku, která by je potvrdila. To by nám pomohlo vyhnout se budoucím nesrovnalostem.\n   Partner: Souhlasím. Myslím si, že dodatek by byl dobrým způsobem, jak zpevnit naši dohodu. Budeme potřebovat také konkrétní termíny a podmínky, které budou v dodatku uvedeny.\n   Obchodník: Můžeme pracovat na návrhu dodatku a společně zkontrolovat podmínky, abychom se ujistili, že jsou pro obě strany spravedlivé. Jaké jsou vaše další myšlenky ohledně tohoto sporu?\n   Partner: Rád bych také viděl, zda bychom mohli dohodnout nějaký postup pro řešení podobných problémů v budoucnu, abychom se vyvarovali opakování těchto obtíží.\n   Obchodník: To zní jako skvělý nápad. Můžeme zvážit vytvoření postupu pro řešení sporů a jeho začlenění do našich budoucích smluvních dohod.\n"
       ],
-      "topics":{
-         "topic1":{
-            "topicName":"Business talk summary",
-            "models":[
+      "topics": {
+         "topic1": {
+            "topicName": "Business talk summary",
+            "models": [
                {
-                  "meta-llama/llama-2-70b-chat":{
-                     "decoding_method":"greedy",
-                     "repetition_penalty":1.2,
-                     "min_new_tokens":20,
-                     "max_new_tokens":200
+                  "meta-llama/llama-2-70b-chat": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.2,
+                     "min_new_tokens": 20,
+                     "max_new_tokens": 200
                   }
                },
                {
-                  "ibm/granite-13b-chat-v1":{
-                     "decoding_method":"greedy",
-                     "repetition_penalty":1.2,
-                     "temperature":0.5,
-                     "top_p":1,
-                     "top_k":50,
-                     "min_new_tokens":20,
-                     "max_new_tokens":200
+                  "ibm/granite-13b-chat-v1": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.2,
+                     "temperature": 0.5,
+                     "top_p": 1,
+                     "top_k": 50,
+                     "min_new_tokens": 20,
+                     "max_new_tokens": 200
                   }
                }
             ],
-            "instruction":{
-               "detailed":"Výhradně v českém jazyce vytvoř Shrnutí následujícího obchodního Rozhovoru mezi partnerem a obchodníkem:",
-               "summarized":"Napiš shrnutí následujícího obchodního rozhovoru."
+            "instruction": {
+               "detailed": "Výhradně v českém jazyce vytvoř Shrnutí následujícího obchodního Rozhovoru mezi partnerem a obchodníkem:",
+               "summarized": "Napiš shrnutí následujícího obchodního rozhovoru."
             },
-            "inputPrefix":"Rozhovor: \n ",
-            "outputPrefix":"Shrnutí: \n ",
-            "examples":[
+            "inputPrefix": "Rozhovor: \n ",
+            "outputPrefix": "Shrnutí: \n ",
+            "examples": [
                {
-                  "input":"\n   Partner: Dobrý den, těší mě, že jsme se mohli setkat. Jak jste se měli od naší poslední schůzky?\n   Obchodník: Dobrý den, ano, bylo to pěkných pár měsíců. Děkuji, že jste naši schůzku uspořádali. Měl jsem se dobře a jak jste vy?\n   Partner: Díky za otázku. Měl jsem taky hezké měsíce. Kromě toho jsme měli několik významných změn ve firmě od naší poslední schůzky. Rozšířili jsme naši produktovou řadu a také jsme zaznamenali růst tržeb o 20 %.\n   Obchodník: To zní skvěle, gratuluji k úspěchům! My jsme také měli nějaké změny. Naše inženýrský tým pracuje na vylepšení našich produktů a zároveň se snažíme rozšířit naše tržní zastoupení. Máme něco nového, co by vás mohlo zajímat.\n   Partner: To zní zajímavě. Můžete mi o tom říct více?\n   Obchodník: Samozřejmě, rádi bychom vám představili naši novou produktovou řadu, která zahrnuje několik inovativních prvků, které by mohly zvýšit efektivitu vašeho podnikání. Rádi bychom také diskutovali o možnostech spolupráce, které by mohly být pro obě strany prospěšné.\n   Partner: To zní slibně. Měli bychom se podívat na vaši prezentaci a projednat detaily. Máme určitý rozpočet na investice do nových produktů, takže bychom rádi slyšeli i o cenových podmínkách.\n   Obchodník: Samozřejmě, rádi vám představíme naši prezentaci a diskutujeme o ceně. Můžeme také zvážit různé formy spolupráce, včetně slev na objednávky ve větším množství.",
-                  "output":"\n   Partner během rozhovoru informoval o pozitivních změnách ve firmě, včetně růstu tržeb, a obchodník nabídl novou produktovou řadu a možnosti spolupráce. Partner projevil zájem o další detaily a cenovou diskuzi."
+                  "input": "\n   Partner: Dobrý den, těší mě, že jsme se mohli setkat. Jak jste se měli od naší poslední schůzky?\n   Obchodník: Dobrý den, ano, bylo to pěkných pár měsíců. Děkuji, že jste naši schůzku uspořádali. Měl jsem se dobře a jak jste vy?\n   Partner: Díky za otázku. Měl jsem taky hezké měsíce. Kromě toho jsme měli několik významných změn ve firmě od naší poslední schůzky. Rozšířili jsme naši produktovou řadu a také jsme zaznamenali růst tržeb o 20 %.\n   Obchodník: To zní skvěle, gratuluji k úspěchům! My jsme také měli nějaké změny. Naše inženýrský tým pracuje na vylepšení našich produktů a zároveň se snažíme rozšířit naše tržní zastoupení. Máme něco nového, co by vás mohlo zajímat.\n   Partner: To zní zajímavě. Můžete mi o tom říct více?\n   Obchodník: Samozřejmě, rádi bychom vám představili naši novou produktovou řadu, která zahrnuje několik inovativních prvků, které by mohly zvýšit efektivitu vašeho podnikání. Rádi bychom také diskutovali o možnostech spolupráce, které by mohly být pro obě strany prospěšné.\n   Partner: To zní slibně. Měli bychom se podívat na vaši prezentaci a projednat detaily. Máme určitý rozpočet na investice do nových produktů, takže bychom rádi slyšeli i o cenových podmínkách.\n   Obchodník: Samozřejmě, rádi vám představíme naši prezentaci a diskutujeme o ceně. Můžeme také zvážit různé formy spolupráce, včetně slev na objednávky ve větším množství.",
+                  "output": "\n   Partner během rozhovoru informoval o pozitivních změnách ve firmě, včetně růstu tržeb, a obchodník nabídl novou produktovou řadu a možnosti spolupráce. Partner projevil zájem o další detaily a cenovou diskuzi."
                }
             ],
-            "enabled":true
+            "enabled": true
          }
       }
    }
