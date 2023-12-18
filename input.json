@@ -5,10 +5,11 @@
       "buttonName": "Entities Extraction",
       "inputs": [
          "Nobelovu cenu za fyziologii a lékařství získala biochemička Katalin Karikóová původem z Maďarska a americký imunolog Drew Weissman, kteří položili základy pro vývoj mRNA vakcín při svém působení na Pensylvánské univerzitě ve Filadelfii a položili tak základy pro vývoj vakcín proti nemoci covid-19.",
-         "Neumím si představit, že poslední týdny nezanechají hlubokou emoční, politickou i společenskou stopu na straně Izraelců a Palestinců na dekády, komentuje vraždy Hamásu a následnou odvetu Izraele analytik z Institutu politologických studií Jakub Záhora. Situace je podle něj nejhorší za 70 let. Na to, že by mohl vzniknout svobodný palestinský stát, mohou teď Palestinci zapomenout.",
          "Gernot Döllner vede Audi od začátku září, kdy vystřídal Markuse Duesmanna. Ten skončil kvůli roztržce s představenstvem Audi, kterému se nelíbilo, že značka ztrácí v přímé konkurenci dalších německých prémiových výrobců BMW a Mercedes-Benz. Vlak jí ujíždí především v elektromobilitě. V rozhovoru pro německý deník Handelsblatt Döllner řekl, že bude trvat mnohem déle, než Audi vygeneruje stejné výnosy u elektromobilů jako u spalovacích motorů. Audi však trápí vysoké náklady na výrobu baterií a pořízení surovin pro elektromobily, zvláště vzácných kovů. ",
          "Největší ledovec světa se dal do pohybu. Obří kus ledu pojmenovaný A23a o rozloze téměř čtyř tisíc kilometrů čtverečních se v roce 1986 oddělil od antarktické pevniny, brzy však zakotvil ve Weddellově moři, a stal se tak prakticky ledovým ostrovem. V uplynulém roce však začal být unášen značnou rychlostí pryč a nyní se chystá vyplout mimo vody Antarktidy, informuje BBC.",
-         "Švýcarští vědci vyvinuli umělou inteligenci, která podle nich zjednoduší boj proti padělkům vína na evropském trhu a zároveň pomůže vyrábět ještě lepší víno. Umělá inteligence může být také velmi užitečným nástrojem pro prevenci častých a těžko prokazatelných podvodů ve vinařském průmyslu, zjistili vědci z Ženevské univerzity. Konkrétně vyvinuli umělou inteligenci, která na základě malého vzorku vína dokáže s mimořádnou přesností určit, odkud víno pochází. Neurčuje pouze užší zeměpisnou oblast, ale přesnou vinici nebo vinařství, shrnuje výzkum deník Guardian."
+         "Švýcarští vědci vyvinuli umělou inteligenci, která podle nich zjednoduší boj proti padělkům vína na evropském trhu a zároveň pomůže vyrábět ještě lepší víno. Umělá inteligence může být také velmi užitečným nástrojem pro prevenci častých a těžko prokazatelných podvodů ve vinařském průmyslu, zjistili vědci z Ženevské univerzity. Konkrétně vyvinuli umělou inteligenci, která na základě malého vzorku vína dokáže s mimořádnou přesností určit, odkud víno pochází. Neurčuje pouze užší zeměpisnou oblast, ale přesnou vinici nebo vinařství, shrnuje výzkum deník Guardian.",
+         "Neobvyklý spor vedou mezi sebou dvě firmy v oblasti luxusní kosmetiky. Na jedné straně je francouzský výrobce luxusních parfémů – Chanel, na druhé český prodejce voňavek Notino. Společnost založená slavnou návrhářkou Coco Chanel požaduje po českém obchodníkovi, aby jí sdělil, kde nakoupil její výrobky, které přeprodává ve svém e-shopu. Chanel si totiž důkladně vybírá, komu své zboží umožní prodávat. Zájemce musí splnit přísné požadavky, než s ním světoznámý výrobce uzavře smlouvu. ",
+         "Některé automobilky zpomalily své plány na vývoj a výrobu elektromobilů. Ford odložil investici ve výši 12 miliard dolarů a General Motors opustil od představy vyrobit 500 tisíc elektrických vozů do půlky roku 2024.  Ve Spojených státech se má letos prodat milion elektrických vozů, což je devět procent tamního trhu s novými auty uvádí poradenská společnost Atlas Public Policy. Analytici banky Goldman Sachs předpokládají, že se ceny elektrických a spalovacích aut vyrovnají do poloviny této dekády. Výzkumná společnost Gartner tento moment tipuje na rok 2027 a dodává, že celosvětový odbyt osobních aut s elektrickým pohonem se v příštím roce zvýší o zhruba 19 procent na téměř 18 milionů vozů."
       ],
       "topics": {
          "topic1": {
@@ -64,10 +65,11 @@
       "buttonName": "Entities Extraction",
       "inputs": [
          "The Nobel Prize in Physiology or Medicine was awarded to Hungarian-born biochemist Katalin Karikó and American immunologist Drew Weissman, who laid the groundwork for the development of mRNA vaccines during their time at the University of Pennsylvania in Philadelphia, laying the foundation for the development of vaccines against covid-19 disease.",
-         "I can't imagine that the last few weeks will not leave a deep emotional, political and social mark on the Israelis and Palestinians for decades, comments Jakub Zahora, an analyst at the Institute for Policy Studies, on the Hamas killings and Israel's subsequent retaliation. The situation, he says, is the worst in 70 years. The Palestinians can now forget about the possibility of a free Palestinian state.",
          "Gernot Döllner has been in charge of Audi since the beginning of September, when he replaced Markus Duesmann. He quit over a falling out with Audi's board, which did not like the brand losing out to direct competition from other German premium manufacturers BMW and Mercedes-Benz. It is missing the train especially in electromobility. In an interview with the German daily Handelsblatt, Döllner said it would take much longer for Audi to generate the same revenues from electric cars as from internal combustion engines. However, Audi has been plagued by the high cost of battery production and the acquisition of raw materials for electric vehicles, particularly precious metals.",
          "The world's largest iceberg has set in motion. A giant chunk of ice, named A23a, covering almost four thousand square kilometres, broke away from the Antarctic mainland in 1986, but soon anchored in the Weddell Sea, becoming virtually an ice island. But in the past year it has begun drifting away at considerable speed and is now poised to sail out of Antarctic waters, the BBC reports.",
-         "Swiss scientists have developed artificial intelligence, which they believe will simplify the fight against wine counterfeits on the European market, while also helping to produce even better wine. Artificial intelligence can also be a very useful tool to prevent frequent and hard-to-prove fraud in the wine industry, researchers from the University of Geneva have found. Namely, they have developed artificial intelligence which, based on a small sample of wine, can determine with extreme precision where the wine comes from. It does not specify only a narrower geographical area, but the exact vineyard or winery, the research is summarized by the Guardian."
+         "Swiss scientists have developed artificial intelligence, which they believe will simplify the fight against wine counterfeits on the European market, while also helping to produce even better wine. Artificial intelligence can also be a very useful tool to prevent frequent and hard-to-prove fraud in the wine industry, researchers from the University of Geneva have found. Namely, they have developed artificial intelligence which, based on a small sample of wine, can determine with extreme precision where the wine comes from. It does not specify only a narrower geographical area, but the exact vineyard or winery, the research is summarized by the Guardian.",
+         "Two companies in the luxury cosmetics sector are engaged in an unusual dispute. On one side is the French manufacturer of luxury perfumes - Chanel, on the other side is the Czech perfume retailer Notino. The company, founded by the famous designer Coco Chanel, is demanding that the Czech retailer tell it where it bought its products, which it resells in its e-shop. Chanel chooses carefully who it allows to sell its goods. The interested party has to meet strict requirements before the world-famous manufacturer will enter into a contract with them. ",
+         "Some car companies have slowed down their plans to develop and produce electric cars. Ford has postponed a $12 billion investment and General Motors has abandoned the idea of producing 500,000 electric cars by mid-2024. One million electric cars are expected to be sold in the United States this year, accounting for nine percent of the new-car market there, according to consultancy Atlas Public Policy. Analysts at Goldman Sachs bank project that prices for electric and internal combustion cars will level off by the middle of this decade. Research firm Gartner predicts that moment in 2027, adding that global sales of electric passenger cars will increase by about 19 percent to nearly 18 million vehicles next year."
       ],
       "topics": {
          "topic1": {
@@ -123,10 +125,11 @@
       "buttonName": "Entities Extraction",
       "inputs": [
          "Der Nobelpreis für Physiologie oder Medizin ging an die in Ungarn geborene Biochemikerin Katalin Karikó und den amerikanischen Immunologen Drew Weissman, die während ihrer Zeit an der University of Pennsylvania in Philadelphia den Grundstein für die Entwicklung von mRNA-Impfstoffen legten und damit den Grundstein für die Entwicklung von Impfstoffen gegen die Covid-19-Krankheit legten.",
-         "Ich kann mir nicht vorstellen, dass die letzten Wochen nicht über Jahrzehnte hinweg tiefe emotionale, politische und soziale Spuren bei Israelis und Palästinensern hinterlassen werden, kommentiert Jakub Zahora, Analyst am Institute for Policy Studies, die Morde der Hamas und die anschließenden Vergeltungsmaßnahmen Israels. Die Situation ist seiner Meinung nach die schlimmste seit 70 Jahren. Die Palästinenser können die Möglichkeit eines freien palästinensischen Staates jetzt vergessen.",
          "Gernot Döllner ist seit Anfang September an der Spitze von Audi, als er Markus Duesmann ablöste. Er verließ das Unternehmen nach einem Zerwürfnis mit dem Audi-Vorstand, dem es nicht gefiel, dass die Marke im direkten Wettbewerb mit den anderen deutschen Premiumherstellern BMW und Mercedes-Benz unterlegen war. Vor allem bei der Elektromobilität hat Audi den Anschluss verpasst. In einem Interview mit dem Handelsblatt sagte Döllner, dass es viel länger dauern werde, bis Audi mit Elektroautos die gleichen Umsätze erzielen werde wie mit Verbrennungsmotoren. Allerdings machen Audi die hohen Kosten für die Batterieproduktion und die Beschaffung von Rohstoffen für Elektrofahrzeuge, insbesondere Edelmetalle, zu schaffen.",
          "Der größte Eisberg der Welt hat sich in Bewegung gesetzt. Ein riesiger Eisbrocken mit dem Namen A23a, der fast viertausend Quadratkilometer groß ist, brach 1986 vom antarktischen Festland ab, blieb aber bald im Weddellmeer liegen und wurde praktisch zu einer Eisinsel. Doch im vergangenen Jahr hat er begonnen, mit beträchtlicher Geschwindigkeit abzudriften und steht nun kurz davor, die antarktischen Gewässer zu verlassen, berichtet die BBC.",
-         "Schweizer Wissenschaftler haben eine künstliche Intelligenz entwickelt, von der sie glauben, dass sie den Kampf gegen Weinfälschungen auf dem europäischen Markt vereinfachen und gleichzeitig dazu beitragen wird, noch besseren Wein zu produzieren. Künstliche Intelligenz kann auch ein sehr nützliches Instrument sein, um häufige und schwer zu beweisende Betrügereien in der Weinindustrie zu verhindern, haben Forscher der Universität Genf herausgefunden. Sie haben nämlich eine künstliche Intelligenz entwickelt, die auf der Grundlage einer kleinen Weinprobe mit äußerster Präzision feststellen kann, woher der Wein stammt. Sie gibt nicht nur ein engeres geografisches Gebiet an, sondern den genauen Weinberg oder das Weingut, fasst der Guardian die Forschung zusammen."
+         "Schweizer Wissenschaftler haben eine künstliche Intelligenz entwickelt, von der sie glauben, dass sie den Kampf gegen Weinfälschungen auf dem europäischen Markt vereinfachen und gleichzeitig dazu beitragen wird, noch besseren Wein zu produzieren. Künstliche Intelligenz kann auch ein sehr nützliches Instrument sein, um häufige und schwer zu beweisende Betrügereien in der Weinindustrie zu verhindern, haben Forscher der Universität Genf herausgefunden. Sie haben nämlich eine künstliche Intelligenz entwickelt, die auf der Grundlage einer kleinen Weinprobe mit äußerster Präzision feststellen kann, woher der Wein stammt. Sie gibt nicht nur ein engeres geografisches Gebiet an, sondern den genauen Weinberg oder das Weingut, fasst der Guardian die Forschung zusammen.",
+         "Zwei Unternehmen der Luxuskosmetikbranche sind in einen ungewöhnlichen Streit verwickelt. Auf der einen Seite steht der französische Hersteller von Luxusparfüms - Chanel, auf der anderen Seite der tschechische Parfümhändler Notino. Das von der berühmten Designerin Coco Chanel gegründete Unternehmen verlangt von dem tschechischen Einzelhändler, dass er ihm mitteilt, woher er seine Produkte bezieht, die er in seinem E-Shop weiterverkauft. Chanel wählt sorgfältig aus, wem es erlaubt, seine Waren zu verkaufen. Der Interessent muss strenge Anforderungen erfüllen, bevor der weltberühmte Hersteller einen Vertrag mit ihm abschließt. ",
+         "Einige Autofirmen haben ihre Pläne zur Entwicklung und Produktion von Elektroautos zurückgeschraubt. Ford hat eine 12-Milliarden-Dollar-Investition verschoben, und General Motors hat die Idee aufgegeben, bis Mitte 2024 500.000 Elektroautos zu produzieren. Nach Angaben des Beratungsunternehmens Atlas Public Policy wird erwartet, dass in diesem Jahr in den Vereinigten Staaten eine Million Elektroautos verkauft werden, was neun Prozent des dortigen Neuwagenmarktes entspricht. Die Analysten der Bank Goldman Sachs gehen davon aus, dass sich die Preise für Elektroautos und Autos mit Verbrennungsmotor bis zur Mitte dieses Jahrzehnts angleichen werden. Das Marktforschungsunternehmen Gartner prognostiziert diesen Zeitpunkt für das Jahr 2027 und fügt hinzu, dass der weltweite Absatz von Elektro-Pkw im nächsten Jahr um etwa 19 Prozent auf fast 18 Millionen Fahrzeuge steigen wird."
       ],
       "topics": {
          "topic1": {
@@ -182,10 +185,11 @@
       "buttonName": "Entities Extraction",
       "inputs": [
          "De Nobelprijs voor Fysiologie of Geneeskunde werd toegekend aan de in Hongarije geboren biochemicus Katalin Karikó en de Amerikaanse immunoloog Drew Weissman, die tijdens hun periode aan de Universiteit van Pennsylvania in Philadelphia de basis legden voor de ontwikkeling van mRNA-vaccins en daarmee de basis legden voor de ontwikkeling van vaccins tegen de ziekte van covid-19.",
-         "Ik kan me niet voorstellen dat de afgelopen weken geen diepe emotionele, politieke en sociale sporen zullen nalaten op de Israëli's en Palestijnen voor tientallen jaren, zegt Jakub Zahora, een analist aan het Institute for Policy Studies, over de Hamas-moorden en de daaropvolgende vergelding door Israël. De situatie, zegt hij, is de ergste in 70 jaar. De Palestijnen kunnen de mogelijkheid van een vrije Palestijnse staat nu wel vergeten.",
          "Gernot Döllner heeft sinds begin september de leiding over Audi, toen hij Markus Duesmann verving. Hij stapte op na een ruzie met het bestuur van Audi, dat niet wilde dat het merk het zou afleggen tegen de directe concurrentie van andere Duitse premiumfabrikanten, BMW en Mercedes-Benz. Vooral op het gebied van elektromobiliteit mist het merk de trein. In een interview met het Duitse dagblad Handelsblatt zei Döllner dat het veel langer zou duren voordat Audi dezelfde inkomsten uit elektrische auto's zou genereren als uit verbrandingsmotoren. Audi wordt echter geplaagd door de hoge kosten van de batterijproductie en de aankoop van grondstoffen voor elektrische voertuigen, met name edelmetalen.",
          "De grootste ijsberg ter wereld is in beweging gekomen. Een gigantische brok ijs, A23a genaamd, met een oppervlakte van bijna vierduizend vierkante kilometer, brak in 1986 los van het vaste land van Antarctica, maar ging al snel voor anker in de Weddellzee en werd bijna een ijseiland. Maar het afgelopen jaar begon het met een aanzienlijke snelheid weg te drijven en het staat nu op het punt om de Antarctische wateren uit te varen, meldt de BBC.",
-         "Zwitserse wetenschappers hebben kunstmatige intelligentie ontwikkeld die volgens hen de strijd tegen wijnvervalsingen op de Europese markt zal vereenvoudigen en tegelijkertijd zal helpen om nog betere wijn te produceren. Kunstmatige intelligentie kan ook een zeer nuttig hulpmiddel zijn om frequente en moeilijk te bewijzen fraude in de wijnindustrie te voorkomen, zo hebben onderzoekers van de Universiteit van Genève ontdekt. Ze hebben namelijk kunstmatige intelligentie ontwikkeld die op basis van een klein wijnmonster met uiterste precisie kan bepalen waar de wijn vandaan komt. Het specificeert niet alleen een beperkter geografisch gebied, maar de exacte wijngaard of wijnmakerij, zo wordt het onderzoek samengevat door de Guardian."
+         "Zwitserse wetenschappers hebben kunstmatige intelligentie ontwikkeld die volgens hen de strijd tegen wijnvervalsingen op de Europese markt zal vereenvoudigen en tegelijkertijd zal helpen om nog betere wijn te produceren. Kunstmatige intelligentie kan ook een zeer nuttig hulpmiddel zijn om frequente en moeilijk te bewijzen fraude in de wijnindustrie te voorkomen, zo hebben onderzoekers van de Universiteit van Genève ontdekt. Ze hebben namelijk kunstmatige intelligentie ontwikkeld die op basis van een klein wijnmonster met uiterste precisie kan bepalen waar de wijn vandaan komt. Het specificeert niet alleen een beperkter geografisch gebied, maar de exacte wijngaard of wijnmakerij, zo wordt het onderzoek samengevat door de Guardian.",
+         "Twee bedrijven in de luxe cosmeticasector zijn verwikkeld in een ongebruikelijk geschil. Aan de ene kant staat de Franse fabrikant van luxe parfums - Chanel, aan de andere kant de Tsjechische parfumdetaillist Notino. Het bedrijf, opgericht door de beroemde ontwerper Coco Chanel, eist dat de Tsjechische detailhandelaar vertelt waar het zijn producten heeft gekocht, die het doorverkoopt in zijn e-shop. Chanel kiest zorgvuldig wie het toestaat om haar goederen te verkopen. De geïnteresseerde partij moet aan strenge eisen voldoen voordat de wereldberoemde fabrikant een contract met ze aangaat. ",
+         "Sommige autobedrijven hebben hun plannen om elektrische auto's te ontwikkelen en te produceren vertraagd. Ford heeft een investering van 12 miljard dollar uitgesteld en General Motors heeft het idee laten varen om halverwege 2024 500.000 elektrische auto's te produceren. Naar verwachting zullen er dit jaar een miljoen elektrische auto's worden verkocht in de Verenigde Staten, goed voor negen procent van de markt voor nieuwe auto's daar, volgens adviesbureau Atlas Public Policy. Analisten van de bank Goldman Sachs voorspellen dat de prijzen voor elektrische auto's en auto's met verbrandingsmotor halverwege dit decennium zullen afvlakken. Onderzoeksbureau Gartner voorspelt dat moment in 2027 en voegt eraan toe dat de wereldwijde verkoop van elektrische personenauto's volgend jaar met ongeveer 19 procent zal stijgen tot bijna 18 miljoen voertuigen."
       ],
       "topics": {
          "topic1": {
@@ -241,13 +245,13 @@
       "buttonName": "Entities Extraction",
       "inputs": [
          "Nobelovo nagrado za fiziologijo ali medicino sta prejela biokemičarka madžarskega rodu Katalin Karikó in ameriški imunolog Drew Weissman, ki sta v času svojega delovanja na Univerzi Pensilvanija v Philadelphiji postavila temelje za razvoj cepiv z mRNA in s tem postavila temelje za razvoj cepiv proti bolezni covid-19.",
-         "Ne morem si predstavljati, da zadnjih nekaj tednov na Izraelcih in Palestincih ne bo za desetletja pustilo globokega čustvenega, političnega in družbenega pečata, komentira Jakub Zahora, analitik na Inštitutu za politične študije, poboje v Hamasu in poznejši izraelski povračilni ukrep. Po njegovih besedah so razmere najslabše v zadnjih 70 letih. Palestinci lahko zdaj pozabijo na možnost svobodne palestinske države.",
-         "Ironično je, da je zadnja pot, po kateri ruski plin po cevovodih teče v Evropo, še vedno pot preko Ukrajine na Slovaško. Ukrajinci trdijo, da po invaziji niso prekinili tranzitne pogodbe, da ne bi ogrozili svojih partnerjev v Evropski uniji, vključno s Slovaško. Vendar se bo pogodba kmalu iztekla in iz očitnih razlogov ne bo podaljšana. Ukrajina ne bo obnovila sporazuma o tranzitu ruskega plina prek svojega ozemlja. To je izjavil vodja ukrajinskega državnega plinskega podjetja Naftogaz Oleksiy Chernyshov. Tako bo ruski plin po plinovodih na Slovaško verjetno tekel le še nekaj mesecev. Ironično je, da zadnja pot za dobavo ruskega plina v Evropsko unijo prek plinovodov poteka prek Ukrajine na Slovaško.",
          "Največja ledena gora na svetu se je začela premikati. Velikanski kos ledu z imenom A23a, ki pokriva skoraj štiri tisoč kvadratnih kilometrov, se je leta 1986 odtrgal od antarktične celine, vendar se je kmalu zasidral v Weddellovem morju in postal tako rekoč ledeni otok. V zadnjem letu pa se je s precejšnjo hitrostjo začel oddaljevati in zdaj je pripravljen odpluti iz antarktičnih voda, poroča BBC.",
          "Svet EU-ja in Evropski parlament sta v petek dosegla okvirni dogovor o aktu o umetni inteligenci, ki vsebuje pravila za njeno uporabo v Uniji. To je prva tovrstna zakonodaja na svetu. Namen zakonodaje je zagotoviti varnost sistemov umetne inteligence ter spoštovanje temeljnih pravic in vrednot, obenem pa spodbujati vlaganje in inovacije na tem področju.",
          "Švicarski znanstveniki so razvili umetno inteligenco, ki bo, so prepričani, poenostavila boj proti vinskim ponaredkom na evropskem trgu, obenem pa pomagala pri pridelavi še boljšega vina. Umetna inteligenca je lahko tudi zelo koristno orodje za preprečevanje pogostih in težko dokazljivih prevar v vinski industriji, so ugotovili raziskovalci z ženevske univerze. Razvili so namreč umetno inteligenco, ki lahko na podlagi majhnega vzorca vina izjemno natančno ugotovi, od kod vino izvira. Ne določi zgolj ožjega geografskega območja, ampak točen vinograd oz. vinsko klet, raziskavo povzema Guardian.",
          "Skoraj ni tekme, na kateri Luka Dončić ne bi navdušil s kakšno potezo. Tokrat je za enega izmed vrhuncev na obračunu z Los Angeles Lakersi (127:125) poskrbel z dih jemajočo podajo. Dončić je sicer na osmi zaporedni tekmi presegel mejo 30 točk, tretjič zapored je na parketu odigral vsaj 40 minut. Takšne minutaže ni imel vse od končnice leta 2021.",
-         "Slovenija bo aprila prihodnje leto častna gostja na mednarodnem sejmu otroških knjig v Bologni. Otroški sejem v Bologni je poleg frankfurtskega knjižnega sejma mednarodna platforma, na kateri se predstavlja največje število slovenskih založnikov s področja otroške in mladinske literature, samostojno ali v sklopu slovenske nacionalne stojnice."
+         "Slovenija bo aprila prihodnje leto častna gostja na mednarodnem sejmu otroških knjig v Bologni. Otroški sejem v Bologni je poleg frankfurtskega knjižnega sejma mednarodna platforma, na kateri se predstavlja največje število slovenskih založnikov s področja otroške in mladinske literature, samostojno ali v sklopu slovenske nacionalne stojnice.",
+         "Dve podjetji iz sektorja luksuzne kozmetike sta v nenavadnem sporu. Na eni strani je francoski proizvajalec luksuznih parfumov Chanel, na drugi pa češki trgovec s parfumi Notino. Podjetje, ki ga je ustanovila slavna oblikovalka Coco Chanel, od češkega trgovca zahteva, da mu pove, kje je kupil njegove izdelke, ki jih preprodaja v svoji e-trgovini. Chanel skrbno izbira, komu dovoli prodajati svoje blago. Zainteresirana stranka mora izpolnjevati stroge zahteve, preden svetovno znani proizvajalec z njo sklene pogodbo. ",
+         "Nekatera avtomobilska podjetja so upočasnila svoje načrte za razvoj in proizvodnjo električnih avtomobilov. Ford je odložil 12 milijard dolarjev vredno naložbo, General Motors pa je opustil zamisel o proizvodnji 500.000 električnih avtomobilov do sredine leta 2024. Po podatkih svetovalnega podjetja Atlas Public Policy naj bi letos v Združenih državah Amerike prodali milijon električnih avtomobilov, kar naj bi predstavljalo devet odstotkov tamkajšnjega trga novih avtomobilov. Analitiki banke Goldman Sachs predvidevajo, da se bodo cene električnih avtomobilov in avtomobilov z notranjim izgorevanjem do sredine tega desetletja izenačile. Raziskovalno podjetje Gartner ta trenutek napoveduje za leto 2027 in dodaja, da se bo svetovna prodaja električnih osebnih avtomobilov prihodnje leto povečala za približno 19 odstotkov na skoraj 18 milijonov vozil."
       ],
       "topics": {
          "topic1": {
@@ -303,10 +307,11 @@
       "buttonName": "Entities Extraction",
       "inputs": [
          "Az élettani vagy orvosi Nobel-díjat Karikó Katalin magyar származású biokémikus és Drew Weissman amerikai immunológus kapta, akik a philadelphiai Pennsylvaniai Egyetemen töltött idejük alatt megalapozták az mRNS-vakcinák kifejlesztését, és ezzel megalapozták a covid-19 betegség elleni vakcinák kifejlesztését.",
-         "Nem tudom elképzelni, hogy az elmúlt hetek ne hagynának évtizedekre mély érzelmi, politikai és társadalmi nyomot az izraeliekben és a palesztinokban - kommentálja a Hamász-gyilkosságokat és az azt követő izraeli megtorlást Jakub Zahora, a Politikai Tanulmányok Intézetének elemzője. Szerinte a helyzet az elmúlt 70 év legrosszabbja. A palesztinok most már elfelejthetik a szabad palesztin állam lehetőségét.",
          "Gernot Döllner szeptember eleje óta áll az Audi élén, amikor Markus Duesmannt váltotta. Az Audi igazgatótanácsával való összezördülése miatt távozott, amely nem szerette, ha a márka a BMW és a Mercedes-Benz közvetlen konkurenciájával szemben veszít a német prémiumgyártókkal szemben. Különösen az elektromobilitás terén marad le a vonatról. A Handelsblatt című német napilapnak adott interjújában Döllner azt mondta, hogy az Audinak sokkal több időbe fog telni, amíg az elektromos autókból ugyanannyi bevételt tud majd termelni, mint a belsőégésű motorokból. Az Audi számára azonban gondot jelentenek az akkumulátorgyártás magas költségei és az elektromos járművekhez szükséges nyersanyagok, különösen a nemesfémek beszerzése.",
          "A világ legnagyobb jéghegye mozgásba lendült. Az A23a névre keresztelt, közel négyezer négyzetkilométeres óriási jégdarab 1986-ban szakadt le az antarktiszi szárazföldről, de hamarosan lehorgonyzott a Weddell-tengerben, és gyakorlatilag jégszigetté vált. Az elmúlt évben azonban jelentős sebességgel sodródni kezdett, és most arra készül, hogy kihajózik az antarktiszi vizekből - írja a BBC.",
-         "Svájci tudósok mesterséges intelligenciát fejlesztettek ki, amely szerintük egyszerűsíti a borhamisítás elleni küzdelmet az európai piacon, miközben segít még jobb borokat előállítani. A mesterséges intelligencia nagyon hasznos eszköz lehet a borágazatban gyakori és nehezen bizonyítható csalások megelőzésében is - állapították meg a Genfi Egyetem kutatói. Olyan mesterséges intelligenciát fejlesztettek ki ugyanis, amely egy kis borminta alapján rendkívül pontosan meg tudja állapítani, hogy honnan származik a bor. Nem csak egy szűkebb földrajzi területet határoz meg, hanem a pontos szőlőbirtokot vagy pincészetet - foglalja össze a kutatást a Guardian."
+         "Svájci tudósok mesterséges intelligenciát fejlesztettek ki, amely szerintük egyszerűsíti a borhamisítás elleni küzdelmet az európai piacon, miközben segít még jobb borokat előállítani. A mesterséges intelligencia nagyon hasznos eszköz lehet a borágazatban gyakori és nehezen bizonyítható csalások megelőzésében is - állapították meg a Genfi Egyetem kutatói. Olyan mesterséges intelligenciát fejlesztettek ki ugyanis, amely egy kis borminta alapján rendkívül pontosan meg tudja állapítani, hogy honnan származik a bor. Nem csak egy szűkebb földrajzi területet határoz meg, hanem a pontos szőlőbirtokot vagy pincészetet - foglalja össze a kutatást a Guardian.",
+         "A luxuskozmetikai ágazat két vállalata szokatlan vitába keveredett. Az egyik oldalon a luxusparfümök francia gyártója, a Chanel, a másik oldalon a cseh Notino parfüm-kiskereskedő áll. A híres tervező, Coco Chanel által alapított cég azt követeli a cseh kiskereskedőtől, hogy mondja meg, hol vásárolta a termékeit, amelyeket a webáruházában értékesít tovább. A Chanel gondosan megválogatja, hogy kinek engedi meg, hogy áruit árulja. Az érdeklődőnek szigorú követelményeknek kell megfelelnie, mielőtt a világhírű gyártó szerződést köt vele. ",
+         "Egyes autógyárak lelassították az elektromos autók fejlesztésére és gyártására vonatkozó terveiket. A Ford elhalasztott egy 12 milliárd dolláros beruházást, a General Motors pedig elvetette azt az elképzelését, hogy 2024 közepéig 500 ezer elektromos autót gyártana. Az Atlas Public Policy tanácsadó cég szerint idén várhatóan egymillió elektromos autót adnak el az Egyesült Államokban, ami az ottani újautó-piac kilenc százalékát teszi ki. A Goldman Sachs bank elemzői azzal számolnak, hogy az elektromos és a belsőégésű autók ára az évtized közepére kiegyenlítődik. A Gartner kutatócég 2027-re jósolja ezt a pillanatot, hozzátéve, hogy az elektromos személygépkocsik globális értékesítése jövőre mintegy 19 százalékkal, közel 18 millió járműre nő."
       ],
       "topics": {
          "topic1": {
@@ -362,10 +367,11 @@
       "buttonName": "Entities Extraction",
       "inputs": [
          "Premiul Nobel pentru Fiziologie sau Medicină a fost acordat biochimistului de origine maghiară Katalin Karikó și imunologului american Drew Weissman, care au pus bazele dezvoltării vaccinurilor cu ARNm în timpul petrecut la Universitatea Pennsylvania din Philadelphia, punând bazele dezvoltării vaccinurilor împotriva bolii covid-19.",
-         "Nu-mi pot imagina că ultimele săptămâni nu vor lăsa o amprentă emoțională, politică și socială profundă asupra israelienilor și palestinienilor timp de zeci de ani, comentează Jakub Zahora, analist la Institutul pentru Studii Politice, cu privire la asasinatele comise de Hamas și la represaliile ulterioare ale Israelului. Situația, spune el, este cea mai gravă din ultimii 70 de ani. Palestinienii pot uita acum de posibilitatea unui stat palestinian liber.",
          "Gernot Döllner se află la conducerea Audi de la începutul lunii septembrie, când l-a înlocuit pe Markus Duesmann. Acesta a demisionat în urma unei neînțelegeri cu consiliul de administrație al Audi, care nu a apreciat faptul că marca a pierdut în fața concurenței directe a altor producători germani premium, BMW și Mercedes-Benz. Pierde trenul mai ales în domeniul electromobilității. Într-un interviu acordat cotidianului german Handelsblatt, Döllner a declarat că va dura mult mai mult timp pentru ca Audi să genereze aceleași venituri din mașinile electrice ca și din motoarele cu combustie internă. Cu toate acestea, Audi a fost afectată de costul ridicat al producției de baterii și al achiziției de materii prime pentru vehiculele electrice, în special metale prețioase.",
          "Cel mai mare iceberg din lume s-a pus în mișcare. O bucată uriașă de gheață, denumită A23a, care acoperă aproape patru mii de kilometri pătrați, s-a desprins de continentul Antarcticii în 1986, dar în scurt timp s-a ancorat în Marea Weddell, devenind practic o insulă de gheață. Însă în ultimul an a început să se îndepărteze cu o viteză considerabilă, iar acum este gata să părăsească apele Antarcticii, relatează BBC.",
-         "Oamenii de știință elvețieni au dezvoltat o inteligență artificială care, în opinia lor, va simplifica lupta împotriva contrafacerilor de vin pe piața europeană, ajutând în același timp la producerea unui vin și mai bun. Inteligența artificială poate fi, de asemenea, un instrument foarte util pentru a preveni fraudele frecvente și greu de dovedit în industria vinului, au descoperit cercetătorii de la Universitatea din Geneva. Concret, aceștia au dezvoltat o inteligență artificială care, pe baza unui mic eșantion de vin, poate determina cu o precizie extrem de mare de unde provine vinul. Aceasta nu precizează doar o zonă geografică mai restrânsă, ci exact podgoria sau crama, rezumă cercetarea The Guardian."
+         "Oamenii de știință elvețieni au dezvoltat o inteligență artificială care, în opinia lor, va simplifica lupta împotriva contrafacerilor de vin pe piața europeană, ajutând în același timp la producerea unui vin și mai bun. Inteligența artificială poate fi, de asemenea, un instrument foarte util pentru a preveni fraudele frecvente și greu de dovedit în industria vinului, au descoperit cercetătorii de la Universitatea din Geneva. Concret, aceștia au dezvoltat o inteligență artificială care, pe baza unui mic eșantion de vin, poate determina cu o precizie extrem de mare de unde provine vinul. Aceasta nu precizează doar o zonă geografică mai restrânsă, ci exact podgoria sau crama, rezumă cercetarea The Guardian.",
+         "Unele companii auto și-au încetinit planurile de a dezvolta și de a produce mașini electrice. Ford a amânat o investiție de 12 miliarde de dolari, iar General Motors a renunțat la ideea de a produce 500.000 de mașini electrice până la jumătatea anului 2024. Un milion de mașini electrice ar urma să fie vândute în Statele Unite în acest an, reprezentând nouă procente din piața de mașini noi de acolo, potrivit companiei de consultanță Atlas Public Policy. Analiștii de la banca Goldman Sachs estimează că prețurile pentru mașinile electrice și cele cu combustie internă se vor stabiliza până la mijlocul acestui deceniu. Firma de cercetare Gartner preconizează acest moment în 2027, adăugând că vânzările globale de autoturisme electrice vor crește cu aproximativ 19 la sută, ajungând la aproape 18 milioane de vehicule anul viitor.",
+         "Două companii din sectorul cosmeticelor de lux sunt implicate într-o dispută neobișnuită. Pe de o parte se află producătorul francez de parfumuri de lux - Chanel, iar pe de altă parte se află retailerul ceh de parfumuri Notino. Compania, fondată de celebrul designer Coco Chanel, cere ca retailerul ceh să-i spună de unde a cumpărat produsele sale, pe care le revinde în magazinul său electronic. Chanel alege cu grijă cui permite să îi vândă produsele. Partea interesată trebuie să îndeplinească cerințe stricte înainte ca producătorul de renume mondial să încheie un contract cu ea. "
       ],
       "topics": {
          "topic1": {
@@ -421,9 +427,9 @@
       "buttonName": "Entities Extraction",
       "inputs": [
          "Nobelova nagrada za fiziologiju ili medicinu dodeljena je biohemičarki poreklom iz Mađarske Katalin Kariko i američkom imunologu Dru Vajsmanu, koji su postavili temelje za razvoj mRNK vakcina tokom svog boravka na Univerzitetu Pensilvanije u Filadelfiji, postavljajući temelje za razvoj vakcine protiv bolesti Covid-19.",
-         "Ne mogu da zamislim da poslednjih nekoliko nedelja neće ostaviti dubok emocionalni, politički i društveni trag na Izraelce i Palestince decenijama, komentariše Jakub Zahora, analitičar Instituta za političke studije, o ubistvima Hamasa i naknadnoj odmazdi Izraela. . Situacija je, kaže, najgora u poslednjih 70 godina. Palestinci sada mogu da zaborave na mogućnost slobodne palestinske države.",
-         "Ironično, poslednja ruta kojom ruski gas gasovodima ide u Evropu ostala je ona preko Ukrajine do Slovačke. Ukrajinci tvrde da nisu raskinuli ugovor o tranzitu nakon invazije da ne bi ugrozili svoje partnere u Evropskoj uniji, uključujući Slovačku. Međutim, uskoro će isteći i, iz očiglednih razloga, neće se obnavljati. Ukrajina neće obnoviti ugovor o tranzitu ruskog gasa preko svoje teritorije. Ovo je izjavio šef ukrajinske državne gasne kompanije Naftogas Aleksij Černišov. Tako će ruski gas najverovatnije tek nekoliko meseci cevovodima do Slovačke. Ironično, poslednja ruta za snabdevanje ruskog gasa Evropskoj uniji preko gasovoda vodi preko Ukrajine do Slovačke.",
-         "Pokrenuo se najveći ledeni breg na svetu. Džinovski komad leda, nazvan A23a, koji pokriva skoro četiri hiljade kvadratnih kilometara, odvojio se od antarktičkog kopna 1986. godine, ali se ubrzo usidrio u Vedelovom moru, postavši praktično ledeno ostrvo. Ali u protekloj godini počeo je da se udaljava velikom brzinom i sada je spreman da isplovi iz antarktičkih voda, prenosi Bi-Bi-Si."
+         "Pokrenuo se najveći ledeni breg na svetu. Džinovski komad leda, nazvan A23a, koji pokriva skoro četiri hiljade kvadratnih kilometara, odvojio se od antarktičkog kopna 1986. godine, ali se ubrzo usidrio u Vedelovom moru, postavši praktično ledeno ostrvo. Ali u protekloj godini počeo je da se udaljava velikom brzinom i sada je spreman da isplovi iz antarktičkih voda, prenosi Bi-Bi-Si.",
+         "Несвакидашњи спор је између две компаније из области луксузне козметике. На једној страни је француски произвођач луксузних парфема – Цханел, а на другој чешки продавац мириса Нотино. Компанија коју је основала позната дизајнерка Коко Шанел захтева од чешког бизнисмена да јој каже где је купио њене производе, које препродаје у својој е-продавници. Цханел пажљиво бира коме дозвољава да продаје своју робу. Подносилац захтева мора да испуни строге услове пре него што светски познати произвођач потпише уговор са њим.",
+         "Неки произвођачи аутомобила успорили су своје планове за развој и производњу електричних аутомобила. Форд је одложио инвестицију од 12 милијарди долара, а Џенерал моторс је одустао од плана за производњу 500.000 електричних аутомобила до средине 2024. Очекује се да ће милион електричних аутомобила бити продато у Сједињеним Државама ове године, што представља девет одсто тржишта нових аутомобила у земљи , према Атлас Публиц Полици, консултантској кући. Аналитичари Голдман Сакса предвиђају да ће се цене електричних аутомобила и аутомобила са унутрашњим сагоревањем изједначити до средине ове деценије. Истраживачка компанија Гартнер предвиђа овај тренутак за 2027. годину и додаје да ће светска продаја путничких аутомобила на електрични погон порасти за око 19 одсто на скоро 18 милиона аутомобила следеће године."
       ],
       "topics": {
          "topic1": {
@@ -479,9 +485,11 @@
       "buttonName": "Topics",
       "inputs": [
          "Nobelovu cenu za fyziologii a lékařství získala biochemička Katalin Karikóová původem z Maďarska a americký imunolog Drew Weissman, kteří položili základy pro vývoj mRNA vakcín při svém působení na Pensylvánské univerzitě ve Filadelfii a položili tak základy pro vývoj vakcín proti nemoci covid-19.",
-         "Neumím si představit, že poslední týdny nezanechají hlubokou emoční, politickou i společenskou stopu na straně Izraelců a Palestinců na dekády, komentuje vraždy Hamásu a následnou odvetu Izraele analytik z Institutu politologických studií Jakub Záhora. Situace je podle něj nejhorší za 70 let. Na to, že by mohl vzniknout svobodný palestinský stát, mohou teď Palestinci zapomenout.",
          "Gernot Döllner vede Audi od začátku září, kdy vystřídal Markuse Duesmanna. Ten skončil kvůli roztržce s představenstvem Audi, kterému se nelíbilo, že značka ztrácí v přímé konkurenci dalších německých prémiových výrobců BMW a Mercedes-Benz. Vlak jí ujíždí především v elektromobilitě. V rozhovoru pro německý deník Handelsblatt Döllner řekl, že bude trvat mnohem déle, než Audi vygeneruje stejné výnosy u elektromobilů jako u spalovacích motorů. Audi však trápí vysoké náklady na výrobu baterií a pořízení surovin pro elektromobily, zvláště vzácných kovů. ",
-         "Největší ledovec světa se dal do pohybu. Obří kus ledu pojmenovaný A23a o rozloze téměř čtyř tisíc kilometrů čtverečních se v roce 1986 oddělil od antarktické pevniny, brzy však zakotvil ve Weddellově moři, a stal se tak prakticky ledovým ostrovem. V uplynulém roce však začal být unášen značnou rychlostí pryč a nyní se chystá vyplout mimo vody Antarktidy, informuje BBC."
+         "Největší ledovec světa se dal do pohybu. Obří kus ledu pojmenovaný A23a o rozloze téměř čtyř tisíc kilometrů čtverečních se v roce 1986 oddělil od antarktické pevniny, brzy však zakotvil ve Weddellově moři, a stal se tak prakticky ledovým ostrovem. V uplynulém roce však začal být unášen značnou rychlostí pryč a nyní se chystá vyplout mimo vody Antarktidy, informuje BBC.",
+         "Švýcarští vědci vyvinuli umělou inteligenci, která podle nich zjednoduší boj proti padělkům vína na evropském trhu a zároveň pomůže vyrábět ještě lepší víno. Umělá inteligence může být také velmi užitečným nástrojem pro prevenci častých a těžko prokazatelných podvodů ve vinařském průmyslu, zjistili vědci z Ženevské univerzity. Konkrétně vyvinuli umělou inteligenci, která na základě malého vzorku vína dokáže s mimořádnou přesností určit, odkud víno pochází. Neurčuje pouze užší zeměpisnou oblast, ale přesnou vinici nebo vinařství, shrnuje výzkum deník Guardian.",
+         "Neobvyklý spor vedou mezi sebou dvě firmy v oblasti luxusní kosmetiky. Na jedné straně je francouzský výrobce luxusních parfémů – Chanel, na druhé český prodejce voňavek Notino. Společnost založená slavnou návrhářkou Coco Chanel požaduje po českém obchodníkovi, aby jí sdělil, kde nakoupil její výrobky, které přeprodává ve svém e-shopu. Chanel si totiž důkladně vybírá, komu své zboží umožní prodávat. Zájemce musí splnit přísné požadavky, než s ním světoznámý výrobce uzavře smlouvu. ",
+         "Některé automobilky zpomalily své plány na vývoj a výrobu elektromobilů. Ford odložil investici ve výši 12 miliard dolarů a General Motors opustil od představy vyrobit 500 tisíc elektrických vozů do půlky roku 2024.  Ve Spojených státech se má letos prodat milion elektrických vozů, což je devět procent tamního trhu s novými auty uvádí poradenská společnost Atlas Public Policy. Analytici banky Goldman Sachs předpokládají, že se ceny elektrických a spalovacích aut vyrovnají do poloviny této dekády. Výzkumná společnost Gartner tento moment tipuje na rok 2027 a dodává, že celosvětový odbyt osobních aut s elektrickým pohonem se v příštím roce zvýší o zhruba 19 procent na téměř 18 milionů vozů."
       ],
       "topics": {
          "topic1": {
@@ -537,9 +545,11 @@
       "buttonName": "Topics",
       "inputs": [
          "The Nobel Prize in Physiology or Medicine was awarded to Hungarian-born biochemist Katalin Karikó and American immunologist Drew Weissman, who laid the groundwork for the development of mRNA vaccines during their time at the University of Pennsylvania in Philadelphia, laying the foundation for the development of vaccines against covid-19 disease.",
-         "I can't imagine that the last few weeks will not leave a deep emotional, political and social mark on the Israelis and Palestinians for decades, comments Jakub Zahora, an analyst at the Institute for Policy Studies, on the Hamas killings and Israel's subsequent retaliation. The situation, he says, is the worst in 70 years. The Palestinians can now forget about the possibility of a free Palestinian state.",
          "Gernot Döllner has been in charge of Audi since the beginning of September, when he replaced Markus Duesmann. He quit over a falling out with Audi's board, which did not like the brand losing out to direct competition from other German premium manufacturers BMW and Mercedes-Benz. It is missing the train especially in electromobility. In an interview with the German daily Handelsblatt, Döllner said it would take much longer for Audi to generate the same revenues from electric cars as from internal combustion engines. However, Audi has been plagued by the high cost of battery production and the acquisition of raw materials for electric vehicles, particularly precious metals.",
-         "The world's largest iceberg has set in motion. A giant chunk of ice, named A23a, covering almost four thousand square kilometres, broke away from the Antarctic mainland in 1986, but soon anchored in the Weddell Sea, becoming virtually an ice island. But in the past year it has begun drifting away at considerable speed and is now poised to sail out of Antarctic waters, the BBC reports."
+         "The world's largest iceberg has set in motion. A giant chunk of ice, named A23a, covering almost four thousand square kilometres, broke away from the Antarctic mainland in 1986, but soon anchored in the Weddell Sea, becoming virtually an ice island. But in the past year it has begun drifting away at considerable speed and is now poised to sail out of Antarctic waters, the BBC reports.",
+         "Two companies in the luxury cosmetics sector are engaged in an unusual dispute. On one side is the French manufacturer of luxury perfumes - Chanel, on the other side is the Czech perfume retailer Notino. The company, founded by the famous designer Coco Chanel, is demanding that the Czech retailer tell it where it bought its products, which it resells in its e-shop. Chanel chooses carefully who it allows to sell its goods. The interested party has to meet strict requirements before the world-famous manufacturer will enter into a contract with them. ",
+         "Some car companies have slowed down their plans to develop and produce electric cars. Ford has postponed a $12 billion investment and General Motors has abandoned the idea of producing 500,000 electric cars by mid-2024. One million electric cars are expected to be sold in the United States this year, accounting for nine percent of the new-car market there, according to consultancy Atlas Public Policy. Analysts at Goldman Sachs bank project that prices for electric and internal combustion cars will level off by the middle of this decade. Research firm Gartner predicts that moment in 2027, adding that global sales of electric passenger cars will increase by about 19 percent to nearly 18 million vehicles next year.",
+         "Swiss scientists have developed artificial intelligence, which they believe will simplify the fight against wine counterfeits on the European market, while also helping to produce even better wine. Artificial intelligence can also be a very useful tool to prevent frequent and hard-to-prove fraud in the wine industry, researchers from the University of Geneva have found. Namely, they have developed artificial intelligence which, based on a small sample of wine, can determine with extreme precision where the wine comes from. It does not specify only a narrower geographical area, but the exact vineyard or winery, the research is summarized by the Guardian."
       ],
       "topics": {
          "topic1": {
@@ -595,9 +605,11 @@
       "buttonName": "Topics",
       "inputs": [
          "Der Nobelpreis für Physiologie oder Medizin ging an die in Ungarn geborene Biochemikerin Katalin Karikó und den amerikanischen Immunologen Drew Weissman, die während ihrer Zeit an der University of Pennsylvania in Philadelphia den Grundstein für die Entwicklung von mRNA-Impfstoffen legten und damit den Grundstein für die Entwicklung von Impfstoffen gegen die Covid-19-Krankheit legten.",
-         "Ich kann mir nicht vorstellen, dass die letzten Wochen nicht über Jahrzehnte hinweg tiefe emotionale, politische und soziale Spuren bei Israelis und Palästinensern hinterlassen werden, kommentiert Jakub Zahora, Analyst am Institute for Policy Studies, die Morde der Hamas und die anschließenden Vergeltungsmaßnahmen Israels. Die Situation ist seiner Meinung nach die schlimmste seit 70 Jahren. Die Palästinenser können die Möglichkeit eines freien palästinensischen Staates jetzt vergessen.",
          "Gernot Döllner ist seit Anfang September an der Spitze von Audi, als er Markus Duesmann ablöste. Er verließ das Unternehmen nach einem Zerwürfnis mit dem Audi-Vorstand, dem es nicht gefiel, dass die Marke im direkten Wettbewerb mit den anderen deutschen Premiumherstellern BMW und Mercedes-Benz unterlegen war. Vor allem bei der Elektromobilität hat Audi den Anschluss verpasst. In einem Interview mit dem Handelsblatt sagte Döllner, dass es viel länger dauern werde, bis Audi mit Elektroautos die gleichen Umsätze erzielen werde wie mit Verbrennungsmotoren. Allerdings machen Audi die hohen Kosten für die Batterieproduktion und die Beschaffung von Rohstoffen für Elektrofahrzeuge, insbesondere Edelmetalle, zu schaffen.",
-         "Der größte Eisberg der Welt hat sich in Bewegung gesetzt. Ein riesiger Eisbrocken mit dem Namen A23a, der fast viertausend Quadratkilometer groß ist, brach 1986 vom antarktischen Festland ab, blieb aber bald im Weddellmeer liegen und wurde praktisch zu einer Eisinsel. Doch im vergangenen Jahr hat er begonnen, mit beträchtlicher Geschwindigkeit abzudriften und steht nun kurz davor, die antarktischen Gewässer zu verlassen, berichtet die BBC."
+         "Der größte Eisberg der Welt hat sich in Bewegung gesetzt. Ein riesiger Eisbrocken mit dem Namen A23a, der fast viertausend Quadratkilometer groß ist, brach 1986 vom antarktischen Festland ab, blieb aber bald im Weddellmeer liegen und wurde praktisch zu einer Eisinsel. Doch im vergangenen Jahr hat er begonnen, mit beträchtlicher Geschwindigkeit abzudriften und steht nun kurz davor, die antarktischen Gewässer zu verlassen, berichtet die BBC.",
+         "Zwei Unternehmen der Luxuskosmetikbranche sind in einen ungewöhnlichen Streit verwickelt. Auf der einen Seite steht der französische Hersteller von Luxusparfüms - Chanel, auf der anderen Seite der tschechische Parfümhändler Notino. Das von der berühmten Designerin Coco Chanel gegründete Unternehmen verlangt von dem tschechischen Einzelhändler, dass er ihm mitteilt, woher er seine Produkte bezieht, die er in seinem E-Shop weiterverkauft. Chanel wählt sorgfältig aus, wem es erlaubt, seine Waren zu verkaufen. Der Interessent muss strenge Anforderungen erfüllen, bevor der weltberühmte Hersteller einen Vertrag mit ihm abschließt. ",
+         "Einige Autofirmen haben ihre Pläne zur Entwicklung und Produktion von Elektroautos zurückgeschraubt. Ford hat eine 12-Milliarden-Dollar-Investition verschoben, und General Motors hat die Idee aufgegeben, bis Mitte 2024 500.000 Elektroautos zu produzieren. Nach Angaben des Beratungsunternehmens Atlas Public Policy wird erwartet, dass in diesem Jahr in den Vereinigten Staaten eine Million Elektroautos verkauft werden, was neun Prozent des dortigen Neuwagenmarktes entspricht. Die Analysten der Bank Goldman Sachs gehen davon aus, dass sich die Preise für Elektroautos und Autos mit Verbrennungsmotor bis zur Mitte dieses Jahrzehnts angleichen werden. Das Marktforschungsunternehmen Gartner prognostiziert diesen Zeitpunkt für das Jahr 2027 und fügt hinzu, dass der weltweite Absatz von Elektro-Pkw im nächsten Jahr um etwa 19 Prozent auf fast 18 Millionen Fahrzeuge steigen wird.",
+         "Schweizer Wissenschaftler haben eine künstliche Intelligenz entwickelt, von der sie glauben, dass sie den Kampf gegen Weinfälschungen auf dem europäischen Markt vereinfachen und gleichzeitig dazu beitragen wird, noch besseren Wein zu produzieren. Künstliche Intelligenz kann auch ein sehr nützliches Instrument sein, um häufige und schwer zu beweisende Betrügereien in der Weinindustrie zu verhindern, haben Forscher der Universität Genf herausgefunden. Sie haben nämlich eine künstliche Intelligenz entwickelt, die auf der Grundlage einer kleinen Weinprobe mit äußerster Präzision feststellen kann, woher der Wein stammt. Sie gibt nicht nur ein engeres geografisches Gebiet an, sondern den genauen Weinberg oder das Weingut, fasst der Guardian die Forschung zusammen."
       ],
       "topics": {
          "topic1": {
@@ -653,9 +665,11 @@
       "buttonName": "Topics",
       "inputs": [
          "De Nobelprijs voor Fysiologie of Geneeskunde werd toegekend aan de in Hongarije geboren biochemicus Katalin Karikó en de Amerikaanse immunoloog Drew Weissman, die tijdens hun periode aan de Universiteit van Pennsylvania in Philadelphia de basis legden voor de ontwikkeling van mRNA-vaccins en daarmee de basis legden voor de ontwikkeling van vaccins tegen de ziekte van covid-19.",
-         "Ik kan me niet voorstellen dat de afgelopen weken geen diepe emotionele, politieke en sociale sporen zullen nalaten op de Israëli's en Palestijnen voor tientallen jaren, zegt Jakub Zahora, een analist aan het Institute for Policy Studies, over de Hamas-moorden en de daaropvolgende vergelding door Israël. De situatie, zegt hij, is de ergste in 70 jaar. De Palestijnen kunnen de mogelijkheid van een vrije Palestijnse staat nu wel vergeten.",
          "Gernot Döllner heeft sinds begin september de leiding over Audi, toen hij Markus Duesmann verving. Hij stapte op na een ruzie met het bestuur van Audi, dat niet wilde dat het merk het zou afleggen tegen de directe concurrentie van andere Duitse premiumfabrikanten, BMW en Mercedes-Benz. Vooral op het gebied van elektromobiliteit mist het merk de trein. In een interview met het Duitse dagblad Handelsblatt zei Döllner dat het veel langer zou duren voordat Audi dezelfde inkomsten uit elektrische auto's zou genereren als uit verbrandingsmotoren. Audi wordt echter geplaagd door de hoge kosten van de batterijproductie en de aankoop van grondstoffen voor elektrische voertuigen, met name edelmetalen.",
-         "De grootste ijsberg ter wereld is in beweging gekomen. Een gigantische brok ijs, A23a genaamd, met een oppervlakte van bijna vierduizend vierkante kilometer, brak in 1986 los van het vaste land van Antarctica, maar ging al snel voor anker in de Weddellzee en werd bijna een ijseiland. Maar het afgelopen jaar begon het met een aanzienlijke snelheid weg te drijven en het staat nu op het punt om de Antarctische wateren uit te varen, meldt de BBC."
+         "De grootste ijsberg ter wereld is in beweging gekomen. Een gigantische brok ijs, A23a genaamd, met een oppervlakte van bijna vierduizend vierkante kilometer, brak in 1986 los van het vaste land van Antarctica, maar ging al snel voor anker in de Weddellzee en werd bijna een ijseiland. Maar het afgelopen jaar begon het met een aanzienlijke snelheid weg te drijven en het staat nu op het punt om de Antarctische wateren uit te varen, meldt de BBC.",
+         "Twee bedrijven in de luxe cosmeticasector zijn verwikkeld in een ongebruikelijk geschil. Aan de ene kant staat de Franse fabrikant van luxe parfums - Chanel, aan de andere kant de Tsjechische parfumdetaillist Notino. Het bedrijf, opgericht door de beroemde ontwerper Coco Chanel, eist dat de Tsjechische detailhandelaar vertelt waar het zijn producten heeft gekocht, die het doorverkoopt in zijn e-shop. Chanel kiest zorgvuldig wie het toestaat om haar goederen te verkopen. De geïnteresseerde partij moet aan strenge eisen voldoen voordat de wereldberoemde fabrikant een contract met ze aangaat. ",
+         "Sommige autobedrijven hebben hun plannen om elektrische auto's te ontwikkelen en te produceren vertraagd. Ford heeft een investering van 12 miljard dollar uitgesteld en General Motors heeft het idee laten varen om halverwege 2024 500.000 elektrische auto's te produceren. Naar verwachting zullen er dit jaar een miljoen elektrische auto's worden verkocht in de Verenigde Staten, goed voor negen procent van de markt voor nieuwe auto's daar, volgens adviesbureau Atlas Public Policy. Analisten van de bank Goldman Sachs voorspellen dat de prijzen voor elektrische auto's en auto's met verbrandingsmotor halverwege dit decennium zullen afvlakken. Onderzoeksbureau Gartner voorspelt dat moment in 2027 en voegt eraan toe dat de wereldwijde verkoop van elektrische personenauto's volgend jaar met ongeveer 19 procent zal stijgen tot bijna 18 miljoen voertuigen.",
+         "Zwitserse wetenschappers hebben kunstmatige intelligentie ontwikkeld die volgens hen de strijd tegen wijnvervalsingen op de Europese markt zal vereenvoudigen en tegelijkertijd zal helpen om nog betere wijn te produceren. Kunstmatige intelligentie kan ook een zeer nuttig hulpmiddel zijn om frequente en moeilijk te bewijzen fraude in de wijnindustrie te voorkomen, zo hebben onderzoekers van de Universiteit van Genève ontdekt. Ze hebben namelijk kunstmatige intelligentie ontwikkeld die op basis van een klein wijnmonster met uiterste precisie kan bepalen waar de wijn vandaan komt. Het specificeert niet alleen een beperkter geografisch gebied, maar de exacte wijngaard of wijnmakerij, zo wordt het onderzoek samengevat door de Guardian."
       ],
       "topics": {
          "topic1": {
@@ -711,13 +725,13 @@
       "buttonName": "Topics",
       "inputs": [
          "Nobelovo nagrado za fiziologijo ali medicino sta prejela biokemičarka madžarskega rodu Katalin Karikó in ameriški imunolog Drew Weissman, ki sta v času svojega delovanja na Univerzi Pensilvanija v Philadelphiji postavila temelje za razvoj cepiv z mRNA in s tem postavila temelje za razvoj cepiv proti bolezni covid-19.",
-         "Ne morem si predstavljati, da zadnjih nekaj tednov na Izraelcih in Palestincih ne bo za desetletja pustilo globokega čustvenega, političnega in družbenega pečata, komentira Jakub Zahora, analitik na Inštitutu za politične študije, poboje v Hamasu in poznejši izraelski povračilni ukrep. Po njegovih besedah so razmere najslabše v zadnjih 70 letih. Palestinci lahko zdaj pozabijo na možnost svobodne palestinske države.",
-         "Ironično je, da je zadnja pot, po kateri ruski plin po cevovodih teče v Evropo, še vedno pot preko Ukrajine na Slovaško. Ukrajinci trdijo, da po invaziji niso prekinili tranzitne pogodbe, da ne bi ogrozili svojih partnerjev v Evropski uniji, vključno s Slovaško. Vendar se bo pogodba kmalu iztekla in iz očitnih razlogov ne bo podaljšana. Ukrajina ne bo obnovila sporazuma o tranzitu ruskega plina prek svojega ozemlja. To je izjavil vodja ukrajinskega državnega plinskega podjetja Naftogaz Oleksiy Chernyshov. Tako bo ruski plin po plinovodih na Slovaško verjetno tekel le še nekaj mesecev. Ironično je, da zadnja pot za dobavo ruskega plina v Evropsko unijo prek plinovodov poteka prek Ukrajine na Slovaško.",
          "Največja ledena gora na svetu se je začela premikati. Velikanski kos ledu z imenom A23a, ki pokriva skoraj štiri tisoč kvadratnih kilometrov, se je leta 1986 odtrgal od antarktične celine, vendar se je kmalu zasidral v Weddellovem morju in postal tako rekoč ledeni otok. V zadnjem letu pa se je s precejšnjo hitrostjo začel oddaljevati in zdaj je pripravljen odpluti iz antarktičnih voda, poroča BBC.",
          "Svet EU-ja in Evropski parlament sta v petek dosegla okvirni dogovor o aktu o umetni inteligenci, ki vsebuje pravila za njeno uporabo v Uniji. To je prva tovrstna zakonodaja na svetu. Namen zakonodaje je zagotoviti varnost sistemov umetne inteligence ter spoštovanje temeljnih pravic in vrednot, obenem pa spodbujati vlaganje in inovacije na tem področju.",
          "Švicarski znanstveniki so razvili umetno inteligenco, ki bo, so prepričani, poenostavila boj proti vinskim ponaredkom na evropskem trgu, obenem pa pomagala pri pridelavi še boljšega vina. Umetna inteligenca je lahko tudi zelo koristno orodje za preprečevanje pogostih in težko dokazljivih prevar v vinski industriji, so ugotovili raziskovalci z ženevske univerze. Razvili so namreč umetno inteligenco, ki lahko na podlagi majhnega vzorca vina izjemno natančno ugotovi, od kod vino izvira. Ne določi zgolj ožjega geografskega območja, ampak točen vinograd oz. vinsko klet, raziskavo povzema Guardian.",
          "Skoraj ni tekme, na kateri Luka Dončić ne bi navdušil s kakšno potezo. Tokrat je za enega izmed vrhuncev na obračunu z Los Angeles Lakersi (127:125) poskrbel z dih jemajočo podajo. Dončić je sicer na osmi zaporedni tekmi presegel mejo 30 točk, tretjič zapored je na parketu odigral vsaj 40 minut. Takšne minutaže ni imel vse od končnice leta 2021.",
-         "Slovenija bo aprila prihodnje leto častna gostja na mednarodnem sejmu otroških knjig v Bologni. Otroški sejem v Bologni je poleg frankfurtskega knjižnega sejma mednarodna platforma, na kateri se predstavlja največje število slovenskih založnikov s področja otroške in mladinske literature, samostojno ali v sklopu slovenske nacionalne stojnice."
+         "Slovenija bo aprila prihodnje leto častna gostja na mednarodnem sejmu otroških knjig v Bologni. Otroški sejem v Bologni je poleg frankfurtskega knjižnega sejma mednarodna platforma, na kateri se predstavlja največje število slovenskih založnikov s področja otroške in mladinske literature, samostojno ali v sklopu slovenske nacionalne stojnice.",
+         "Dve podjetji iz sektorja luksuzne kozmetike sta v nenavadnem sporu. Na eni strani je francoski proizvajalec luksuznih parfumov Chanel, na drugi pa češki trgovec s parfumi Notino. Podjetje, ki ga je ustanovila slavna oblikovalka Coco Chanel, od češkega trgovca zahteva, da mu pove, kje je kupil njegove izdelke, ki jih preprodaja v svoji e-trgovini. Chanel skrbno izbira, komu dovoli prodajati svoje blago. Zainteresirana stranka mora izpolnjevati stroge zahteve, preden svetovno znani proizvajalec z njo sklene pogodbo. ",
+         "Nekatera avtomobilska podjetja so upočasnila svoje načrte za razvoj in proizvodnjo električnih avtomobilov. Ford je odložil 12 milijard dolarjev vredno naložbo, General Motors pa je opustil zamisel o proizvodnji 500.000 električnih avtomobilov do sredine leta 2024. Po podatkih svetovalnega podjetja Atlas Public Policy naj bi letos v Združenih državah Amerike prodali milijon električnih avtomobilov, kar naj bi predstavljalo devet odstotkov tamkajšnjega trga novih avtomobilov. Analitiki banke Goldman Sachs predvidevajo, da se bodo cene električnih avtomobilov in avtomobilov z notranjim izgorevanjem do sredine tega desetletja izenačile. Raziskovalno podjetje Gartner ta trenutek napoveduje za leto 2027 in dodaja, da se bo svetovna prodaja električnih osebnih avtomobilov prihodnje leto povečala za približno 19 odstotkov na skoraj 18 milijonov vozil."
       ],
       "topics": {
          "topic1": {
@@ -773,9 +787,11 @@
       "buttonName": "Topics",
       "inputs": [
          "Az élettani vagy orvosi Nobel-díjat Karikó Katalin magyar származású biokémikus és Drew Weissman amerikai immunológus kapta, akik a philadelphiai Pennsylvaniai Egyetemen töltött idejük alatt megalapozták az mRNS-vakcinák kifejlesztését, és ezzel megalapozták a covid-19 betegség elleni vakcinák kifejlesztését.",
-         "Nem tudom elképzelni, hogy az elmúlt hetek ne hagynának évtizedekre mély érzelmi, politikai és társadalmi nyomot az izraeliekben és a palesztinokban - kommentálja a Hamász-gyilkosságokat és az azt követő izraeli megtorlást Jakub Zahora, a Politikai Tanulmányok Intézetének elemzője. Szerinte a helyzet az elmúlt 70 év legrosszabbja. A palesztinok most már elfelejthetik a szabad palesztin állam lehetőségét.",
          "Gernot Döllner szeptember eleje óta áll az Audi élén, amikor Markus Duesmannt váltotta. Az Audi igazgatótanácsával való összezördülése miatt távozott, amely nem szerette, ha a márka a BMW és a Mercedes-Benz közvetlen konkurenciájával szemben veszít a német prémiumgyártókkal szemben. Különösen az elektromobilitás terén marad le a vonatról. A Handelsblatt című német napilapnak adott interjújában Döllner azt mondta, hogy az Audinak sokkal több időbe fog telni, amíg az elektromos autókból ugyanannyi bevételt tud majd termelni, mint a belsőégésű motorokból. Az Audi számára azonban gondot jelentenek az akkumulátorgyártás magas költségei és az elektromos járművekhez szükséges nyersanyagok, különösen a nemesfémek beszerzése.",
-         "A világ legnagyobb jéghegye mozgásba lendült. Az A23a névre keresztelt, közel négyezer négyzetkilométeres óriási jégdarab 1986-ban szakadt le az antarktiszi szárazföldről, de hamarosan lehorgonyzott a Weddell-tengerben, és gyakorlatilag jégszigetté vált. Az elmúlt évben azonban jelentős sebességgel sodródni kezdett, és most arra készül, hogy kihajózik az antarktiszi vizekből - írja a BBC."
+         "A világ legnagyobb jéghegye mozgásba lendült. Az A23a névre keresztelt, közel négyezer négyzetkilométeres óriási jégdarab 1986-ban szakadt le az antarktiszi szárazföldről, de hamarosan lehorgonyzott a Weddell-tengerben, és gyakorlatilag jégszigetté vált. Az elmúlt évben azonban jelentős sebességgel sodródni kezdett, és most arra készül, hogy kihajózik az antarktiszi vizekből - írja a BBC.",
+         "A luxuskozmetikai ágazat két vállalata szokatlan vitába keveredett. Az egyik oldalon a luxusparfümök francia gyártója, a Chanel, a másik oldalon a cseh Notino parfüm-kiskereskedő áll. A híres tervező, Coco Chanel által alapított cég azt követeli a cseh kiskereskedőtől, hogy mondja meg, hol vásárolta a termékeit, amelyeket a webáruházában értékesít tovább. A Chanel gondosan megválogatja, hogy kinek engedi meg, hogy áruit árulja. Az érdeklődőnek szigorú követelményeknek kell megfelelnie, mielőtt a világhírű gyártó szerződést köt vele. ",
+         "Egyes autógyárak lelassították az elektromos autók fejlesztésére és gyártására vonatkozó terveiket. A Ford elhalasztott egy 12 milliárd dolláros beruházást, a General Motors pedig elvetette azt az elképzelését, hogy 2024 közepéig 500 ezer elektromos autót gyártana. Az Atlas Public Policy tanácsadó cég szerint idén várhatóan egymillió elektromos autót adnak el az Egyesült Államokban, ami az ottani újautó-piac kilenc százalékát teszi ki. A Goldman Sachs bank elemzői azzal számolnak, hogy az elektromos és a belsőégésű autók ára az évtized közepére kiegyenlítődik. A Gartner kutatócég 2027-re jósolja ezt a pillanatot, hozzátéve, hogy az elektromos személygépkocsik globális értékesítése jövőre mintegy 19 százalékkal, közel 18 millió járműre nő.",
+         "Svájci tudósok mesterséges intelligenciát fejlesztettek ki, amely szerintük egyszerűsíti a borhamisítás elleni küzdelmet az európai piacon, miközben segít még jobb borokat előállítani. A mesterséges intelligencia nagyon hasznos eszköz lehet a borágazatban gyakori és nehezen bizonyítható csalások megelőzésében is - állapították meg a Genfi Egyetem kutatói. Olyan mesterséges intelligenciát fejlesztettek ki ugyanis, amely egy kis borminta alapján rendkívül pontosan meg tudja állapítani, hogy honnan származik a bor. Nem csak egy szűkebb földrajzi területet határoz meg, hanem a pontos szőlőbirtokot vagy pincészetet - foglalja össze a kutatást a Guardian."
       ],
       "topics": {
          "topic1": {
@@ -831,9 +847,11 @@
       "buttonName": "Topics",
       "inputs": [
          "Premiul Nobel pentru Fiziologie sau Medicină a fost acordat biochimistului de origine maghiară Katalin Karikó și imunologului american Drew Weissman, care au pus bazele dezvoltării vaccinurilor cu ARNm în timpul petrecut la Universitatea Pennsylvania din Philadelphia, punând bazele dezvoltării vaccinurilor împotriva bolii covid-19.",
-         "Nu-mi pot imagina că ultimele săptămâni nu vor lăsa o amprentă emoțională, politică și socială profundă asupra israelienilor și palestinienilor timp de zeci de ani, comentează Jakub Zahora, analist la Institutul pentru Studii Politice, cu privire la asasinatele comise de Hamas și la represaliile ulterioare ale Israelului. Situația, spune el, este cea mai gravă din ultimii 70 de ani. Palestinienii pot uita acum de posibilitatea unui stat palestinian liber.",
          "Gernot Döllner se află la conducerea Audi de la începutul lunii septembrie, când l-a înlocuit pe Markus Duesmann. Acesta a demisionat în urma unei neînțelegeri cu consiliul de administrație al Audi, care nu a apreciat faptul că marca a pierdut în fața concurenței directe a altor producători germani premium, BMW și Mercedes-Benz. Pierde trenul mai ales în domeniul electromobilității. Într-un interviu acordat cotidianului german Handelsblatt, Döllner a declarat că va dura mult mai mult timp pentru ca Audi să genereze aceleași venituri din mașinile electrice ca și din motoarele cu combustie internă. Cu toate acestea, Audi a fost afectată de costul ridicat al producției de baterii și al achiziției de materii prime pentru vehiculele electrice, în special metale prețioase.",
-         "Cel mai mare iceberg din lume s-a pus în mișcare. O bucată uriașă de gheață, denumită A23a, care acoperă aproape patru mii de kilometri pătrați, s-a desprins de continentul Antarcticii în 1986, dar în scurt timp s-a ancorat în Marea Weddell, devenind practic o insulă de gheață. Însă în ultimul an a început să se îndepărteze cu o viteză considerabilă, iar acum este gata să părăsească apele Antarcticii, relatează BBC."
+         "Cel mai mare iceberg din lume s-a pus în mișcare. O bucată uriașă de gheață, denumită A23a, care acoperă aproape patru mii de kilometri pătrați, s-a desprins de continentul Antarcticii în 1986, dar în scurt timp s-a ancorat în Marea Weddell, devenind practic o insulă de gheață. Însă în ultimul an a început să se îndepărteze cu o viteză considerabilă, iar acum este gata să părăsească apele Antarcticii, relatează BBC.",
+         "Oamenii de știință elvețieni au dezvoltat o inteligență artificială care, în opinia lor, va simplifica lupta împotriva contrafacerilor de vin pe piața europeană, ajutând în același timp la producerea unui vin și mai bun. Inteligența artificială poate fi, de asemenea, un instrument foarte util pentru a preveni fraudele frecvente și greu de dovedit în industria vinului, au descoperit cercetătorii de la Universitatea din Geneva. Concret, aceștia au dezvoltat o inteligență artificială care, pe baza unui mic eșantion de vin, poate determina cu o precizie extrem de mare de unde provine vinul. Aceasta nu precizează doar o zonă geografică mai restrânsă, ci exact podgoria sau crama, rezumă cercetarea The Guardian.",
+         "Unele companii auto și-au încetinit planurile de a dezvolta și de a produce mașini electrice. Ford a amânat o investiție de 12 miliarde de dolari, iar General Motors a renunțat la ideea de a produce 500.000 de mașini electrice până la jumătatea anului 2024. Un milion de mașini electrice ar urma să fie vândute în Statele Unite în acest an, reprezentând nouă procente din piața de mașini noi de acolo, potrivit companiei de consultanță Atlas Public Policy. Analiștii de la banca Goldman Sachs estimează că prețurile pentru mașinile electrice și cele cu combustie internă se vor stabiliza până la mijlocul acestui deceniu. Firma de cercetare Gartner preconizează acest moment în 2027, adăugând că vânzările globale de autoturisme electrice vor crește cu aproximativ 19 la sută, ajungând la aproape 18 milioane de vehicule anul viitor.",
+         "Două companii din sectorul cosmeticelor de lux sunt implicate într-o dispută neobișnuită. Pe de o parte se află producătorul francez de parfumuri de lux - Chanel, iar pe de altă parte se află retailerul ceh de parfumuri Notino. Compania, fondată de celebrul designer Coco Chanel, cere ca retailerul ceh să-i spună de unde a cumpărat produsele sale, pe care le revinde în magazinul său electronic. Chanel alege cu grijă cui permite să îi vândă produsele. Partea interesată trebuie să îndeplinească cerințe stricte înainte ca producătorul de renume mondial să încheie un contract cu ea. "
       ],
       "topics": {
          "topic1": {
@@ -889,9 +907,9 @@
       "buttonName": "Topics",
       "inputs": [
          "Nobelova nagrada za fiziologiju ili medicinu dodeljena je biohemičarki poreklom iz Mađarske Katalin Kariko i američkom imunologu Dru Vajsmanu, koji su postavili temelje za razvoj mRNK vakcina tokom svog boravka na Univerzitetu Pensilvanije u Filadelfiji, postavljajući temelje za razvoj vakcine protiv bolesti Covid-19.",
-         "Ne mogu da zamislim da poslednjih nekoliko nedelja neće ostaviti dubok emocionalni, politički i društveni trag na Izraelce i Palestince decenijama, komentariše Jakub Zahora, analitičar Instituta za političke studije, o ubistvima Hamasa i naknadnoj odmazdi Izraela. . Situacija je, kaže, najgora u poslednjih 70 godina. Palestinci sada mogu da zaborave na mogućnost slobodne palestinske države.",
-         "Ironično, poslednja ruta kojom ruski gas gasovodima ide u Evropu ostala je ona preko Ukrajine do Slovačke. Ukrajinci tvrde da nisu raskinuli ugovor o tranzitu nakon invazije da ne bi ugrozili svoje partnere u Evropskoj uniji, uključujući Slovačku. Međutim, uskoro će isteći i, iz očiglednih razloga, neće se obnavljati. Ukrajina neće obnoviti ugovor o tranzitu ruskog gasa preko svoje teritorije. Ovo je izjavio šef ukrajinske državne gasne kompanije Naftogas Aleksij Černišov. Tako će ruski gas najverovatnije tek nekoliko meseci cevovodima do Slovačke. Ironično, poslednja ruta za snabdevanje ruskog gasa Evropskoj uniji preko gasovoda vodi preko Ukrajine do Slovačke.",
-         "Pokrenuo se najveći ledeni breg na svetu. Džinovski komad leda, nazvan A23a, koji pokriva skoro četiri hiljade kvadratnih kilometara, odvojio se od antarktičkog kopna 1986. godine, ali se ubrzo usidrio u Vedelovom moru, postavši praktično ledeno ostrvo. Ali u protekloj godini počeo je da se udaljava velikom brzinom i sada je spreman da isplovi iz antarktičkih voda, prenosi Bi-Bi-Si."
+         "Pokrenuo se najveći ledeni breg na svetu. Džinovski komad leda, nazvan A23a, koji pokriva skoro četiri hiljade kvadratnih kilometara, odvojio se od antarktičkog kopna 1986. godine, ali se ubrzo usidrio u Vedelovom moru, postavši praktično ledeno ostrvo. Ali u protekloj godini počeo je da se udaljava velikom brzinom i sada je spreman da isplovi iz antarktičkih voda, prenosi Bi-Bi-Si.",
+         "Несвакидашњи спор је између две компаније из области луксузне козметике. На једној страни је француски произвођач луксузних парфема – Цханел, а на другој чешки продавац мириса Нотино. Компанија коју је основала позната дизајнерка Коко Шанел захтева од чешког бизнисмена да јој каже где је купио њене производе, које препродаје у својој е-продавници. Цханел пажљиво бира коме дозвољава да продаје своју робу. Подносилац захтева мора да испуни строге услове пре него што светски познати произвођач потпише уговор са њим.",
+         "Неки произвођачи аутомобила успорили су своје планове за развој и производњу електричних аутомобила. Форд је одложио инвестицију од 12 милијарди долара, а Џенерал моторс је одустао од плана за производњу 500.000 електричних аутомобила до средине 2024. Очекује се да ће милион електричних аутомобила бити продато у Сједињеним Државама ове године, што представља девет одсто тржишта нових аутомобила у земљи , према Атлас Публиц Полици, консултантској кући. Аналитичари Голдман Сакса предвиђају да ће се цене електричних аутомобила и аутомобила са унутрашњим сагоревањем изједначити до средине ове деценије. Истраживачка компанија Гартнер предвиђа овај тренутак за 2027. годину и додаје да ће светска продаја путничких аутомобила на електрични погон порасти за око 19 одсто на скоро 18 милиона аутомобила следеће године."
       ],
       "topics": {
          "topic1": {
@@ -3861,60 +3879,60 @@
          }
       }
    },
-   "Quantum Computing (CZ)": {
-      "name": "Quantum Computing",
-      "language": "CZ",
-      "buttonName": "Retrive Answer",
-      "inputs": [
+   "Quantum Computing (CZ)":{
+      "name":"Quantum Computing",
+      "language":"CZ",
+      "buttonName":"Retrive Answer",
+      "inputs":[
          "Jaké fyzikální vlastnosti využívá kvantový počítač ke své činnosti?",
          "Co obnáší kvantová dekoherence pro výpočty kvantovými počítači?",
          "Jaké může dosahovat zrychlení výpočtů u kvantových počítačů proti klasikým počítačům, avšak jaké musí být splněny podmínky?"
       ],
-      "topics": {
-         "topic1": {
-            "topicName": "Question Answering",
-            "models": [
+      "topics":{
+         "topic1":{
+            "topicName":"Question Answering",
+            "models":[
                {
-                  "meta-llama/llama-2-70b-chat": {
-                     "decoding_method": "greedy",
-                     "temperature": 0.5,
-                     "repetition_penalty": 1.2,
-                     "top_p": 1,
-                     "top_k": 50,
-                     "min_new_tokens": 15,
-                     "max_new_tokens": 150
+                  "meta-llama/llama-2-70b-chat":{
+                     "decoding_method":"greedy",
+                     "temperature":0.5,
+                     "repetition_penalty":1.2,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":15,
+                     "max_new_tokens":150
                   }
                }
             ],
-            "instruction": {
-               "detailed": "Odpovězte na následující otázku pouze na základě informací z článku. Odpověď musí být v českém jazyce. Pokud v článku není žádná dobrá odpověď, řekněte \"nevím\".\nČlánek: \nKvantový počítač je počítač, který využívá kvantově mechanické jevy. V malých měřítkách vykazuje fyzikální hmota vlastnosti částic i vln a kvantové počítače využívají tohoto chování, konkrétně kvantové superpozice a provázanosti, pomocí specializovaného hardwaru, který podporuje přípravu a manipulaci s kvantovými stavy. Klasická fyzika nedokáže vysvětlit fungování těchto kvantových zařízení a škálovatelný kvantový počítač by mohl provádět některé výpočty exponenciálně rychleji než jakýkoli moderní \"klasický\" počítač. Rozsáhlý kvantový počítač by zejména mohl prolomit široce používaná šifrovací schémata a pomoci fyzikům při provádění fyzikálních simulací; současný stav techniky je však převážně experimentální a nepraktický, přičemž užitečným aplikacím brání několik překážek. Škálovatelné kvantové počítače navíc nejsou pro mnoho praktických úloh perspektivní a u mnoha důležitých úloh je kvantové zrychlení prokazatelně nemožné. Základní jednotkou informace v kvantové výpočetní technice je qubit, podobně jako bit v tradiční digitální elektronice. Na rozdíl od klasického bitu může qubit existovat v superpozici svých dvou \"základních\" stavů, což volně znamená, že se nachází v obou stavech současně. Při měření qubitu je výsledkem pravděpodobnostní výstup klasického bitu, proto jsou kvantové počítače obecně nedeterministické. Pokud kvantový počítač manipuluje s qubitem určitým způsobem, mohou vlnové interferenční efekty zesílit požadované výsledky měření. Návrh kvantových algoritmů zahrnuje vytvoření postupů, které umožní kvantovému počítači provádět výpočty efektivně a rychle. Fyzikální inženýrství vysoce kvalitních qubitů se ukázalo jako náročné. Pokud není fyzický qubit dostatečně izolován od svého okolí, trpí kvantovou dekoherencí, která do výpočtů vnáší šum. Paradoxně je dokonalá izolace qubitů také nežádoucí, protože při kvantových výpočtech je obvykle třeba qubity inicializovat, provádět řízené interakce qubitů a měřit výsledné kvantové stavy. Každá z těchto operací přináší chyby a trpí šumem a tyto nepřesnosti se kumulují.",
-               "summarized": "Odpovězte na následující otázku na základě informací v článku."
+            "instruction":{
+               "detailed":"Odpovězte na následující otázku pouze na základě informací z článku. Odpověď musí být v českém jazyce. Pokud v článku není žádná dobrá odpověď, řekněte \"nevím\".\nČlánek: \nKvantový počítač je počítač, který využívá kvantově mechanické jevy. V malých měřítkách vykazuje fyzikální hmota vlastnosti částic i vln a kvantové počítače využívají tohoto chování, konkrétně kvantové superpozice a provázanosti, pomocí specializovaného hardwaru, který podporuje přípravu a manipulaci s kvantovými stavy. Klasická fyzika nedokáže vysvětlit fungování těchto kvantových zařízení a škálovatelný kvantový počítač by mohl provádět některé výpočty exponenciálně rychleji než jakýkoli moderní \"klasický\" počítač. Rozsáhlý kvantový počítač by zejména mohl prolomit široce používaná šifrovací schémata a pomoci fyzikům při provádění fyzikálních simulací; současný stav techniky je však převážně experimentální a nepraktický, přičemž užitečným aplikacím brání několik překážek. Škálovatelné kvantové počítače navíc nejsou pro mnoho praktických úloh perspektivní a u mnoha důležitých úloh je kvantové zrychlení prokazatelně nemožné. Základní jednotkou informace v kvantové výpočetní technice je qubit, podobně jako bit v tradiční digitální elektronice. Na rozdíl od klasického bitu může qubit existovat v superpozici svých dvou \"základních\" stavů, což volně znamená, že se nachází v obou stavech současně. Při měření qubitu je výsledkem pravděpodobnostní výstup klasického bitu, proto jsou kvantové počítače obecně nedeterministické. Pokud kvantový počítač manipuluje s qubitem určitým způsobem, mohou vlnové interferenční efekty zesílit požadované výsledky měření. Návrh kvantových algoritmů zahrnuje vytvoření postupů, které umožní kvantovému počítači provádět výpočty efektivně a rychle. Fyzikální inženýrství vysoce kvalitních qubitů se ukázalo jako náročné. Pokud není fyzický qubit dostatečně izolován od svého okolí, trpí kvantovou dekoherencí, která do výpočtů vnáší šum. Paradoxně je dokonalá izolace qubitů také nežádoucí, protože při kvantových výpočtech je obvykle třeba qubity inicializovat, provádět řízené interakce qubitů a měřit výsledné kvantové stavy. Každá z těchto operací přináší chyby a trpí šumem a tyto nepřesnosti se kumulují.",
+               "summarized":"Odpovězte na následující otázku na základě informací v článku."
             },
-            "inputPrefix": "Otázka: ",
-            "outputPrefix": "Odpověď: ",
-            "examples": [
+            "inputPrefix":"Otázka: ",
+            "outputPrefix":"Odpověď: ",
+            "examples":[
                {
-                  "input": "Jaký je současný využití kvantových počítačů?",
-                  "output": "Současný stav využití kvantových počítačů je převážně experimentální a nepraktický."
+                  "input":"Jaký je současný využití kvantových počítačů?",
+                  "output":"Současný stav využití kvantových počítačů je převážně experimentální a nepraktický."
                },
                {
-                  "input": "Jaké úlohy by uměl řešit rozsáhlý kvantový počítač?",
-                  "output": "Rozsáhlý kvantový počítač by zejména mohl prolomit široce používaná šifrovací schémata a pomoci fyzikům při provádění fyzikálních simulací."
+                  "input":"Jaké úlohy by uměl řešit rozsáhlý kvantový počítač?",
+                  "output":"Rozsáhlý kvantový počítač by zejména mohl prolomit široce používaná šifrovací schémata a pomoci fyzikům při provádění fyzikálních simulací."
                },
                {
-                  "input": "Jaké fyzikální vlastnosti využívá kvantový počítač ke své činnosti?",
-                  "output": "Kvantový počítač využívá kvantové superpozice a provázanosti, pomocí specializovaného hardwaru, který podporuje přípravu a manipulaci s kvantovými stavy."
+                  "input":"Jaké fyzikální vlastnosti využívá kvantový počítač ke své činnosti?",
+                  "output":"Kvantový počítač využívá kvantové superpozice a provázanosti, pomocí specializovaného hardwaru, který podporuje přípravu a manipulaci s kvantovými stavy."
                }
             ],
-            "enabled": true
+            "enabled":true
          }
       }
    },
-   "Opinions on the product (SK)": {
-      "name": "Opinions on the product (SK)",
-      "language": "SK",
-      "buttonName": "Analyzuj",
-      "inputs": [
+   "Opinions on the product (SK)":{
+      "name":"Opinions on the product (SK)",
+      "language":"SK",
+      "buttonName":"Analyzuj",
+      "inputs":[
          "Zatial ho mám kratko abysom mohol hodnotiť. V podstate som spokojný.",
          "Veľmi ochotný pracovník, vyšiel mi v ústrety s mojou požiadavkou ohladne dodania tovaru.",
          "Žiadna normálna nabijacka k tomu nie je v krabičke.",
@@ -3923,144 +3941,144 @@
          "Som mierne sklamaný z kvality fotiek počas dňa (chýba makro)",
          "Po pár dňoch používania som nenašla nič čo by som hodnotila negatívne."
       ],
-      "topics": {
-         "topic1": {
-            "topicName": "Sentiment Analyses",
-            "models": [
+      "topics":{
+         "topic1":{
+            "topicName":"Sentiment Analyses",
+            "models":[
                {
-                  "meta-llama/llama-2-70b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.2,
-                     "temperature": 0.5,
-                     "top_p": 1,
-                     "top_k": 50,
-                     "min_new_tokens": 1,
-                     "max_new_tokens": 20
+                  "meta-llama/llama-2-70b-chat":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "temperature":0.5,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":1,
+                     "max_new_tokens":20
                   }
                },
                {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.2,
-                     "temperature": 0.5,
-                     "top_p": 1,
-                     "top_k": 50,
-                     "min_new_tokens": 1,
-                     "max_new_tokens": 20
+                  "ibm/granite-13b-chat-v1":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "temperature":0.5,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":1,
+                     "max_new_tokens":20
                   }
                },
                {
-                  "bigscience/mt0-xxl": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.2,
-                     "temperature": 0.5,
-                     "top_p": 1,
-                     "top_k": 50,
-                     "min_new_tokens": 1,
-                     "max_new_tokens": 20
+                  "bigscience/mt0-xxl":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "temperature":0.5,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":1,
+                     "max_new_tokens":20
                   }
                },
                {
-                  "eleutherai/gpt-neox-20b": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.2,
-                     "temperature": 0.5,
-                     "top_p": 1,
-                     "top_k": 50,
-                     "min_new_tokens": 1,
-                     "max_new_tokens": 20
+                  "eleutherai/gpt-neox-20b":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "temperature":0.5,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":1,
+                     "max_new_tokens":20
                   }
                }
             ],
-            "instruction": {
-               "detailed": "Následující dokument obsahuje názory uživatelů na produkty. Přečti dokument a urči sentiment uživatele při hodnocení produkt.",
-               "summarized": "Identifikujte sentiment nasledujúcich správ."
+            "instruction":{
+               "detailed":"Následující dokument obsahuje názory uživatelů na produkty. Přečti dokument a urči sentiment uživatele při hodnocení produkt.",
+               "summarized":"Identifikujte sentiment nasledujúcich správ."
             },
-            "inputPrefix": "Text: ",
-            "outputPrefix": "Sentiment: ",
-            "examples": [
+            "inputPrefix":"Text: ",
+            "outputPrefix":"Sentiment: ",
+            "examples":[
                {
-                  "input": "Tento produkt sa mi vôbec nepáči. Je síce lacný, ale poriadne nefunguje.",
-                  "output": "Negatívne."
+                  "input":"Tento produkt sa mi vôbec nepáči. Je síce lacný, ale poriadne nefunguje.",
+                  "output":"Negatívne."
                },
                {
-                  "input": "Nie je to veľmi pekné.",
-                  "output": "Negatívne."
+                  "input":"Nie je to veľmi pekné.",
+                  "output":"Negatívne."
                },
                {
-                  "input": "Zatiaľ dobré nadštandard.",
-                  "output": "Pozitívne."
+                  "input":"Zatiaľ dobré nadštandard.",
+                  "output":"Pozitívne."
                },
                {
-                  "input": "Vzhľadovo pekný výkonný dobrá cena odporúčam.",
-                  "output": "Pozitívne."
+                  "input":"Vzhľadovo pekný výkonný dobrá cena odporúčam.",
+                  "output":"Pozitívne."
                },
                {
-                  "input": "Nedá sa nikde vypnúť Fast Charging (musím používať iný kábel nech nabíja pomaly aby sa rýchlo neničila baterka).",
-                  "output": "Negatívne."
+                  "input":"Nedá sa nikde vypnúť Fast Charging (musím používať iný kábel nech nabíja pomaly aby sa rýchlo neničila baterka).",
+                  "output":"Negatívne."
                },
                {
-                  "input": "Telefón má kvalitný fotoaparát, s najnovším androidom. Dobre sa drží v ruke, má krásny display.",
-                  "output": "Pozitívne."
+                  "input":"Telefón má kvalitný fotoaparát, s najnovším androidom. Dobre sa drží v ruke, má krásny display.",
+                  "output":"Pozitívne."
                },
                {
-                  "input": "Doposiaľ nemám žiadne negatívne skúsenosti.",
-                  "output": "Neutrálne."
+                  "input":"Doposiaľ nemám žiadne negatívne skúsenosti.",
+                  "output":"Neutrálne."
                },
                {
-                  "input": "Bezproblémové skopirovanie všetkých dát zo starého telefónu do nového a všetko ide ako má.",
-                  "output": "Pozitívne."
+                  "input":"Bezproblémové skopirovanie všetkých dát zo starého telefónu do nového a všetko ide ako má.",
+                  "output":"Pozitívne."
                }
             ],
-            "enabled": true
+            "enabled":true
          }
       }
    },
-   "Business Talks (CZ)": {
-      "name": "Business Talks (CZ)",
-      "language": "CZ",
-      "buttonName": "Shrnutí",
-      "inputs": [
+   "Business Talks (CZ)":{
+      "name":"Business Talks (CZ)",
+      "language":"CZ",
+      "buttonName":"Shrnutí",
+      "inputs":[
          "Obchodník: Dobrý den. Chtěl bych s vámi dnes projednat náš dlouhodobý obchodní vztah. Jak jste byl spokojen s naší dosavadní spoluprací?\n   Partner: Spolupráce s vaší firmou byla dosud velmi uspokojivá. Jsme spokojeni s kvalitou vašich produktů a vaší podporou. Myslím si, že jsme dosáhli významného pokroku.\n   Obchodník: To je skvělé slyšet. Rádi bychom pokračovali v tomto vzájemně prospěšném vztahu. Máme některé nové produkty a služby, které by se vám mohly líbit. Chtěli bychom s vámi diskutovat o možnosti rozšíření naší spolupráce a zvážit, jak bychom mohli lépe vyhovět vašim potřebám.\n   Partner: To zní zajímavě. Rádi bychom se dozvěděli více o těchto nových produktech a službách. Máme některé nové projekty, na kterých pracujeme, a myslím si, že by vaše řešení mohla být pro nás užitečná. Můžete nám poskytnout podrobnější informace?\n   Obchodník: Určitě, rádi bychom vám představili naše novinky a zvážili, jak by mohly být přizpůsobeny vašim projektům. Také bychom rádi projednali podmínky spolupráce a cenovou strukturu. Máte nějaký konkrétní časový plán, kdy byste chtěli tyto nové produkty zavést?\n   Partner: Budeme se potřebovat interně poradit ohledně našeho plánu, ale myslím si, že bychom mohli být připraveni začít spolupracovat během několika měsíců. Rádi bychom se dozvěděli více o cenách a podmínkách. Mohli byste nám připravit nějakou nabídku?\n   Obchodník: Samozřejmě, rádi vám připravíme podrobnou nabídku a provedeme vás celým procesem. Myslím si, že máme velký potenciál v tomto obchodním vztahu. Děkuji za váš čas a těším se na další spolupráci.\n",
-         "Obchodník: Dobrý den, pane Smith. Děkuji, že jste si našel čas dnes se mnou hovořit ohledně tohoto obchodního sporu.\n   Partner: Dobrý den, pane Johnson. Je to pro mě také důležité. Máme několik věcí, které bychom měli projednat, abychom našli společné řešení.\n   Obchodník: Souhlasím. Nejdříve bych rád zopakoval náš pohled na situaci. Podle našeho pohledu, smlouva jasně stanovuje, že dodání mělo být provedeno do konce října, ale bohužel jsme zjistili, že došlo k prodlení.\n   Partner: Máte pravdu, pane Johnson. Pro nás bylo prodlení také nepříjemné. Máme však důvody, které toto prodlení způsobily. Měli jsme problémy se získáním surovin včas kvůli nedostupnosti dodavatele.\n   Obchodník: Chápu, že může dojít k neočekávaným problémům. Ale měli jsme také náklady na skladování kvůli tomu, že jsme nemohli včas začít s výrobou. Jak byste navrhovali vyřešit tuto situaci?\n   Partner: Navrhuji, abychom společně hledali kompromis. Mohli bychom snížit sankce za prodlení dodání a prodloužit termíny pro dokončení dalších fází projektu. Tak bychom mohli minimalizovat naše ztráty a dosáhnout pozitivního výsledku pro obě strany.\n   Obchodník: To zní rozumně. Mohli bychom také zvážit dodatek ke smlouvě, který by obsahoval tyto změny a uzávěrku, která by je potvrdila. To by nám pomohlo vyhnout se budoucím nesrovnalostem.\n   Partner: Souhlasím. Myslím si, že dodatek by byl dobrým způsobem, jak zpevnit naši dohodu. Budeme potřebovat také konkrétní termíny a podmínky, které budou v dodatku uvedeny.\n   Obchodník: Můžeme pracovat na návrhu dodatku a společně zkontrolovat podmínky, abychom se ujistili, že jsou pro obě strany spravedlivé. Jaké jsou vaše další myšlenky ohledně tohoto sporu?\n   Partner: Rád bych také viděl, zda bychom mohli dohodnout nějaký postup pro řešení podobných problémů v budoucnu, abychom se vyvarovali opakování těchto obtíží.\n   Obchodník: To zní jako skvělý nápad. Můžeme zvážit vytvoření postupu pro řešení sporů a jeho začlenění do našich budoucích smluvních dohod.\n"
+         "Obchodník: Dobrý den, pane Smith. Děkuji, že jste si našel čas dnes se mnou hovořit ohledně tohoto obchodního sporu.\n   Partner: Dobrý den, pane Johnson. Je to pro mě také důležité. Máme několik věcí, které bychom měli projednat, abychom našli společné řešení.\n   Obchodník: Souhlasím. Nejdříve bych rád zopakoval náš pohled na situaci. Podle našeho pohledu, smlouva jasně stanovuje, že dodání mělo být provedeno do konce října, ale bohužel jsme zjistili, že došlo k prodlení.\n   Partner: Máte pravdu, pane Johnson. Pro nás bylo prodlení také nepříjemné. Máme však důvody, které toto prodlení způsobily. Měli jsme problémy se získáním surovin včas kvůli nedostupnosti dodavatele.\n   Obchodník: Chápu, že může dojít k neočekávaným problémům. Ale měli jsme také náklady na skladování kvůli tomu, že jsme nemohli včas začít s výrobou. Jak byste navrhovali vyřešit tuto situaci?\n   Partner: Navrhuji, abychom společně hledali kompromis. Mohli bychom snížit sankce za prodlení dodání a prodloužit termíny pro dokončení dalších fází projektu. Tak bychom mohli minimalizovat naše ztráty a dosáhnout pozitivního výsledku pro obě strany.\n   Obchodník: To zní rozumně. Mohli bychom také zvážit dodatek ke smlouvě, který by obsahoval tyto změny a uzávěrku, která by je potvrdila. To by nám pomohlo vyhnout se budoucím nesrovnalostem.\n   Partner: Souhlasím. Myslím si, že dodatek by byl dobrým způsobem, jak zpevnit naši dohodu. Budeme potřebovat také konkrétní termíny a podmínky, které budou v dodatku uvedeny.\n   Obchodník: Můžeme pracovat na návrhu dodatku a společně zkontrolovat podmínky, abychom se ujistili, že jsou pro obě strany spravedlivé. Jaké jsou vaše další myšlenky ohledně tohoto sporu?\n   Partner: Rád bych také viděl, zda bychom mohli dohodnout nějaký postup pro řešení podobných problémů v budoucnu, abychom se vyvarovali opakování těchto obtíží.\n   Obchodník: To zní jako skvělý nápad. Můžeme zvážit vytvoření postupu pro řešení sporů a jeho začlenění do našich budoucích smluvních dohod.\n" 
       ],
-      "topics": {
-         "topic1": {
-            "topicName": "Business talk summary",
-            "models": [
+      "topics":{
+         "topic1":{
+            "topicName":"Business talk summary",
+            "models":[
                {
-                  "meta-llama/llama-2-70b-chat": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.2,
-                     "min_new_tokens": 20,
-                     "max_new_tokens": 200
+                  "meta-llama/llama-2-70b-chat":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "min_new_tokens":20,
+                     "max_new_tokens":200
                   }
                },
                {
-                  "ibm/granite-13b-chat-v1": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.2,
-                     "temperature": 0.5,
-                     "top_p": 1,
-                     "top_k": 50,
-                     "min_new_tokens": 20,
-                     "max_new_tokens": 200
+                  "ibm/granite-13b-chat-v1":{
+                     "decoding_method":"greedy",
+                     "repetition_penalty":1.2,
+                     "temperature":0.5,
+                     "top_p":1,
+                     "top_k":50,
+                     "min_new_tokens":20,
+                     "max_new_tokens":200
                   }
                }
             ],
-            "instruction": {
-               "detailed": "Výhradně v českém jazyce vytvoř Shrnutí následujícího obchodního Rozhovoru mezi partnerem a obchodníkem:",
-               "summarized": "Napiš shrnutí následujícího obchodního rozhovoru."
+            "instruction":{
+               "detailed":"Výhradně v českém jazyce vytvoř Shrnutí následujícího obchodního Rozhovoru mezi partnerem a obchodníkem:",
+               "summarized":"Napiš shrnutí následujícího obchodního rozhovoru."
             },
-            "inputPrefix": "Rozhovor: \n ",
-            "outputPrefix": "Shrnutí: \n ",
-            "examples": [
+            "inputPrefix":"Rozhovor: \n ",
+            "outputPrefix":"Shrnutí: \n ",
+            "examples":[
                {
-                  "input": "\n   Partner: Dobrý den, těší mě, že jsme se mohli setkat. Jak jste se měli od naší poslední schůzky?\n   Obchodník: Dobrý den, ano, bylo to pěkných pár měsíců. Děkuji, že jste naši schůzku uspořádali. Měl jsem se dobře a jak jste vy?\n   Partner: Díky za otázku. Měl jsem taky hezké měsíce. Kromě toho jsme měli několik významných změn ve firmě od naší poslední schůzky. Rozšířili jsme naši produktovou řadu a také jsme zaznamenali růst tržeb o 20 %.\n   Obchodník: To zní skvěle, gratuluji k úspěchům! My jsme také měli nějaké změny. Naše inženýrský tým pracuje na vylepšení našich produktů a zároveň se snažíme rozšířit naše tržní zastoupení. Máme něco nového, co by vás mohlo zajímat.\n   Partner: To zní zajímavě. Můžete mi o tom říct více?\n   Obchodník: Samozřejmě, rádi bychom vám představili naši novou produktovou řadu, která zahrnuje několik inovativních prvků, které by mohly zvýšit efektivitu vašeho podnikání. Rádi bychom také diskutovali o možnostech spolupráce, které by mohly být pro obě strany prospěšné.\n   Partner: To zní slibně. Měli bychom se podívat na vaši prezentaci a projednat detaily. Máme určitý rozpočet na investice do nových produktů, takže bychom rádi slyšeli i o cenových podmínkách.\n   Obchodník: Samozřejmě, rádi vám představíme naši prezentaci a diskutujeme o ceně. Můžeme také zvážit různé formy spolupráce, včetně slev na objednávky ve větším množství.",
-                  "output": "\n   Partner během rozhovoru informoval o pozitivních změnách ve firmě, včetně růstu tržeb, a obchodník nabídl novou produktovou řadu a možnosti spolupráce. Partner projevil zájem o další detaily a cenovou diskuzi."
+                  "input":"\n   Partner: Dobrý den, těší mě, že jsme se mohli setkat. Jak jste se měli od naší poslední schůzky?\n   Obchodník: Dobrý den, ano, bylo to pěkných pár měsíců. Děkuji, že jste naši schůzku uspořádali. Měl jsem se dobře a jak jste vy?\n   Partner: Díky za otázku. Měl jsem taky hezké měsíce. Kromě toho jsme měli několik významných změn ve firmě od naší poslední schůzky. Rozšířili jsme naši produktovou řadu a také jsme zaznamenali růst tržeb o 20 %.\n   Obchodník: To zní skvěle, gratuluji k úspěchům! My jsme také měli nějaké změny. Naše inženýrský tým pracuje na vylepšení našich produktů a zároveň se snažíme rozšířit naše tržní zastoupení. Máme něco nového, co by vás mohlo zajímat.\n   Partner: To zní zajímavě. Můžete mi o tom říct více?\n   Obchodník: Samozřejmě, rádi bychom vám představili naši novou produktovou řadu, která zahrnuje několik inovativních prvků, které by mohly zvýšit efektivitu vašeho podnikání. Rádi bychom také diskutovali o možnostech spolupráce, které by mohly být pro obě strany prospěšné.\n   Partner: To zní slibně. Měli bychom se podívat na vaši prezentaci a projednat detaily. Máme určitý rozpočet na investice do nových produktů, takže bychom rádi slyšeli i o cenových podmínkách.\n   Obchodník: Samozřejmě, rádi vám představíme naši prezentaci a diskutujeme o ceně. Můžeme také zvážit různé formy spolupráce, včetně slev na objednávky ve větším množství.",
+                  "output":"\n   Partner během rozhovoru informoval o pozitivních změnách ve firmě, včetně růstu tržeb, a obchodník nabídl novou produktovou řadu a možnosti spolupráce. Partner projevil zájem o další detaily a cenovou diskuzi."
                }
             ],
-            "enabled": true
+            "enabled":true
          }
       }
    }
