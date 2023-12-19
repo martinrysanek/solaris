@@ -1007,10 +1007,10 @@
                }
             ],
             "instruction":{
-               "detailed":"Následující dokument obsahuje názory uživatelů na produkty. Přečti dokument a urči sentiment uživatele při hodnocení produkt.",
-               "summarized":"Urči sentiment názoru uživatele."
+               "detailed":"Níže je hodnocení produktu uživatelem, zjisti náladu uživatele při hodnocení produktu.",
+               "summarized":"Určete sentiment uživatele při hodnocení výrobku."
             },
-            "inputPrefix":"Dokument: ",
+            "inputPrefix":"Hodnocení:",
             "outputPrefix":"Sentiment: ",
             "examples":[
                 
@@ -1083,10 +1083,10 @@
                }
             ],
             "instruction":{
-               "detailed":"The following document contains users' opinions on products. Read the document and determine the user's sentiment when evaluating a product.",
-               "summarized":"Determine the sentiment of the user's opinion."
+               "detailed":"Below is the user's rating of the product, find out the user's mood when rating the product.",
+               "summarized":"Determine the user's sentiment when evaluating the product."
             },
-            "inputPrefix":"Document: ",
+            "inputPrefix":"Rating:",
             "outputPrefix":"Sentiment: ",
             "examples":[
                 
@@ -1159,10 +1159,10 @@
                }
             ],
             "instruction":{
-               "detailed":"Das folgende Dokument enthält die Meinungen der Benutzer zu den Produkten. Lesen Sie das Dokument und bestimmen Sie die Meinung des Benutzers bei der Bewertung des Produkts.",
-               "summarized":"Bestimmen Sie die Meinung des Benutzers."
+               "detailed":"Unten sehen Sie die Bewertung des Produkts durch den Benutzer. Finden Sie die Stimmung des Benutzers bei der Bewertung des Produkts heraus.",
+               "summarized":"Ermitteln Sie die Stimmung des Benutzers bei der Bewertung des Produkts."
             },
-            "inputPrefix":"Dokument: ",
+            "inputPrefix":"Bewertung:",
             "outputPrefix":"Empfindung: ",
             "examples":[
                 
@@ -1235,10 +1235,10 @@
                }
             ],
             "instruction":{
-               "detailed":"Het volgende document bevat de meningen van gebruikers over de producten. Lees het document en bepaal het sentiment van de gebruiker bij het beoordelen van het product.",
-               "summarized":"Bepaal het sentiment van de mening van de gebruiker."
+               "detailed":"Hieronder staat de beoordeling van de gebruiker van het product, ontdek de stemming van de gebruiker bij het beoordelen van het product.",
+               "summarized":"Bepaal het sentiment van de gebruiker bij het beoordelen van het product."
             },
-            "inputPrefix":"Document: ",
+            "inputPrefix":"Beoordeling:",
             "outputPrefix":"Sentiment: ",
             "examples":[
                 
@@ -1311,10 +1311,10 @@
                }
             ],
             "instruction":{
-               "detailed":"Naslednji dokument vsebuje mnenja uporabnikov o izdelkih. Preberite dokument in ugotovite, kako je uporabnik ocenil izdelek.",
-               "summarized":"Določite sentiment uporabnikovega mnenja."
+               "detailed":"Spodaj je uporabniška ocena izdelka, ugotovite, kakšno je bilo uporabnikovo razpoloženje pri ocenjevanju izdelka.",
+               "summarized":"Določite uporabnikovo razpoloženje pri ocenjevanju izdelka."
             },
-            "inputPrefix":"Dokument: ",
+            "inputPrefix":"Ocena:",
             "outputPrefix":"Sentiment: ",
             "examples":[
                 
@@ -1387,10 +1387,10 @@
                }
             ],
             "instruction":{
-               "detailed":"Az alábbi dokumentum a felhasználók véleményét tartalmazza a termékekről. Olvassa el a dokumentumot, és határozza meg a felhasználó hangulatát a termék értékelésénél.",
-               "summarized":"Határozza meg a felhasználó véleményének hangulatát."
+               "detailed":"Az alábbiakban a felhasználó értékelése a termékről, ismerje meg a felhasználó hangulatát a termék értékelésénél.",
+               "summarized":"Határozza meg a felhasználó hangulatát a termék értékelése során."
             },
-            "inputPrefix":"Dokumentum: ",
+            "inputPrefix":"Értékelés:",
             "outputPrefix":"Sentiment: ",
             "examples":[
                 
@@ -1463,10 +1463,10 @@
                }
             ],
             "instruction":{
-               "detailed":"Următorul document conține opiniile utilizatorilor cu privire la produse. Citiți documentul și determinați sentimentul utilizatorului atunci când evaluează produsul.",
-               "summarized":"Determinați sentimentul opiniei utilizatorului."
+               "detailed":"Mai jos este evaluarea produsului de către utilizator, aflați care este starea de spirit a utilizatorului atunci când evaluează produsul.",
+               "summarized":"Determinați starea de spirit a utilizatorului în timpul evaluării produsului."
             },
-            "inputPrefix":"Document: ",
+            "inputPrefix":"Evaluare:",
             "outputPrefix":"Sentiment: ",
             "examples":[
                 
