@@ -4337,12 +4337,23 @@
       "language":"CZ",
       "buttonName":"Generate Response",
       "inputs":[
-          "Pavel Novák:\nVynikající a dobře udržované. Vysoce organizovaný a efektivní. Zvládá provoz tak dobře i v tomto ročním období, kdy je obrovský příliv zahraničních studentů, kteří přijíždějí na univerzity ve Vancouveru. Spousta taxislužeb k dispozici hned u letiště.  Mimořádně ochotný personál.", "David Svoboda:\nVíce než 50 % letů na YVR a z YVR je zpožděno, bezpečnostní personál aka curbside operations, konkrétně ti, kteří se zabývají otázkami parkování, jsou hrubí, toalety jsou většinou špinavé.", "Karel:\nVelmi příjemné letiště pro čekání na let. Pohodlná sedadla a různá uspořádání míst k sezení kolem uměleckých energií včetně sochy Billa Reida a dalších vodních prvků a soch. Jsou zde obchody s potravinami a maloobchodní prodejny. Působí téměř jako nákupní centrum, nikoli jako letiště, což je velmi příjemné. Pravděpodobně by se hodilo více nabíjecích stanic v blízkosti míst k sezení."
+          "Petr:\nVynikající a dobře udržované. Vysoce organizovaný a efektivní. Zvládá provoz tak dobře i v tomto ročním období, kdy je obrovský příliv zahraničních studentů, kteří přijíždějí na univerzity ve Vancouveru. Spousta taxislužeb k dispozici hned u letiště.  Mimořádně ochotný personál.", "Jiří:\nVíce než 50 % letů na YVR a z YVR je zpožděno, bezpečnostní personál aka curbside operations, konkrétně ti, kteří se zabývají otázkami parkování, jsou hrubí, toalety jsou většinou špinavé.", "Karel:\nVelmi příjemné letiště pro čekání na let. Pohodlná sedadla a různá uspořádání míst k sezení kolem uměleckých energií včetně sochy Billa Reida a dalších vodních prvků a soch. Jsou zde obchody s potravinami a maloobchodní prodejny. Působí téměř jako nákupní centrum, nikoli jako letiště, což je velmi příjemné. Pravděpodobně by se hodilo více nabíjecích stanic v blízkosti míst k sezení."
       ],
       "topics":{
          "topic1":{
             "topicName":"Generate Response",
             "models":[
+               {
+                  "meta-llama/llama-2-70b-chat":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                   
                {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
@@ -4354,17 +4365,6 @@
                      ]
                   }
                },                 
-               {
-                  "meta-llama/llama-2-70b-chat":{
-                     "decoding_method":"greedy",
-                     "min_new_tokens":10,
-                     "max_new_tokens":200,
-                     "repetition_penalty":1.1,
-                     "stop_sequences":[
-                        "\n\n"
-                     ]
-                  }
-               }, 
                {
                     "ibm/granite-13b-chat-v2":{
                         "decoding_method":"greedy",
