@@ -4384,57 +4384,57 @@
                 
                {
                   "input":"Tara Elizabeth:\nParkování bylo snadné a značení nám jasně ukázalo, kam se máme jít odbavit na let. Posílala jsem své dospívající děti a personál Air Canada byl opravdu vstřícný.",
-                  "output":"Ahoj Taro!\nJsme rádi, že jsi ty i tvé děti měli skvělý zážitek!"
+                  "output":"Dobrý den Taro!\nJsme rádi, že jsi ty i tvé děti měli skvělý zážitek!"
                }                  
 ,
                {
                   "input":"Daniel Xu:\nTak moderní! Velmi čisté a skvělá atmosféra.",
-                  "output":"Ahoj Danieli\nDěkujeme za recenzi, jsme rádi, že se vám návštěva líbila!"
+                  "output":"Dobrý den Danieli\nDěkujeme za recenzi, jsme rádi, že se vám návštěva líbila!"
                }                  
 ,
                {
                   "input":"C. Nazima London:\nMám postižené dítě, které používá AAC Tobi Dynavox, aby mluvilo.\nProcestovali jsme téměř celé Spojené státy, kde se mé dítě narodilo, a NIKDY jí TSA neodebrala AAC, aby ji zkontrolovala.\nMoje dítě křičelo a bylo jí řečeno, že se ho musí vzdát, pokud chce jít domů.\nTo je směšné, nikdo by nikdy neměl být takto ošetřen. Tento AAC je její hlas, jak se to opovažují udělat.\nMěli jsme pozdní večerní let 8/9/23. Moje dítě plakalo a plakalo, nemohlo pochopit, proč jí berou hlas.\nDozorce mi řekl, že to není připojeno k ní, takže to musí projít kontrolou, pak poté, co to prošlo, drželi to od ní, zatímco ji prohledávali, neměla možnost jim říct, jestli jí ubližují nebo ji ztrapňují. \nVšem rodičům nebo osobám, které používají řečové zařízení, radím, aby NELETĚLI DO KANADY, mají tam ty nejstrašnější lidi v TSA.Nikdy nebudeme moci navštívit naši starší rodinu, která žije v Kanadě.Někdo to musí okamžitě napravit!!!!",
-                  "output":"Ahoj Nazimo,\nJe nám strašně líto, že sis tím musela projít. Tento problém okamžitě prošetříme."
+                  "output":"Dobrý den Nazimo,\nJe nám strašně líto, že sis tím musela projít. Tento problém okamžitě prošetříme."
                }                  
 ,
                {
                   "input":"Reg Natarajan:\nJsem zaujatý, protože je to můj domovský přístav, ale YVR je opravdu nejlepší letiště na světě.",
-                  "output":"Ahoj Regi!\nJsme rádi, že jsi se dobře bavil!"
+                  "output":"Dobrý den Regi!\nJsme rádi, že jsi se dobře bavil!"
                }                  
 ,
                {
                   "input":"SANJEEV JAIN:\nTento je, když se pohybujete směrem k odbavovací hale D. Salonek je dobře udržovaný a má dostatek místa k sezení.\nNení tu moc k jídlu, základní věci a čaj/káva. Možnosti jsou velmi omezené. Samoobslužný salonek.",
-                  "output":"Ahoj Sanjeev!\nDěkujeme za tvou zpětnou vazbu, podíváme se na rozšíření možností stravování v salónku."
+                  "output":"Dobrý den Sanjeevi!\nDěkujeme za tvou zpětnou vazbu, podíváme se na rozšíření možností stravování v salónku."
                }                  
 ,
                {
                   "input":"Sharon Doyle:\nNa tomto letišti není dostatek kaváren, zejména snídaňových míst. Poblíž naší brány byla kavárna, která vypadala, že je trvale zavřená. Byla tam tma, brány byly spuštěné a zamčené, a když jste nahlédli skrz zamčené brány, vypadalo to, že tam uvnitř skladují spoustu věcí. Dlouho jsem chodil kolem a hledal něco k jídlu k snídani a nakonec jsem se rozhodl čekat v opravdu dlouhé frontě hodně přes 20 minut u Tim Horton\u2019s. Dal jsem si muffin a džus. Na letišti jsem mluvil s několika dalšími lidmi, kteří sdíleli můj názor na nedostatek snídaňových kaváren. Všichni jsme byli frustrovaní.",
-                  "output":"Ahoj Sharon!Je nám líto, že jsi měla problém najít místo, kde by ses mohla nasnídat. V budoucnu se budeme snažit přidat více možností snídaní."
+                  "output":"Dobrý den Sharon!Je nám líto, že jsi měla problém najít místo, kde by ses mohla nasnídat. V budoucnu se budeme snažit přidat více možností snídaní."
                }                  
 ,
                {
-                  "input":"DS C:\nJaká škoda.\nKdo plánoval stavbu v pátek před prodlouženým víkendem, potřebuje trochu pozornosti a důkladné pochopení situace. Po značně dlouhém čekání chvíli trvalo, než se podařilo sehnat taxík. Rideshare na tom byl stejně. Žádné auto nepřijelo.\nProč jste se rozhodli zablokovat celé jízdní pruhy kromě jednoho, když víte, že budete mít hodně cestujících?",
-                  "output":"Dobrý den, DS C,\nOmlouváme se za nepříjemnosti způsobené stavbou. Chápeme, že šlo o rušnou dobu, a budeme hledat způsoby, jak minimalizovat dopady budoucích stavebních projektů."
+                  "input":"Katka Malá:\nJaká škoda.\nKdo plánoval stavbu v pátek před prodlouženým víkendem, potřebuje trochu pozornosti a důkladné pochopení situace. Po značně dlouhém čekání chvíli trvalo, než se podařilo sehnat taxík. Rideshare na tom byl stejně. Žádné auto nepřijelo.\nProč jste se rozhodli zablokovat celé jízdní pruhy kromě jednoho, když víte, že budete mít hodně cestujících?",
+                  "output":"Dobrý den Katko,\nOmlouváme se za nepříjemnosti způsobené stavbou. Chápeme, že šlo o rušnou dobu, a budeme hledat způsoby, jak minimalizovat dopady budoucích stavebních projektů."
                }                  
 ,
                {
                   "input":"Wareef Kabbani:\nLetiště je pěkné. Je však značně poddimenzované personálem. Letecké společnosti jsou super pomalé a stojí velké fronty. Vzdálenost k některým branám se může blížit jedné míli. Jinak pěkné a suché prostředí.",
-                  "output":"Ahoj Wareef!\nDěkuji za tvůj názor. Zkusíme přidat více personálu, abychom zvýšili efektivitu odbavení a zkrátili čekací doby."
+                  "output":"Dobrý den Wareefi!\nDěkuji za tvůj názor. Zkusíme přidat více personálu, abychom zvýšili efektivitu odbavení a zkrátili čekací doby."
                }                  
 ,
                {
                   "input":"Cheekeye the-dog:\nNejhorší letiště na světě\nBuďte tam 2 hodiny navíc k tomu, co doporučují.\n89% šance, že ztratí vaše zavazadla, takže si zabalte AirTags\nMají čistokrevné, takže alespoň nebudete mít špatnou chuť v ústech, i když je to nejhorší letiště na světě.",
-                  "output":"Ahoj Cheekeye,\nMrzí nás, že máš negativní zkušenost. Uděláme vše pro to, abychom naše služby zlepšili a minimalizovali riziko ztráty zavazadel. Děkujeme vám za zpětnou vazbu."
+                  "output":"Dobrý den Cheekeye,\nMrzí nás, že máš negativní zkušenost. Uděláme vše pro to, abychom naše služby zlepšili a minimalizovali riziko ztráty zavazadel. Děkujeme vám za zpětnou vazbu."
                }                  
 ,
                {
                   "input":"Wajahat Faiz:\nToto letiště nemá jeden, ale dva časové terminály.",
-                  "output":"Ahoj Wajahate!\nJsme rádi, že jsi z Tim Hortons nadšený! Postaráme se, aby byly otevřené a připravené na vaši příští návštěvu."
+                  "output":"Dobrý den Wajahate!\nJsme rádi, že jsi z Tim Hortons nadšený! Postaráme se, aby byly otevřené a připravené na vaši příští návštěvu."
                }                  
 ,
                {
                   "input":"Michael Smith:\nPovažuje se za jedno z nejlepších letišť v Kanadě. Neřadil bych ho mezi letiště třetího světa. Vybavení po 2100 hodině téměř neexistuje. Nemožné sehnat pivo nebo víno. Pokud máte rádi rychlé občerstvení a kávu, máte štěstí, ve food courtu jsou otevřeny 4 provozovny. Personál byl příjemný, ale všechny přepážky leteckých společností byly bez personálu. Nebýt toho, že je to jediná brána na východ v Kanadě, určitě bych se mu vyhnul.",
-                  "output":"Ahoj Michaele,\nMrzí nás, že jsi neměl pozitivní zkušenost. Budeme se zabývat přidáním dalšího vybavení a prodloužením provozní doby pro možnosti stravování. Děkujeme za vaši zpětnou vazbu."
+                  "output":"Dobrý den Michaele,\nMrzí nás, že jsi neměl pozitivní zkušenost. Budeme se zabývat přidáním dalšího vybavení a prodloužením provozní doby pro možnosti stravování. Děkujeme za vaši zpětnou vazbu."
                }                  
 
             ],
