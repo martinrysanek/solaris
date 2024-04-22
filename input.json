@@ -11,6 +11,17 @@
             "topicName":"Entities Extraction",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
@@ -33,7 +44,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -83,6 +105,17 @@
             "topicName":"Entities Extraction",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
@@ -105,7 +138,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -155,6 +199,17 @@
             "topicName":"Entities Extraction",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
@@ -177,7 +232,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -227,6 +293,17 @@
             "topicName":"Entities Extraction",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
@@ -249,7 +326,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -299,6 +387,17 @@
             "topicName":"Entities Extraction",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
@@ -321,7 +420,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -371,6 +481,17 @@
             "topicName":"Entities Extraction",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
@@ -393,7 +514,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -443,6 +575,17 @@
             "topicName":"Entities Extraction",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
@@ -465,7 +608,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -515,6 +669,17 @@
             "topicName":"Entities Extraction",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
@@ -537,7 +702,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -587,6 +763,17 @@
             "topicName":"Entities Extraction",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
@@ -609,7 +796,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -659,6 +857,17 @@
             "topicName":"Topics",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
@@ -681,7 +890,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -731,6 +951,17 @@
             "topicName":"Topics",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
@@ -753,7 +984,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -803,6 +1045,17 @@
             "topicName":"Topics",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
@@ -825,7 +1078,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -875,6 +1139,17 @@
             "topicName":"Topics",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
@@ -897,7 +1172,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -947,6 +1233,17 @@
             "topicName":"Topics",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
@@ -969,7 +1266,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -1019,6 +1327,17 @@
             "topicName":"Topics",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
@@ -1041,7 +1360,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -1091,6 +1421,17 @@
             "topicName":"Topics",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
@@ -1113,7 +1454,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -1163,6 +1515,17 @@
             "topicName":"Topics",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
@@ -1185,7 +1548,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -1235,6 +1609,17 @@
             "topicName":"Topics",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
@@ -1257,7 +1642,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -1307,6 +1703,17 @@
             "topicName":"Sentiment Analysis",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
@@ -1329,7 +1736,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -1394,6 +1812,17 @@
             "topicName":"Sentiment Analysis",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
@@ -1416,7 +1845,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -1481,6 +1921,17 @@
             "topicName":"Sentiment Analysis",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
@@ -1503,7 +1954,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -1568,6 +2030,17 @@
             "topicName":"Sentiment Analysis",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
@@ -1590,7 +2063,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -1655,6 +2139,17 @@
             "topicName":"Sentiment Analysis",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
@@ -1677,7 +2172,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -1742,6 +2248,17 @@
             "topicName":"Sentiment Analysis",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
@@ -1764,7 +2281,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -1829,6 +2357,17 @@
             "topicName":"Sentiment Analysis",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
@@ -1851,7 +2390,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -1916,6 +2466,17 @@
             "topicName":"Sentiment Analysis",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
@@ -1938,7 +2499,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -2003,6 +2575,17 @@
             "topicName":"Sentiment Analysis",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
@@ -2025,7 +2608,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -2090,6 +2684,17 @@
             "topicName":"Document Summary",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":150,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -2112,7 +2717,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":150,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -2162,6 +2778,17 @@
             "topicName":"Document Summary",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":150,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -2184,7 +2811,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":150,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -2234,6 +2872,17 @@
             "topicName":"Document Summary",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":150,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -2256,7 +2905,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":150,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -2306,6 +2966,17 @@
             "topicName":"Document Summary",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":150,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -2328,7 +2999,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":150,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -2378,6 +3060,17 @@
             "topicName":"Document Summary",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":150,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -2400,7 +3093,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":150,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -2450,6 +3154,17 @@
             "topicName":"Document Summary",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":150,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -2472,7 +3187,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":150,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -2522,6 +3248,17 @@
             "topicName":"Document Summary",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":150,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -2544,7 +3281,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":150,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -2594,6 +3342,17 @@
             "topicName":"Rezime dokumenta",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":150,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -2616,7 +3375,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":150,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -2661,6 +3431,17 @@
             "topicName":"Обобщение на документа",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":150,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -2683,7 +3464,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":150,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -2733,6 +3525,17 @@
             "topicName":"Categorization",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":100,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -2755,7 +3558,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":100,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -2825,6 +3639,17 @@
             "topicName":"Categorization",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":100,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -2847,7 +3672,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":100,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -2917,6 +3753,17 @@
             "topicName":"Categorization",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":100,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -2939,7 +3786,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":100,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -3009,6 +3867,17 @@
             "topicName":"Categorization",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":100,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -3031,7 +3900,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":100,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -3101,6 +3981,17 @@
             "topicName":"Categorization",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":100,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -3123,7 +4014,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":100,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -3193,6 +4095,17 @@
             "topicName":"Categorization",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":100,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -3215,7 +4128,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":100,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -3285,6 +4209,17 @@
             "topicName":"Categorization",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":100,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -3307,7 +4242,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":100,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -3377,6 +4323,17 @@
             "topicName":"Kategorizacija",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":100,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -3399,7 +4356,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":100,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -3469,6 +4437,17 @@
             "topicName":"Категоризация",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":100,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -3491,7 +4470,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":100,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -3561,6 +4551,17 @@
             "topicName":"Car Review Summary",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -3583,7 +4584,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -3648,6 +4660,17 @@
             "topicName":"Car Review Summary",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -3670,7 +4693,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -3735,6 +4769,17 @@
             "topicName":"Car Review Summary",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -3757,7 +4802,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -3822,6 +4878,17 @@
             "topicName":"Car Review Summary",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -3844,7 +4911,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -3909,6 +4987,17 @@
             "topicName":"Car Review Summary",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -3931,7 +5020,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -3996,6 +5096,17 @@
             "topicName":"Car Review Summary",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -4018,7 +5129,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -4083,6 +5205,17 @@
             "topicName":"Car Review Summary",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -4105,7 +5238,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -4170,6 +5314,17 @@
             "topicName":"Car Review Summary",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -4192,7 +5347,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -4257,6 +5423,17 @@
             "topicName":"Car Review Summary",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -4279,7 +5456,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -4337,25 +5525,14 @@
       "language":"CZ",
       "buttonName":"Generate Response",
       "inputs":[
-          "Petr:\nVynikající a dobře udržované. Vysoce organizovaný a efektivní. Zvládá provoz tak dobře i v tomto ročním období, kdy je obrovský příliv zahraničních studentů, kteří přijíždějí na univerzity ve Vancouveru. Spousta taxislužeb k dispozici hned u letiště.  Mimořádně ochotný personál.", "Jiří:\nVíce než 50 % letů na YVR a z YVR je zpožděno, bezpečnostní personál aka curbside operations, konkrétně ti, kteří se zabývají otázkami parkování, jsou hrubí, toalety jsou většinou špinavé.", "Karel:\nVelmi příjemné letiště pro čekání na let. Pohodlná sedadla a různá uspořádání míst k sezení kolem uměleckých energií včetně sochy Billa Reida a dalších vodních prvků a soch. Jsou zde obchody s potravinami a maloobchodní prodejny. Působí téměř jako nákupní centrum, nikoli jako letiště, což je velmi příjemné. Pravděpodobně by se hodilo více nabíjecích stanic v blízkosti míst k sezení."
+          "Andy:\nVynikající a dobře udržované. Vysoce organizovaný a efektivní. Zvládá provoz tak dobře i v tomto ročním období, kdy je obrovský příliv zahraničních studentů, kteří přijíždějí na univerzity ve Vancouveru. Spousta taxislužeb k dispozici hned u letiště.  Mimořádně ochotný personál.", "Chris Martin:\nVíce než 50 % letů na YVR a z YVR je zpožděno, bezpečnostní personál aka curbside operations, konkrétně ti, kteří se zabývají otázkami parkování, jsou hrubí, toalety jsou většinou špinavé.", "Joey:\nVelmi příjemné letiště pro čekání na let. Pohodlná sedadla a různá uspořádání míst k sezení kolem uměleckých energií včetně sochy Billa Reida a dalších vodních prvků a soch. Jsou zde obchody s potravinami a maloobchodní prodejny. Působí téměř jako nákupní centrum, nikoli jako letiště, což je velmi příjemné. Pravděpodobně by se hodilo více nabíjecích stanic v blízkosti míst k sezení."
       ],
       "topics":{
          "topic1":{
             "topicName":"Generate Response",
             "models":[
                {
-                  "meta-llama/llama-2-70b-chat":{
-                     "decoding_method":"greedy",
-                     "min_new_tokens":10,
-                     "max_new_tokens":200,
-                     "repetition_penalty":1.1,
-                     "stop_sequences":[
-                        "\n\n"
-                     ]
-                  }
-               },                   
-               {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "meta-llama/llama-3-70b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -4365,96 +5542,6 @@
                      ]
                   }
                },                 
-               {
-                    "ibm/granite-13b-chat-v2":{
-                        "decoding_method":"greedy",
-                        "repetition_penalty":1.1,
-                        "min_new_tokens":10,
-                        "max_new_tokens":200
-                    }
-               }
-            ],
-            "instruction":{
-               "detailed":"Vytvořte odpověď na recenzi, kterou zanechali cestující z mezinárodního letiště Vancouver.",
-               "summarized":"Vygenerujte odpověď na recenzi uživatele."
-            },
-            "inputPrefix":"Recenze:",
-            "outputPrefix":"Reakce:",
-            "examples":[
-                
-               {
-                  "input":"Tara Elizabeth:\nParkování bylo snadné a značení nám jasně ukázalo, kam se máme jít odbavit na let. Posílala jsem své dospívající děti a personál Air Canada byl opravdu vstřícný.",
-                  "output":"Dobrý den Taro!\nJsme rádi, že jsi ty i tvé děti měli skvělý zážitek!"
-               }                  
-,
-               {
-                  "input":"Daniel Xu:\nTak moderní! Velmi čisté a skvělá atmosféra.",
-                  "output":"Dobrý den Danieli\nDěkujeme za recenzi, jsme rádi, že se vám návštěva líbila!"
-               }                  
-,
-               {
-                  "input":"C. Nazima London:\nMám postižené dítě, které používá AAC Tobi Dynavox, aby mluvilo.\nProcestovali jsme téměř celé Spojené státy, kde se mé dítě narodilo, a NIKDY jí TSA neodebrala AAC, aby ji zkontrolovala.\nMoje dítě křičelo a bylo jí řečeno, že se ho musí vzdát, pokud chce jít domů.\nTo je směšné, nikdo by nikdy neměl být takto ošetřen. Tento AAC je její hlas, jak se to opovažují udělat.\nMěli jsme pozdní večerní let 8/9/23. Moje dítě plakalo a plakalo, nemohlo pochopit, proč jí berou hlas.\nDozorce mi řekl, že to není připojeno k ní, takže to musí projít kontrolou, pak poté, co to prošlo, drželi to od ní, zatímco ji prohledávali, neměla možnost jim říct, jestli jí ubližují nebo ji ztrapňují. \nVšem rodičům nebo osobám, které používají řečové zařízení, radím, aby NELETĚLI DO KANADY, mají tam ty nejstrašnější lidi v TSA.Nikdy nebudeme moci navštívit naši starší rodinu, která žije v Kanadě.Někdo to musí okamžitě napravit!!!!",
-                  "output":"Dobrý den Nazimo,\nJe nám strašně líto, že sis tím musela projít. Tento problém okamžitě prošetříme."
-               }                  
-,
-               {
-                  "input":"Reg Natarajan:\nJsem zaujatý, protože je to můj domovský přístav, ale YVR je opravdu nejlepší letiště na světě.",
-                  "output":"Dobrý den Regi!\nJsme rádi, že jsi se dobře bavil!"
-               }                  
-,
-               {
-                  "input":"SANJEEV JAIN:\nTento je, když se pohybujete směrem k odbavovací hale D. Salonek je dobře udržovaný a má dostatek místa k sezení.\nNení tu moc k jídlu, základní věci a čaj/káva. Možnosti jsou velmi omezené. Samoobslužný salonek.",
-                  "output":"Dobrý den Sanjeevi!\nDěkujeme za tvou zpětnou vazbu, podíváme se na rozšíření možností stravování v salónku."
-               }                  
-,
-               {
-                  "input":"Sharon Doyle:\nNa tomto letišti není dostatek kaváren, zejména snídaňových míst. Poblíž naší brány byla kavárna, která vypadala, že je trvale zavřená. Byla tam tma, brány byly spuštěné a zamčené, a když jste nahlédli skrz zamčené brány, vypadalo to, že tam uvnitř skladují spoustu věcí. Dlouho jsem chodil kolem a hledal něco k jídlu k snídani a nakonec jsem se rozhodl čekat v opravdu dlouhé frontě hodně přes 20 minut u Tim Horton\u2019s. Dal jsem si muffin a džus. Na letišti jsem mluvil s několika dalšími lidmi, kteří sdíleli můj názor na nedostatek snídaňových kaváren. Všichni jsme byli frustrovaní.",
-                  "output":"Dobrý den Sharon!Je nám líto, že jsi měla problém najít místo, kde by ses mohla nasnídat. V budoucnu se budeme snažit přidat více možností snídaní."
-               }                  
-,
-               {
-                  "input":"Katka Malá:\nJaká škoda.\nKdo plánoval stavbu v pátek před prodlouženým víkendem, potřebuje trochu pozornosti a důkladné pochopení situace. Po značně dlouhém čekání chvíli trvalo, než se podařilo sehnat taxík. Rideshare na tom byl stejně. Žádné auto nepřijelo.\nProč jste se rozhodli zablokovat celé jízdní pruhy kromě jednoho, když víte, že budete mít hodně cestujících?",
-                  "output":"Dobrý den Katko,\nOmlouváme se za nepříjemnosti způsobené stavbou. Chápeme, že šlo o rušnou dobu, a budeme hledat způsoby, jak minimalizovat dopady budoucích stavebních projektů."
-               }                  
-,
-               {
-                  "input":"Wareef Kabbani:\nLetiště je pěkné. Je však značně poddimenzované personálem. Letecké společnosti jsou super pomalé a stojí velké fronty. Vzdálenost k některým branám se může blížit jedné míli. Jinak pěkné a suché prostředí.",
-                  "output":"Dobrý den Wareefi!\nDěkuji za tvůj názor. Zkusíme přidat více personálu, abychom zvýšili efektivitu odbavení a zkrátili čekací doby."
-               }                  
-,
-               {
-                  "input":"Cheekeye the-dog:\nNejhorší letiště na světě\nBuďte tam 2 hodiny navíc k tomu, co doporučují.\n89% šance, že ztratí vaše zavazadla, takže si zabalte AirTags\nMají čistokrevné, takže alespoň nebudete mít špatnou chuť v ústech, i když je to nejhorší letiště na světě.",
-                  "output":"Dobrý den Cheekeye,\nMrzí nás, že máš negativní zkušenost. Uděláme vše pro to, abychom naše služby zlepšili a minimalizovali riziko ztráty zavazadel. Děkujeme vám za zpětnou vazbu."
-               }                  
-,
-               {
-                  "input":"Wajahat Faiz:\nToto letiště nemá jeden, ale dva časové terminály.",
-                  "output":"Dobrý den Wajahate!\nJsme rádi, že jsi z Tim Hortons nadšený! Postaráme se, aby byly otevřené a připravené na vaši příští návštěvu."
-               }                  
-,
-               {
-                  "input":"Michael Smith:\nPovažuje se za jedno z nejlepších letišť v Kanadě. Neřadil bych ho mezi letiště třetího světa. Vybavení po 2100 hodině téměř neexistuje. Nemožné sehnat pivo nebo víno. Pokud máte rádi rychlé občerstvení a kávu, máte štěstí, ve food courtu jsou otevřeny 4 provozovny. Personál byl příjemný, ale všechny přepážky leteckých společností byly bez personálu. Nebýt toho, že je to jediná brána na východ v Kanadě, určitě bych se mu vyhnul.",
-                  "output":"Dobrý den Michaele,\nMrzí nás, že jsi neměl pozitivní zkušenost. Budeme se zabývat přidáním dalšího vybavení a prodloužením provozní doby pro možnosti stravování. Děkujeme za vaši zpětnou vazbu."
-               }                  
-
-            ],
-            "enabled":true
-         }
-      }
-   }
-
-, 
-"Generate Response (EN)":{
-      "name":"Generate Response",
-      "language":"EN",
-      "buttonName":"Generate Response",
-      "inputs":[
-          "Andy:\nExcellent and well maintained. Highly organized and efficient. Handles the traffic so well even at this time of the year when there is a huge influx of international students coming to start their Universities in Vancouver. Plenty of taxi services available just outside the airport.  Extremely helpful staff.", "Chris Martin:\nMore than 50% of the flights into and out of the YVR are delayed, security staff aka curbside operations specifically the ones who deal with the parking matters are rude, the bathrooms are most of the time dirty.", "Joey:\nA very comfortable airport to wait for one's flight. Comfy seats and various seating arrangements around artistic energies including a Bill Reid sculpture and other water features and sculptures. There are food stores and retail stores. It feels almost like a shopping mall rather than an airport which is very nice. Probably could do with more charging stations near seating areas."
-      ],
-      "topics":{
-         "topic1":{
-            "topicName":"Generate Response",
-            "models":[
                {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
@@ -4478,7 +5565,152 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
+                        "decoding_method":"greedy",
+                        "repetition_penalty":1.1,
+                        "min_new_tokens":10,
+                        "max_new_tokens":200
+                    }
+               }
+            ],
+            "instruction":{
+               "detailed":"Vytvořte odpověď na recenzi, kterou zanechali cestující z mezinárodního letiště Vancouver.",
+               "summarized":"Vygenerujte odpověď na recenzi uživatele."
+            },
+            "inputPrefix":"Recenze:",
+            "outputPrefix":"Reakce:",
+            "examples":[
+                
+               {
+                  "input":"Tara Elizabeth:\nParkování bylo snadné a značení nám jasně ukázalo, kam se máme jít odbavit na let. Posílala jsem své dospívající děti a personál Air Canada byl opravdu vstřícný.",
+                  "output":"Ahoj Taro!\nJsme rádi, že jsi ty i tvé děti měli skvělý zážitek!"
+               }                  
+,
+               {
+                  "input":"Daniel Xu:\nTak moderní! Velmi čisté a skvělá atmosféra.",
+                  "output":"Ahoj Danieli\nDěkujeme za recenzi, jsme rádi, že se vám návštěva líbila!"
+               }                  
+,
+               {
+                  "input":"C. Nazima London:\nMám postižené dítě, které používá AAC Tobi Dynavox, aby mluvilo.\nProcestovali jsme téměř celé Spojené státy, kde se mé dítě narodilo, a NIKDY jí TSA neodebrala AAC, aby ji zkontrolovala.\nMoje dítě křičelo a bylo jí řečeno, že se ho musí vzdát, pokud chce jít domů.\nTo je směšné, nikdo by nikdy neměl být takto ošetřen. Tento AAC je její hlas, jak se to opovažují udělat.\nMěli jsme pozdní večerní let 8/9/23. Moje dítě plakalo a plakalo, nemohlo pochopit, proč jí berou hlas.\nDozorce mi řekl, že to není připojeno k ní, takže to musí projít kontrolou, pak poté, co to prošlo, drželi to od ní, zatímco ji prohledávali, neměla možnost jim říct, jestli jí ubližují nebo ji ztrapňují. \nVšem rodičům nebo osobám, které používají řečové zařízení, radím, aby NELETĚLI DO KANADY, mají tam ty nejstrašnější lidi v TSA.Nikdy nebudeme moci navštívit naši starší rodinu, která žije v Kanadě.Někdo to musí okamžitě napravit!!!!",
+                  "output":"Ahoj Nazimo,\nJe nám strašně líto, že sis tím musela projít. Tento problém okamžitě prošetříme."
+               }                  
+,
+               {
+                  "input":"Reg Natarajan:\nJsem zaujatý, protože je to můj domovský přístav, ale YVR je opravdu nejlepší letiště na světě.",
+                  "output":"Ahoj Regi!\nJsme rádi, že jsi se dobře bavil!"
+               }                  
+,
+               {
+                  "input":"SANJEEV JAIN:\nTento je, když se pohybujete směrem k odbavovací hale D. Salonek je dobře udržovaný a má dostatek místa k sezení.\nNení tu moc k jídlu, základní věci a čaj/káva. Možnosti jsou velmi omezené. Samoobslužný salonek.",
+                  "output":"Ahoj Sanjeev!\nDěkujeme za tvou zpětnou vazbu, podíváme se na rozšíření možností stravování v salónku."
+               }                  
+,
+               {
+                  "input":"Sharon Doyle:\nNa tomto letišti není dostatek kaváren, zejména snídaňových míst. Poblíž naší brány byla kavárna, která vypadala, že je trvale zavřená. Byla tam tma, brány byly spuštěné a zamčené, a když jste nahlédli skrz zamčené brány, vypadalo to, že tam uvnitř skladují spoustu věcí. Dlouho jsem chodil kolem a hledal něco k jídlu k snídani a nakonec jsem se rozhodl čekat v opravdu dlouhé frontě hodně přes 20 minut u Tim Horton\u2019s. Dal jsem si muffin a džus. Na letišti jsem mluvil s několika dalšími lidmi, kteří sdíleli můj názor na nedostatek snídaňových kaváren. Všichni jsme byli frustrovaní.",
+                  "output":"Ahoj Sharon!Je nám líto, že jsi měla problém najít místo, kde by ses mohla nasnídat. V budoucnu se budeme snažit přidat více možností snídaní."
+               }                  
+,
+               {
+                  "input":"DS C:\nJaká škoda.\nKdo plánoval stavbu v pátek před prodlouženým víkendem, potřebuje trochu pozornosti a důkladné pochopení situace. Po značně dlouhém čekání chvíli trvalo, než se podařilo sehnat taxík. Rideshare na tom byl stejně. Žádné auto nepřijelo.\nProč jste se rozhodli zablokovat celé jízdní pruhy kromě jednoho, když víte, že budete mít hodně cestujících?",
+                  "output":"Dobrý den, DS C,\nOmlouváme se za nepříjemnosti způsobené stavbou. Chápeme, že šlo o rušnou dobu, a budeme hledat způsoby, jak minimalizovat dopady budoucích stavebních projektů."
+               }                  
+,
+               {
+                  "input":"Wareef Kabbani:\nLetiště je pěkné. Je však značně poddimenzované personálem. Letecké společnosti jsou super pomalé a stojí velké fronty. Vzdálenost k některým branám se může blížit jedné míli. Jinak pěkné a suché prostředí.",
+                  "output":"Ahoj Wareef!\nDěkuji za tvůj názor. Zkusíme přidat více personálu, abychom zvýšili efektivitu odbavení a zkrátili čekací doby."
+               }                  
+,
+               {
+                  "input":"Cheekeye the-dog:\nNejhorší letiště na světě\nBuďte tam 2 hodiny navíc k tomu, co doporučují.\n89% šance, že ztratí vaše zavazadla, takže si zabalte AirTags\nMají čistokrevné, takže alespoň nebudete mít špatnou chuť v ústech, i když je to nejhorší letiště na světě.",
+                  "output":"Ahoj Cheekeye,\nMrzí nás, že máš negativní zkušenost. Uděláme vše pro to, abychom naše služby zlepšili a minimalizovali riziko ztráty zavazadel. Děkujeme vám za zpětnou vazbu."
+               }                  
+,
+               {
+                  "input":"Wajahat Faiz:\nToto letiště nemá jeden, ale dva časové terminály.",
+                  "output":"Ahoj Wajahate!\nJsme rádi, že jsi z Tim Hortons nadšený! Postaráme se, aby byly otevřené a připravené na vaši příští návštěvu."
+               }                  
+,
+               {
+                  "input":"Michael Smith:\nPovažuje se za jedno z nejlepších letišť v Kanadě. Neřadil bych ho mezi letiště třetího světa. Vybavení po 2100 hodině téměř neexistuje. Nemožné sehnat pivo nebo víno. Pokud máte rádi rychlé občerstvení a kávu, máte štěstí, ve food courtu jsou otevřeny 4 provozovny. Personál byl příjemný, ale všechny přepážky leteckých společností byly bez personálu. Nebýt toho, že je to jediná brána na východ v Kanadě, určitě bych se mu vyhnul.",
+                  "output":"Ahoj Michaele,\nMrzí nás, že jsi neměl pozitivní zkušenost. Budeme se zabývat přidáním dalšího vybavení a prodloužením provozní doby pro možnosti stravování. Děkujeme za vaši zpětnou vazbu."
+               }                  
+
+            ],
+            "enabled":true
+         }
+      }
+   }
+
+, 
+"Generate Response (EN)":{
+      "name":"Generate Response",
+      "language":"EN",
+      "buttonName":"Generate Response",
+      "inputs":[
+          "Andy:\nExcellent and well maintained. Highly organized and efficient. Handles the traffic so well even at this time of the year when there is a huge influx of international students coming to start their Universities in Vancouver. Plenty of taxi services available just outside the airport.  Extremely helpful staff.", "Chris Martin:\nMore than 50% of the flights into and out of the YVR are delayed, security staff aka curbside operations specifically the ones who deal with the parking matters are rude, the bathrooms are most of the time dirty.", "Joey:\nA very comfortable airport to wait for one's flight. Comfy seats and various seating arrangements around artistic energies including a Bill Reid sculpture and other water features and sculptures. There are food stores and retail stores. It feels almost like a shopping mall rather than an airport which is very nice. Probably could do with more charging stations near seating areas."
+      ],
+      "topics":{
+         "topic1":{
+            "topicName":"Generate Response",
+            "models":[
+               {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
+                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
+                  "meta-llama/llama-2-70b-chat":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               }, 
+               {
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -4568,6 +5800,17 @@
             "topicName":"Generate Response",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -4590,7 +5833,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -4680,6 +5934,17 @@
             "topicName":"Generate Response",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -4702,7 +5967,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -4792,6 +6068,17 @@
             "topicName":"Generate Response",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -4814,7 +6101,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -4904,6 +6202,17 @@
             "topicName":"Generate Response",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -4926,7 +6235,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -5016,6 +6336,17 @@
             "topicName":"Generate Response",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -5038,7 +6369,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -5128,6 +6470,17 @@
             "topicName":"Generisanje odgovora",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -5150,7 +6503,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -5240,6 +6604,17 @@
             "topicName":"Генериране на отговор",
             "models":[
                {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
@@ -5262,7 +6637,18 @@
                   }
                }, 
                {
-                    "ibm/granite-13b-chat-v2":{
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -5353,7 +6739,7 @@
             "topicName":"Question Answering",
             "models":[
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-70b-instruct":{
                      "decoding_method":"greedy",
                      "temperature":0.5,
                      "repetition_penalty":1.2,
@@ -5406,7 +6792,7 @@
             "topicName":"Sentiment Analyses",
             "models":[
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-70b-instruct":{
                      "decoding_method":"greedy",
                      "repetition_penalty":1.2,
                      "temperature":0.5,
@@ -5507,7 +6893,7 @@
             "topicName":"Business talk summary",
             "models":[
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-70b-instruct":{
                      "decoding_method":"greedy",
                      "repetition_penalty":1.2,
                      "min_new_tokens":20,
