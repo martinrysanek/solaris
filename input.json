@@ -4707,10 +4707,6 @@
             "outputPrefix": "Shrnutí:",
             "examples": [
                {
-                  "input": "K dopravní nehodě došlo 1. ledna 2023 v 17 hodin na křižovatce Woodbridge. Do pojištěného vozidla Honda Civic narazilo jiné vozidlo, které projelo na červenou. Pojištěný řidič John jel v rámci povolené rychlosti a dodržoval všechna pravidla silničního provozu. Při nehodě došlo ke značnému poškození pojištěného vozidla, včetně rozbitého nárazníku a poškozeného předního blatníku. Nebyla hlášena žádná zranění. Pojištěný podává žádost o odškodnění za opravu a případné nezbytné léčebné výlohy.",
-                  "output": "K dopravní nehodě na křižovatce ve Woodbridge s vozidlem Honda Civic pojištěným u Johna došlo v důsledku jízdy jiného vozidla na červenou, což mělo za následek značné poškození pojištěného vozidla, avšak bez zranění. Je podána žádost o odškodnění za opravu a případné léčebné výlohy."
-               },
-               {
                   "input": "Pojištěné vozidlo Ford RAM bylo odcizeno 2. prosince 2022 v Bostonu. Vozidlo bylo zaparkováno na hlídaném parkovišti a byla přijata veškerá nezbytná opatření, jako například uzamčení dveří a aktivace alarmu. Pojištěný krádež neprodleně nahlásil policii a pořídil policejní protokol. Vozidlo mělo komplexní pojištění a pojištěný podává žádost o pojistné plnění za odcizené vozidlo včetně jeho odhadované hodnoty, příslušenství a osobních věcí, které se v době krádeže nacházely uvnitř vozidla.",
                   "output": "Pojištěné vozidlo Ford RAM bylo 2. prosince 2022 odcizeno ze střeženého parkoviště v Bostonu, a to i přes přijetí nezbytných bezpečnostních opatření, a pojištěný uplatňuje nárok na komplexní pojištění odcizeného vozidla, jeho odhadovanou hodnotu, příslušenství a osobní věci, které se nacházely uvnitř."
                },
