@@ -836,6 +836,936 @@
          }
       }
    },
+   "Nadpisy (CZ)": {
+      "name": "Nadpisy",
+      "language": "CZ",
+      "buttonName": "Nadpisy",
+      "inputs": [
+         "Nobelovu cenu za fyziologii a lékařství získala biochemička Katalin Karikóová původem z Maďarska a americký imunolog Drew Weissman, kteří položili základy pro vývoj mRNA vakcín při svém působení na Pensylvánské univerzitě ve Filadelfii a položili tak základy pro vývoj vakcín proti nemoci covid-19.",
+         "Gernot Döllner vede Audi od začátku září, kdy vystřídal Markuse Duesmanna. Ten skončil kvůli roztržce s představenstvem Audi, kterému se nelíbilo, že značka ztrácí v přímé konkurenci dalších německých prémiových výrobců BMW a Mercedes-Benz. Vlak jí ujíždí především v elektromobilitě. V rozhovoru pro německý deník Handelsblatt Döllner řekl, že bude trvat mnohem déle, než Audi vygeneruje stejné výnosy u elektromobilů jako u spalovacích motorů. Audi však trápí vysoké náklady na výrobu baterií a pořízení surovin pro elektromobily, zvláště vzácných kovů. ",
+         "Největší ledovec světa se dal do pohybu. Obří kus ledu pojmenovaný A23a o rozloze téměř čtyř tisíc kilometrů čtverečních se v roce 1986 oddělil od antarktické pevniny, brzy však zakotvil ve Weddellově moři, a stal se tak prakticky ledovým ostrovem. V uplynulém roce však začal být unášen značnou rychlostí pryč a nyní se chystá vyplout mimo vody Antarktidy, informuje BBC.",
+         "Švýcarští vědci vyvinuli umělou inteligenci, která podle nich zjednoduší boj proti padělkům vína na evropském trhu a zároveň pomůže vyrábět ještě lepší víno. Umělá inteligence může být také velmi užitečným nástrojem pro prevenci častých a těžko prokazatelných podvodů ve vinařském průmyslu, zjistili vědci z Ženevské univerzity. Konkrétně vyvinuli umělou inteligenci, která na základě malého vzorku vína dokáže s mimořádnou přesností určit, odkud víno pochází. Neurčuje pouze užší zeměpisnou oblast, ale přesnou vinici nebo vinařství, shrnuje výzkum deník Guardian.",
+         "Neobvyklý spor vedou mezi sebou dvě firmy v oblasti luxusní kosmetiky. Na jedné straně je francouzský výrobce luxusních parfémů – Chanel, na druhé český prodejce voňavek Notino. Společnost založená slavnou návrhářkou Coco Chanel požaduje po českém obchodníkovi, aby jí sdělil, kde nakoupil její výrobky, které přeprodává ve svém e-shopu. Chanel si totiž důkladně vybírá, komu své zboží umožní prodávat. Zájemce musí splnit přísné požadavky, než s ním světoznámý výrobce uzavře smlouvu. ",
+         "Některé automobilky zpomalily své plány na vývoj a výrobu elektromobilů. Ford odložil investici ve výši 12 miliard dolarů a General Motors opustil od představy vyrobit 500 tisíc elektrických vozů do půlky roku 2024.  Ve Spojených státech se má letos prodat milion elektrických vozů, což je devět procent tamního trhu s novými auty uvádí poradenská společnost Atlas Public Policy. Analytici banky Goldman Sachs předpokládají, že se ceny elektrických a spalovacích aut vyrovnají do poloviny této dekády. Výzkumná společnost Gartner tento moment tipuje na rok 2027 a dodává, že celosvětový odbyt osobních aut s elektrickým pohonem se v příštím roce zvýší o zhruba 19 procent na téměř 18 milionů vozů."
+      ],
+      "topics": {
+         "topic1": {
+            "topicName": "Nadpisy",
+            "models": [
+               {
+                  "meta-llama/llama-3-70b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-2-70b-chat": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-3-8b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm/granite-20b-multilingual": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               }
+            ],
+            "instruction": {
+               "detailed": "Přečti následující dokument, vytvoř krátký a výstižný nadpis k danému dokumentu:",
+               "summarized": "Vytvoř nadpis k dokumentu:"
+            },
+            "inputPrefix": "Dokument:",
+            "outputPrefix": "Téma:",
+            "examples": [
+               {
+                  "input": "Čínská vláda oznámila sérii opatření, která mají bránit dalšímu šíření respiračních onemocnění v zemi. Cestujícím přijíždějícím do Číny by měla být na hranicích měřena teplota, přísnější prevence a kontroly by měly být také ve školách a v domovech pro seniory. Čína zaznamenala v poslední době nárůst počtu respiračních onemocnění v zemi.",
+                  "output": "Prevence šíření respiračních onemocnění v Číně"
+               },
+               {
+                  "input": "Obří kus ledu pojmenovaný A23a o rozloze téměř 4000 kilometrů čtverečních, který je největším ledovcem světa, se chystá vyplout mimo vody Antarktidy. Do pohybu se dal po více než 30 letech poháněn větrnými a mořskými proudy a v současné době podle stanice BBC už míjí severní cíp Antarktického poloostrova.",
+                  "output": "Pohyb obřího ledovce z Antarktidy"
+               },
+               {
+                  "input": "Procesory Meteor Lake trošku připomínají vydání první reálné generace 10nm procesorů Intelu (Ice Lake) před čtyřmi roky. Sice by měly mít dobrou energetickou efektivitu, ale kvůli 4nm technologii klesly jejich takty, takže výkon CPU se moc neposune (ani jader moc nepřibylo). Ale je jedna oblast, kde by Meteor Lake mohlo být silné – v integrovaném GPU. To se dotáhlo, a mohlo by dokonce překonávat, na RDNA 3 grafiku v mobilních Ryzenech.",
+                  "output": "Výkonnost integrované GPU od Intelu"
+               }
+            ],
+            "enabled": true
+         }
+      }
+   },
+   "Topics (EN)": {
+      "name": "Topics",
+      "language": "EN",
+      "buttonName": "Topics",
+      "inputs": [
+         "The Nobel Prize in Physiology or Medicine was awarded to Hungarian-born biochemist Katalin Karikó and American immunologist Drew Weissman, who laid the groundwork for the development of mRNA vaccines during their time at the University of Pennsylvania in Philadelphia, laying the foundation for the development of vaccines against covid-19 disease.",
+         "Gernot Döllner has been in charge of Audi since the beginning of September, when he replaced Markus Duesmann. He quit over a falling out with Audi's board, which did not like the brand losing out to direct competition from other German premium manufacturers BMW and Mercedes-Benz. It is missing the train especially in electromobility. In an interview with the German daily Handelsblatt, Döllner said it would take much longer for Audi to generate the same revenues from electric cars as from internal combustion engines. However, Audi has been plagued by the high cost of battery production and the acquisition of raw materials for electric vehicles, particularly precious metals.",
+         "The world's largest iceberg has set in motion. A giant chunk of ice, named A23a, covering almost four thousand square kilometres, broke away from the Antarctic mainland in 1986, but soon anchored in the Weddell Sea, becoming virtually an ice island. But in the past year it has begun drifting away at considerable speed and is now poised to sail out of Antarctic waters, the BBC reports.",
+         "Two companies in the luxury cosmetics sector are engaged in an unusual dispute. On one side is the French manufacturer of luxury perfumes - Chanel, on the other side is the Czech perfume retailer Notino. The company, founded by the famous designer Coco Chanel, is demanding that the Czech retailer tell it where it bought its products, which it resells in its e-shop. Chanel chooses carefully who it allows to sell its goods. The interested party has to meet strict requirements before the world-famous manufacturer will enter into a contract with them. ",
+         "Some car companies have slowed down their plans to develop and produce electric cars. Ford has postponed a $12 billion investment and General Motors has abandoned the idea of producing 500,000 electric cars by mid-2024. One million electric cars are expected to be sold in the United States this year, accounting for nine percent of the new-car market there, according to consultancy Atlas Public Policy. Analysts at Goldman Sachs bank project that prices for electric and internal combustion cars will level off by the middle of this decade. Research firm Gartner predicts that moment in 2027, adding that global sales of electric passenger cars will increase by about 19 percent to nearly 18 million vehicles next year.",
+         "Swiss scientists have developed artificial intelligence, which they believe will simplify the fight against wine counterfeits on the European market, while also helping to produce even better wine. Artificial intelligence can also be a very useful tool to prevent frequent and hard-to-prove fraud in the wine industry, researchers from the University of Geneva have found. Namely, they have developed artificial intelligence which, based on a small sample of wine, can determine with extreme precision where the wine comes from. It does not specify only a narrower geographical area, but the exact vineyard or winery, the research is summarized by the Guardian."
+      ],
+      "topics": {
+         "topic1": {
+            "topicName": "Topics",
+            "models": [
+               {
+                  "meta-llama/llama-3-70b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-2-70b-chat": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-3-8b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm/granite-20b-multilingual": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               }
+            ],
+            "instruction": {
+               "detailed": "Read the following document, create a short and concise title for the document:",
+               "summarized": "Create a title for the document:"
+            },
+            "inputPrefix": "Document:",
+            "outputPrefix": "Topic:",
+            "examples": [
+               {
+                  "input": "The Chinese government has announced a series of measures to prevent the further spread of respiratory diseases in the country. Travellers arriving in China should have their temperature taken at the border, and there should also be stricter prevention and checks in schools and homes for the elderly. China has seen a recent increase in the number of respiratory diseases in the country.",
+                  "output": "Preventing the spread of respiratory diseases in China"
+               },
+               {
+                  "input": "A giant chunk of ice named A23a, covering nearly 4,000 square kilometres and the world's largest glacier, is about to sail out of Antarctic waters. Driven by wind and sea currents, it has been on the move for more than 30 years and is now passing the northern tip of the Antarctic Peninsula, according to the BBC.",
+                  "output": "The movement of the giant Antarctic iceberg"
+               },
+               {
+                  "input": "The Meteor Lake processors are a bit reminiscent of the release of Intel's first real generation of 10nm processors (Ice Lake) four years ago. While they should have good power efficiency, their clock speeds have dropped due to 4nm technology, so CPU performance hasn't shifted much (nor have cores gained much). But there is one area where Meteor Lake could be strong - in the integrated GPU. It has touched, and could even surpass, the RDNA 3 graphics in mobile Ryzen.",
+                  "output": "Intel's integrated GPU performance"
+               }
+            ],
+            "enabled": true
+         }
+      }
+   },
+   "Topics (DE)": {
+      "name": "Topics",
+      "language": "DE",
+      "buttonName": "Topics",
+      "inputs": [
+         "Der Nobelpreis für Physiologie oder Medizin ging an die in Ungarn geborene Biochemikerin Katalin Karikó und den amerikanischen Immunologen Drew Weissman, die während ihrer Zeit an der University of Pennsylvania in Philadelphia den Grundstein für die Entwicklung von mRNA-Impfstoffen legten und damit den Grundstein für die Entwicklung von Impfstoffen gegen die Covid-19-Krankheit legten.",
+         "Gernot Döllner ist seit Anfang September an der Spitze von Audi, als er Markus Duesmann ablöste. Er verließ das Unternehmen nach einem Zerwürfnis mit dem Audi-Vorstand, dem es nicht gefiel, dass die Marke im direkten Wettbewerb mit den anderen deutschen Premiumherstellern BMW und Mercedes-Benz unterlegen war. Vor allem bei der Elektromobilität hat Audi den Anschluss verpasst. In einem Interview mit dem Handelsblatt sagte Döllner, dass es viel länger dauern werde, bis Audi mit Elektroautos die gleichen Umsätze erzielen werde wie mit Verbrennungsmotoren. Allerdings machen Audi die hohen Kosten für die Batterieproduktion und die Beschaffung von Rohstoffen für Elektrofahrzeuge, insbesondere Edelmetalle, zu schaffen.",
+         "Der größte Eisberg der Welt hat sich in Bewegung gesetzt. Ein riesiger Eisbrocken mit dem Namen A23a, der fast viertausend Quadratkilometer groß ist, brach 1986 vom antarktischen Festland ab, blieb aber bald im Weddellmeer liegen und wurde praktisch zu einer Eisinsel. Doch im vergangenen Jahr hat er begonnen, mit beträchtlicher Geschwindigkeit abzudriften und steht nun kurz davor, die antarktischen Gewässer zu verlassen, berichtet die BBC.",
+         "Zwei Unternehmen der Luxuskosmetikbranche sind in einen ungewöhnlichen Streit verwickelt. Auf der einen Seite steht der französische Hersteller von Luxusparfüms - Chanel, auf der anderen Seite der tschechische Parfümhändler Notino. Das von der berühmten Designerin Coco Chanel gegründete Unternehmen verlangt von dem tschechischen Einzelhändler, dass er ihm mitteilt, woher er seine Produkte bezieht, die er in seinem E-Shop weiterverkauft. Chanel wählt sorgfältig aus, wem es erlaubt, seine Waren zu verkaufen. Der Interessent muss strenge Anforderungen erfüllen, bevor der weltberühmte Hersteller einen Vertrag mit ihm abschließt. ",
+         "Einige Autofirmen haben ihre Pläne zur Entwicklung und Produktion von Elektroautos zurückgeschraubt. Ford hat eine 12-Milliarden-Dollar-Investition verschoben, und General Motors hat die Idee aufgegeben, bis Mitte 2024 500.000 Elektroautos zu produzieren. Nach Angaben des Beratungsunternehmens Atlas Public Policy wird erwartet, dass in diesem Jahr in den Vereinigten Staaten eine Million Elektroautos verkauft werden, was neun Prozent des dortigen Neuwagenmarktes entspricht. Die Analysten der Bank Goldman Sachs gehen davon aus, dass sich die Preise für Elektroautos und Autos mit Verbrennungsmotor bis zur Mitte dieses Jahrzehnts angleichen werden. Das Marktforschungsunternehmen Gartner prognostiziert diesen Zeitpunkt für das Jahr 2027 und fügt hinzu, dass der weltweite Absatz von Elektro-Pkw im nächsten Jahr um etwa 19 Prozent auf fast 18 Millionen Fahrzeuge steigen wird.",
+         "Schweizer Wissenschaftler haben eine künstliche Intelligenz entwickelt, von der sie glauben, dass sie den Kampf gegen Weinfälschungen auf dem europäischen Markt vereinfachen und gleichzeitig dazu beitragen wird, noch besseren Wein zu produzieren. Künstliche Intelligenz kann auch ein sehr nützliches Instrument sein, um häufige und schwer zu beweisende Betrügereien in der Weinindustrie zu verhindern, haben Forscher der Universität Genf herausgefunden. Sie haben nämlich eine künstliche Intelligenz entwickelt, die auf der Grundlage einer kleinen Weinprobe mit äußerster Präzision feststellen kann, woher der Wein stammt. Sie gibt nicht nur ein engeres geografisches Gebiet an, sondern den genauen Weinberg oder das Weingut, fasst der Guardian die Forschung zusammen."
+      ],
+      "topics": {
+         "topic1": {
+            "topicName": "Topics",
+            "models": [
+               {
+                  "meta-llama/llama-3-70b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-2-70b-chat": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-3-8b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm/granite-20b-multilingual": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               }
+            ],
+            "instruction": {
+               "detailed": "Lesen Sie das folgende Dokument und erstellen Sie einen kurzen und prägnanten Titel für das Dokument:",
+               "summarized": "Erstellen Sie einen Titel für das Dokument:"
+            },
+            "inputPrefix": "Dokument:",
+            "outputPrefix": "Thema:",
+            "examples": [
+               {
+                  "input": "Die chinesische Regierung hat eine Reihe von Maßnahmen angekündigt, um die weitere Ausbreitung von Atemwegserkrankungen im Lande zu verhindern. Reisende, die in China ankommen, sollten an der Grenze ihre Temperatur messen lassen, und auch in Schulen und Altenheimen soll es strengere Präventions- und Kontrollmaßnahmen geben. In jüngster Zeit hat die Zahl der Atemwegserkrankungen in China zugenommen.",
+                  "output": "Verhinderung der Ausbreitung von Atemwegserkrankungen in China"
+               },
+               {
+                  "input": "Ein riesiger Eisbrocken namens A23a, der mit einer Fläche von fast 4 000 Quadratkilometern der größte Gletscher der Welt ist, ist im Begriff, aus den antarktischen Gewässern zu treiben. Angetrieben von Wind und Meeresströmungen ist er seit mehr als 30 Jahren unterwegs und passiert nun die Nordspitze der antarktischen Halbinsel, berichtet die BBC.",
+                  "output": "Die Bewegung des riesigen antarktischen Eisbergs"
+               },
+               {
+                  "input": "Die Meteor Lake-Prozessoren erinnern ein wenig an die Veröffentlichung von Intels erster echter Generation von 10-nm-Prozessoren (Ice Lake) vor vier Jahren. Während sie eine gute Energieeffizienz haben sollten, sind ihre Taktraten aufgrund der 4nm-Technologie gesunken, so dass sich die CPU-Leistung nicht viel verändert hat (und auch die Kerne nicht viel zugenommen haben). Aber es gibt einen Bereich, in dem Meteor Lake stark sein könnte - bei der integrierten GPU. Sie hat die RDNA 3-Grafik des mobilen Ryzen erreicht und könnte sie sogar übertreffen.",
+                  "output": "Intels integrierte GPU-Leistung"
+               }
+            ],
+            "enabled": true
+         }
+      }
+   },
+   "Topics (NL)": {
+      "name": "Topics",
+      "language": "NL",
+      "buttonName": "Topics",
+      "inputs": [
+         "De Nobelprijs voor Fysiologie of Geneeskunde werd toegekend aan de in Hongarije geboren biochemicus Katalin Karikó en de Amerikaanse immunoloog Drew Weissman, die tijdens hun periode aan de Universiteit van Pennsylvania in Philadelphia de basis legden voor de ontwikkeling van mRNA-vaccins en daarmee de basis legden voor de ontwikkeling van vaccins tegen de ziekte van covid-19.",
+         "Gernot Döllner heeft sinds begin september de leiding over Audi, toen hij Markus Duesmann verving. Hij stapte op na een ruzie met het bestuur van Audi, dat niet wilde dat het merk het zou afleggen tegen de directe concurrentie van andere Duitse premiumfabrikanten, BMW en Mercedes-Benz. Vooral op het gebied van elektromobiliteit mist het merk de trein. In een interview met het Duitse dagblad Handelsblatt zei Döllner dat het veel langer zou duren voordat Audi dezelfde inkomsten uit elektrische auto's zou genereren als uit verbrandingsmotoren. Audi wordt echter geplaagd door de hoge kosten van de batterijproductie en de aankoop van grondstoffen voor elektrische voertuigen, met name edelmetalen.",
+         "De grootste ijsberg ter wereld is in beweging gekomen. Een gigantische brok ijs, A23a genaamd, met een oppervlakte van bijna vierduizend vierkante kilometer, brak in 1986 los van het vaste land van Antarctica, maar ging al snel voor anker in de Weddellzee en werd bijna een ijseiland. Maar het afgelopen jaar begon het met een aanzienlijke snelheid weg te drijven en het staat nu op het punt om de Antarctische wateren uit te varen, meldt de BBC.",
+         "Twee bedrijven in de luxe cosmeticasector zijn verwikkeld in een ongebruikelijk geschil. Aan de ene kant staat de Franse fabrikant van luxe parfums - Chanel, aan de andere kant de Tsjechische parfumdetaillist Notino. Het bedrijf, opgericht door de beroemde ontwerper Coco Chanel, eist dat de Tsjechische detailhandelaar vertelt waar het zijn producten heeft gekocht, die het doorverkoopt in zijn e-shop. Chanel kiest zorgvuldig wie het toestaat om haar goederen te verkopen. De geïnteresseerde partij moet aan strenge eisen voldoen voordat de wereldberoemde fabrikant een contract met ze aangaat. ",
+         "Sommige autobedrijven hebben hun plannen om elektrische auto's te ontwikkelen en te produceren vertraagd. Ford heeft een investering van 12 miljard dollar uitgesteld en General Motors heeft het idee laten varen om halverwege 2024 500.000 elektrische auto's te produceren. Naar verwachting zullen er dit jaar een miljoen elektrische auto's worden verkocht in de Verenigde Staten, goed voor negen procent van de markt voor nieuwe auto's daar, volgens adviesbureau Atlas Public Policy. Analisten van de bank Goldman Sachs voorspellen dat de prijzen voor elektrische auto's en auto's met verbrandingsmotor halverwege dit decennium zullen afvlakken. Onderzoeksbureau Gartner voorspelt dat moment in 2027 en voegt eraan toe dat de wereldwijde verkoop van elektrische personenauto's volgend jaar met ongeveer 19 procent zal stijgen tot bijna 18 miljoen voertuigen.",
+         "Zwitserse wetenschappers hebben kunstmatige intelligentie ontwikkeld die volgens hen de strijd tegen wijnvervalsingen op de Europese markt zal vereenvoudigen en tegelijkertijd zal helpen om nog betere wijn te produceren. Kunstmatige intelligentie kan ook een zeer nuttig hulpmiddel zijn om frequente en moeilijk te bewijzen fraude in de wijnindustrie te voorkomen, zo hebben onderzoekers van de Universiteit van Genève ontdekt. Ze hebben namelijk kunstmatige intelligentie ontwikkeld die op basis van een klein wijnmonster met uiterste precisie kan bepalen waar de wijn vandaan komt. Het specificeert niet alleen een beperkter geografisch gebied, maar de exacte wijngaard of wijnmakerij, zo wordt het onderzoek samengevat door de Guardian."
+      ],
+      "topics": {
+         "topic1": {
+            "topicName": "Topics",
+            "models": [
+               {
+                  "meta-llama/llama-3-70b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-2-70b-chat": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-3-8b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm/granite-20b-multilingual": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               }
+            ],
+            "instruction": {
+               "detailed": "Lees het volgende document, maak een korte en bondige titel voor het document:",
+               "summarized": "Maak een titel voor het document:"
+            },
+            "inputPrefix": "Document:",
+            "outputPrefix": "Onderwerp:",
+            "examples": [
+               {
+                  "input": "De Chinese regering heeft een reeks maatregelen aangekondigd om de verdere verspreiding van luchtwegaandoeningen in het land te voorkomen. Reizigers die in China aankomen moeten bij de grens hun temperatuur laten opnemen en er moet ook strengere preventie en controle zijn op scholen en in bejaardentehuizen. In China is het aantal aandoeningen van de luchtwegen recentelijk toegenomen.",
+                  "output": "De verspreiding van luchtwegaandoeningen in China voorkomen"
+               },
+               {
+                  "input": "Een gigantische brok ijs met de naam A23a, die bijna 4000 vierkante kilometer beslaat en 's werelds grootste gletsjer is, staat op het punt om uit de Antarctische wateren te varen. Gedreven door wind en zeestromingen is het al meer dan 30 jaar in beweging en passeert het nu de noordelijke punt van het Antarctisch Schiereiland, aldus de BBC.",
+                  "output": "De beweging van de gigantische ijsberg op Antarctica"
+               },
+               {
+                  "input": "De Meteor Lake processors doen een beetje denken aan de release van Intels eerste echte generatie 10nm processors (Ice Lake) vier jaar geleden. Hoewel ze een goede energie-efficiëntie zouden moeten hebben, zijn hun kloksnelheden gedaald door de 4nm-technologie, dus de CPU-prestaties zijn niet veel veranderd (en de cores zijn ook niet veel toegenomen). Maar er is één gebied waar Meteor Lake sterk zou kunnen zijn: de geïntegreerde GPU. De GPU heeft de RDNA 3 grafische processor in de mobiele Ryzen aangeraakt en zou deze zelfs kunnen overtreffen.",
+                  "output": "Intel's geïntegreerde GPU prestaties"
+               }
+            ],
+            "enabled": true
+         }
+      }
+   },
+   "Topics (SI)": {
+      "name": "Topics",
+      "language": "SI",
+      "buttonName": "Topics",
+      "inputs": [
+         "Nobelovo nagrado za fiziologijo ali medicino sta prejela biokemičarka madžarskega rodu Katalin Karikó in ameriški imunolog Drew Weissman, ki sta v času svojega delovanja na Univerzi Pensilvanija v Philadelphiji postavila temelje za razvoj cepiv z mRNA in s tem postavila temelje za razvoj cepiv proti bolezni covid-19.",
+         "Največja ledena gora na svetu se je začela premikati. Velikanski kos ledu z imenom A23a, ki pokriva skoraj štiri tisoč kvadratnih kilometrov, se je leta 1986 odtrgal od antarktične celine, vendar se je kmalu zasidral v Weddellovem morju in postal tako rekoč ledeni otok. V zadnjem letu pa se je s precejšnjo hitrostjo začel oddaljevati in zdaj je pripravljen odpluti iz antarktičnih voda, poroča BBC.",
+         "Svet EU-ja in Evropski parlament sta v petek dosegla okvirni dogovor o aktu o umetni inteligenci, ki vsebuje pravila za njeno uporabo v Uniji. To je prva tovrstna zakonodaja na svetu. Namen zakonodaje je zagotoviti varnost sistemov umetne inteligence ter spoštovanje temeljnih pravic in vrednot, obenem pa spodbujati vlaganje in inovacije na tem področju.",
+         "Švicarski znanstveniki so razvili umetno inteligenco, ki bo, so prepričani, poenostavila boj proti vinskim ponaredkom na evropskem trgu, obenem pa pomagala pri pridelavi še boljšega vina. Umetna inteligenca je lahko tudi zelo koristno orodje za preprečevanje pogostih in težko dokazljivih prevar v vinski industriji, so ugotovili raziskovalci z ženevske univerze. Razvili so namreč umetno inteligenco, ki lahko na podlagi majhnega vzorca vina izjemno natančno ugotovi, od kod vino izvira. Ne določi zgolj ožjega geografskega območja, ampak točen vinograd oz. vinsko klet, raziskavo povzema Guardian.",
+         "Skoraj ni tekme, na kateri Luka Dončić ne bi navdušil s kakšno potezo. Tokrat je za enega izmed vrhuncev na obračunu z Los Angeles Lakersi (127:125) poskrbel z dih jemajočo podajo. Dončić je sicer na osmi zaporedni tekmi presegel mejo 30 točk, tretjič zapored je na parketu odigral vsaj 40 minut. Takšne minutaže ni imel vse od končnice leta 2021.",
+         "Slovenija bo aprila prihodnje leto častna gostja na mednarodnem sejmu otroških knjig v Bologni. Otroški sejem v Bologni je poleg frankfurtskega knjižnega sejma mednarodna platforma, na kateri se predstavlja največje število slovenskih založnikov s področja otroške in mladinske literature, samostojno ali v sklopu slovenske nacionalne stojnice.",
+         "Dve podjetji iz sektorja luksuzne kozmetike sta v nenavadnem sporu. Na eni strani je francoski proizvajalec luksuznih parfumov Chanel, na drugi pa češki trgovec s parfumi Notino. Podjetje, ki ga je ustanovila slavna oblikovalka Coco Chanel, od češkega trgovca zahteva, da mu pove, kje je kupil njegove izdelke, ki jih preprodaja v svoji e-trgovini. Chanel skrbno izbira, komu dovoli prodajati svoje blago. Zainteresirana stranka mora izpolnjevati stroge zahteve, preden svetovno znani proizvajalec z njo sklene pogodbo. ",
+         "Nekatera avtomobilska podjetja so upočasnila svoje načrte za razvoj in proizvodnjo električnih avtomobilov. Ford je odložil 12 milijard dolarjev vredno naložbo, General Motors pa je opustil zamisel o proizvodnji 500.000 električnih avtomobilov do sredine leta 2024. Po podatkih svetovalnega podjetja Atlas Public Policy naj bi letos v Združenih državah Amerike prodali milijon električnih avtomobilov, kar naj bi predstavljalo devet odstotkov tamkajšnjega trga novih avtomobilov. Analitiki banke Goldman Sachs predvidevajo, da se bodo cene električnih avtomobilov in avtomobilov z notranjim izgorevanjem do sredine tega desetletja izenačile. Raziskovalno podjetje Gartner ta trenutek napoveduje za leto 2027 in dodaja, da se bo svetovna prodaja električnih osebnih avtomobilov prihodnje leto povečala za približno 19 odstotkov na skoraj 18 milijonov vozil."
+      ],
+      "topics": {
+         "topic1": {
+            "topicName": "Topics",
+            "models": [
+               {
+                  "meta-llama/llama-3-70b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-2-70b-chat": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-3-8b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm/granite-20b-multilingual": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               }
+            ],
+            "instruction": {
+               "detailed": "Preberi naslednji dokument in oblikuj kratek in jedrnat naslov dokumenta:",
+               "summarized": "Ustvarite naslov dokumenta:"
+            },
+            "inputPrefix": "Dokument:",
+            "outputPrefix": "Tema: ",
+            "examples": [
+               {
+                  "input": "Kitajska vlada je napovedala vrsto ukrepov za preprečevanje nadaljnjega širjenja bolezni dihal v državi. Potnikom, ki prihajajo na Kitajsko, je treba na meji izmeriti temperaturo, strožje pa je tudi preprečevanje in preverjanje v šolah in domovih za ostarele. Na Kitajskem se je v zadnjem času povečalo število bolezni dihal v državi.",
+                  "output": "Preprečevanje širjenja bolezni dihal na Kitajskem"
+               },
+               {
+                  "input": "Velikanski kos ledu z imenom A23a, ki pokriva skoraj 4.000 kvadratnih kilometrov in je največji ledenik na svetu, bo kmalu odplul iz antarktičnih voda. Zaradi vetra in morskih tokov je v gibanju že več kot 30 let, zdaj pa po poročanju BBC pluje mimo severnega roba Antarktičnega polotoka.",
+                  "output": "Gibanje orjaške antarktične ledene gore"
+               },
+               {
+                  "input": "Procesorji Meteor Lake nekoliko spominjajo na izdajo prve prave generacije Intelovih 10 nm procesorjev (Ice Lake) pred štirimi leti. Čeprav naj bi imeli dobro energetsko učinkovitost, so se njihovi takti zaradi 4nm tehnologije zmanjšali, zato se zmogljivost procesorjev ni veliko premaknila (prav tako se ni veliko povečalo število jeder). Vendar pa obstaja področje, na katerem bi lahko bil Meteor Lake močan - pri integriranem grafičnem procesorju. Ta se je dotaknil in bi lahko celo presegel grafiko RDNA 3 v mobilnih modelih Ryzen.",
+                  "output": "Intelova zmogljivost integriranega grafičnega procesorja"
+               }
+            ],
+            "enabled": true
+         }
+      }
+   },
+   "Topics (HU)": {
+      "name": "Topics",
+      "language": "HU",
+      "buttonName": "Topics",
+      "inputs": [
+         "Az élettani vagy orvosi Nobel-díjat Karikó Katalin magyar származású biokémikus és Drew Weissman amerikai immunológus kapta, akik a philadelphiai Pennsylvaniai Egyetemen töltött idejük alatt megalapozták az mRNS-vakcinák kifejlesztését, és ezzel megalapozták a covid-19 betegség elleni vakcinák kifejlesztését.",
+         "Gernot Döllner szeptember eleje óta áll az Audi élén, amikor Markus Duesmannt váltotta. Az Audi igazgatótanácsával való összezördülése miatt távozott, amely nem szerette, ha a márka a BMW és a Mercedes-Benz közvetlen konkurenciájával szemben veszít a német prémiumgyártókkal szemben. Különösen az elektromobilitás terén marad le a vonatról. A Handelsblatt című német napilapnak adott interjújában Döllner azt mondta, hogy az Audinak sokkal több időbe fog telni, amíg az elektromos autókból ugyanannyi bevételt tud majd termelni, mint a belsőégésű motorokból. Az Audi számára azonban gondot jelentenek az akkumulátorgyártás magas költségei és az elektromos járművekhez szükséges nyersanyagok, különösen a nemesfémek beszerzése.",
+         "A világ legnagyobb jéghegye mozgásba lendült. Az A23a névre keresztelt, közel négyezer négyzetkilométeres óriási jégdarab 1986-ban szakadt le az antarktiszi szárazföldről, de hamarosan lehorgonyzott a Weddell-tengerben, és gyakorlatilag jégszigetté vált. Az elmúlt évben azonban jelentős sebességgel sodródni kezdett, és most arra készül, hogy kihajózik az antarktiszi vizekből - írja a BBC.",
+         "A luxuskozmetikai ágazat két vállalata szokatlan vitába keveredett. Az egyik oldalon a luxusparfümök francia gyártója, a Chanel, a másik oldalon a cseh Notino parfüm-kiskereskedő áll. A híres tervező, Coco Chanel által alapított cég azt követeli a cseh kiskereskedőtől, hogy mondja meg, hol vásárolta a termékeit, amelyeket a webáruházában értékesít tovább. A Chanel gondosan megválogatja, hogy kinek engedi meg, hogy áruit árulja. Az érdeklődőnek szigorú követelményeknek kell megfelelnie, mielőtt a világhírű gyártó szerződést köt vele. ",
+         "Egyes autógyárak lelassították az elektromos autók fejlesztésére és gyártására vonatkozó terveiket. A Ford elhalasztott egy 12 milliárd dolláros beruházást, a General Motors pedig elvetette azt az elképzelését, hogy 2024 közepéig 500 ezer elektromos autót gyártana. Az Atlas Public Policy tanácsadó cég szerint idén várhatóan egymillió elektromos autót adnak el az Egyesült Államokban, ami az ottani újautó-piac kilenc százalékát teszi ki. A Goldman Sachs bank elemzői azzal számolnak, hogy az elektromos és a belsőégésű autók ára az évtized közepére kiegyenlítődik. A Gartner kutatócég 2027-re jósolja ezt a pillanatot, hozzátéve, hogy az elektromos személygépkocsik globális értékesítése jövőre mintegy 19 százalékkal, közel 18 millió járműre nő.",
+         "Svájci tudósok mesterséges intelligenciát fejlesztettek ki, amely szerintük egyszerűsíti a borhamisítás elleni küzdelmet az európai piacon, miközben segít még jobb borokat előállítani. A mesterséges intelligencia nagyon hasznos eszköz lehet a borágazatban gyakori és nehezen bizonyítható csalások megelőzésében is - állapították meg a Genfi Egyetem kutatói. Olyan mesterséges intelligenciát fejlesztettek ki ugyanis, amely egy kis borminta alapján rendkívül pontosan meg tudja állapítani, hogy honnan származik a bor. Nem csak egy szűkebb földrajzi területet határoz meg, hanem a pontos szőlőbirtokot vagy pincészetet - foglalja össze a kutatást a Guardian."
+      ],
+      "topics": {
+         "topic1": {
+            "topicName": "Topics",
+            "models": [
+               {
+                  "meta-llama/llama-3-70b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-2-70b-chat": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-3-8b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm/granite-20b-multilingual": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               }
+            ],
+            "instruction": {
+               "detailed": "Olvassa el a következő dokumentumot, és készítsen egy rövid és tömör címet a dokumentumnak:",
+               "summarized": "Hozzon létre egy címet a dokumentumhoz:"
+            },
+            "inputPrefix": "Dokumentum:",
+            "outputPrefix": "Téma:",
+            "examples": [
+               {
+                  "input": "A kínai kormány egy sor intézkedést jelentett be annak érdekében, hogy megakadályozza a légzőszervi megbetegedések további terjedését az országban. A Kínába érkező utazóknak a határon meg kell mérniük a lázukat, és az iskolákban és az idősek otthonában is szigorúbb megelőzést és ellenőrzéseket kell végezni. Kínában az utóbbi időben megnőtt a légúti megbetegedések száma az országban.",
+                  "output": "A légzőszervi megbetegedések terjedésének megelőzése Kínában"
+               },
+               {
+                  "input": "Az A23a nevű, közel 4000 négyzetkilométeres óriási jégdarab, amely a világ legnagyobb gleccsere, hamarosan kihajózik az Antarktisz vizeiből. A szél és a tengeri áramlatok által hajtva már több mint 30 éve mozgásban van, és most halad el az Antarktiszi-félsziget északi csúcsa mellett - írja a BBC.",
+                  "output": "Az óriási antarktiszi jéghegy mozgása"
+               },
+               {
+                  "input": "A Meteor Lake processzorok egy kicsit emlékeztetnek az Intel első igazi 10 nm-es processzorgenerációjának (Ice Lake) négy évvel ezelőtti megjelenésére. Bár jó energiahatékonysággal kell rendelkezniük, az órajelük a 4 nm-es technológiának köszönhetően csökkent, így a CPU teljesítménye nem sokat változott (és a magok sem nyertek sokat). Van azonban egy terület, ahol a Meteor Lake erős lehet - az integrált GPU-ban. Megérintette, sőt, akár meg is haladhatja a mobil Ryzenben lévő RDNA 3 grafikát.",
+                  "output": "Az Intel integrált GPU teljesítménye"
+               }
+            ],
+            "enabled": true
+         }
+      }
+   },
+   "Topics (RO)": {
+      "name": "Topics",
+      "language": "RO",
+      "buttonName": "Topics",
+      "inputs": [
+         "Premiul Nobel pentru Fiziologie sau Medicină a fost acordat biochimistului de origine maghiară Katalin Karikó și imunologului american Drew Weissman, care au pus bazele dezvoltării vaccinurilor cu ARNm în timpul petrecut la Universitatea Pennsylvania din Philadelphia, punând bazele dezvoltării vaccinurilor împotriva bolii covid-19.",
+         "Gernot Döllner se află la conducerea Audi de la începutul lunii septembrie, când l-a înlocuit pe Markus Duesmann. Acesta a demisionat în urma unei neînțelegeri cu consiliul de administrație al Audi, care nu a apreciat faptul că marca a pierdut în fața concurenței directe a altor producători germani premium, BMW și Mercedes-Benz. Pierde trenul mai ales în domeniul electromobilității. Într-un interviu acordat cotidianului german Handelsblatt, Döllner a declarat că va dura mult mai mult timp pentru ca Audi să genereze aceleași venituri din mașinile electrice ca și din motoarele cu combustie internă. Cu toate acestea, Audi a fost afectată de costul ridicat al producției de baterii și al achiziției de materii prime pentru vehiculele electrice, în special metale prețioase.",
+         "Cel mai mare iceberg din lume s-a pus în mișcare. O bucată uriașă de gheață, denumită A23a, care acoperă aproape patru mii de kilometri pătrați, s-a desprins de continentul Antarcticii în 1986, dar în scurt timp s-a ancorat în Marea Weddell, devenind practic o insulă de gheață. Însă în ultimul an a început să se îndepărteze cu o viteză considerabilă, iar acum este gata să părăsească apele Antarcticii, relatează BBC.",
+         "Oamenii de știință elvețieni au dezvoltat o inteligență artificială care, în opinia lor, va simplifica lupta împotriva contrafacerilor de vin pe piața europeană, ajutând în același timp la producerea unui vin și mai bun. Inteligența artificială poate fi, de asemenea, un instrument foarte util pentru a preveni fraudele frecvente și greu de dovedit în industria vinului, au descoperit cercetătorii de la Universitatea din Geneva. Concret, aceștia au dezvoltat o inteligență artificială care, pe baza unui mic eșantion de vin, poate determina cu o precizie extrem de mare de unde provine vinul. Aceasta nu precizează doar o zonă geografică mai restrânsă, ci exact podgoria sau crama, rezumă cercetarea The Guardian.",
+         "Unele companii auto și-au încetinit planurile de a dezvolta și de a produce mașini electrice. Ford a amânat o investiție de 12 miliarde de dolari, iar General Motors a renunțat la ideea de a produce 500.000 de mașini electrice până la jumătatea anului 2024. Un milion de mașini electrice ar urma să fie vândute în Statele Unite în acest an, reprezentând nouă procente din piața de mașini noi de acolo, potrivit companiei de consultanță Atlas Public Policy. Analiștii de la banca Goldman Sachs estimează că prețurile pentru mașinile electrice și cele cu combustie internă se vor stabiliza până la mijlocul acestui deceniu. Firma de cercetare Gartner preconizează acest moment în 2027, adăugând că vânzările globale de autoturisme electrice vor crește cu aproximativ 19 la sută, ajungând la aproape 18 milioane de vehicule anul viitor.",
+         "Două companii din sectorul cosmeticelor de lux sunt implicate într-o dispută neobișnuită. Pe de o parte se află producătorul francez de parfumuri de lux - Chanel, iar pe de altă parte se află retailerul ceh de parfumuri Notino. Compania, fondată de celebrul designer Coco Chanel, cere ca retailerul ceh să-i spună de unde a cumpărat produsele sale, pe care le revinde în magazinul său electronic. Chanel alege cu grijă cui permite să îi vândă produsele. Partea interesată trebuie să îndeplinească cerințe stricte înainte ca producătorul de renume mondial să încheie un contract cu ea. "
+      ],
+      "topics": {
+         "topic1": {
+            "topicName": "Topics",
+            "models": [
+               {
+                  "meta-llama/llama-3-70b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-2-70b-chat": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-3-8b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm/granite-20b-multilingual": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               }
+            ],
+            "instruction": {
+               "detailed": "Citiți următorul document, creați un titlu scurt și concis pentru acest document:",
+               "summarized": "Creați un titlu pentru document:"
+            },
+            "inputPrefix": "Documentul:",
+            "outputPrefix": "Tema:",
+            "examples": [
+               {
+                  "input": "Guvernul chinez a anunțat o serie de măsuri pentru a preveni răspândirea în continuare a bolilor respiratorii în țară. Călătorilor care sosesc în China ar trebui să li se ia temperatura la graniță, iar în școli și în căminele de bătrâni ar trebui să existe, de asemenea, măsuri de prevenire și controale mai stricte. China a înregistrat recent o creștere a numărului de boli respiratorii în țară.",
+                  "output": "Prevenirea răspândirii bolilor respiratorii în China"
+               },
+               {
+                  "input": "O bucată uriașă de gheață numită A23a, care acoperă aproape 4.000 de kilometri pătrați și este cel mai mare ghețar din lume, este pe cale să iasă din apele Antarcticii. Impulsionat de vânt și de curenții marini, acesta se află în mișcare de peste 30 de ani și trece acum pe lângă vârful nordic al Peninsulei Antarctice, potrivit BBC.",
+                  "output": "Mișcarea aisbergului gigantic din Antarctica"
+               },
+               {
+                  "input": "Procesoarele Meteor Lake amintesc puțin de lansarea primei generații reale de procesoare Intel pe 10 nm (Ice Lake), lansată în urmă cu patru ani. Deși ar trebui să aibă o eficiență energetică bună, vitezele de ceas au scăzut datorită tehnologiei pe 4nm, astfel că performanța procesorului nu s-a schimbat prea mult (și nici nucleele nu au câștigat prea mult). Dar există un domeniu în care Meteor Lake ar putea fi puternic - în cazul GPU-ului integrat. Acesta a atins și ar putea chiar depăși grafica RDNA 3 din Ryzen mobil.",
+                  "output": "Performanța GPU-ului integrat de la Intel"
+               }
+            ],
+            "enabled": true
+         }
+      }
+   },
+   "Topics (SR)": {
+      "name": "Topics",
+      "language": "SR",
+      "buttonName": "Topics",
+      "inputs": [
+         "Nobelova nagrada za fiziologiju ili medicinu dodeljena je biohemičarki poreklom iz Mađarske Katalin Kariko i američkom imunologu Dru Vajsmanu, koji su postavili temelje za razvoj mRNK vakcina tokom svog boravka na Univerzitetu Pensilvanije u Filadelfiji, postavljajući temelje za razvoj vakcine protiv bolesti Covid-19.",
+         "Pokrenuo se najveći ledeni breg na svetu. Džinovski komad leda, nazvan A23a, koji pokriva skoro četiri hiljade kvadratnih kilometara, odvojio se od antarktičkog kopna 1986. godine, ali se ubrzo usidrio u Vedelovom moru, postavši praktično ledeno ostrvo. Ali u protekloj godini počeo je da se udaljava velikom brzinom i sada je spreman da isplovi iz antarktičkih voda, prenosi Bi-Bi-Si.",
+         "Несвакидашњи спор је између две компаније из области луксузне козметике. На једној страни је француски произвођач луксузних парфема – Цханел, а на другој чешки продавац мириса Нотино. Компанија коју је основала позната дизајнерка Коко Шанел захтева од чешког бизнисмена да јој каже где је купио њене производе, које препродаје у својој е-продавници. Цханел пажљиво бира коме дозвољава да продаје своју робу. Подносилац захтева мора да испуни строге услове пре него што светски познати произвођач потпише уговор са њим.",
+         "Неки произвођачи аутомобила успорили су своје планове за развој и производњу електричних аутомобила. Форд је одложио инвестицију од 12 милијарди долара, а Џенерал моторс је одустао од плана за производњу 500.000 електричних аутомобила до средине 2024. Очекује се да ће милион електричних аутомобила бити продато у Сједињеним Државама ове године, што представља девет одсто тржишта нових аутомобила у земљи , према Атлас Публиц Полици, консултантској кући. Аналитичари Голдман Сакса предвиђају да ће се цене електричних аутомобила и аутомобила са унутрашњим сагоревањем изједначити до средине ове деценије. Истраживачка компанија Гартнер предвиђа овај тренутак за 2027. годину и додаје да ће светска продаја путничких аутомобила на електрични погон порасти за око 19 одсто на скоро 18 милиона аутомобила следеће године."
+      ],
+      "topics": {
+         "topic1": {
+            "topicName": "Topics",
+            "models": [
+               {
+                  "meta-llama/llama-3-70b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-2-70b-chat": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-3-8b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm/granite-20b-multilingual": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               }
+            ],
+            "instruction": {
+               "detailed": "Read the following document, create a short and concise title for the document:",
+               "summarized": "Create a title for the document:"
+            },
+            "inputPrefix": "Document:",
+            "outputPrefix": "Topic:",
+            "examples": [
+               {
+                  "input": "Kineska vlada najavila je niz mera za sprečavanje daljeg širenja respiratornih bolesti u zemlji. Putnicima koji stižu u Kinu trebalo bi da se izmeri temperatura na granici, a takođe bi trebalo da budu strože prevencije i kontrole u školama i domovima za stare. Kina je nedavno zabeležila porast broja respiratornih bolesti u zemlji.",
+                  "output": "Sprečavanje širenja respiratornih bolesti u Kini"
+               },
+               {
+                  "input": "Džinovski komad leda po imenu A23a, koji pokriva skoro 4.000 kvadratnih kilometara i najveći glečer na svetu, uskoro će isploviti iz antarktičkih voda. Vođen vetrom i morskim strujama, bio je u pokretu više od 30 godina i sada prolazi pored severnog vrha Antarktičkog poluostrva, navodi Bi-Bi-Si.",
+                  "output": "Kretanje džinovskog antarktičkog ledenog brega"
+               },
+               {
+                  "input": "Meteor Lake procesori pomalo podsećaju na izdavanje Intelove prve prave generacije 10nm procesora (Ice Lake) pre četiri godine. Iako bi trebalo da imaju dobru energetsku efikasnost, njihove brzine takta su pale zbog 4nm tehnologije, tako da se performanse CPU-a nisu mnogo promenile (niti su jezgra mnogo dobila). Ali postoji jedna oblast u kojoj bi Meteorsko jezero moglo biti jako – u integrisanom GPU-u. Dotaknuo je, a mogao bi čak i da nadmaši, RDNA 3 grafiku u mobilnom Rizenu.",
+                  "output": "Intelove integrisane performanse GPU-a"
+               }
+            ],
+            "enabled": true
+         }
+      }
+   },
+   "Topics (BG)": {
+      "name": "Topics",
+      "language": "BG",
+      "buttonName": "Topics",
+      "inputs": [
+         "Нобеловата награда за физиология или медицина беше присъдена на родения в Унгария биохимик Каталин Карико и американския имунолог Дрю Вайсман, които положиха основите за разработването на иРНК ваксини по време на престоя си в Пенсилванския университет във Филаделфия, полагайки основата за разработването на ваксини срещу болестта covid-19.",
+         "Гернот Дьолнер ръководи Audi от началото на септември, когато замени Маркус Дюсман. Той напусна заради спорове с борда на Audi, който не хареса марката да губи от пряката конкуренция от други немски премиум производители BMW и Mercedes-Benz. Липсва му влакът, особено в електромобилността. В интервю за германския всекидневник Handelsblatt Дьолнер каза, че ще отнеме много повече време на Audi да генерира същите приходи от електрически автомобили, както от двигатели с вътрешно горене. Audi обаче е измъчван от високите разходи за производство на батерии и придобиването на суровини за електрически превозни средства, особено благородни метали.",
+         "Най-големият айсберг в света се задвижи. Гигантско парче лед, наречено A23a, покриващо почти четири хиляди квадратни километра, се отцепи от антарктическия континент през 1986 г., но скоро се закотви в морето на Уедел, превръщайки се на практика в леден остров. Но през последната година той започна да се отдалечава със значителна скорост и сега е готов да отплава от антарктическите води, съобщава BBC.",
+         "Две компании от сектора на луксозната козметика са въвлечени в необичаен спор. От едната страна е френският производител на луксозни парфюми - Chanel, от другата е чешкият търговец на парфюми Notino. Компанията, основана от известната дизайнерка Коко Шанел, настоява чешкият търговец на дребно да й каже откъде е купил продуктите й, които препродава в своя електронен магазин. Chanel избира внимателно на кого позволява да продава своите стоки. Заинтересованата страна трябва да отговаря на строги изисквания, преди световноизвестният производител да сключи договор с нея.",
+         "Някои автомобилни компании забавиха плановете си за разработване и производство на електрически автомобили. Ford отложи инвестиция от 12 милиарда долара, а General Motors се отказа от идеята да произведе 500 000 електрически коли до средата на 2024 г. Очаква се един милион електрически коли да бъдат продадени в Съединените щати тази година, което представлява девет процента от пазара на нови автомобили там, според консултантската компания Atlas Public Policy. Анализаторите от банката Goldman Sachs прогнозират, че цените на електрическите автомобили и автомобилите с вътрешно горене ще се изравнят до средата на това десетилетие. Изследователската компания Gartner прогнозира този момент през 2027 г., като добавя, че глобалните продажби на електрически пътнически автомобили ще се увеличат с около 19 процента до близо 18 милиона превозни средства през следващата година.",
+         "Швейцарски учени са разработили изкуствен интелект, който според тях ще опрости борбата с фалшификатите на вино на европейския пазар, като същевременно ще помогне за производството на още по-добро вино. Изкуственият интелект може да бъде и много полезен инструмент за предотвратяване на чести и трудни за доказване измами във винарската индустрия, установиха изследователи от университета в Женева. А именно те са разработили изкуствен интелект, който на базата на малка проба вино може да определи с изключителна точност откъде идва виното. В него не се посочва само по-тесен географски район, а точното лозе или винарна, обобщава изследването от \"Гардиън\"."
+      ],
+      "topics": {
+         "topic1": {
+            "topicName": "Topics",
+            "models": [
+               {
+                  "meta-llama/llama-3-70b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-2-70b-chat": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-3-8b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm/granite-20b-multilingual": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               }
+            ],
+            "instruction": {
+               "detailed": "Прочетете следния документ, създайте кратко и стегнато заглавие за документа:",
+               "summarized": "Създайте заглавие на документа:"
+            },
+            "inputPrefix": "Document:",
+            "outputPrefix": "Topic:",
+            "examples": [
+               {
+                  "input": "Китайското правителство обяви серия от мерки за предотвратяване на по-нататъшното разпространение на респираторни заболявания в страната. Пътуващите, пристигащи в Китай, трябва да измерват температурата си на границата, а също така трябва да има по-строга профилактика и проверки в училищата и домовете за възрастни хора. В Китай наскоро се наблюдава увеличение на броя на респираторните заболявания в страната.",
+                  "output": "Предотвратяване на разпространението на респираторни заболявания в Китай"
+               },
+               {
+                  "input": "Гигантско парче лед, наречено A23a, покриващо близо 4000 квадратни километра и представляващо най-големия ледник в света, е на път да отплава от антарктическите води. Воден от вятъра и морските течения, той се движи повече от 30 години и сега преминава покрай северния край на Антарктическия полуостров, според BBC.",
+                  "output": "Движението на гигантския антарктически айсберг"
+               },
+               {
+                  "input": "Процесорите Meteor Lake малко напомнят на пускането на първото реално поколение 10nm процесори на Intel (Ice Lake) преди четири години. Въпреки че би трябвало да имат добра енергийна ефективност, тактовите им скорости са спаднали поради 4nm технология, така че производителността на процесора не се е променила много (нито ядрата са спечелили много). Но има една област, в която Meteor Lake може да е силно - в интегрирания GPU. Той докосна и дори може да надмине графиките RDNA 3 в мобилния Ryzen.",
+                  "output": "Интегрирана GPU производителност на Intel"
+               }
+            ],
+            "enabled": true
+         }
+      }
+   },
+   "Titulky (SK)": {
+      "name": "Titulky",
+      "language": "SK",
+      "buttonName": "Titulky",
+      "inputs": [
+         "Nobelova cena za fyziológiu alebo medicínu bola udelená biochemičke maďarského pôvodu Katalin Karikó a americkému imunológovi Drewovi Weissmanovi, ktorí počas svojho pôsobenia na Pensylvánskej univerzite vo Filadelfii položili základy vývoja mRNA vakcín, čím položili základ pre vývoj vakcín proti chorobe covid-19.",
+         "Gernot Döllner vedie Audi od začiatku septembra, keď vystriedal Markusa Duesmanna. Odišiel pre rozpory s predstavenstvom Audi, ktorému sa nepáčilo, že značka stráca na priamej konkurencii ostatných nemeckých prémiových výrobcov BMW a Mercedes-Benz. Uchádza jej vlak najmä v oblasti elektromobility. V rozhovore pre nemecký denník Handelsblatt Döllner uviedol, že Audi bude potrebovať oveľa viac času na to, aby dosiahlo rovnaké príjmy z elektrických vozidiel ako zo spaľovacích motorov. Audi však trápia vysoké náklady na výrobu batérií a získavanie surovín pre elektromobily, najmä drahých kovov. ",
+         "Najväčší ľadovec na svete sa dal do pohybu. Obrovský kus ľadu s názvom A23a s rozlohou takmer štyritisíc kilometrov štvorcových sa v roku 1986 odtrhol od antarktickej pevniny, ale čoskoro zakotvil vo Weddellovom mori a stal sa prakticky ľadovým ostrovom. V minulom roku sa však začal značnou rýchlosťou vzďaľovať a teraz je pripravený vyplávať z antarktických vôd, uvádza BBC.",
+         "Švajčiarski vedci vyvinuli umelú inteligenciu, ktorá podľa nich zjednoduší boj proti falšovaniu vína na európskom trhu a zároveň pomôže vyrábať ešte kvalitnejšie víno. Umelá inteligencia môže byť veľmi užitočným nástrojom aj na predchádzanie častým a ťažko odhaliteľným podvodom vo vinárskom priemysle, zistili vedci zo Ženevskej univerzity. Konkrétne vyvinuli umelú inteligenciu, ktorá dokáže na základe malej vzorky vína s mimoriadnou presnosťou určiť, odkiaľ víno pochádza. Identifikuje nielen úzku geografickú oblasť, ale aj presnú vinicu alebo vinárstvo, sumarizuje výskum denník Guardian.",
+         "Dve luxusné kozmetické spoločnosti sa dostali do nezvyčajného sporu. Na jednej strane stojí francúzsky výrobca luxusných parfumov Chanel, na druhej český predajca vôní Notino. Spoločnosť, ktorú založila slávna návrhárka Coco Chanel, požaduje, aby jej český predajca povedal, kde kúpil jej výrobky, ktoré ďalej predáva vo svojom e-shope. Spoločnosť Chanel si starostlivo vyberá, komu umožní predávať svoj tovar. Záujemca musí splniť prísne požiadavky, kým s ním svetoznámy výrobca uzavrie zmluvu. ",
+         "Niektoré automobilky spomalili svoje plány na vývoj a výrobu elektrických vozidiel. Ford odložil investíciu vo výške 12 miliárd dolárov a General Motors sa vzdal myšlienky vyrobiť 500 000 elektromobilov do polovice roka 2024. Podľa poradenskej spoločnosti Atlas Public Policy sa v Spojených štátoch tento rok predá milión elektromobilov, čo predstavuje deväť percent tamojšieho trhu s novými automobilmi. Analytici banky Goldman Sachs predpokladajú, že ceny elektromobilov a automobilov so spaľovacími motormi sa do polovice tohto desaťročia vyrovnajú. Výskumná spoločnosť Gartner predpovedá tento moment v roku 2027 a dodáva, že celosvetový predaj osobných automobilov na elektrický pohon sa v budúcom roku zvýši približne o 19 percent na takmer 18 miliónov vozidiel."
+      ],
+      "topics": {
+         "topic1": {
+            "topicName": "Titulky",
+            "models": [
+               {
+                  "meta-llama/llama-3-70b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-2-70b-chat": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-3-8b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm/granite-20b-multilingual": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 4,
+                     "max_new_tokens": 50
+                  }
+               }
+            ],
+            "instruction": {
+               "detailed": "Prečítajte si nasledujúci dokument, vytvorte krátky a výstižný nadpis dokumentu:",
+               "summarized": "Vytvorte nadpis dokumentu:"
+            },
+            "inputPrefix": "Dokument:",
+            "outputPrefix": "Predmet:",
+            "examples": [
+               {
+                  "input": "Čínska vláda oznámila sériu opatrení na zabránenie ďalšieho šírenia respiračných ochorení v krajine. Cestujúcim prichádzajúcim do Číny by sa mala na hraniciach merať teplota a prísnejšie preventívne a kontrolné opatrenia by mali byť zavedené aj v školách a domovoch dôchodcov. Čína v poslednom čase zaznamenala nárast počtu respiračných ochorení v krajine.",
+                  "output": "Prevencia šírenia respiračných ochorení v Číne"
+               },
+               {
+                  "input": "Obrovský kus ľadu s názvom A23a, ktorý pokrýva takmer 4 000 km2 a je najväčším ľadovcom na svete, sa chystá vyplávať z antarktických vôd. Podľa BBC je ľadovec poháňaný vetrom a morskými prúdmi v pohybe už viac ako 30 rokov a teraz míňa severný cíp Antarktického polostrova.",
+                  "output": "Pohyb obrovského antarktického ľadovca"
+               },
+               {
+                  "input": "Procesory Meteor Lake trochu pripomínajú vydanie prvej skutočnej generácie 10 nm procesorov Intel (Ice Lake) pred štyrmi rokmi. Hoci by mali mať dobrú energetickú účinnosť, ich taktovacie frekvencie klesli v dôsledku 4nm technológie, takže výkon procesora sa veľmi neposunul (ani jadrá veľa nezískali). Je tu však jedna oblasť, v ktorej by mohol byť Meteor Lake silný - v integrovanom GPU. Dotkla sa a mohla by dokonca prekonať grafiku RDNA 3 v mobilných Ryzenoch.",
+                  "output": "Výkon integrovaného GPU spoločnosti Intel"
+               }
+            ],
+            "enabled": true
+         }
+      }
+   },
    "Sentiment Analysis (CZ)": {
       "name": "Sentiment Analysis",
       "language": "CZ",
