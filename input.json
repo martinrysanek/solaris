@@ -3571,1066 +3571,6 @@
          }
       }
    },
-   "Kategorizace (CZ)": {
-      "name": "Kategorizace",
-      "language": "CZ",
-      "buttonName": "Kategorizace",
-      "inputs": [
-         "Andy:\nVynikající a dobře udržované. Vysoce organizovaný a efektivní. Zvládá provoz tak dobře i v tomto ročním období, kdy je obrovský příliv zahraničních studentů, kteří přijíždějí na univerzity ve Vancouveru. Spousta taxislužeb k dispozici hned u letiště.  Mimořádně ochotný personál.",
-         "Chris Martin:\nVíce než 50 % letů na YVR a z YVR je zpožděno, bezpečnostní personál aka curbside operations, konkrétně ti, kteří se zabývají otázkami parkování, jsou hrubí, toalety jsou většinou špinavé.",
-         "Joey:\nVelmi příjemné letiště pro čekání na let. Pohodlná sedadla a různá uspořádání míst k sezení kolem uměleckých energií včetně sochy Billa Reida a dalších vodních prvků a soch. Jsou zde obchody s potravinami a maloobchodní prodejny. Působí téměř jako nákupní centrum, nikoli jako letiště, což je velmi příjemné. Pravděpodobně by se hodilo více nabíjecích stanic v blízkosti míst k sezení."
-      ],
-      "topics": {
-         "topic1": {
-            "topicName": "Kategorizace",
-            "models": [
-               {
-                  "meta-llama/llama-3-70b-instruct": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "meta-llama/llama-2-70b-chat": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "meta-llama/llama-3-8b-instruct": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "ibm/granite-20b-multilingual": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
-               }
-            ],
-            "instruction": {
-               "detailed": "Kategorizujte recenzi jako pozitivní, negativní nebo smíšenou a shrňte klíčové body.",
-               "summarized": "Kategorizujte recenzi a shrňte klíčové body."
-            },
-            "inputPrefix": "Recenze:",
-            "outputPrefix": "Shrňte hlavní body:",
-            "examples": [
-               {
-                  "input": "Design letiště je pěkný, dovnitř dopadá přirozené světlo, takže je velmi světlé a útulné. Obchody a kavárny jsou velmi dobře organizované. Fontány s vodou jsou mimo toalety, velmi snadno přístupné. Koupelny jsou čisté a je zde jedno oddělení, které je dostatečně velké, aby se do něj vešel vozík. Velmi pohodlné. \nSnížil jsem jednu hvězdičku za hrubé chování, se kterým jsem se setkal při bezpečnostní kontrole. Pokyny personálu byly nejasné a nebyla vůbec užitečná. Myslím, že člověk by neměl očekávat přátelské chování při bezpečnostních kontrolách v Severní Americe, jak mi řekly mé předchozí cestovní zkušenosti.",
-                  "output": "Pozitivní recenze\n- Dobré vybavení a zařízení \n- Příjemný zákaznický servis\n- Dobré prostředí"
-               },
-               {
-                  "input": "Jaká škoda.\nKdokoliv plánoval stavbu v pátek před prodlouženým víkendem, potřebuje trochu pozornosti a důkladné pochopení situace. Chvíli trvalo, než se po delší době čekání podařilo sehnat taxi. Rideshare na tom byl stejně. Žádné auto nepřijelo.\nProč jste se rozhodli zablokovat celé jízdní pruhy kromě jednoho, když víte, že budete mít hodně cestujících?",
-                  "output": "Negativní recenze\n- Špatné plánování stavebních činností\n- Dlouhé čekání na taxi a spolujízdu\n- Frustrující zážitek."
-               },
-               {
-                  "input": "Letěl jsem sem jako posádka letecké společnosti po 12hodinovém letu, fyzicky jsem byl unavený už při příletu. Svědkem toho, jak jedna posádka našeho týmu dostala na místě kontrolu zavazadel na téměř 1 hodinu.\nSlyšeli jsme, že to bylo jen kvůli školení pro mladšího celníka! (Nejsem si jistý. Jen jsem o tom slyšel.)\nNemohli jsme nechat našeho kolegu na letišti, než jsme zamířili do hotelu.\nAle jsme tak vyčerpaní, že jsme si potřebovali hned odpočinout! Jediné, co jsme mohli dělat, bylo čekat.\nMohli by nám celníci věnovat trochu lidskosti?\nVážíme si vaší práce.\nAle prosím, dokončete kontrolu zavazadel včas, protože si také zasloužíme trochu respektu!",
-                  "output": "Negativní recenze\n- Dlouhé čekání na kontrolu zavazadel\n- Nedostatek empatie a respektu k posádce letadla\n- Nelidské zacházení."
-               },
-               {
-                  "input": "Letiště je pěkné. Je však značně poddimenzované personálem. Letecké společnosti jsou super pomalé a stojí velké fronty. Vzdálenost k některým branám se může blížit jedné míli. Jinak příjemná a vysušená atmosféra",
-                  "output": "Smíšené hodnocení\n- Pěkné letiště\n- Nedostatečný počet zaměstnanců\n- Pomalé linky\n- Velká vzdálenost k některým branám."
-               },
-               {
-                  "input": "Letěl sem jako posádka letecké společnosti po 12hodinovém letu, fyzicky už dost unavený při příletu. Svědkem toho, jak jedna posádka našeho týmu dostala na místě kontrolu zavazadel na téměř 1 hodinu.\nSlyšeli jsme, že to bylo jen kvůli školení pro mladšího celníka! (Nejsem si jistý. Jen jsem o tom slyšel.)\nNemohli jsme nechat našeho kolegu na letišti, než jsme zamířili do hotelu.\nAle jsme tak vyčerpaní, že jsme si potřebovali hned odpočinout! Jediné, co jsme mohli dělat, bylo čekat.\nMohli by nám celníci věnovat trochu lidskosti?\nVážíme si vaší práce.\nAle prosím, dokončete kontrolu zavazadel včas, protože si také zasloužíme trochu respektu!",
-                  "output": "Negativní recenze\n- Dlouhé čekání na kontrolu zavazadel\n- Nedostatek empatie a respektu k posádce letadla\n- Nelidské zacházení."
-               },
-               {
-                  "input": "Značení nebylo dobré. Musel jsem se ptát, kde jsou toalety, a pak jsem se dostal do salónku, když jsem chtěl odletovou bránu. Jinak celkem dobrý přístup k odletovým branám.",
-                  "output": "Smíšené hodnocení\n- Špatné značení\n- Nepřehledné uspořádání\n- Dobrý přístup k odletovým branám"
-               },
-               {
-                  "input": "Je to velké letiště, takže musíte chodit a sledovat značky. Bezpečnostní fronty mohou být dlouhé, ale alespoň se pohybují přiměřenou rychlostí. Výběr jídla je v pořádku. Parkování je velmi nepřehledné. Pokud vás někdo přijede vyzvednout, je problém se s ním setkat, takže se ujistěte, že si můžete zavolat a zjistit, kdo je kde.",
-                  "output": "Smíšené hodnocení\n- Velké letiště, dlouhé procházky\n- Dlouhé bezpečnostní kontroly\n- Dobrý výběr jídla\n- Nepřehledné parkování"
-               }
-            ],
-            "enabled": true
-         }
-      }
-   },
-   "Categorization (EN)": {
-      "name": "Categorization",
-      "language": "EN",
-      "buttonName": "Categorization",
-      "inputs": [
-         "Andy:\nExcellent and well maintained. Highly organized and efficient. Handles the traffic so well even at this time of the year when there is a huge influx of international students coming to start their Universities in Vancouver. Plenty of taxi services available just outside the airport.  Extremely helpful staff.",
-         "Chris Martin:\nMore than 50% of the flights into and out of the YVR are delayed, security staff aka curbside operations specifically the ones who deal with the parking matters are rude, the bathrooms are most of the time dirty.",
-         "Joey:\nA very comfortable airport to wait for one's flight. Comfy seats and various seating arrangements around artistic energies including a Bill Reid sculpture and other water features and sculptures. There are food stores and retail stores. It feels almost like a shopping mall rather than an airport which is very nice. Probably could do with more charging stations near seating areas."
-      ],
-      "topics": {
-         "topic1": {
-            "topicName": "Categorization",
-            "models": [
-               {
-                  "meta-llama/llama-3-70b-instruct": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "meta-llama/llama-2-70b-chat": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "meta-llama/llama-3-8b-instruct": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "ibm/granite-20b-multilingual": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
-               }
-            ],
-            "instruction": {
-               "detailed": "Categorize the review as positive, negative or mixed and summaries key points.",
-               "summarized": "Categorize the review and summaries key points."
-            },
-            "inputPrefix": "Review:",
-            "outputPrefix": "Summary:",
-            "examples": [
-               {
-                  "input": "The design of the airport is nice, with natural light falling in making it very bright and cosy. Shops and cafes are very well organized. Water fountains are outside bathrooms, very easy to access. Bathrooms are clean and there's one compartment that is big enough for a trolley to get in. Very convenient. \nI deducted one star for the rude behaviors that I encountered at the security check. The staff's instructions were unclear, and she was not helpful at all. I think one shouldn't expect friendly behaviors at security checks in North America, as my past travel experiences told.",
-                  "output": "Positive Review\n- Good facilities and amenities \n- Nice customer service\n- Good environment"
-               },
-               {
-                  "input": "What a shame.\nWhoever planned a construction on a Friday before a long weekend needs some attention and thorough understanding of the situation. It took a while to get a cab after a considerable duration of waiting. Rideshare was the same. No car arrived.\nWhy did you decide to block the whole lanes except for one when you know you would have a lot of travelers?",
-                  "output": "Negative Review\n- Poor planning of construction activities\n- Long wait for taxi and rideshare\n- Frustrating experience"
-               },
-               {
-                  "input": "Flew to here as airline crew after a 12-hour flight, physically already tired enough when arrived. Witnessing one crew of our team got baggage spot check for almost 1 hour.\nHeard that was just for a training procedure for a junior customs officer! (Not sure. Just heard about it.)\nWe couldn\u2019t leave our colleague behind at the airport before heading to the hotel.\nBut we are so exhausted, needed to rest right away! All we could do was just wait.\nCan the customs authority give some humanity to us?\nWe respect all of your work.\nBut please finish the baggage check work with a timely manner as we also deserve some respect as well!",
-                  "output": "Negative Review\n- Long wait for baggage spot check\n- Lack of empathy and respect for airline crew\n- Inhumane treatment"
-               },
-               {
-                  "input": "The airport is nice. It is significantly understaffed though. The airlines are super slow with large lines. The distance to certain gates may be close to one mile. Otherwise, nice and dried atmosphere",
-                  "output": "Mixed Review\n- Nice airport\n- Understaffed\n- Slow lines\n- Long distance to certain gates"
-               },
-               {
-                  "input": "Flew to here as airline crew after a 12-hour flight, physically already tired enough when arrived. Witnessing one crew of our team got baggage spot check for almost 1 hour.\nHeard that was just for a training procedure for a junior customs officer! (Not sure. Just heard about it.)\nWe couldn\u2019t leave our colleague behind in the airport before heading to the hotel.\nBut we are so exhausted, needed to rest right away! All we could do was just wait.\nCan the custom authority give some humanity to us?\nWe respect all of your work.\nBut please finish the baggage check work with a timely manner as we also deserve some respect as well!",
-                  "output": "Negative Review\n- Long wait for baggage spot check\n- Lack of empathy and respect for airline crew\n- Inhumane treatment"
-               },
-               {
-                  "input": "Signage was not good. Had to ask where toilets were, then blundered into a lounge when I wanted my departure gate. Otherwise  quite good access to departure gates",
-                  "output": "Mixed Review\n- Poor signage\n- Confusing layout\n- Good access to departure gates"
-               },
-               {
-                  "input": "It's a big airport so you have to keep walking and make sure you follow the signs. The security lines can be long but at least they move at a reasonable speed. Food choices are ok. Parking is very confusing. If someone comes to pick you up, it is a struggle to meet up, so make sure you can make a phone call to figure out who is where.",
-                  "output": "Mixed Review\n- Big airport, long walks\n- Long Security lines\n- Ok food choices\n- Confusing parking"
-               }
-            ],
-            "enabled": true
-         }
-      }
-   },
-   "Categorization (DE)": {
-      "name": "Categorization",
-      "language": "DE",
-      "buttonName": "Categorization",
-      "inputs": [
-         "Andy:\nExzellent und gut gepflegt. Sehr gut organisiert und effizient. Selbst zu dieser Jahreszeit, in der viele internationale Studenten nach Vancouver kommen, um dort ihr Studium zu beginnen, wird der Verkehr sehr gut abgewickelt. Zahlreiche Taxis stehen direkt vor dem Flughafen zur Verfügung.  Äußerst hilfsbereites Personal.",
-         "Chris Martin:\nMehr als 50% der Flüge von und nach YVR haben Verspätung, das Sicherheitspersonal, insbesondere die, die sich um das Parken kümmern, sind unhöflich, die Toiletten sind meistens schmutzig.",
-         "Joey:\nEin sehr komfortabler Flughafen, um auf seinen Flug zu warten. Bequeme Sitze und verschiedene Sitzgelegenheiten rund um künstlerische Energien, darunter eine Bill-Reid-Skulptur und andere Wasserspiele und Skulpturen. Es gibt Lebensmittelgeschäfte und Einzelhandelsgeschäfte. Man fühlt sich fast wie in einem Einkaufszentrum und nicht wie auf einem Flughafen, was sehr angenehm ist. Wahrscheinlich könnte es mehr Ladestationen in der Nähe der Sitzbereiche geben."
-      ],
-      "topics": {
-         "topic1": {
-            "topicName": "Categorization",
-            "models": [
-               {
-                  "meta-llama/llama-3-70b-instruct": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "meta-llama/llama-2-70b-chat": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "meta-llama/llama-3-8b-instruct": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "ibm/granite-20b-multilingual": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
-               }
-            ],
-            "instruction": {
-               "detailed": "Kategorisieren Sie die Bewertung als positiv, negativ oder gemischt und fassen Sie die wichtigsten Punkte zusammen.",
-               "summarized": "Kategorisieren Sie die Rezension und fassen Sie die wichtigsten Punkte zusammen."
-            },
-            "inputPrefix": "Rezension:",
-            "outputPrefix": "Zusammenfassung:",
-            "examples": [
-               {
-                  "input": "Das Design des Flughafens ist schön, mit natürlichem Lichteinfall, der es sehr hell und gemütlich macht. Die Geschäfte und Cafés sind sehr gut organisiert. Die Wasserbrunnen befinden sich außerhalb der Toiletten und sind sehr leicht zugänglich. Die Toiletten sind sauber und es gibt ein Abteil, das groß genug ist, um einen Trolley hineinzustellen. Sehr praktisch. \nIch habe einen Stern abgezogen für das unhöfliche Verhalten, das ich bei der Sicherheitskontrolle erlebt habe. Die Anweisungen des Personals waren unklar, und sie war überhaupt nicht hilfreich. Ich denke, man sollte kein freundliches Verhalten bei Sicherheitskontrollen in Nordamerika erwarten, wie meine vergangenen Reiseerfahrungen sagten.",
-                  "output": "Positive Bewertung\n- Gute Einrichtungen und Annehmlichkeiten\n- Netter Kundenservice\n- Gute Umgebung"
-               },
-               {
-                  "input": "Wer auch immer eine Baustelle an einem Freitag vor einem langen Wochenende geplant hat, braucht etwas Aufmerksamkeit und gründliches Verständnis für die Situation. Es dauerte eine Weile, bis man nach einer beträchtlichen Wartezeit ein Taxi bekam. Rideshare war das gleiche. Kein Auto kam an.\nWarum haben Sie beschlossen, alle Fahrspuren bis auf eine zu sperren, wenn Sie wissen, dass Sie viele Reisende haben würden?",
-                  "output": "Negative Bewertung\n- Schlechte Planung der Baumaßnahmen\n- Lange Wartezeit auf Taxi und Mitfahrgelegenheit\n- Frustrierende Erfahrung"
-               },
-               {
-                  "input": "Wir sind nach einem 12-stündigen Flug hierher geflogen und waren körperlich schon müde genug, als wir ankamen. Wir wurden Zeuge, wie eine Crew unseres Teams fast 1 Stunde lang einer Gepäckkontrolle unterzogen wurde.\nWie ich hörte, war das nur ein Trainingsverfahren für einen Junior-Zollbeamten! (Bin mir nicht sicher, habe nur davon gehört.)\nWir konnten unseren Kollegen nicht am Flughafen zurücklassen, bevor wir zum Hotel fuhren.\nAber wir sind so erschöpft, dass wir uns sofort ausruhen mussten! Alles, was wir tun konnten, war warten. Kann die Zollbehörde uns etwas Menschlichkeit entgegenbringen? Wir respektieren Ihre Arbeit. Aber bitte beenden Sie die Gepäckkontrolle rechtzeitig, denn auch wir verdienen Respekt!",
-                  "output": "Negative Bewertung\n- Lange Wartezeit bei der Gepäckkontrolle\n- Mangelndes Einfühlungsvermögen und fehlender Respekt für das Flugpersonal\n- Unmenschliche Behandlung"
-               },
-               {
-                  "input": "Der Flughafen ist schön. Allerdings ist er deutlich unterbesetzt. Die Fluggesellschaften sind super langsam mit langen Schlangen. Die Entfernung zu bestimmten Gates kann bis zu einer Meile betragen. Ansonsten nette und trockene Atmosphäre",
-                  "output": "Gemischte Bewertung\n- Schöner Flughafen\n- Unterbesetzt\n- Langsame Linien\n- Lange Entfernung zu bestimmten Gates"
-               },
-               {
-                  "input": "Wir sind nach einem 12-stündigen Flug hierher geflogen und waren körperlich schon müde genug, als wir ankamen. Wir wurden Zeuge, wie eine Crew unseres Teams fast 1 Stunde lang eine Gepäckkontrolle erhielt.\nHabe gehört, dass dies nur für ein Trainingsverfahren für einen Junior-Zollbeamten war! (Bin mir nicht sicher, habe nur davon gehört.)\nWir konnten unseren Kollegen nicht am Flughafen zurücklassen, bevor wir zum Hotel fuhren.\nAber wir waren so erschöpft, dass wir uns sofort ausruhen mussten! Alles, was wir tun konnten, war warten. Kann die Zollbehörde uns etwas Menschlichkeit entgegenbringen? Wir respektieren Ihre Arbeit. Aber bitte beenden Sie die Gepäckkontrolle rechtzeitig, denn auch wir verdienen Respekt!",
-                  "output": "Negative Bewertung\n- Lange Wartezeit bei der Gepäckkontrolle\n- Mangelndes Einfühlungsvermögen und fehlender Respekt für das Flugpersonal\n- Unmenschliche Behandlung"
-               },
-               {
-                  "input": "Die Beschilderung war nicht gut. Musste fragen, wo die Toiletten sind, und landete dann in einer Lounge, als ich mein Abfluggate suchte. Ansonsten recht guter Zugang zu den Abfluggates",
-                  "output": "Gemischte Bewertung\n- Schlechte Beschilderung\n- Verwirrendes Layout\n- Guter Zugang zu den Abfluggates"
-               },
-               {
-                  "input": "Es handelt sich um einen großen Flughafen, so dass man ständig laufen und den Schildern folgen muss. Die Sicherheitskontrollen können lang sein, aber zumindest bewegen sie sich in einem angemessenen Tempo. Die Auswahl an Speisen ist in Ordnung. Das Parken ist sehr verwirrend. Wenn jemand kommt, um Sie abzuholen, ist es schwierig, ihn zu treffen, also stellen Sie sicher, dass Sie einen Anruf tätigen können, um herauszufinden, wer wo ist.",
-                  "output": "Gemischte Bewertung\n- Großer Flughafen, lange Wege\n- Lange Sicherheitskontrollen\n- Auswahl an Essen ok\n- Verwirrendes Parken"
-               }
-            ],
-            "enabled": true
-         }
-      }
-   },
-   "Categorization (NL)": {
-      "name": "Categorization",
-      "language": "NL",
-      "buttonName": "Categorization",
-      "inputs": [
-         "Andy:\nUitstekend en goed onderhouden. Zeer georganiseerd en efficiënt. Het verkeer wordt goed afgehandeld, zelfs in deze tijd van het jaar wanneer er een enorme toestroom is van internationale studenten die aan hun universiteit in Vancouver beginnen. Genoeg taxidiensten beschikbaar net buiten de luchthaven.  Uiterst behulpzaam personeel.",
-         "Chris Martin:\nMeer dan 50% van de vluchten van en naar YVR zijn vertraagd, het beveiligingspersoneel, oftewel de parkeerbeambten, zijn onbeschoft en de toiletten zijn meestal vies.",
-         "Joey:\n Een zeer comfortabele luchthaven om op je vlucht te wachten. Comfortabele stoelen en verschillende zitjes rond artistieke energieën waaronder een Bill Reid sculptuur en andere waterpartijen en sculpturen. Er zijn levensmiddelenwinkels en winkels. Het voelt bijna aan als een winkelcentrum in plaats van een luchthaven en dat is erg prettig. Waarschijnlijk zouden er meer oplaadpunten in de buurt van zitgedeeltes moeten zijn."
-      ],
-      "topics": {
-         "topic1": {
-            "topicName": "Categorization",
-            "models": [
-               {
-                  "meta-llama/llama-3-70b-instruct": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "meta-llama/llama-2-70b-chat": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "meta-llama/llama-3-8b-instruct": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "ibm/granite-20b-multilingual": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
-               }
-            ],
-            "instruction": {
-               "detailed": "Categoriseer de recensie als positief, negatief of gemengd en vat de belangrijkste punten samen.",
-               "summarized": "Categoriseer de recensie en vat de belangrijkste punten samen."
-            },
-            "inputPrefix": "Recensie:",
-            "outputPrefix": "Samenvatting:",
-            "examples": [
-               {
-                  "input": "Het ontwerp van de luchthaven is mooi, met natuurlijk licht dat naar binnen valt waardoor het erg licht en gezellig is. Winkels en cafés zijn goed georganiseerd. Waterfonteinen bevinden zich buiten de toiletten en zijn makkelijk te bereiken. De toiletten zijn schoon en er is één compartiment dat groot genoeg is voor een trolley. Erg handig. \nIk heb één ster in mindering gebracht voor het onbeschofte gedrag dat ik bij de veiligheidscontrole heb ondervonden. De instructies van het personeel waren onduidelijk en ze was helemaal niet behulpzaam. Ik denk dat je geen vriendelijk gedrag moet verwachten bij de veiligheidscontroles in Noord-Amerika, zoals mijn reiservaringen uit het verleden vertelden.",
-                  "output": "Positieve beoordeling\n- Goede faciliteiten en voorzieningen\n- Aardige klantenservice\n- Goede omgeving"
-               },
-               {
-                  "input": "Wat een schande. Wie een constructie heeft gepland op een vrijdag voor een lang weekend, moet goed opletten en de situatie goed begrijpen. Het duurde even om een taxi te krijgen na een aanzienlijke wachttijd. Rideshare was hetzelfde. Er kwam geen auto aan.Waarom besloten jullie om alle rijstroken op één na te blokkeren als je wist dat je veel reizigers zou hebben?",
-                  "output": "Negatieve beoordeling\n- Slechte planning van bouwactiviteiten\n- Lang wachten op taxi en rideshare\n- Frustrerende ervaring"
-               },
-               {
-                  "input": "Hierheen gevlogen als bemanning van een luchtvaartmaatschappij na een vlucht van 12 uur, fysiek al moe genoeg toen we aankwamen. We waren er getuige van dat een bemanningslid van ons team bijna 1 uur lang steekproefsgewijs bagagecontrole kreeg... Hoorde dat dat alleen maar was voor een trainingsprocedure voor een junior douanebeambte! (We konden onze collega niet achterlaten op het vliegveld voordat we naar het hotel gingen, maar we waren zo uitgeput dat we meteen moesten rusten! Het enige wat we konden doen was wachten... Kan de douane ons wat menselijkheid geven? We respecteren al jullie werk... Maar maak de bagagecontrole alsjeblieft op tijd af, want wij verdienen ook wat respect!",
-                  "output": "Negatieve beoordelingen \n- Lang wachten op controle ter plaatse van de bagage \n- Gebrek aan empathie en respect voor het personeel van de luchtvaartmaatschappij \n- Onmenselijke behandeling"
-               },
-               {
-                  "input": "De luchthaven is leuk. Er is echter veel te weinig personeel. De luchtvaartmaatschappijen zijn super traag met grote rijen. De afstand tot bepaalde gates is soms bijna anderhalve kilometer. Verder een leuke en droge sfeer",
-                  "output": "Gemengde beoordeling \n- Mooie luchthaven \n- Te weinig personeel \n- Trage lijnen \n- Grote afstand tot bepaalde gates"
-               },
-               {
-                  "input": "Hierheen gevlogen als bemanning van een luchtvaartmaatschappij na een vlucht van 12 uur, fysiek al moe genoeg toen we aankwamen. Getuige een bemanning van ons team kreeg bagage spot check voor bijna 1 uur... Hoorde dat was gewoon voor een trainingsprocedure voor een junior douanebeambte! (We konden onze collega niet achterlaten op het vliegveld voordat we naar het hotel gingen, maar we waren zo uitgeput dat we meteen moesten rusten! Het enige wat we konden doen was wachten... Kan de douane ons wat menselijkheid geven? We respecteren al jullie werk... Maar maak de bagagecontrole alsjeblieft op tijd af, want wij verdienen ook wat respect!",
-                  "output": "Negatieve beoordelingen \n- Lang wachten op controle ter plaatse van de bagage \n- Gebrek aan empathie en respect voor het personeel van de luchtvaartmaatschappij \n- Onmenselijke behandeling"
-               },
-               {
-                  "input": "De bewegwijzering was niet goed. Ik moest vragen waar de toiletten waren en toen kwam ik in een lounge terecht toen ik mijn vertrekgate wilde hebben. Verder vrij goede toegang tot vertrekgate",
-                  "output": "Gemengde beoordelingen \n- Slechte bewegwijzering \n- Verwarrende indeling \n- Goede toegang tot vertrekgate"
-               },
-               {
-                  "input": "Het is een grote luchthaven dus je moet blijven lopen en ervoor zorgen dat je de borden volgt. De veiligheidslijnen kunnen lang zijn, maar ze gaan tenminste redelijk snel. Er is voldoende keuze aan eten. Parkeren is erg verwarrend. Als iemand je komt ophalen, is het een strijd om af te spreken, dus zorg ervoor dat je kunt bellen om erachter te komen wie waar is.",
-                  "output": "Gemengde beoordeling \n- Grote luchthaven, lange wachtrijen \n- Lange veiligheidslijnen \n- Oké keuze aan eten \n- Verwarrend parkeren"
-               }
-            ],
-            "enabled": true
-         }
-      }
-   },
-   "Categorization (SI)": {
-      "name": "Categorization",
-      "language": "SI",
-      "buttonName": "Categorization",
-      "inputs": [
-         "Andy: \n Odlično in dobro vzdrževano. Visoko organiziran in učinkovit. Dobro obvladuje promet tudi v tem letnem času, ko je velik naval mednarodnih študentov, ki prihajajo na univerze v Vancouvru. Veliko taksi služb, ki so na voljo tik pred letališčem.  Izjemno ustrežljivo osebje.",
-         "Chris Martin:\nVeč kot 50 % letov v in iz YVR zamuja, varnostno osebje, ki se ukvarja s parkirnimi zadevami, je nesramno, kopalnice so večino časa umazane.",
-         "Joey:\nNajbolj udobno letališče za čakanje na let. Udobni sedeži in različni sedežni aranžmaji okoli umetniških energij, vključno s skulpturo Billa Reida ter drugimi vodnimi elementi in skulpturami. Na voljo so trgovine s hrano in trgovine na drobno. Občutek je skoraj kot v nakupovalnem središču in ne kot na letališču, kar je zelo lepo. Verjetno bi lahko imeli več polnilnih postaj v bližini prostorov za sedenje."
-      ],
-      "topics": {
-         "topic1": {
-            "topicName": "Categorization",
-            "models": [
-               {
-                  "meta-llama/llama-3-70b-instruct": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "meta-llama/llama-2-70b-chat": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "meta-llama/llama-3-8b-instruct": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "ibm/granite-20b-multilingual": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
-               }
-            ],
-            "instruction": {
-               "detailed": "Kategorizirajte oceno kot pozitivno, negativno ali mešano in povzemite ključne točke.",
-               "summarized": "Kategorizirajte pregled in povzemite ključne točke."
-            },
-            "inputPrefix": "Pregled:",
-            "outputPrefix": "Povzetek:",
-            "examples": [
-               {
-                  "input": "Letališče je lepo oblikovano, saj vanj pada naravna svetloba, zato je zelo svetlo in prijetno. Trgovine in kavarne so zelo dobro urejene. Vodnjaki z vodo so zunaj kopalnic in so zelo lahko dostopni. Kopalnice so čiste, v enem predelu pa je dovolj prostora, da lahko vanj vstopi voziček. Zelo priročno. \nDrugo zvezdico sem odštel zaradi nesramnega vedenja, s katerim sem se srečal pri varnostnem pregledu. Navodila osebja so bila nejasna in sploh ni bila v pomoč. Mislim, da človek ne bi smel pričakovati prijaznega vedenja na varnostnih pregledih v Severni Ameriki, kot so povedale moje pretekle potovalne izkušnje.",
-                  "output": "Pozitivna ocena\n- Dobre zmogljivosti in oprema \n- Lepa storitev za stranke\n- Dobro okolje"
-               },
-               {
-                  "input": "Kakšna sramota.\nKdor je načrtoval gradnjo v petek pred dolgim vikendom, potrebuje nekaj pozornosti in temeljito razumevanje razmer. Po precej dolgem čakanju je trajalo nekaj časa, da je bilo mogoče dobiti taksi. Enako je bilo tudi pri prevozu z drugimi vozili. Noben avto ni prišel.\nPreprosto, zakaj ste se odločili blokirati vse vozne pasove razen enega, ko ste vedeli, da bo veliko potnikov?",
-                  "output": "Negativno mnenje\n- Slabo načrtovanje gradbenih dejavnosti\n- Dolgo čakanje na taksi in souporabo vozil\n- Neprijetna izkušnja"
-               },
-               {
-                  "input": "Sem sem letel kot letalsko osebje po 12-urnem letu, fizično že dovolj utrujen, ko sem prispel. Ena od ekip naše ekipe je bila priča skoraj enournemu pregledu prtljage.Slišal sem, da je bil to le postopek usposabljanja za mlajšega carinika! (Nisem prepričan. Samo slišal sem za to.)\nNašega kolega nismo mogli pustiti na letališču, preden smo se odpravili v hotel.\nNaj smo bili tako izčrpani, da smo se morali takoj spočiti! Vse, kar smo lahko storili, je bilo, da smo samo čakali.\nMorejo nam carinski organi izkazati nekaj človečnosti?\nSpoštujemo vse vaše delo.\nAle prosimo, da pravočasno dokončate pregled prtljage, saj si tudi mi zaslužimo nekaj spoštovanja!",
-                  "output": "Negativna ocena\n- Dolgo čakanje na pregled prtljage\n- Pomanjkanje empatije in spoštovanja do letalskega osebja\n- Nečloveško ravnanje"
-               },
-               {
-                  "input": "Letališče je lepo. Vendar je na njem zelo malo osebja. Letalske družbe so zelo počasne in imajo velike čakalne vrste. Razdalja do nekaterih izhodov je lahko skoraj en kilometer. Sicer pa je vzdušje lepo in suho.",
-                  "output": "Mešani pregled\n- Lepo letališče\n- Premalo osebja\n- Počasne linije\n- Velika razdalja do določenih izhodov"
-               },
-               {
-                  "input": "Sem sem letel kot letalsko osebje po 12-urnem letu, fizično že dovolj utrujen, ko sem prispel. Ena od ekip naše ekipe je bila priča skoraj enournemu pregledu prtljage.Slišal sem, da je bil to le postopek usposabljanja za mlajšega carinika! (Nisem prepričan. Samo slišal sem za to.)\nNašega kolega nismo mogli pustiti na letališču, preden smo se odpravili v hotel.\nNaj smo bili tako izčrpani, da smo se morali takoj spočiti! Vse, kar smo lahko storili, je bilo, da smo samo čakali.\nMogoče nam carinski organ nameni nekaj človečnosti?\nSpoštujemo vse vaše delo.\nAle prosimo, da pravočasno dokončate pregled prtljage, saj si tudi mi zaslužimo nekaj spoštovanja!",
-                  "output": "Negativno mnenje\n- Dolgo čakanje na pregled prtljage\n- Pomanjkanje empatije in spoštovanja do letalskega osebja\n- Nečloveško ravnanje"
-               },
-               {
-                  "input": "Oznake niso bile dobre. Moral sem vprašati, kje so stranišča, nato pa sem se zmotil in šel v salon namesto na izhod za odhode. Sicer pa je bil dostop do izhodov za odhode dokaj dober.",
-                  "output": "Mešano mnenje\n- Slaba označba\n- Zavajajoča postavitev\n- Dober dostop do izhodov za odhode"
-               },
-               {
-                  "input": "Letališče je veliko, zato morate hoditi in slediti znakom. Varnostne vrste so lahko dolge, vendar se vsaj premikajo z razumno hitrostjo. Izbira hrane je v redu. Parkiranje je zelo zmedeno. Če vas nekdo pride pobrat, se je težko srečati, zato se prepričajte, da lahko telefonirate in ugotovite, kdo je kje.",
-                  "output": "Mešani pregledi\n- Veliko letališče, dolgi sprehodi\n- Dolge varnostne linije\n- Ok izbira hrane\n- Zapleteno parkirišče"
-               }
-            ],
-            "enabled": true
-         }
-      }
-   },
-   "Categorization (HU)": {
-      "name": "Categorization",
-      "language": "HU",
-      "buttonName": "Categorization",
-      "inputs": [
-         "Andy:\nKiváló és jól karbantartott. Rendkívül szervezett és hatékony. Nagyon jól kezeli a forgalmat még az évnek ebben az időszakában is, amikor hatalmas a nemzetközi diákok beáramlása, akik Vancouverben kezdik meg egyetemi tanulmányaikat. Rengeteg taxi szolgáltatás áll rendelkezésre közvetlenül a repülőtéren kívül.  Rendkívül segítőkész személyzet.",
-         "Chris Martin:\nA YVR-re érkező és onnan induló járatok több mint 50%-a késik, a biztonsági személyzet, azaz a járdaszegélyek, különösen azok, akik a parkolási ügyekkel foglalkoznak, udvariatlanok, a mosdók legtöbbször piszkosak.",
-         "Joey:\nEgy nagyon kényelmes repülőtér a járatra való várakozáshoz. Kényelmes ülések és különböző ülőalkalmatosságok a művészi energiák körül, beleértve egy Bill Reid szobrot és más vízi látványosságokat és szobrokat. Vannak élelmiszerüzletek és kiskereskedelmi üzletek. Majdnem olyan érzés, mint egy bevásárlóközpont, nem pedig egy repülőtér, ami nagyon kellemes. Valószínűleg több töltőállomást lehetne elhelyezni az ülőhelyek közelében."
-      ],
-      "topics": {
-         "topic1": {
-            "topicName": "Categorization",
-            "models": [
-               {
-                  "meta-llama/llama-3-70b-instruct": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "meta-llama/llama-2-70b-chat": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "meta-llama/llama-3-8b-instruct": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "ibm/granite-20b-multilingual": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
-               }
-            ],
-            "instruction": {
-               "detailed": "Kategorizálja a véleményt pozitív, negatív vagy vegyes kategóriába, és foglalja össze a legfontosabb pontokat.",
-               "summarized": "Kategorizálja a kritikát és foglalja össze a legfontosabb pontokat."
-            },
-            "inputPrefix": "Áttekintés:",
-            "outputPrefix": "Összefoglaló:",
-            "examples": [
-               {
-                  "input": "A repülőtér kialakítása szép, természetes fény esik be, ami nagyon világos és hangulatos. Az üzletek és kávézók nagyon jól szervezettek. A vizes szökőkutak a mosdókon kívül vannak, nagyon könnyen megközelíthetőek. A mosdók tiszták, és van egy rekesz, ami elég nagy ahhoz, hogy egy kocsi is beférjen. Nagyon kényelmes. \nEgy csillagot levontam a durva viselkedés miatt, amellyel a biztonsági ellenőrzésnél találkoztam. A személyzet utasításai nem voltak egyértelműek, és egyáltalán nem volt segítőkész. Szerintem Észak-Amerikában nem szabad barátságos viselkedést várni a biztonsági ellenőrzésnél, ahogy azt a korábbi utazási tapasztalataim mondták.",
-                  "output": "Pozitív értékelés\n- Jó felszereltség és kényelem \n- Kedves ügyfélszolgálat\n- Jó környezet"
-               },
-               {
-                  "input": "Micsoda szégyen.\nAki egy hosszú hétvége előtti péntekre tervezte az építkezést, annak egy kis odafigyelésre és alapos helyzetismeretre van szüksége. A várakozás jelentős időtartama után eltartott egy ideig, amíg taxit kaptunk. A fuvarmegosztás ugyanez volt. Egyetlen autó sem érkezett.\nMiért döntöttek úgy, hogy egy sáv kivételével az egész sávot lezárják, amikor tudják, hogy sok utazó lesz?",
-                  "output": "Negatív értékelés\n- Az építési tevékenységek rossz megtervezése\n- Hosszú várakozás a taxira és a fuvarmegosztásra\n- Frusztráló élmény."
-               },
-               {
-                  "input": "12 órás repülőút után repültem ide, mint a légitársaság személyzete, fizikailag már elég fáradt voltam, amikor megérkeztem. Tanúja voltam, hogy a csapatunk egyik tagját majdnem 1 órán keresztül szúrópróbaszerűen ellenőrizték a poggyászoknál.\nHallottam, hogy ez csak egy fiatal vámtiszt kiképzési eljárása volt! (Nem biztos. Csak hallottam róla.)\nNem hagyhattuk a kollégánkat a repülőtéren, mielőtt a szállodába mentünk volna.\nDe annyira kimerültek voltunk, hogy azonnal pihennünk kellett! Csak annyit tehettünk, hogy vártunk.\nA vámhatóság nem tudna egy kis emberséget tanúsítani irántunk?\nTiszteljük minden munkájukat.\nDe kérem, fejezzék be a poggyászellenőrzést időben, mert mi is megérdemlünk egy kis tiszteletet!",
-                  "output": "Negatív értékelés\n- Hosszú várakozás a poggyászok helyszíni ellenőrzésére\n- A légitársaság személyzetével szembeni empátia és tisztelet hiánya\n- Embertelen bánásmód."
-               },
-               {
-                  "input": "A repülőtér szép. Jelentősen alulszemélyzetezett. A légitársaságok szuper lassúak, nagy sorok állnak. A távolság egyes kapukhoz közel egy mérföld lehet. Egyébként szép és száraz hangulatú",
-                  "output": "Vegyes értékelés\n- Szép repülőtér\n- Alulszemélyzet\n- Lassú sorok\n- Nagy távolság egyes kapukig"
-               },
-               {
-                  "input": "Repültem ide, mint légitársasági személyzet egy 12 órás repülőút után, fizikailag már elég fáradt voltam, amikor megérkeztem. Tanúja voltam, hogy a csapatunk egyik tagja majdnem 1 órán át kapta a poggyászok szúrópróbaszerű ellenőrzését.\nHallottam, hogy ez csak egy fiatal vámtiszt kiképzési eljárása volt! (Nem biztos. Csak hallottam róla.)\nNem hagyhattuk a kollégánkat a repülőtéren, mielőtt a szállodába mentünk volna.\nDe annyira kimerültek voltunk, hogy azonnal pihennünk kellett! Csak annyit tehettünk, hogy vártunk.\nA vámhatóság nem tudna egy kis emberséget tanúsítani irántunk?\nTiszteljük minden munkájukat.\nDe kérem, fejezzék be időben a poggyászellenőrzést, mert mi is megérdemlünk egy kis tiszteletet!",
-                  "output": "Negatív értékelés\n- Hosszú várakozás a poggyászok helyszíni ellenőrzésére\n- A légitársaság személyzetével szembeni empátia és tisztelet hiánya\n- Embertelen bánásmód."
-               },
-               {
-                  "input": "A feliratok nem voltak jók. Meg kellett kérdeznem, hogy hol vannak a mosdók, majd egy váróterembe tévedtem, amikor az indulási kaput kerestem. Egyébként az indulási kapukhoz való hozzáférés elég jó.",
-                  "output": "Vegyes értékelés\n- Gyenge jelzések\n- Zavaros elrendezés\n- Jó hozzáférés az indulási kapukhoz"
-               },
-               {
-                  "input": "Ez egy nagy repülőtér, ezért folyamatosan sétálnia kell, és követnie kell a jelzéseket. A biztonsági sorok hosszúak lehetnek, de legalább ésszerű sebességgel haladnak. Az ételválaszték rendben van. A parkolás nagyon zavaros. Ha valaki jön érted, akkor nehéz találkozni, ezért győződj meg róla, hogy tudsz telefonálni, hogy ki hol van.",
-                  "output": "Vegyes értékelés\n- Nagy repülőtér, hosszú séták\n- Hosszú biztonsági sorok\n- Rendben van az ételválaszték\n- Zavaros parkolás"
-               }
-            ],
-            "enabled": true
-         }
-      }
-   },
-   "Categorization (RO)": {
-      "name": "Categorization",
-      "language": "RO",
-      "buttonName": "Categorization",
-      "inputs": [
-         "Andy:\nExcelent și bine întreținut. Foarte bine organizat și eficient. Se descurcă atât de bine cu traficul, chiar și în această perioadă a anului, când există un aflux uriaș de studenți internaționali care vin să-și înceapă universitățile în Vancouver. O mulțime de servicii de taxi disponibile chiar în afara aeroportului.  Personal extrem de util.",
-         "Chris Martin:\nMai mult de 50% din zborurile care intră și ies din YVR sunt întârziate, personalul de securitate aka operațiunile de la bordură, în special cei care se ocupă de problemele de parcare, sunt nepoliticoși, băile sunt de cele mai multe ori murdare.",
-         "Joey:\nUn aeroport foarte confortabil pentru a-ți aștepta zborul. Scaune confortabile și diverse aranjamente de scaune în jurul energiilor artistice, inclusiv o sculptură a lui Bill Reid și alte elemente de apă și sculpturi. Există magazine alimentare și magazine cu amănuntul. Se simte aproape ca un centru comercial mai degrabă decât ca un aeroport, ceea ce este foarte frumos. Probabil că ar putea face cu mai multe stații de încărcare în apropierea zonelor de ședere."
-      ],
-      "topics": {
-         "topic1": {
-            "topicName": "Categorization",
-            "models": [
-               {
-                  "meta-llama/llama-3-70b-instruct": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "meta-llama/llama-2-70b-chat": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "meta-llama/llama-3-8b-instruct": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "ibm/granite-20b-multilingual": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
-               }
-            ],
-            "instruction": {
-               "detailed": "Clasificați recenzia ca fiind pozitivă, negativă sau mixtă și rezumați punctele cheie.",
-               "summarized": "Clasificați recenzia și rezumați punctele cheie."
-            },
-            "inputPrefix": "Analizați:",
-            "outputPrefix": "Rezumați:",
-            "examples": [
-               {
-                  "input": "Designul aeroportului este frumos, cu lumină naturală care cade înăuntru, făcându-l foarte luminos și confortabil. Magazinele și cafenelele sunt foarte bine organizate. Fântânile de apă sunt în afara băilor, foarte ușor de accesat. Băile sunt curate și există un compartiment suficient de mare pentru a intra un cărucior. Foarte convenabil. \nAm dedus o stea pentru comportamentele nepoliticoase pe care le-am întâlnit la controlul de securitate. Instrucțiunile personalului au fost neclare, iar ea nu a fost de ajutor deloc. Cred că nu ar trebui să se aștepte comportamente prietenoase la controalele de securitate în America de Nord, după cum au spus experiențele mele de călătorie anterioare.",
-                  "output": "Opinie pozitivă\n- Facilități și dotări bune \n- Serviciu clienți drăguț\n- Mediu bun"
-               },
-               {
-                  "input": "Ce păcat.\nCine a planificat o construcție într-o vineri înainte de un weekend prelungit are nevoie de atenție și de o înțelegere profundă a situației. A durat ceva timp pentru a găsi un taxi după o durată considerabilă de așteptare. Rideshare a fost la fel. Nu a sosit nicio mașină.\nDe ce ați decis să blocați toate benzile, cu excepția uneia, când știți că veți avea mulți călători?",
-                  "output": "Recenzie negativă\n- Planificarea slabă a activităților de construcție\n- Așteptare lungă pentru taxi și rideshare\n- Experiență frustrantă"
-               },
-               {
-                  "input": "Am zburat până aici ca echipaj al unei companii aeriene după un zbor de 12 ore, fizic deja destul de obosit când am ajuns. Martor la un echipaj al echipei noastre a primit verificarea la fața locului a bagajelor timp de aproape 1 oră.\nAm auzit că a fost doar pentru o procedură de formare pentru un ofițer vamal junior! (Nu sunt sigur. Am auzit doar despre asta.)\nNNNNNu am putut să-l lăsăm pe colegul nostru în urmă la aeroport înainte de a ne îndrepta spre hotel.\nDar suntem atât de epuizați, încât trebuia să ne odihnim imediat! Tot ce am putut face a fost să așteptăm.\nPot autoritatea vamală să ne acorde un pic de umanitate?\nVă respectăm toată munca voastră.\nDar vă rugăm să terminați munca de verificare a bagajelor în timp util, deoarece și noi merităm puțin respect!",
-                  "output": "Comentariu negativ\n- Așteptare lungă pentru verificarea bagajelor la fața locului\n- Lipsa de empatie și respect pentru echipajul companiei aeriene\n- Tratament inuman"
-               },
-               {
-                  "input": "Aeroportul este frumos. Totuși, este semnificativ subdimensionat din punct de vedere al personalului. Companiile aeriene sunt foarte lente, cu cozi mari. Distanța până la anumite porți de îmbarcare poate fi de aproape o milă. În rest, atmosferă plăcută și uscată",
-                  "output": "Recenzie mixtă\n- Aeroport drăguț\n- Personal insuficient\n- Linii lente\n- Distanță mare până la anumite porți de îmbarcare"
-               },
-               {
-                  "input": "A zburat până aici ca echipaj al companiei aeriene după un zbor de 12 ore, fizic deja destul de obosit când a ajuns. Am fost martorul unui echipaj din echipa noastră care a fost verificat la fața locului pentru bagaje timp de aproape 1 oră.\nAm auzit că a fost doar pentru o procedură de formare pentru un ofițer vamal junior! (Nu sunt sigur. Am auzit doar despre asta.)\nNNNNNu am putut să ne lăsăm colegul în urmă în aeroport înainte de a ne îndrepta spre hotel.\nDar suntem atât de epuizați, încât trebuia să ne odihnim imediat! Tot ce am putut face a fost să așteptăm.\nPot autoritatea vamală să ne acorde puțină umanitate?\nVă respectăm toată munca voastră.\nDar vă rugăm să terminați munca de verificare a bagajelor în timp util, deoarece și noi merităm puțin respect!",
-                  "output": "Comentariu negativ\n- Așteptare lungă pentru verificarea bagajelor la fața locului\n- Lipsa de empatie și respect pentru echipajul companiei aeriene\n- Tratament inuman"
-               },
-               {
-                  "input": "Semnalizarea nu a fost bună. A trebuit să întreb unde sunt toaletele, apoi am nimerit într-un salon când voiam să aflu poarta de plecare. În rest, accesul la porțile de plecare este destul de bun.",
-                  "output": "Revizuire mixtă\n- Semnalizare slabă\n- Dispunere confuză\n- Acces bun la porțile de plecare"
-               },
-               {
-                  "input": "Este un aeroport mare, așa că trebuie să te plimbi în continuare și să te asiguri că urmezi semnele. Cozile de securitate pot fi lungi, dar cel puțin se mișcă la o viteză rezonabilă. Alegerile de mâncare sunt ok. Parcarea este foarte confuză. Dacă cineva vine să vă ia, este o luptă pentru a vă întâlni, așa că asigurați-vă că puteți da un telefon pentru a vă da seama cine este unde.",
-                  "output": "Recenzie mixtă\n- Aeroport mare, plimbări lungi\n- Liniile de securitate lungi\n- Alegeri alimentare ok\n- Parcare confuză."
-               }
-            ],
-            "enabled": true
-         }
-      }
-   },
-   "Kategorizacija (SR)": {
-      "name": "Kategorizacija",
-      "language": "SR",
-      "buttonName": "Kategorizacija",
-      "inputs": [
-         "Endi: Odlično i dobro održavano. Visoko organizovan i efikasan. Tako dobro podnosi saobraćaj čak i u ovo doba godine kada postoji ogroman priliv međunarodnih studenata koji dolaze da započnu svoje univerzitete u Vankuveru. Mnogo taksi usluga dostupno je odmah ispred aerodroma. Izuzetno uslužno osoblje. ",
-         "Kris Martin: Više od 50% letova u i iz IVR kasni, osoblje obezbeđenja ili službe na ivičnjaku, posebno ono koje se bavi pitanjima parkiranja, je nepristojno, kupatila su većinu vremena prljava",
-         "Džoi: Veoma udoban aerodrom za čekanje na svoj let. Udobna sedišta i različiti rasporedi sedišta oko umetničkih energija, uključujući skulpturu Bila Rida i druge vodene karakteristike i skulpture. Postoje prodavnice hrane i maloprodaje. Oseća se skoro kao tržni centar, a ne kao aerodrom, što je veoma lepo. Verovatno bi moglo da se uradi sa više stanica za punjenje u blizini mesta za sedenje"
-      ],
-      "topics": {
-         "topic1": {
-            "topicName": "Kategorizacija",
-            "models": [
-               {
-                  "meta-llama/llama-3-70b-instruct": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "meta-llama/llama-2-70b-chat": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "meta-llama/llama-3-8b-instruct": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "ibm/granite-20b-multilingual": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
-               }
-            ],
-            "instruction": {
-               "detailed": "Kategorizuj recenziju kao pozitivnu, negativnu ili mešovitu i rezimira ključne tačke.",
-               "summarized": "Kategorizuj recenziju i rezimira ključne tačke."
-            },
-            "inputPrefix": "Review:",
-            "outputPrefix": "Summary:",
-            "examples": [
-               {
-                  "input": "Dizajn aerodroma je lep, sa prirodnim svetlom koje pada i čini ga veoma svetlim i udobnim. Prodavnice i kafići su veoma dobro organizovani. Česme su izvan kupatila, vrlo lako dostupne. Kupatila su čista i ima jedan odeljak koji je dovoljno velik da u njega uđu kolica. Veoma zgodno. Oduzeo sam jednu zvezdicu za nepristojno ponašanje na koje sam naišao na bezbednosnoj proveri. Uputstva osoblja su bila nejasna, a ona uopšte nije bila od pomoći. Mislim da ne treba očekivati prijateljsko ponašanje na bezbednosnim proverama u Severnoj Americi, kao što su govorila moja prošla iskustva sa putovanja.",
-                  "output": "Pozitivna recenzija - Dobri objekti i sadržaji - Dobra usluga za korisnike - Dobro okruženje"
-               },
-               {
-                  "input": "Kakva sramota. Ko god da je planirao gradnju u petak pre dugog vikenda treba malo pažnje i temeljnog razumevanja situacije. Trebalo je neko vreme da dobijemo taksi nakon dugog čekanja. Cargo je bio isti. Nijedan auto nije stigao. Zašto ste odlučili da blokirate čitave trake osim jedne kada znate da ćete imati mnogo putnika?",
-                  "output": "Negativna recenzija - Loše planiranje građevinskih aktivnosti - Dugo čekanje na taksi i Cargo.Frustrirajuće iskustvo "
-               },
-               {
-                  "input": "Doleteli smo ovde kao posada avio-kompanije nakon 12-satnog leta, fizički već dovoljno umorni kada su stigli. Svedočenje jedne posade našeg tima je na licu mesta proveralo prtljag skoro 1 sat. Čuo sam da je to samo za obuku za mlađeg carinika! (Nisam siguran. Upravo sam čuo za to.) Nismo mogli da ostavimo našeg kolegu na aerodromu pre nego što krenemo u hotel. Ali tako smo iscrpljeni, da moramo odmah da se odmorimo! Sve što smo mogli da uradimo je samo da čekamo. Može li nam carina dati malo humanosti? Poštujemo sav vaš rad. Ali molimo vas da završite posao sa proverom prtljaga na vreme jer i mi zaslužujemo poštovanje!",
-                  "output": "Negativna recenzija - Dugo čekanje na provjeru prtljaga na licu mjesta - Nedostatak empatije i poštovanja prema posadi aviokompanije - Nehumano postupanje "
-               },
-               {
-                  "input": "Aerodrom je lep. Ipak, nema dovoljno osoblja. Avio-kompanije su super spore sa velikim linijama. Udaljenost do određenih kapija može biti blizu jedne milje. Inače, lepa i suva atmosfera ",
-                  "output": "Mešovita recenzija - Aerodrom je lep - Nema dovoljno osoblja - Spore linije - Velika udaljenost do određenih kapija "
-               },
-               {
-                  "input": "Doleteli smo ovde kao posada avio-kompanije nakon 12-satnog leta, fizički već dovoljno umorni kada su stigli. Svedočenje jedne posade našeg tima je na licu mesta proveralo prtljag skoro 1 sat. Čuo sam da je to samo za obuku za mlađeg carinika! (Nisam siguran. Upravo sam čuo za to.) Nismo mogli da ostavimo našeg kolegu na aerodromu pre nego što krenemo u hotel. Ali tako smo iscrpljeni, da moramo odmah da se odmorimo! Sve što smo mogli da uradimo je samo da čekamo. Može li nam carinski organ dati malo humanosti? Poštujemo sav vaš rad. Ali molimo vas da završite posao sa proverom prtljaga na vreme jer i mi zaslužujemo poštovanje! ",
-                  "output": "Negativna recenzija - Dugo čekanje na provjeru prtljaga na licu mjesta - Nedostatak empatije i poštovanja prema posadi aviokompanije - Nehumano postupanje "
-               },
-               {
-                  "input": "Signalizacija nije bila dobra. Morao sam da pitam gde su toaleti, a onda sam zalutao u salon kada sam hteo svoju kapiju za odlazak. Inače prilično dobar pristup ulaznim vratima ",
-                  "output": "Mešovita recenzija - Loše oznake - Zbunjujući raspored Dobar pristup izlaznim kapijama "
-               },
-               {
-                  "input": "To je veliki aerodrom, tako da morate nastaviti da hodate i vodite računa da pratite znakove. Sigurnosne linije mogu biti dugačke, ali se barem kreću razumnom brzinom. Izbor hrane je u redu. Parkiranje je veoma zbunjujuće. Ako neko dođe po vas, teško je naći se, pa se uverite da možete telefonirati da saznate ko je gde. ",
-                  "output": "Mešovita recenzija - Veliki aerodrom, duge šetnje - Duge bezbednosne linije - U redu izbor hrane - Zbunjujući parking "
-               }
-            ],
-            "enabled": true
-         }
-      }
-   },
-   "Категоризация (BG)": {
-      "name": "Категоризация",
-      "language": "BG",
-      "buttonName": "Категоризация",
-      "inputs": [
-         "Анди:\nОтлично и добре поддържано. Високо организиран и ефективен. Справя се с трафика толкова добре дори по това време на годината, когато има огромен поток от международни студенти, идващи да започнат своите университети във Ванкувър. Изобилие от таксиметрови услуги, налични точно пред летището. Изключително услужлив персонал.",
-         "Крис Мартин:\nПовече от 50% от полетите до и от YVR са забавени, служителите по сигурността, известни още като операции на бордюра, особено тези, които се занимават с паркирането, са груби, баните са мръсни през повечето време.",
-         "Джоуи:\nМного удобно летище за чакане на полета. Удобни седалки и различни места за сядане около артистични енергии, включително скулптура на Бил Рийд и други водни елементи и скулптури. Има хранителни магазини и магазини за търговия на дребно. Усещането е почти като търговски център, а не като летище, което е много хубаво. Вероятно може да се направи с повече станции за зареждане в близост до местата за сядане."
-      ],
-      "topics": {
-         "topic1": {
-            "topicName": "Категоризация",
-            "models": [
-               {
-                  "meta-llama/llama-3-70b-instruct": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "meta-llama/llama-2-70b-chat": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "meta-llama/llama-3-8b-instruct": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "ibm/granite-20b-multilingual": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
-               }
-            ],
-            "instruction": {
-               "detailed": "Категоризирайте прегледа като положителен, отрицателен или смесен и обобщете ключови точки.",
-               "summarized": "Категоризирайте прегледа и обобщете ключови точки."
-            },
-            "inputPrefix": "Review:",
-            "outputPrefix": "Summary:",
-            "examples": [
-               {
-                  "input": "Дизайнът на летището е хубав, с естествена светлина, която го прави много светло и уютно. Магазините и кафенетата са много добре организирани. Чешмите са външни бани, много лесни за достъп. Баните са чисти и има едно отделение, което е достатъчно голямо, за да влезе количка. Много удобно. \nОтнех една звезда за грубото поведение, на което се натъкнах при проверката за сигурност. Инструкциите на персонала бяха неясни и тя изобщо не беше полезна. Мисля, че не трябва да се очаква приятелско поведение при проверките за сигурност в Северна Америка, както ми каза предишният опит при пътуване.",
-                  "output": "Положителна оценка\n- Добри съоръжения и удобства \n- Добро обслужване на клиенти\n- Добра среда"
-               },
-               {
-                  "input": "Какъв срам.\nКойто е планирал строеж в петък преди дълъг уикенд, се нуждае от малко внимание и задълбочено разбиране на ситуацията. Отне известно време, за да получите такси след значителна продължителност на чакане. Rideshare беше същото. Не пристигна нито една кола.\nЗащо решихте да блокирате всички платна с изключение на едно, когато знаете, че ще имате много пътници?",
-                  "output": "Отрицателна оценка\n- Лошо планиране на строителните дейности\n- Дълго чакане за такси и споделено пътуване\n- Разочароващо преживяване"
-               },
-               {
-                  "input": "Долетях до тук като екипаж на авиокомпанията след 12-часов полет, физически вече бях достатъчно уморен, когато пристигнах. Свидетели, че един екип от нашия екип получи проверка на багажа на място за почти 1 час.\nЧух, че това е само за процедура за обучение на младши митнически служител! (Не съм сигурен. Току-що чух за това.)\nНе можахме да оставим колегата си на летището, преди да се отправим към хотела.\nНо сме толкова изтощени, трябва да си починем веднага! Всичко, което можехме да направим, беше просто да изчакаме.\nМогат ли митническите власти да проявят малко човечност към нас?\nНие уважаваме цялата ви работа.\nНо моля, завършете работата по проверката на багажа своевременно, тъй като ние също заслужаваме уважение!",
-                  "output": "Отрицателна оценка\n- Дълго чакане за проверка на място за багаж\n- Липса на съпричастност и уважение към екипажа на авиокомпанията\n- Нечовешко отношение"
-               },
-               {
-                  "input": "Летището е хубаво. Въпреки това има значително недостиг на персонал. Авиокомпаниите са супер бавни с големи линии. Разстоянието до определени порти може да бъде близо една миля. Иначе приятна и суха атмосфера",
-                  "output": "Смесена оценка\n- Хубаво летище\n- Недостатъчен персонал\n- Бавни линии\n- Голямо разстояние до определени изходи"
-               },
-               {
-                  "input": "Долетях до тук като екипаж на авиокомпанията след 12-часов полет, физически вече бях достатъчно уморен, когато пристигнах. Свидетели, че един екип от нашия екип получи проверка на багажа на място за почти 1 час.\nЧух, че това е само за процедура за обучение на младши митнически служител! (Не съм сигурен. Току-що чух за това.)\nНе можахме да оставим колегата си на летището, преди да се отправим към хотела.\nНо сме толкова изтощени, трябва да си починем веднага! Всичко, което можехме да направим, беше просто да изчакаме.\nМоже ли персоналът да прояви малко човечност към нас?\nНие уважаваме цялата ви работа.\nНо моля, завършете работата по проверката на багажа своевременно, тъй като ние също заслужаваме уважение!",
-                  "output": "Отрицателна оценка\n- Дълго чакане за проверка на място за багаж\n- Липса на съпричастност и уважение към екипажа на авиокомпанията\n- Нечовешко отношение"
-               },
-               {
-                  "input": "Знаците не бяха добри. Трябваше да попитам къде са тоалетните, след което влязох в салона, когато исках изхода за заминаване. Иначе доста добър достъп до портите за заминаване",
-                  "output": "Смесен преглед\n- Лоши означения\n- Объркващо оформление\n- Добър достъп до изходите за заминаване"
-               },
-               {
-                  "input": "Летището е голямо, така че трябва да продължите да вървите и да следвате знаците. Защитните линии могат да бъдат дълги, но поне се движат с разумна скорост. Изборът на храна е ок. Паркирането е много объркващо. Ако някой дойде да ви вземе, ще е трудно да се срещнете, така че се уверете, че можете да се обадите по телефона, за да разберете кой къде е.",
-                  "output": "Смесен преглед\n- Голямо летище, дълги разходки\n- Дълги линии за сигурност\n- Добър избор на храна\n- Объркващо паркиране"
-               }
-            ],
-            "enabled": true
-         }
-      }
-   },
-   "Kategorizácia (SK)": {
-      "name": "Kategorizácia",
-      "language": "SK",
-      "buttonName": "Kategorizácia",
-      "inputs": [
-         "Andy:\nVynikajúce a dobre udržiavané. Vysoko organizované a efektívne. Dobre zvláda dopravu aj v tomto ročnom období, keď je obrovský nápor zahraničných študentov prichádzajúcich na vancouverské univerzity. Množstvo taxislužieb dostupných priamo pri letisku.  Mimoriadne ochotný personál.",
-         "Chris Martin:\nViac ako 50 % letov do a z YVR mešká, pracovníci bezpečnostnej služby, konkrétne tí, ktorí riešia problémy s parkovaním, sú hrubí, toalety sú väčšinou špinavé.",
-         "Joey:\nVeľmi pekné letisko na čakanie na let. Pohodlné sedadlá a rôzne usporiadanie sedenia okolo umeleckých energií vrátane sochy Billa Reida a ďalších vodných prvkov a sôch. K dispozícii sú obchody s potravinami a maloobchodné predajne. Pôsobí takmer ako nákupné centrum, nie ako letisko, čo je veľmi príjemné. Pravdepodobne by sa hodilo viac nabíjacích staníc v blízkosti miest na sedenie."
-      ],
-      "topics": {
-         "topic1": {
-            "topicName": "Kategorizácia",
-            "models": [
-               {
-                  "meta-llama/llama-3-70b-instruct": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "meta-llama/llama-2-70b-chat": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "meta-llama/llama-3-8b-instruct": {
-                     "decoding_method": "greedy",
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100,
-                     "repetition_penalty": 1.1,
-                     "stop_sequences": [
-                        "\n\n"
-                     ]
-                  }
-               },
-               {
-                  "ibm/granite-20b-multilingual": {
-                     "decoding_method": "greedy",
-                     "repetition_penalty": 1.1,
-                     "min_new_tokens": 10,
-                     "max_new_tokens": 100
-                  }
-               }
-            ],
-            "instruction": {
-               "detailed": "Kategorizujte recenziu ako pozitívnu, negatívnu alebo zmiešanú a zhrňte kľúčové body.",
-               "summarized": "Kategorizujte recenziu a zhrňte kľúčové body."
-            },
-            "inputPrefix": "Recenzia:",
-            "outputPrefix": "Zhrňte kľúčové body:",
-            "examples": [
-               {
-                  "input":"Dizajn letiska je pekný, prichádza sem prirodzené svetlo, takže je veľmi svetlé a útulné. Obchody a kaviarne sú veľmi dobre zorganizované. Fontány s vodou sú pred toaletami, veľmi ľahko prístupné. Toalety sú čisté a je tam jedno oddelenie, ktoré je dostatočne veľké na to, aby sa tam zmestil invalidný vozík. Veľmi pohodlné. \Znížil som jednu hviezdičku za hrubé správanie, s ktorým som sa stretol počas bezpečnostnej kontroly. Pokyny personálu boli nejasné a vôbec neboli užitočné. Myslím, že človek by nemal očakávať priateľské správanie pri bezpečnostných kontrolách v Severnej Amerike, ako mi povedali moje predchádzajúce cestovné skúsenosti.",
-                  "output": "Pozitívne recenzie\n- Dobré vybavenie a zariadenia \n- Príjemný zákaznícky servis\n- Dobré prostredie"
-               },
-               {
-                  "input": "Aká škoda.\nKtokoľvek plánoval stavbu v piatok pred predĺženým víkendom, potrebuje trochu pozornosti a dôkladné pochopenie situácie. Chvíľu trvalo, kým sa po dlhom čakaní dostal taxík. Rideshare bol na tom rovnako. Žiadne auto neprišlo.\nPrečo ste sa rozhodli zablokovať všetky jazdné pruhy okrem jedného, keď viete, že budete mať veľa cestujúcich?",
-                  "output": "Negatívne hodnotenia\n- Zlé plánovanie stavebných činností\n- Dlhé čakanie na taxík a zdieľanie áut\n- Frustrujúca skúsenosť."
-               },
-               {
-                  "input": "Priletel som sem ako posádka leteckej spoločnosti po 12-hodinovom lete, po prílete som bol fyzicky unavený. Bol som svedkom toho, ako jednému z našej posádky kontrolovali batožinu na mieste takmer 1 hodinu.\nPočuli sme, že to bolo len na školenie pre mladšieho colníka! (Nie som si istý. Len som o tom počul.)\nNašu kolegyňu sme nemohli nechať na letisku, kým sme zamierili do hotela.\nByli sme takí vyčerpaní, že sme si potrebovali hneď oddýchnuť! Jediné, čo sme mohli urobiť, bolo čakať.\nMohli by nám colníci venovať trochu ľudskosti?\nCeníme si vašu prácu.\nAle prosím, dokončite kontrolu našej batožiny včas, pretože si zaslúžime aj trochu rešpektu!",
-                  "output": "Negatívne recenzie\n- Dlhé čakanie na odbavenie batožiny\n- Nedostatok empatie a rešpektu k posádke letu\n- Neľudské zaobchádzanie."
-               },
-               {
-                  "input": "Letisko je pekné. Má však veľmi málo zamestnancov. Letecké spoločnosti sú super pomalé a sú tam dlhé rady. Vzdialenosť k niektorým bránam môže byť takmer kilometer. Inak pekná, suchá atmosféra.",
-                  "output": "Zmiešané recenzie\n- Pekné letisko\n- Nedostatok personálu\n- Pomalé linky\n- Veľká vzdialenosť k niektorým bránam."
-               },
-               {
-                  "input": "Prileteli sme sem ako posádka leteckej spoločnosti po 12-hodinovom lete, po prílete sme boli fyzicky dosť unavení. Boli sme svedkami toho, ako jednej posádke nášho tímu kontrolovali batožinu na mieste takmer 1 hodinu.Počuli sme, že to bolo len na školenie pre mladšieho colníka! (Nie som si istý. Len som o tom počul.)\nNašu kolegyňu sme nemohli nechať na letisku, kým sme zamierili do hotela.\nByli sme takí vyčerpaní, že sme si potrebovali hneď oddýchnuť! Jediné, čo sme mohli urobiť, bolo čakať.\nMohli by nám colníci venovať trochu ľudskosti?\nCeníme si vašu prácu.\nAle prosím, dokončite kontrolu našej batožiny včas, pretože si zaslúžime aj trochu rešpektu!",
-                  "output": "Negatívne hodnotenia\n- Dlhé čakanie na odbavenie batožiny\n- Nedostatok empatie a rešpektu voči posádke lietadla\n- Neľudské zaobchádzanie."
-               },
-               {
-                  "input": "Označenie nebolo dobré. Musel som sa pýtať, kde sú toalety, a potom som sa dostal do salónika, keď som chcel odletovú bránu. Inak celkom dobrý prístup k odletovým bránam.",
-                  "output": "Zmiešané recenzie\n- Slabé značenie\n- Mätúce usporiadanie\n- Dobrý prístup k odletovým bránam"
-               },
-               {
-                  "input": "Je to veľké letisko, takže musíte chodiť pešo a sledovať značky. Bezpečnostné rady môžu byť dlhé, ale aspoň sa pohybujú primeranou rýchlosťou. Výber potravín je v poriadku. Parkovanie je veľmi mätúce. Ak vás niekto príde vyzdvihnúť, je problém sa s ním stretnúť, takže sa uistite, že môžete zavolať a zistiť, kto je kde.",
-                  "output": "Zmiešané hodnotenia\n- Veľké letisko, dlhé prechádzky\n- Dlhé bezpečnostné kontroly\n- Dobrý výber jedla\n- Nejasné parkovanie"
-               }
-            ],
-            "enabled": true
-         }
-      }
-   },
    "Car Review Summary (CZ)": {
       "name": "Car Review Summary",
       "language": "CZ",
@@ -5561,6 +4501,1226 @@
                {
                   "input": "Застрахованото превозно средство се запали на 1 април поради механична неизправност. Огънят е довел до значителни щети по автомобила, включително щети по двигателя, интериора и екстериора. Застрахованият веднага се е свързал с пожарната, а за инцидента е подаден сигнал в полицията. Застрахованият подава иск за ремонта и предоставя доклада на пожарната като доказателство за пожара.",
                   "output": "Застрахованото превозно средство се запали на 1 април поради механична неизправност, което доведе до значителни щети по двигателя, интериора и екстериора. Подадено искане за ремонт, подкрепено с доклад на пожарната като доказателство."
+               }
+            ],
+            "enabled": true
+         }
+      }
+   },
+   "E-mail s odpovědí (CZ)": {
+      "name": "E-mail s odpovědí",
+      "language": "CZ",
+      "buttonName": "E-mail s odpovědí",
+      "inputs": [
+         "Martin:\nVynikající a dobře udržované. Vysoce organizovaný a efektivní. Zvládá provoz tak dobře i v tomto ročním období, kdy je obrovský příliv zahraničních studentů, kteří přijíždějí na univerzity ve Vancouveru. Spousta taxislužeb k dispozici hned u letiště.  Mimořádně ochotný personál.",
+         "David:\nVíce než 50 % letů na YVR a z YVR je zpožděno, bezpečnostní personál aka curbside operations, konkrétně ti, kteří se zabývají otázkami parkování, jsou hrubí, toalety jsou většinou špinavé.",
+         "Karel:\nVelmi příjemné letiště pro čekání na let. Pohodlná sedadla a různá uspořádání míst k sezení kolem uměleckých energií včetně sochy Billa Reida a dalších vodních prvků a soch. Jsou zde obchody s potravinami a maloobchodní prodejny. Působí téměř jako nákupní centrum, nikoli jako letiště, což je velmi příjemné. Pravděpodobně by se hodilo více nabíjecích stanic v blízkosti míst k sezení."
+      ],
+      "topics": {
+         "topic1": {
+            "topicName": "E-mail s odpovědí",
+            "models": [
+               {
+                  "meta-llama/llama-3-70b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-2-70b-chat": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-3-8b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm/granite-20b-multilingual": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               }
+            ],
+            "instruction": {
+               "detailed": "Vytvořte odpověď na recenzi, kterou zanechali cestující z mezinárodního letiště Vancouver.",
+               "summarized": "Vygenerujte odpověď na recenzi uživatele."
+            },
+            "inputPrefix": "Recenze:",
+            "outputPrefix": "Reakce:",
+            "examples": [
+               {
+                  "input": "Tara Elizabeth:\nParkování bylo snadné a značení nám jasně ukázalo, kam se máme jít odbavit na let. Posílala jsem své dospívající děti a personál Air Canada byl opravdu vstřícný.",
+                  "output": "Ahoj Taro!\nJsme rádi, že jsi ty i tvé děti měli skvělý zážitek!"
+               },
+               {
+                  "input": "Daniel Xu:\nTak moderní! Velmi čisté a skvělá atmosféra.",
+                  "output": "Ahoj Danieli\nDěkujeme za recenzi, jsme rádi, že se vám návštěva líbila!"
+               },
+               {
+                  "input": "C. Nazima London:\nMám postižené dítě, které používá AAC Tobi Dynavox, aby mluvilo.\nProcestovali jsme téměř celé Spojené státy, kde se mé dítě narodilo, a NIKDY jí TSA neodebrala AAC, aby ji zkontrolovala.\nMoje dítě křičelo a bylo jí řečeno, že se ho musí vzdát, pokud chce jít domů.\nTo je směšné, nikdo by nikdy neměl být takto ošetřen. Tento AAC je její hlas, jak se to opovažují udělat.\nMěli jsme pozdní večerní let 8/9/23. Moje dítě plakalo a plakalo, nemohlo pochopit, proč jí berou hlas.\nDozorce mi řekl, že to není připojeno k ní, takže to musí projít kontrolou, pak poté, co to prošlo, drželi to od ní, zatímco ji prohledávali, neměla možnost jim říct, jestli jí ubližují nebo ji ztrapňují. \nVšem rodičům nebo osobám, které používají řečové zařízení, radím, aby NELETĚLI DO KANADY, mají tam ty nejstrašnější lidi v TSA.Nikdy nebudeme moci navštívit naši starší rodinu, která žije v Kanadě.Někdo to musí okamžitě napravit!!!!",
+                  "output": "Ahoj Nazimo,\nJe nám strašně líto, že sis tím musela projít. Tento problém okamžitě prošetříme."
+               },
+               {
+                  "input": "Reg Natarajan:\nJsem zaujatý, protože je to můj domovský přístav, ale YVR je opravdu nejlepší letiště na světě.",
+                  "output": "Ahoj Regi!\nJsme rádi, že jsi se dobře bavil!"
+               },
+               {
+                  "input": "SANJEEV JAIN:\nTento je, když se pohybujete směrem k odbavovací hale D. Salonek je dobře udržovaný a má dostatek místa k sezení.\nNení tu moc k jídlu, základní věci a čaj/káva. Možnosti jsou velmi omezené. Samoobslužný salonek.",
+                  "output": "Ahoj Sanjeev!\nDěkujeme za tvou zpětnou vazbu, podíváme se na rozšíření možností stravování v salónku."
+               },
+               {
+                  "input": "Sharon Doyle:\nNa tomto letišti není dostatek kaváren, zejména snídaňových míst. Poblíž naší brány byla kavárna, která vypadala, že je trvale zavřená. Byla tam tma, brány byly spuštěné a zamčené, a když jste nahlédli skrz zamčené brány, vypadalo to, že tam uvnitř skladují spoustu věcí. Dlouho jsem chodil kolem a hledal něco k jídlu k snídani a nakonec jsem se rozhodl čekat v opravdu dlouhé frontě hodně přes 20 minut u Tim Horton\u2019s. Dal jsem si muffin a džus. Na letišti jsem mluvil s několika dalšími lidmi, kteří sdíleli můj názor na nedostatek snídaňových kaváren. Všichni jsme byli frustrovaní.",
+                  "output": "Ahoj Sharon!Je nám líto, že jsi měla problém najít místo, kde by ses mohla nasnídat. V budoucnu se budeme snažit přidat více možností snídaní."
+               },
+               {
+                  "input": "DS C:\nJaká škoda.\nKdo plánoval stavbu v pátek před prodlouženým víkendem, potřebuje trochu pozornosti a důkladné pochopení situace. Po značně dlouhém čekání chvíli trvalo, než se podařilo sehnat taxík. Rideshare na tom byl stejně. Žádné auto nepřijelo.\nProč jste se rozhodli zablokovat celé jízdní pruhy kromě jednoho, když víte, že budete mít hodně cestujících?",
+                  "output": "Dobrý den, DS C,\nOmlouváme se za nepříjemnosti způsobené stavbou. Chápeme, že šlo o rušnou dobu, a budeme hledat způsoby, jak minimalizovat dopady budoucích stavebních projektů."
+               },
+               {
+                  "input": "Wareef Kabbani:\nLetiště je pěkné. Je však značně poddimenzované personálem. Letecké společnosti jsou super pomalé a stojí velké fronty. Vzdálenost k některým branám se může blížit jedné míli. Jinak pěkné a suché prostředí.",
+                  "output": "Ahoj Wareef!\nDěkuji za tvůj názor. Zkusíme přidat více personálu, abychom zvýšili efektivitu odbavení a zkrátili čekací doby."
+               },
+               {
+                  "input": "Cheekeye the-dog:\nNejhorší letiště na světě\nBuďte tam 2 hodiny navíc k tomu, co doporučují.\n89% šance, že ztratí vaše zavazadla, takže si zabalte AirTags\nMají čistokrevné, takže alespoň nebudete mít špatnou chuť v ústech, i když je to nejhorší letiště na světě.",
+                  "output": "Ahoj Cheekeye,\nMrzí nás, že máš negativní zkušenost. Uděláme vše pro to, abychom naše služby zlepšili a minimalizovali riziko ztráty zavazadel. Děkujeme vám za zpětnou vazbu."
+               },
+               {
+                  "input": "Wajahat Faiz:\nToto letiště nemá jeden, ale dva časové terminály.",
+                  "output": "Ahoj Wajahate!\nJsme rádi, že jsi z Tim Hortons nadšený! Postaráme se, aby byly otevřené a připravené na vaši příští návštěvu."
+               },
+               {
+                  "input": "Michael Smith:\nPovažuje se za jedno z nejlepších letišť v Kanadě. Neřadil bych ho mezi letiště třetího světa. Vybavení po 2100 hodině téměř neexistuje. Nemožné sehnat pivo nebo víno. Pokud máte rádi rychlé občerstvení a kávu, máte štěstí, ve food courtu jsou otevřeny 4 provozovny. Personál byl příjemný, ale všechny přepážky leteckých společností byly bez personálu. Nebýt toho, že je to jediná brána na východ v Kanadě, určitě bych se mu vyhnul.",
+                  "output": "Ahoj Michaele,\nMrzí nás, že jsi neměl pozitivní zkušenost. Budeme se zabývat přidáním dalšího vybavení a prodloužením provozní doby pro možnosti stravování. Děkujeme za vaši zpětnou vazbu."
+               }
+            ],
+            "enabled": true
+         }
+      }
+   },
+   "Generate Response (EN)": {
+      "name": "Generate Response",
+      "language": "EN",
+      "buttonName": "Generate Response",
+      "inputs": [
+         "Andy:\nExcellent and well maintained. Highly organized and efficient. Handles the traffic so well even at this time of the year when there is a huge influx of international students coming to start their Universities in Vancouver. Plenty of taxi services available just outside the airport.  Extremely helpful staff.",
+         "Chris Martin:\nMore than 50% of the flights into and out of the YVR are delayed, security staff aka curbside operations specifically the ones who deal with the parking matters are rude, the bathrooms are most of the time dirty.",
+         "Joey:\nA very comfortable airport to wait for one's flight. Comfy seats and various seating arrangements around artistic energies including a Bill Reid sculpture and other water features and sculptures. There are food stores and retail stores. It feels almost like a shopping mall rather than an airport which is very nice. Probably could do with more charging stations near seating areas."
+      ],
+      "topics": {
+         "topic1": {
+            "topicName": "Generate Response",
+            "models": [
+               {
+                  "meta-llama/llama-3-70b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-2-70b-chat": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-3-8b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm/granite-20b-multilingual": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               }
+            ],
+            "instruction": {
+               "detailed": "Generate a response to the review left by travellers of Vancouver International airport.",
+               "summarized": "Generate a response to user's review."
+            },
+            "inputPrefix": "Review:",
+            "outputPrefix": "Response:",
+            "examples": [
+               {
+                  "input": "Tara Elizabeth:\nParking was easy to do, and the signage made it clear to us where to go for check-in for the flight. I was sending off my teenage children, and the Air Canada staff was really helpful.",
+                  "output": "Hi Tara!\nWe're glad to hear you and your children had a great experience!"
+               },
+               {
+                  "input": "Daniel Xu:\nSo modern! Very clean and great atmosphere.",
+                  "output": "Hi Daniel\nThank you for the review, we're happy you enjoyed your visit!"
+               },
+               {
+                  "input": "C. Nazima London:\nI have a disabled child who uses an AAC Tobi Dynavox to speak.\nWe have traveled almost all of the United States where my child was born and NEVER has TSA taken her AAC away from her to screen it.\nMy child was screaming and was told that she had to give it up if she wanted to go home.\nThat's ridiculous no one should ever be treated that way. This AAC is her voice how dare they do that.\nWe had a late evening flight on 8/9/23. My child cried and cried she could not understand why they would take her voice away.\nThe supervisor said to me that it's not attached to her so it has to go through the screening, then after it went through they kept it from her while they patted her down, she had no way of telling them if they were hurting her or embarrassingly her.\nMy advice to all parents or persons who use a speech device DO NOT FLY TO CANADA, they have the most horrible people at the TSA.\nWe will never be able to see our elderly family who resides in Canada.\nSomeone needs to fix this now!!!",
+                  "output": "Hi Nazima,\nWe're terribly sorry you had to go through this. We will investigate this issue immediately."
+               },
+               {
+                  "input": "Reg Natarajan:\nI'm prejudiced as it's my home port, but YVR really is the best airport in the world.",
+                  "output": "Hi Reg!\nWe're happy to hear you had a great time!"
+               },
+               {
+                  "input": "SANJEEV JAIN:\nThis one is while you move towards concourse D. Lounge is well maintained and has ample seating area.\nNot much to eat, the basic stuff and tea/coffee. Options are very limited. Self-service lounge.",
+                  "output": "Hi Sanjeev!\nThank you for your feedback, we'll look into expanding the food options in the lounge."
+               },
+               {
+                  "input": "Sharon Doyle:\nThere are not enough cafes, especially breakfast places in this airport. There was a cafe near our gate that looked like it was shut down permanently. It was dark, the gates were down and locked and if you peered through the locked gates, it looked like they were storing a lot of stuff inside in there. I walked around a long time looking for something to eat for breakfast and finally decided to wait in a really long line for well over 20 minutes at a Tim Horton\u2019s. I got a muffin and juice. I spoke to several other people in the airport that shared my opinion of not enough breakfast cafes. We were all frustrated.",
+                  "output": "Hi Sharon!\nWe're sorry to hear you had trouble finding a place to eat breakfast. We'll look into adding more breakfast options in the future."
+               },
+               {
+                  "input": "DS C:\nWhat a shame.\nWhoever planned a construction on a Friday before a long weekend needs some attention and thorough understanding of the situation. It took a while to get a cab after a considerable duration of waiting. Rideshare was the same. No car arrived.\nWhy did you decide to block the whole lanes except for one when you know you would have a lot of travelers?",
+                  "output": "Hi DS C,\nWe apologize for the inconvenience caused by the construction. We understand that it was a busy time and we'll look into ways to minimize the impact of future construction projects."
+               },
+               {
+                  "input": "Wareef Kabbani:\nThe airport is nice. It is significantly understaffed though. The airlines are super slow with large lines. The distance to certain gates may be close to one mile. Otherwise, nice and dry atmosphere.",
+                  "output": "Hi Wareef!\nThank you for your feedback. We'll look into adding more staff to improve the efficiency of check-in and reducing wait times."
+               },
+               {
+                  "input": "Cheekeye the-dog:\nWorst airport in the world\nBe there 2 hours on top of what they recommend.\n89% chance they will lose your luggage so pack AirTags\nThey do have a purebred, so at least you won\u2019t be left with a bad taste in your mouth even though it\u2019s the worst airport in the world.",
+                  "output": "Hi Cheekeye,\nWe're sorry to hear you had a negative experience. We'll do our best to improve our services and minimize the risk of lost luggage. Thank you for the feedback."
+               },
+               {
+                  "input": "Wajahat Faiz:\nTHIS AIRPORT HAS NOT ONE TIM HORTONS BUT TWO TIM HORTONS",
+                  "output": "Hi Wajahat!\nWe're glad you're excited about the Tim Hortons! We'll make sure to keep them open and ready for your next visit."
+               },
+               {
+                  "input": "Michael Smith:\nSupposed one of the best airports in Canada. I wouldn't rate this with 3rd world airports. Amenities after 2100hrs are next to nonexistent. Impossible to find a beer or wine. If you like fast food and coffee, you're in luck with 4 locations open in the food court. Staff was pleasant but all airline counters were empty of staff. If it wasn't for the fact of being the only gateway to the east in Canada, I'd definitely avoid it.",
+                  "output": "Hi Michael,\nWe're sorry to hear you didn't have a positive experience. We'll look into adding more amenities and extending the hours of operation for food and beverage options. Thank you for your feedback."
+               }
+            ],
+            "enabled": true
+         }
+      }
+   },
+   "Generate Response (DE)": {
+      "name": "Generate Response",
+      "language": "DE",
+      "buttonName": "Generate Response",
+      "inputs": [
+         "Andy:\nExzellent und gut gepflegt. Sehr gut organisiert und effizient. Selbst zu dieser Jahreszeit, in der viele internationale Studenten nach Vancouver kommen, um dort ihr Studium zu beginnen, wird der Verkehr sehr gut abgewickelt. Zahlreiche Taxis stehen direkt vor dem Flughafen zur Verfügung.  Äußerst hilfsbereites Personal.",
+         "Chris Martin:\nMehr als 50% der Flüge von und nach YVR haben Verspätung, das Sicherheitspersonal, insbesondere die, die sich um das Parken kümmern, sind unhöflich, die Toiletten sind meistens schmutzig.",
+         "Joey:\nEin sehr komfortabler Flughafen, um auf seinen Flug zu warten. Bequeme Sitze und verschiedene Sitzgelegenheiten rund um künstlerische Energien, darunter eine Bill-Reid-Skulptur und andere Wasserspiele und Skulpturen. Es gibt Lebensmittelgeschäfte und Einzelhandelsgeschäfte. Man fühlt sich fast wie in einem Einkaufszentrum und nicht wie auf einem Flughafen, was sehr angenehm ist. Wahrscheinlich könnte es mehr Ladestationen in der Nähe der Sitzbereiche geben."
+      ],
+      "topics": {
+         "topic1": {
+            "topicName": "Generate Response",
+            "models": [
+               {
+                  "meta-llama/llama-3-70b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-2-70b-chat": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-3-8b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm/granite-20b-multilingual": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               }
+            ],
+            "instruction": {
+               "detailed": "Generieren Sie eine Antwort auf die Bewertung von Reisenden des internationalen Flughafens von Vancouver.",
+               "summarized": "Erzeugen Sie eine Antwort auf die Bewertung eines Benutzers."
+            },
+            "inputPrefix": "Bewertung:",
+            "outputPrefix": "Antwort:",
+            "examples": [
+               {
+                  "input": "Tara Elizabeth:\nDas Parken war einfach, und die Beschilderung machte uns klar, wo wir zum Check-in für den Flug hingehen mussten. Ich habe meine Kinder im Teenageralter losgeschickt, und das Personal von Air Canada war sehr hilfsbereit.",
+                  "output": "Hallo Tara!\nWir freuen uns zu hören, dass Sie und Ihre Kinder eine tolle Erfahrung gemacht haben!"
+               },
+               {
+                  "input": "Daniel Xu:\nSo modern! Sehr sauber und tolle Atmosphäre.",
+                  "output": "Hallo Daniel\nDanke für die Bewertung, wir freuen uns, dass Sie Ihren Besuch genossen haben!"
+               },
+               {
+                  "input": "C. Nazima London:\nIch habe ein behindertes Kind, das ein Tobi Dynavox für die Unterstützte Kommunikation benutzt.\nWir haben fast die gesamten Vereinigten Staaten bereist, in denen mein Kind geboren wurde, und NIEMALS hat die TSA ihr die Unterstützte Kommunikation weggenommen, um sie zu kontrollieren.\nMein Kind hat geschrien und es wurde ihr gesagt, dass sie es aufgeben müsse, wenn sie nach Hause wolle.\nDas ist lächerlich, niemand sollte jemals so behandelt werden. Dieses AAC ist ihre Stimme, wie können sie es wagen, so etwas zu tun.\nWir hatten einen Flug am späten Abend des 9.8.23. Mein Kind weinte und weinte, sie konnte nicht verstehen, warum man ihr die Stimme wegnehmen würde.\nDie Aufsichtsperson sagte mir, dass sie nicht an ihr befestigt ist, also muss sie durch das Screening gehen, dann, nachdem es durchging, hielten sie es von ihr fern, während sie sie abtasteten, sie hatte keine Möglichkeit, ihnen zu sagen, ob sie ihr wehtun oder sie in Verlegenheit bringen würden. \nMein Rat an alle Eltern oder Personen, die ein Sprachgerät benutzen: Fliegen Sie nicht nach Kanada, dort gibt es die schrecklichsten Leute bei der TSA. Wir werden nie in der Lage sein, unsere ältere Familie zu sehen, die in Kanada wohnt.",
+                  "output": "Hallo Nazima,\nEs tut uns schrecklich leid, dass Sie das durchmachen mussten. Wir werden dieses Problem sofort untersuchen."
+               },
+               {
+                  "input": "Reg Natarajan:\nIch bin voreingenommen, weil es mein Heimathafen ist, aber YVR ist wirklich der beste Flughafen der Welt.",
+                  "output": "Hallo Reg!\nWir freuen uns zu hören, dass Sie eine tolle Zeit hatten!"
+               },
+               {
+                  "input": "SANJEEV JAIN:\nDies ist die Lounge, wenn man sich in Richtung Halle D bewegt. Die Lounge ist gut gepflegt und hat viele Sitzgelegenheiten.\nNicht viel zu essen, nur das Nötigste und Tee/Kaffee. Die Auswahl ist sehr begrenzt. Selbstbedienungs-Lounge.",
+                  "output": "Hallo Sanjeev!\nDanke für Ihr Feedback, wir werden uns bemühen, die Verpflegungsmöglichkeiten in der Lounge zu erweitern."
+               },
+               {
+                  "input": "Sharon Doyle:\nEs gibt nicht genügend Cafés, vor allem nicht für das Frühstück, auf diesem Flughafen. In der Nähe unseres Gates gab es ein Café, das aussah, als sei es dauerhaft geschlossen. Es war dunkel, die Tore waren heruntergelassen und verschlossen, und wenn man durch die verschlossenen Tore schaute, sah es so aus, als würden sie dort eine Menge Zeug lagern. Ich bin lange herumgelaufen, um etwas zum Frühstücken zu finden, und habe mich schließlich entschlossen, in einer wirklich langen Schlange von über 20 Minuten an einem Tim Horton zu warten. Ich bekam einen Muffin und einen Saft. Ich sprach mit mehreren anderen Leuten im Flughafen, die meine Meinung teilten, dass es nicht genügend Frühstückscafés gab. Wir waren alle frustriert.",
+                  "output": "Hallo Sharon!\nEs tut uns leid zu hören, dass Sie Probleme hatten, einen Ort zum Frühstücken zu finden. Wir werden uns bemühen, in Zukunft mehr Frühstücksmöglichkeiten anzubieten."
+               },
+               {
+                  "input": "DS C:\nWas für eine Schande.\nWer auch immer eine Baustelle an einem Freitag vor einem langen Wochenende geplant hat, braucht etwas Aufmerksamkeit und gründliches Verständnis für die Situation. Es dauerte eine Weile, bis man nach einer beträchtlichen Wartezeit ein Taxi bekam. Rideshare war das gleiche. Kein Auto kam an.\nWarum haben Sie beschlossen, alle Fahrspuren bis auf eine zu sperren, wenn Sie wissen, dass Sie viele Reisende haben werden?",
+                  "output": "Hallo DS C,\nWir entschuldigen uns für die Unannehmlichkeiten, die durch die Bauarbeiten entstanden sind. Wir verstehen, dass zu dieser Zeit viel los war, und wir werden nach Möglichkeiten suchen, die Auswirkungen künftiger Bauprojekte zu minimieren."
+               },
+               {
+                  "input": "Wareef Kabbani:\nDer Flughafen ist schön. Allerdings ist er deutlich unterbesetzt. Die Fluggesellschaften sind super langsam mit langen Schlangen. Die Entfernung zu bestimmten Gates kann bis zu einer Meile betragen. Ansonsten schöne und trockene Atmosphäre.",
+                  "output": "Hallo Wareef!\nDanke für Ihr Feedback. Wir werden prüfen, ob wir mehr Personal einsetzen können, um die Effizienz der Abfertigung zu verbessern und die Wartezeiten zu verkürzen."
+               },
+               {
+                  "input": "Cheekeye the-dog:\nSchlimmster Flughafen der Welt\nBleiben Sie 2 Stunden dort, zusätzlich zu dem, was sie empfehlen.\n89% Chance, dass sie Ihr Gepäck verlieren, also packen Sie AirTags\nSie haben einen Reinrassigen, also werden Sie wenigstens nicht mit einem schlechten Geschmack im Mund zurückgelassen, obwohl es der schlimmste Flughafen der Welt ist.",
+                  "output": "Hallo Cheekeye, es tut uns leid zu hören, dass Sie eine negative Erfahrung gemacht haben. Wir werden unser Bestes tun, um unseren Service zu verbessern und das Risiko von verlorenem Gepäck zu minimieren. Vielen Dank für Ihr Feedback."
+               },
+               {
+                  "input": "Wajahat Faiz:\n DIESER FLUGHAFEN HAT NICHT EINEN TIM HORTONS, SONDERN ZWEI TIM HORTONS",
+                  "output": "Hallo Wajahat!\nWir freuen uns, dass Sie von den Tim Hortons begeistert sind! Wir werden dafür sorgen, dass sie für Ihren nächsten Besuch geöffnet und bereit sind."
+               },
+               {
+                  "input": "Michael Smith:\nSoll einer der besten Flughäfen in Kanada sein. Ich würde ihn nicht mit Flughäfen der dritten Welt vergleichen. Annehmlichkeiten nach 21 Uhr sind so gut wie nicht vorhanden. Unmöglich, ein Bier oder Wein zu finden. Wenn man Fast Food und Kaffee mag, hat man Glück, denn im Food Court sind 4 Lokale geöffnet. Das Personal war freundlich, aber alle Schalter der Fluggesellschaften waren leer. Wenn es nicht das einzige Tor zum Osten in Kanada wäre, würde ich es definitiv meiden.",
+                  "output": "Hallo Michael,\nEs tut uns leid zu hören, dass Sie keine positive Erfahrung gemacht haben. Wir werden uns bemühen, weitere Annehmlichkeiten hinzuzufügen und die Öffnungszeiten für Speisen und Getränke zu verlängern. Vielen Dank für Ihr Feedback."
+               }
+            ],
+            "enabled": true
+         }
+      }
+   },
+   "Generate Response (NL)": {
+      "name": "Generate Response",
+      "language": "NL",
+      "buttonName": "Generate Response",
+      "inputs": [
+         "Andy:\nUitstekend en goed onderhouden. Zeer georganiseerd en efficiënt. Het verkeer wordt goed afgehandeld, zelfs in deze tijd van het jaar wanneer er een enorme toestroom is van internationale studenten die aan hun universiteit in Vancouver beginnen. Genoeg taxidiensten beschikbaar net buiten de luchthaven.  Uiterst behulpzaam personeel.",
+         "Chris Martin:\nMeer dan 50% van de vluchten van en naar YVR zijn vertraagd, het beveiligingspersoneel, oftewel de parkeerbeambten, zijn onbeschoft en de toiletten zijn meestal vies.",
+         "Joey:\nEen zeer comfortabele luchthaven om op je vlucht te wachten. Comfortabele stoelen en verschillende zitjes rond artistieke energieën waaronder een Bill Reid sculptuur en andere waterpartijen en sculpturen. Er zijn levensmiddelenwinkels en winkels. Het voelt bijna aan als een winkelcentrum in plaats van een luchthaven en dat is erg prettig. Waarschijnlijk zouden er meer oplaadpunten in de buurt van zitgedeeltes moeten zijn."
+      ],
+      "topics": {
+         "topic1": {
+            "topicName": "Generate Response",
+            "models": [
+               {
+                  "meta-llama/llama-3-70b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-2-70b-chat": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-3-8b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm/granite-20b-multilingual": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               }
+            ],
+            "instruction": {
+               "detailed": "Genereer een reactie op de beoordeling achtergelaten door reizigers van Vancouver International airport.",
+               "summarized": "Genereer een reactie op de beoordeling van de gebruiker."
+            },
+            "inputPrefix": "Beoordeling:",
+            "outputPrefix": "Reactie:",
+            "examples": [
+               {
+                  "input": "Tara Elizabeth:\nParkeren was gemakkelijk te doen en de bewegwijzering maakte ons duidelijk waar we heen moesten om in te checken voor de vlucht. Ik stuurde mijn tienerkinderen weg en het personeel van Air Canada was erg behulpzaam.",
+                  "output": "Hoi Tara!\nWe zijn blij om te horen dat jij en je kinderen een geweldige ervaring hebben gehad!"
+               },
+               {
+                  "input": "Daniel Xu:\nZo modern! Zeer schoon en geweldige sfeer.",
+                  "output": "Hoi Daniel\nBedankt voor de beoordeling, we zijn blij dat je genoten hebt van je bezoek!"
+               },
+               {
+                  "input": "C. Nazima London:\nIk heb een gehandicapt kind dat een AAC Tobi Dynavox gebruikt om te spreken.\nWe hebben bijna de hele Verenigde Staten bereisd waar mijn kind geboren is en nog NOOIT heeft de TSA haar AAC afgenomen om het te screenen.\nMijn kind schreeuwde en kreeg te horen dat ze het moest afstaan als ze naar huis wilde.\nDat is belachelijk niemand zou ooit zo behandeld moeten worden. Deze AAC is haar stem hoe durven ze dat te doen. We hadden een late avondvlucht op 8/9/23. Mijn kind huilde en huilde. Mijn kind huilde en huilde, ze kon niet begrijpen waarom ze haar stem zouden afpakken. De supervisor zei tegen me dat het niet aan haar vastzat, dus moest het door de screening, en toen het erdoor was, hielden ze het van haar weg terwijl ze haar fouilleerden, ze had geen manier om hen te vertellen of ze haar pijn deden of in verlegenheid brachten. \nMijn advies aan alle ouders of mensen die een spraakapparaat gebruiken: vlieg NIET naar CANADA, daar werken de meest vreselijke mensen bij de TSA. We zullen onze oudere familie die in Canada woont nooit meer kunnen zien.",
+                  "output": "Hallo Nazima,\nWe vinden het heel erg dat je dit hebt moeten meemaken. We zullen dit probleem onmiddellijk onderzoeken."
+               },
+               {
+                  "input": "Reg Natarajan:\nIk ben bevooroordeeld omdat het mijn thuishaven is, maar YVR is echt de beste luchthaven ter wereld.",
+                  "output": "Hoi Reg!\nWe zijn blij te horen dat je het naar je zin hebt gehad!"
+               },
+               {
+                  "input": "SANJEEV JAIN:\nDeze is als je richting hal D gaat. Lounge is goed onderhouden en heeft voldoende zitruimte. \nNiet veel te eten, de basis dingen en thee/koffie. Opties zijn zeer beperkt. Zelfbedieningslounge.",
+                  "output": "Hoi Sanjeev!\nBedankt voor je feedback, we zullen kijken of we de eetgelegenheden in de lounge kunnen uitbreiden."
+               },
+               {
+                  "input": "Sharon Doyle:\nEr zijn niet genoeg cafés, vooral ontbijtgelegenheden op deze luchthaven. Er was een café vlakbij onze gate dat eruitzag alsof het permanent gesloten was. Het was donker, de hekken waren neergelaten en vergrendeld en als je door de vergrendelde hekken gluurde, leek het alsof ze daarbinnen een heleboel spullen opsloegen. Ik liep lang rond op zoek naar iets te eten voor het ontbijt en besloot uiteindelijk om meer dan 20 minuten in een lange rij te wachten bij een Tim Horton. Ik kreeg een muffin en sap. Ik sprak met verschillende andere mensen op het vliegveld die mijn mening deelden dat er niet genoeg ontbijtcafés waren. We waren allemaal gefrustreerd.",
+                  "output": "Hoi Sharon! \nHet spijt ons te horen dat je problemen had met het vinden van een plek om te ontbijten. We zullen kijken of we in de toekomst meer ontbijtmogelijkheden kunnen toevoegen."
+               },
+               {
+                  "input": "DS C:\nWat een schande.\nWie er ook een bouw gepland heeft op een vrijdag voor een lang weekend moet goed opletten en de situatie goed begrijpen. Het duurde even voordat ik een taxi kreeg na een flinke tijd wachten. Rideshare was hetzelfde. Er kwam geen auto aan.¿Waarom heb je besloten om alle rijstroken op één na te blokkeren als je weet dat je veel reizigers zou hebben?",
+                  "output": "Hoi DS C\nWe bieden onze excuses aan voor het ongemak dat is veroorzaakt door de werkzaamheden. We begrijpen dat het een drukke tijd was en we zullen kijken naar manieren om de impact van toekomstige bouwprojecten te minimaliseren."
+               },
+               {
+                  "input": "Wareef Kabbani:\nDe luchthaven is mooi. Er is echter veel te weinig personeel. De luchtvaartmaatschappijen zijn super traag met grote rijen. De afstand tot bepaalde gates is soms bijna anderhalve kilometer. Voor de rest een mooie en droge sfeer.",
+                  "output": "Hoi Wareef!\nBedankt voor je feedback. We zullen kijken of we meer personeel kunnen inzetten om het inchecken efficiënter te laten verlopen en de wachttijden te verkorten."
+               },
+               {
+                  "input": "Cheekeye the-dog:\nDe slechtste luchthaven ter wereld. Je moet er 2 uur wachten bovenop wat ze aanraden. 89% kans dat ze je bagage kwijtraken, dus neem AirTags mee. Ze hebben wel een rasechte, dus je blijft tenminste niet achter met een vieze smaak in je mond, ook al is het de slechtste luchthaven ter wereld.",
+                  "output": "Hoi Cheekeye,\nHet spijt ons te horen dat je een negatieve ervaring hebt gehad. We zullen ons best doen om onze service te verbeteren en het risico op zoekgeraakte bagage te minimaliseren. Bedankt voor de feedback."
+               },
+               {
+                  "input": "Wajahat Faiz:\nDEZE LUCHTHAVEN HEEFT NIET ÉÉN TIM HORTONS MAAR TWEE TIM HORTONS",
+                  "output": "Hoi Wajahat!\nWe zijn blij dat je enthousiast bent over de Tim Hortons! We zullen ervoor zorgen dat ze open blijven en klaar zijn voor je volgende bezoek."
+               },
+               {
+                  "input": "Michael Smith:\nHet wordt beschouwd als een van de beste luchthavens in Canada. Ik zou dit niet vergelijken met luchthavens in de 3e wereld. Voorzieningen na 21.00 uur zijn er bijna niet. Het is onmogelijk om een biertje of wijntje te vinden. Als je van fastfood en koffie houdt, heb je geluk: er zijn 4 locaties open in de foodcourt. Het personeel was aardig, maar alle balies van de luchtvaartmaatschappijen hadden geen personeel. Als het niet de enige toegangspoort naar het oosten in Canada was, zou ik het zeker vermijden.",
+                  "output": "Hallo Michael,\nHet spijt ons te horen dat je geen positieve ervaring hebt gehad. We zullen kijken of we meer voorzieningen kunnen toevoegen en of we de openingstijden voor eten en drinken kunnen verlengen. Bedankt voor je feedback."
+               }
+            ],
+            "enabled": true
+         }
+      }
+   },
+   "Generate Response (SI)": {
+      "name": "Generate Response",
+      "language": "SI",
+      "buttonName": "Generate Response",
+      "inputs": [
+         "Andy: \n Odlično in dobro vzdrževano. Visoko organiziran in učinkovit. Dobro obvladuje promet tudi v tem letnem času, ko je velik naval mednarodnih študentov, ki prihajajo na univerze v Vancouvru. Veliko taksi služb, ki so na voljo tik pred letališčem.  Izjemno ustrežljivo osebje.",
+         "Chris Martin:\nVeč kot 50 % letov v in iz YVR zamuja, varnostno osebje, ki se ukvarja s parkirnimi zadevami, je nesramno, kopalnice so večino časa umazane.",
+         "Joey:\nNajbolj udobno letališče za čakanje na let. Udobni sedeži in različni sedežni aranžmaji okoli umetniških energij, vključno s skulpturo Billa Reida ter drugimi vodnimi elementi in skulpturami. Na voljo so trgovine s hrano in trgovine na drobno. Občutek je skoraj kot v nakupovalnem središču in ne kot na letališču, kar je zelo lepo. Verjetno bi lahko imeli več polnilnih postaj v bližini prostorov za sedenje."
+      ],
+      "topics": {
+         "topic1": {
+            "topicName": "Generate Response",
+            "models": [
+               {
+                  "meta-llama/llama-3-70b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-2-70b-chat": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-3-8b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm/granite-20b-multilingual": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               }
+            ],
+            "instruction": {
+               "detailed": "Pripravite odgovor na mnenje, ki so ga pustili potniki mednarodnega letališča Vancouver.",
+               "summarized": "Ustvarite odgovor na pregled, ki ga je zapustil uporabnik."
+            },
+            "inputPrefix": "Pregled:",
+            "outputPrefix": "Odziv:",
+            "examples": [
+               {
+                  "input": "Tara Elizabeth:\nParkiranje je bilo enostavno, oznake pa so nam pojasnile, kam se moramo prijaviti na let. Odpravljala sem svoje najstniške otroke in osebje družbe Air Canada mi je bilo zelo v pomoč.",
+                  "output": "Zdravo, Tara!Veseli nas, da ste imeli vi in vaši otroci odlično izkušnjo!"
+               },
+               {
+                  "input": "Daniel Xu: \nTako sodobno! Zelo čisto in odlično vzdušje.",
+                  "output": "Pozdravljeni Daniel\nHvala za mnenje, veseli nas, da ste uživali v obisku!"
+               },
+               {
+                  "input": "C. Nazima London:\nMam invalidnega otroka, ki uporablja AAC Tobi Dynavox, da govori.\nPrepotovali smo skoraj vse Združene države Amerike, kjer se je moj otrok rodil, in NIKOLI ni TSA vzel njen AAC od nje, da bi ga pregledal.\nMoj otrok je kričal in rekel, da ga mora dati, če želi iti domov.\nTo je smešno, nihče nikoli ne bi smel biti obravnavan na tak način. Ta AAC je njen glas, kako si drznejo to storiti.\nNa let smo imeli pozno zvečer 8. 9. 23. Moj otrok je jokal in jokal, ni mogel razumeti, zakaj bi ji odvzeli glas.Nadzornik mi je rekel, da ni pritrjen nanjo, zato mora iti skozi pregled, potem ko je šel skozi, pa so ga držali stran od nje, medtem ko so jo pretipavali, ni mogla povedati, ali jo bolijo ali spravljajo v zadrego. \nSvetujem vsem staršem ali osebam, ki uporabljajo govorni pripomoček, da NE LETIJO V KANADO, saj imajo najbolj grozne ljudi pri TSA.Nikoli ne bomo mogli videti naše starejše družine, ki živi v Kanadi.Nekdo mora to takoj popraviti!!!",
+                  "output": "Pozdravljena Nazima,\nZelo mi je žal, da ste morali skozi to. To težavo bomo takoj raziskali."
+               },
+               {
+                  "input": "Reg Natarajan:\nSicer imam predsodke, saj je to moje domače pristanišče, vendar je YVR res najboljše letališče na svetu.",
+                  "output": "Pozdravljen, Reg!Veseli nas, da ste se imeli lepo!"
+               },
+               {
+                  "input": "SANJEEV JAIN:\nTa je, medtem ko se pomikate proti hali D. Salon je dobro vzdrževan in ima dovolj prostora za sedenje.\nNima veliko hrane, osnovne stvari in čaj/kava. Možnosti so zelo omejene. Samopostrežni salon.",
+                  "output": "Pozdravljen, Sanjeev!\nZa vaše mnenje se vam zahvaljujemo, preučili bomo možnost razširitve ponudbe hrane v salonu."
+               },
+               {
+                  "input": "Sharon Doyle:\nNa tem letališču je premalo kavarn, zlasti tistih za zajtrk. V bližini naših vrat je bila kavarna, ki je bila videti, kot da je trajno zaprta. Bilo je temno, vrata so bila spuščena in zaklenjena, in če si pokukal skozi zaklenjena vrata, je bilo videti, kot da tam notri shranjujejo veliko stvari. Dolgo sem hodil naokoli in iskal kaj za zajtrk, na koncu pa sem se odločil, da bom v res dolgi vrsti čakal dobrih 20 minut v trgovini Tim Horton. Dobil sem mafin in sok. Na letališču sem se pogovarjal z več drugimi ljudmi, ki so bili istega mnenja kot jaz, da ni dovolj kavarn z zajtrkom. Vsi smo bili razočarani.",
+                  "output": "Pozdravljena Sharon!Žal nam je, da ste imeli težave pri iskanju lokala za zajtrk. V prihodnosti bomo razmislili o tem, da bi dodali več možnosti za zajtrk."
+               },
+               {
+                  "input": "DS C:\nTo je sramota.\nKdorkoli je načrtoval gradnjo v petek pred dolgim vikendom, potrebuje nekaj pozornosti in temeljito razumevanje razmer. Po precej dolgem čakanju je trajalo kar nekaj časa, da smo dobili taksi. Enako je bilo tudi pri prevozu z drugimi vozili. Noben avto ni prišel.\nPreprosto, zakaj ste se odločili blokirati vse vozne pasove razen enega, ko ste vedeli, da bo veliko potnikov?",
+                  "output": "Pozdravljeni DS C,\nOpravičujemo se za nevšečnosti, ki so nastale zaradi gradnje. Razumemo, da je bil to prometno naporen čas, in preučili bomo načine, kako zmanjšati vpliv prihodnjih gradbenih projektov."
+               },
+               {
+                  "input": "Wareef Kabbani:\nLetališče je lepo. Vendar je na njem precej premalo osebja. Letalske družbe so zelo počasne in imajo velike čakalne vrste. Razdalja do določenih izhodov je lahko skoraj en kilometer. Sicer pa je vzdušje lepo in suho.",
+                  "output": "Pozdravljeni, Wareef!\nZa vaše mnenje se vam zahvaljujem. Preučili bomo možnost, da bi dodali več osebja, da bi izboljšali učinkovitost prijave in skrajšali čas čakanja."
+               },
+               {
+                  "input": "Cheekeye the-dog:\nNajslabše letališče na svetu\nBodite tam največ 2 uri poleg tega, kar priporočajo.\n89 % možnosti, da bodo izgubili vašo prtljago, zato spakirajte AirTags\nMajo čistokrvnega psa, zato vsaj ne boste ostali s slabim okusom v ustih, čeprav je to najslabše letališče na svetu.",
+                  "output": "Pozdravljen, Cheekeye,\nOžalujemo, da ste imeli negativno izkušnjo. Potrudili se bomo, da bomo izboljšali svoje storitve in zmanjšali tveganje izgubljene prtljage. Zahvaljujemo se vam za povratne informacije."
+               },
+               {
+                  "input": "Wajahat Faiz: \nTUDI LETALIŠČE NIMA ENEGA TIM HORTONS ALI DVE TIM HORTONS",
+                  "output": "Pozdravljen Wajahat!\nVesele smo, da ste navdušeni nad letališčem Tim Hortons! Poskrbeli bomo, da bosta odprta in pripravljena na vaš naslednji obisk."
+               },
+               {
+                  "input": "Michael Smith:\nMenda je eno najboljših letališč v Kanadi. Ne bi ga ocenjeval z letališči tretjega sveta. Oprema po 21.00 uri je skoraj neobstoječa. Nemogoče je najti pivo ali vino. Če imate radi hitro hrano in kavo, imate srečo, saj so v dvorani za hrano odprte 4 lokacije. Osebje je bilo prijetno, vendar je bilo na vseh okencih letalskih družb prazno osebje. Če ne bi bilo dejstva, da je to edina vstopna točka na vzhod v Kanadi, bi se mu zagotovo izognil.",
+                  "output": "Pozdravljeni, Michael,\nOžal nam je, da niste imeli pozitivne izkušnje. Preučili bomo možnost dodajanja več udobja in podaljšanja obratovalnega časa za ponudbo hrane in pijače. Zahvaljujemo se vam za vaše povratne informacije."
+               }
+            ],
+            "enabled": true
+         }
+      }
+   },
+   "Generate Response (HU)": {
+      "name": "Generate Response",
+      "language": "HU",
+      "buttonName": "Generate Response",
+      "inputs": [
+         "Andy:\nKiváló és jól karbantartott. Rendkívül szervezett és hatékony. Nagyon jól kezeli a forgalmat még az évnek ebben az időszakában is, amikor hatalmas a nemzetközi diákok beáramlása, akik Vancouverben kezdik meg egyetemi tanulmányaikat. Rengeteg taxi szolgáltatás áll rendelkezésre közvetlenül a repülőtéren kívül.  Rendkívül segítőkész személyzet.",
+         "Chris Martin:\nA YVR-re érkező és onnan induló járatok több mint 50%-a késik, a biztonsági személyzet, azaz a járdaszegélyek, különösen azok, akik a parkolási ügyekkel foglalkoznak, udvariatlanok, a mosdók legtöbbször piszkosak.",
+         "Joey:\nEgy nagyon kényelmes repülőtér a járatra való várakozáshoz. Kényelmes ülések és különböző ülőalkalmatosságok a művészi energiák körül, beleértve egy Bill Reid szobrot és más vízi látványosságokat és szobrokat. Vannak élelmiszerüzletek és kiskereskedelmi üzletek. Majdnem olyan érzés, mint egy bevásárlóközpont, nem pedig egy repülőtér, ami nagyon kellemes. Valószínűleg több töltőállomást lehetne elhelyezni az ülőhelyek közelében."
+      ],
+      "topics": {
+         "topic1": {
+            "topicName": "Generate Response",
+            "models": [
+               {
+                  "meta-llama/llama-3-70b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-2-70b-chat": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-3-8b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm/granite-20b-multilingual": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               }
+            ],
+            "instruction": {
+               "detailed": "Válaszoljon a Vancouver International repülőtéren utazók által hagyott értékelésre.",
+               "summarized": "Válasz generálása a felhasználó értékelésére."
+            },
+            "inputPrefix": "Értékelés:",
+            "outputPrefix": "Válasz:",
+            "examples": [
+               {
+                  "input": "Tara Elizabeth:\nA parkolás egyszerű volt, és a feliratok egyértelművé tették számunkra, hogy hová kell mennünk a járatra való bejelentkezéshez. A tizenéves gyermekeimet küldtem el, és az Air Canada személyzete nagyon segítőkész volt.",
+                  "output": "Szia Tara!\nÖrülünk, hogy Ön és gyermekei nagyszerű élményt szereztek!"
+               },
+               {
+                  "input": "Daniel Xu:\nSok modern! Nagyon tiszta és nagyszerű légkör.",
+                  "output": "Szia Daniel\nKöszönjük az értékelést, örülünk, hogy tetszett a látogatásod!"
+               },
+               {
+                  "input": "C. Nazima London:\nFogyatékos gyermekem van, aki egy AAC Tobi Dynavoxot használ a beszédhez.\nMajdnem az egész Egyesült Államokban utaztunk, ahol a gyermekem született, és a TSA SOHA nem vette el tőle az AAC-t, hogy átvizsgálja.\nA gyermekem sikoltozott, és azt mondták neki, hogy fel kell adnia, ha haza akar menni.\nEz nevetséges, senkivel sem szabadna így bánni. Ez az AAC az ő hangja, hogy merészelik ezt tenni.\nKéső esti járatunk volt 8/9/23-án. A gyermekem csak sírt és sírt, nem értette, miért veszik el a hangját.\nA felügyelő azt mondta nekem, hogy nem hozzá van kötve, ezért át kell mennie az átvilágításon, majd miután átment, eltartották tőle, miközben megmotozták, nem tudta megmondani nekik, hogy bántják vagy zavarba hozzák. \nTanácsom minden szülőnek vagy beszédkészüléket használó személynek, hogy NE REPÜLJENEK KANADÁBA, ott vannak a legszörnyűbb emberek a TSA-nál.\nSoha nem fogjuk tudni látni az idős családunkat, akik Kanadában élnek.\nMeg kell oldani ezt a problémát!!!",
+                  "output": "Szia Nazima,\nSzörnyen sajnáljuk, hogy keresztül kellett menned ezen. Azonnal kivizsgáljuk ezt a problémát."
+               },
+               {
+                  "input": "Reg Natarajan:\nEléggé elfogult vagyok, mivel ez az otthonom, de az YVR tényleg a világ legjobb repülőtere.",
+                  "output": "Szia Reg!\nÖrülünk, hogy jól érezted magad!"
+               },
+               {
+                  "input": "SANJEEV JAIN:\nEz a D csarnok felé haladva található.A váróterem jól karbantartott, és bőséges ülőfelülettel rendelkezik.\nNem sok mindent lehet enni, csak az alapvető dolgokat és teát/kávét. A lehetőségek nagyon korlátozottak. Önkiszolgáló váróterem.",
+                  "output": "Szia Sanjeev!\nKöszönjük a visszajelzést, megnézzük, hogy bővítjük-e az étkezési lehetőségeket a váróteremben."
+               },
+               {
+                  "input": "Sharon Doyle:\nNincs elég kávézó, különösen reggelizőhely ezen a repülőtéren. Volt egy kávézó a kapunk közelében, amely úgy nézett ki, mintha végleg bezárták volna. Sötét volt, a kapuk le voltak húzva és zárva, és ha átnéztél a zárt kapukon, úgy tűnt, mintha egy csomó dolgot tároltak volna odabent. Sokáig sétálgattam, hogy valami reggelire valót keressek, és végül úgy döntöttem, hogy egy nagyon hosszú sorban állok, több mint 20 percet várok egy Tim Horton\u2019s-nál. Kaptam egy muffint és egy gyümölcslevet. A repülőtéren több más emberrel is beszéltem, akik osztották a véleményemet, hogy nincs elég reggeliző kávézó. Mindannyian frusztráltak voltunk.",
+                  "output": "Szia Sharon!\nSajnáljuk, hogy nehezen találtál reggelizőhelyet. Megvizsgáljuk, hogy a jövőben több reggelizési lehetőséggel bővítjük a kínálatunkat."
+               },
+               {
+                  "input": "DS C:\nMicsoda szégyen.\nAki egy hosszú hétvége előtti péntekre tervezte az építkezést, annak egy kis odafigyelésre és a helyzet alapos megértésére van szüksége. Egy kis időbe telt, mire jelentős várakozási idő után taxit kaptunk. A fuvarmegosztás ugyanez volt. Egyetlen autó sem érkezett.\nMiért döntöttek úgy, hogy egy sáv kivételével az egész sávot lezárják, amikor tudják, hogy sok utazó lesz?",
+                  "output": "Üdv DS C,\nElnézést kérünk az építkezés okozta kellemetlenségekért. Megértjük, hogy ez egy forgalmas időszak volt, és meg fogjuk vizsgálni, hogyan lehet minimalizálni a jövőbeli építkezések hatását."
+               },
+               {
+                  "input": "Wareef Kabbani:\nA repülőtér szép. Jelentősen alulszemélyzetezett. A légitársaságok szuper lassúak, nagy sorok állnak. A távolság egyes kapukhoz közel egy mérföld lehet. Egyébként szép és száraz légkör.",
+                  "output": "Szia Wareef!\nKöszönjük a visszajelzést. Megvizsgáljuk, hogy több munkatársat tudunk-e felvenni, hogy javítsuk a check-in hatékonyságát és csökkentsük a várakozási időt."
+               },
+               {
+                  "input": "Cheekeye the-dog:\nA világ legrosszabb repülőtere\nLegyen ott 2 órát azon felül, amit ajánlanak.\n89% esélye van, hogy elveszítik a csomagjait, ezért csomagolja be az AirTags-t\nTisztasági kutyájuk van, így legalább nem marad rossz szájíz a szájában, még akkor sem, ha ez a világ legrosszabb repülőtere.",
+                  "output": "Szia Cheekeye,\nSajnáljuk, hogy negatív tapasztalatot szereztél. Mindent megteszünk, hogy javítsuk szolgáltatásainkat és minimalizáljuk az elveszett poggyászok kockázatát. Köszönjük a visszajelzést."
+               },
+               {
+                  "input": "Wajahat Faiz:\nEZ A REPÜLŐTÉRNEK NEM EGY TIM HORTONJA, DE KETTŐ TIM HORTONJA van.",
+                  "output": "Szia Wajahat!\nÖrülünk, hogy örülsz a Tim Hortonsnak! Gondoskodunk róla, hogy nyitva legyenek és készen álljanak a következő látogatásodra."
+               },
+               {
+                  "input": "Michael Smith:\nKanada egyik legjobb repülőtere. Nem sorolnám a 3. világbeli repülőterek közé. A 2100 óra utáni szolgáltatások szinte nem is léteznek. Lehetetlen sört vagy bort találni. Ha szereted a gyorséttermi ételeket és a kávét, akkor szerencséd van, 4 hely van nyitva az ételudvarban. A személyzet kellemes volt, de az összes légitársasági pultnál üres volt a személyzet. Ha nem lenne az a tény, hogy Kanada egyetlen keleti kapuja, akkor biztosan elkerülném.",
+                  "output": "Szia Michael,\nSajnáljuk, hogy nem volt pozitív élményed. Megvizsgáljuk, hogy több kényelmi szolgáltatással bővítsük, és meghosszabbítjuk az étel- és italfogyasztási lehetőségek nyitvatartási idejét. Köszönjük visszajelzését."
+               }
+            ],
+            "enabled": true
+         }
+      }
+   },
+   "Generate Response (RO)": {
+      "name": "Generate Response",
+      "language": "RO",
+      "buttonName": "Generate Response",
+      "inputs": [
+         "Andy:\nExcelent și bine întreținut. Foarte bine organizat și eficient. Se descurcă atât de bine cu traficul, chiar și în această perioadă a anului, când există un aflux uriaș de studenți internaționali care vin să-și înceapă universitățile în Vancouver. O mulțime de servicii de taxi disponibile chiar în afara aeroportului.  Personal extrem de util.",
+         "Chris Martin:\nMai mult de 50% din zborurile care intră și ies din YVR sunt întârziate, personalul de securitate aka operațiunile de la bordură, în special cei care se ocupă de problemele de parcare, sunt nepoliticoși, băile sunt de cele mai multe ori murdare.",
+         "Joey:\nUn aeroport foarte confortabil pentru a-ți aștepta zborul. Scaune confortabile și diverse aranjamente de scaune în jurul energiilor artistice, inclusiv o sculptură a lui Bill Reid și alte elemente de apă și sculpturi. Există magazine alimentare și magazine cu amănuntul. Se simte aproape ca un centru comercial mai degrabă decât ca un aeroport, ceea ce este foarte frumos. Probabil că ar putea face cu mai multe stații de încărcare în apropierea zonelor de ședere."
+      ],
+      "topics": {
+         "topic1": {
+            "topicName": "Generate Response",
+            "models": [
+               {
+                  "meta-llama/llama-3-70b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-2-70b-chat": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-3-8b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm/granite-20b-multilingual": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               }
+            ],
+            "instruction": {
+               "detailed": "Generarea unui răspuns la recenzia lăsată de călătorii aeroportului internațional din Vancouver.",
+               "summarized": "Generarea unui răspuns la recenzia utilizatorului."
+            },
+            "inputPrefix": "Recenzie:",
+            "outputPrefix": "Răspuns:",
+            "examples": [
+               {
+                  "input": "Tara Elizabeth:\nParcarea a fost ușor de făcut, iar indicatoarele ne-au arătat clar unde să mergem pentru check-in pentru zbor. Mi-am trimis copiii adolescenți, iar personalul Air Canada a fost foarte util.",
+                  "output": "Bună Tara!\nNe bucurăm să aflăm că tu și copiii tăi ați avut o experiență minunată!"
+               },
+               {
+                  "input": "Daniel Xu:\nAșa de modern! Foarte curat și o atmosferă grozavă.",
+                  "output": "Bună Daniel\nMulțumim pentru recenzie, ne bucurăm că v-ați bucurat de vizită!"
+               },
+               {
+                  "input": "C. Nazima London:\nAm un copil cu dizabilități care folosește un AAC Tobi Dynavox pentru a vorbi.\nAm călătorit în aproape toate Statele Unite unde s-a născut copilul meu și NICIODATĂ TSA nu i-a luat AAC-ul pentru a-l verifica.\nCopilul meu a țipat și i s-a spus că trebuie să renunțe la el dacă vrea să meargă acasă.\nEste ridicol, nimeni nu ar trebui să fie tratat așa. Acest aparat este vocea ei, cum îndrăznesc să facă acest lucru.\nAm avut un zbor seara târziu pe 8/9/23. Copilul meu plângea și plângea, nu înțelegea de ce îi luau vocea.\nSupervizorul mi-a spus că nu era atașat de ea, așa că trebuia să treacă printr-o verificare, apoi, după ce a trecut, l-au ținut departe de ea în timp ce o percheziționau, nu a avut ocazia să le spună dacă o rănesc sau o fac de râs. \nÎi sfătuiesc pe toți părinții sau persoanele care folosesc un dispozitiv de vorbire să NU ZBOARE ÎN CANADA, acolo au cei mai oribili oameni din TSA.Nu vom putea niciodată să ne vizităm familia noastră în vârstă care locuiește în Canada.Cineva trebuie să rezolve asta imediat!!!!",
+                  "output": "Bună Nazima,\nNe pare foarte rău că a trebuit să treci prin asta. Vom investiga această problemă imediat."
+               },
+               {
+                  "input": "Reg Natarajan:\nSunt părtinitoare pentru că este portul meu de origine, dar YVR este într-adevăr cel mai bun aeroport din lume.",
+                  "output": "Bună Reg!\nNe bucurăm că v-ați simțit bine!"
+               },
+               {
+                  "input": "SANJEEV JAIN:\nAceasta se află în timp ce vă deplasați spre salonul D. Salonul este bine întreținut și are o zonă de relaxare amplă.\nNu prea multe de mâncat, lucruri de bază și ceai/cafea. Opțiunile sunt foarte limitate. Salon cu autoservire.",
+                  "output": "Bună Sanjeev!\nMulțumim pentru feedback-ul tău, vom căuta să extindem opțiunile de mâncare în lounge."
+               },
+               {
+                  "input": "Sharon Doyle:\nNu sunt suficiente cafenele, în special locuri pentru micul dejun în acest aeroport. Era o cafenea lângă poarta noastră care părea că a fost închisă permanent. Era întuneric, porțile erau coborâte și blocate, iar dacă aruncai o privire prin porțile blocate, părea că înăuntru erau depozitate o mulțime de lucruri. M-am plimbat mult timp în căutarea a ceva de mâncare pentru micul dejun și, în cele din urmă, am decis să aștept la o coadă foarte lungă de peste 20 de minute la un Tim Horton. Mi-am luat o brioșă și un suc. Am vorbit cu alte câteva persoane din aeroport care îmi împărtășeau părerea că nu sunt suficiente cafenele pentru micul dejun. Eram cu toții frustrați.",
+                  "output": "Bună Sharon!\nNe pare rău să auzim că ai avut probleme în a găsi un loc unde să iei micul dejun. Vom căuta să adăugăm mai multe opțiuni pentru micul dejun în viitor."
+               },
+               {
+                  "input": "DS C:\nCe păcat.\nCine a planificat o construcție într-o vineri înainte de un weekend prelungit are nevoie de atenție și de o înțelegere temeinică a situației. A durat ceva timp pentru a găsi un taxi după o durată considerabilă de așteptare. Rideshare a fost la fel. Nu a sosit nicio mașină.\nDe ce ați decis să blocați toate benzile, cu excepția uneia, când știți că veți avea mulți călători?",
+                  "output": "Bună ziua DS C,\nNe cerem scuze pentru neplăcerile cauzate de construcție. Înțelegem că a fost o perioadă aglomerată și vom căuta modalități de a minimiza impactul viitoarelor proiecte de construcție."
+               },
+               {
+                  "input": "Wareef Kabbani:\nAeroportul este frumos. Totuși, este semnificativ subdimensionat din punct de vedere al personalului. Companiile aeriene sunt foarte lente, cu cozi mari. Distanța până la anumite porți de îmbarcare poate fi de aproape o milă. În rest, atmosferă plăcută și uscată.",
+                  "output": "Bună Wareef!\nMulțumim pentru feedback-ul tău. Vom căuta să adăugăm mai mult personal pentru a îmbunătăți eficiența check-in-ului și pentru a reduce timpii de așteptare."
+               },
+               {
+                  "input": "Cheekeye the-dog:\nCel mai prost aeroport din lume\nSă stai acolo 2 ore în plus față de ceea ce îți recomandă.\n89% șanse să îți piardă bagajele, așa că împachetează AirTags\nAu un câine de rasă pură, așa că măcar nu vei rămâne cu un gust rău în gură, chiar dacă este cel mai prost aeroport din lume.",
+                  "output": "Bună Cheekeye,\nNe pare rău să auzim că ai avut o experiență negativă. Vom face tot posibilul să ne îmbunătățim serviciile și să minimizăm riscul de pierdere a bagajelor. Vă mulțumim pentru feedback."
+               },
+               {
+                  "input": "Wajahat Faiz:\nACEST AEROPORT NU ARE UN TIM HORTON, CI DOUĂ TIM HORTONURI.",
+                  "output": "Bună Wajahat!\nNe bucurăm că ești încântat de Tim Hortons! Vom avea grijă să le ținem deschise și pregătite pentru următoarea ta vizită."
+               },
+               {
+                  "input": "Michael Smith:\nSupus a fi unul dintre cele mai bune aeroporturi din Canada. Nu l-aș clasifica la fel ca aeroporturile din lumea a treia. Facilitățile după ora 21:00 sunt aproape inexistente. Imposibil să găsești o bere sau un vin. Dacă vă place mâncarea rapidă și cafeaua, aveți noroc cu 4 locații deschise în curtea de alimentare. Personalul a fost plăcut, dar toate ghișeele companiilor aeriene erau goale de personal. Dacă nu ar fi fost pentru faptul că este singura poartă de intrare în estul Canadei, l-aș fi evitat cu siguranță.",
+                  "output": "Bună Michael,\nNe pare rău să auzim că nu ați avut o experiență pozitivă. Vom căuta să adăugăm mai multe facilități și să extindem orele de funcționare pentru opțiunile de mâncare și băutură. Vă mulțumim pentru feedback-ul dvs."
+               }
+            ],
+            "enabled": true
+         }
+      }
+   },
+   "Generisanje odgovora (SR)": {
+      "name": "Generisanje odgovora",
+      "language": "SR",
+      "buttonName": "Generisanje odgovora",
+      "inputs": [
+         "Endi: Odlično i dobro održavano. Visoko organizovan i efikasan. Tako dobro podnosi saobraćaj čak i u ovo doba godine kada postoji ogroman priliv međunarodnih studenata koji dolaze da započnu svoje univerzitete u Vankuveru. Mnogo taksi usluga dostupno je odmah ispred aerodroma. Izuzetno uslužno osoblje.",
+         "Kris Martin: Više od 50% letova u i iz IVR kasni, osoblje obezbeđenja ili službe na ivičnjaku, posebno ono koje se bavi pitanjima parkiranja, je nepristojno, kupatila su većinu vremena prljava.",
+         "Džoi: Veoma udoban aerodrom za čekanje na svoj let. Udobna sedišta i različiti rasporedi sedišta oko umetničkih energija, uključujući skulpturu Bila Rida i druge vodene karakteristike i skulpture. Postoje prodavnice hrane i maloprodaje. Oseća se skoro kao tržni centar, a ne kao aerodrom, što je veoma lepo. Verovatno bi moglo da se uradi sa više stanica za punjenje u blizini mesta za sedenje."
+      ],
+      "topics": {
+         "topic1": {
+            "topicName": "Generisanje odgovora",
+            "models": [
+               {
+                  "meta-llama/llama-3-70b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-2-70b-chat": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-3-8b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm/granite-20b-multilingual": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               }
+            ],
+            "instruction": {
+               "detailed": "Generišite odgovor na recenziju putnika sa Međunarodnog aerodroma Beograd.",
+               "summarized": "Generišite odgovor na recenziju putnika"
+            },
+            "inputPrefix": "Review:",
+            "outputPrefix": "Response:",
+            "examples": [
+               {
+                  "input": "Mira Grujić: Parkiranje je bilo lako, a signalizacija nam je jasno govorila gde da se prijavimo na let. Ispraćao sam svoju decu tinejdžere, a osoblje Er Srbije je bilo od velike pomoći.",
+                  "output": "Zdravo Tara!Drago nam je što ste vi i vaša deca imali sjajno iskustvo!"
+               },
+               {
+                  "input": "Daniel Ksu: Tako moderno! Veoma čista i odlična atmosfera. ",
+                  "output": "Zdravo Danijel\nHvala vam na recenziji, srećni smo što ste uživali u poseti!"
+               },
+               {
+                  "input": "Nazima London: Imam dete sa invaliditetom koje koristi AAC Tobi Dinavok da govori. Proputovali smo skoro celu Evropu gde je moje dete rođeno i NIKADA TSA joj nije oduzeo AAC da bi ga pregledao. Moje dete je vrištalo i rečeno mu je da mora da odustane od toga ako želi da ide kući. To je smešno da niko nikada ne treba da bude tako tretiran. Ovaj AAC je njen glas kako se usuđuju to da urade. Imali smo kasni večernji let 23.8. Moje dete je plakalo i plakalo nije mogla da razume zašto bi joj oduzeli glas. Supervizor mi je rekao da nije vezan za nju pa mora da prođe kroz skrining, a nakon što je prošlo oni su joj ga držali dok su ga tapšali. nije imala načina da im kaže da li su je povredili ili je sramotili. Moj savet svim roditeljima ili osobama koje koriste govorne uređaje NE LETE U KANADU, imaju najstrašnije ljude u TSA. Nikada nećemo moći da vidite našu stariju porodicu koja živi u Kanadi. Neko treba da popravi ovo sada!!!",
+                  "output": "Zdravo Nazima, strašno nam je žao što ste morali da prođete kroz ovo. Odmah ćemo istražiti ovo pitanje."
+               },
+               {
+                  "input": "Jelena Jović: Imam predrasude jer je to moja matična luka, ali Nikola Tesla je zaista najbolji aerodrom na svetu. ",
+                  "output": "Zdravo Jelena! Drago nam je da ste se dobro proveli!"
+               },
+               {
+                  "input": "Zoran Jović: Ovo je dok se krećete prema hodniku D. Salon je dobro održavan i ima dovoljno prostora za sedenje. Nema mnogo za jelo, osnovne stvari i čaj/kafa. Opcije su veoma ograničene. Samouslužni salon.",
+                  "output": "Zdravo Zorane!\nHvala na povratnim informacijama, pogledaćemo da proširimo opcije hrane u salonu."
+               },
+               {
+                  "input": "Petar Jovičić: Na ovom aerodromu nema dovoljno kafića, posebno mesta za doručak. U blizini naše kapije bio je kafić koji je izgledao kao da je trajno zatvoren. Bio je mrak, kapije su bile spuštene i zaključane, a ako pogledate kroz zaključane kapije, izgledalo je kao da unutra spremaju mnogo stvari. Dugo sam šetao okolo tražeći nešto za doručak i konačno odlučio da čekam u zaista dugom redu preko 20 minuta u Tim Horton\u2019s. Dobio sam mafin i sok. Razgovarao sam sa nekoliko drugih ljudi na aerodromu ko",
+                  "output": "Zdravo Petre! Žao nam je što ste imali problema da nađete mesto za doručak. U budućnosti ćemo razmotriti dodavanje više opcija za doručak."
+               },
+               {
+                  "input": "DS C: Kakva šteta. Ko god da je planirao gradnju u petak pre dugog vikenda treba malo pažnje i temeljnog razumevanja situacije. Trebalo je neko vreme da dobijemo taksi nakon dugog čekanja. Rideshare je bio isti. Nijedan auto nije stigao. Zašto ste odlučili da blokirate čitave trake osim jedne kada znate da ćete imati mnogo putnika?",
+                  "output": "Zdravo DS C, Izvinjavamo se zbog neprijatnosti izazvanih izgradnjom. Razumemo da je vreme bilo naporno i tražićemo načine da minimiziramo uticaj budućih građevinskih projekata."
+               },
+               {
+                  "input": "Sandra: Aerodrom je lep. Ipak, nema dovoljno osoblja. Avio-kompanije su super spore sa velikim linijama. Udaljenost do određenih kapija može biti blizu jedne milje. Inače, lepa i suva atmosfera.",
+                  "output": "Zdravo Sandra! Hvala na povratnim informacijama. Razmotrićemo dodavanje više osoblja kako bismo poboljšali efikasnost prijavljivanja i smanjili vreme čekanja."
+               },
+               {
+                  "input": "Crni-pas: Najgori aerodrom na svetu. Budite tamo 2 sata iznad onoga što vam preporučuju. 89% šanse da će vam izgubiti prtljag, pa spakujte AirTags. Imaju dobru hranu, tako da bar nećete ostati sa lošim ukusom u ustima iako je to najgori aerodrom na svetu.",
+                  "output": "Zdravo Crni, Žao nam je što ste imali negativno iskustvo. Daćemo sve od sebe da poboljšamo naše usluge i smanjimo rizik od gubitka prtljaga. Hvala vam na povratnim informacijama."
+               },
+               {
+                  "input": "Vajahat Faiz: OVAJ AERODROM NEMA JEDNU PEKARU VEĆ DVE! ",
+                  "output": "Zdravo Vajahat! Drago nam je da ste uzbuđeni zbog pekara! Potrudićemo se da budu otvorene i spremne za vašu sledeću posetu"
+               },
+               {
+                  "input": "Majkl Smit: Pretpostavlja se da je jedan od najboljih aerodroma u Srbiji. Ne bih ovo ocenio sa aerodromima trećeg sveta. Sadržaji posle 21:00 su skoro nepostojeći. Nemoguće je pronaći pivo ili vino. Ako volite brzu hranu i kafu, imate sreće sa 4 otvorene lokacije u restoranu. Osoblje je bilo prijatno, ali na svim šalterima avio-kompanija nije bilo osoblja. Da mi nije jedina kapija ka istoku u Srbiji, svakako bih to izbegao.",
+                  "output": "Zdravo Majkl, žao nam je što nismo imali pozitivno iskustvo. Potrudićemo se da dodamo još pogodnosti i produžimo radno vreme za opcije hrane i pića. Hvala na povratnim informacijama"
+               }
+            ],
+            "enabled": true
+         }
+      }
+   },
+   "Генериране на отговор (BG)": {
+      "name": "Генериране на отговор",
+      "language": "BG",
+      "buttonName": "Генериране на отговор",
+      "inputs": [
+         "Анди:\nОтлично и добре поддържано. Високо организиран и ефективен. Справя се с трафика толкова добре дори по това време на годината, когато има огромен поток от международни студенти, идващи да започнат своите университети във Ванкувър. Изобилие от таксиметрови услуги, налични точно пред летището. Изключително услужлив персонал.",
+         "Крис Мартин:\nПовече от 50% от полетите до и от YVR са забавени, служителите по сигурността, известни още като операции на бордюра, особено тези, които се занимават с паркирането, са груби, баните са мръсни през повечето време.",
+         "Джоуи:\nМного удобно летище за чакане на полета. Удобни седалки и различни места за сядане около артистични енергии, включително скулптура на Бил Рийд и други водни елементи и скулптури. Има хранителни магазини и магазини за търговия на дребно. Усещането е почти като търговски център, а не като летище, което е много хубаво. Вероятно може да се направи с повече станции за зареждане в близост до местата за сядане."
+      ],
+      "topics": {
+         "topic1": {
+            "topicName": "Генериране на отговор",
+            "models": [
+               {
+                  "meta-llama/llama-3-70b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-2-70b-chat": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-3-8b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm/granite-20b-multilingual": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               }
+            ],
+            "instruction": {
+               "detailed": "Генерирайте отговор на отзива, оставен от пътуващите за международно летище Ванкувър.",
+               "summarized": "Генерирайте отговор на рецензията на потребителя."
+            },
+            "inputPrefix": "Review:",
+            "outputPrefix": "Response:",
+            "examples": [
+               {
+                  "input": "Тара Елизабет:\nПаркирането беше лесно и табелите ни показаха ясно къде да отидем за чекиране за полета. Изпращах децата си тийнейджъри и персоналът на Air Canada беше наистина полезен.",
+                  "output": "Здравей Тара!\nРадваме се да чуем, че вие и вашите деца сте имали страхотно преживяване!"
+               },
+               {
+                  "input": "Daniel Xu:\nТолкова модерно! Много чисто и страхотна атмосфера.",
+                  "output": "Здравей Даниел\nБлагодарим ти за отзива, радваме се, че ти хареса посещението!"
+               },
+               {
+                  "input": "C. Nazima London:\nИмам дете с увреждания, което използва AAC Tobi Dynavox, за да говори.\nОбиколили сме почти всички Съединени щати, където е родено детето ми, и НИКОГА TSA не й е отнемал AAC, за да го провери.\nДетето ми крещеше и му беше казано, че трябва да се откаже, ако иска да се прибере вкъщи.\nТова е нелепо, никой никога не трябва да бъде третиран по този начин. Този AAC е нейният глас как се осмеляват да го правят.\nИмахме късен вечерен полет на 8/9/23. Детето ми плачеше и плачеше, че не можеше да разбере защо й отнемат гласа.\nРъководителят ми каза, че не е прикрепен към нея, така че трябва да мине през скрининга, а след като мина, те го скриха от нея, докато те я потупа, тя нямаше начин да им каже дали я нараняват или я притесняват.\nМоят съвет към всички родители или хора, които използват говорно устройство, НЕ ЛЕТЕТЕ ЗА КАНАДА, те имат най-ужасните хора в TSA.\nНикога няма да можем да видим нашето възрастно семейство, което живее в Канада.\nНякой трябва да поправи това сега!!!",
+                  "output": "Здравей Назима,\nУжасно съжаляваме, че трябваше да преминеш през това. Ние незабавно ще проучим този проблем."
+               },
+               {
+                  "input": "Рег Натараджан:\nПредубеден съм, тъй като това е моето родно пристанище, но YVR наистина е най-доброто летище в света.",
+                  "output": "Здравей Рег!\nРадваме се да чуем, че си прекарал страхотно!"
+               },
+               {
+                  "input": "SANJEEV JAIN:\nТова е, докато се придвижвате към зала D. Салонът е добре поддържан и има достатъчно място за сядане.\nНяма много за ядене, основните неща и чай/кафе. Опциите са много ограничени. Салон на самообслужване.",
+                  "output": "Здравей Sanjeev!\nБлагодарим ви за обратната връзка, ще разгледаме възможността да разширим възможностите за храна в салона."
+               },
+               {
+                  "input": "Шарън Дойл:\nНа това летище няма достатъчно кафенета, особено заведения за закуска. Имаше кафене близо до портата ни, което изглеждаше като затворено за постоянно. Беше тъмно, портите бяха спуснати и заключени и ако надникнеш през заключените порти, изглеждаше, че вътре съхраняват много неща. Разхождах се дълго време в търсене на нещо за закуска и накрая реших да чакам на наистина дълга опашка от повече от 20 минути в Tim Horton\u2019s. Взех си мъфин и сок. Говорих с няколко други хора на летището, които споделиха мнението ми за липсата на достатъчно кафенета за закуска. Всички бяхме разочаровани.",
+                  "output": "Здравей Шарън!\nСъжаляваме да научим, че си имала проблем с намирането на място за закуска. Ще разгледаме възможността за добавяне на още опции за закуска в бъдеще."
+               },
+               {
+                  "input": "DS C:\nКакъв срам.\nКойто е планирал строеж в петък преди дълъг уикенд, се нуждае от малко внимание и задълбочено разбиране на ситуацията. Отне известно време, за да получите такси след значителна продължителност на чакане. Rideshare беше същото. Не пристигна нито една кола.\nЗащо решихте да блокирате всички платна с изключение на едно, когато знаете, че ще имате много пътници?",
+                  "output": "Здравей DS C,\nИзвиняваме се за неудобството, причинено от строителството. Разбираме, че това беше натоварено време и ще потърсим начини да сведем до минимум въздействието на бъдещи строителни проекти."
+               },
+               {
+                  "input": "Wareef Kabbani:\nЛетището е хубаво. Въпреки това има значително недостиг на персонал. Авиокомпаниите са супер бавни с големи линии. Разстоянието до определени порти може да бъде близо една миля. Иначе приятна и суха атмосфера.",
+                  "output": "Здравей Wareef!\nБлагодарим ви за обратната връзка. Ще разгледаме възможността за добавяне на още персонал, за да подобрим ефективността на настаняването и да намалим времето за чакане."
+               },
+               {
+                  "input": "Cheekeye the-dog:\nНай-лошото летище в света\nБъдете там 2 часа повече от това, което препоръчват.\n89% шанс да загубят багажа ви, така че опаковайте AirTags\nТе наистина имат чистокръвно, така че поне вие няма да бъдете останахте с лош вкус в устата, въпреки че това е най-лошото летище в света.",
+                  "output": "Здравей Cheekye,\nСъжаляваме да научим, че си имал негативен опит. Ще направим всичко възможно да подобрим нашите услуги и да сведем до минимум риска от загуба на багаж. Благодаря ви за обратната връзка."
+               },
+               {
+                  "input": "Wajahat Faiz:\nТОВА ЛЕТИЩЕ ИМА НЕ ЕДИН ТИМ ХОРТЪН, А ДВА ТИМ ХОРТЪН",
+                  "output": "Здравей Wajahat!\nРадваме се, че се вълнуваш от Тим Хортън! Ще се погрижим да ги поддържаме отворени и готови за следващото ви посещение."
+               },
+               {
+                  "input": "Майкъл Смит:\nПредполага се, че е едно от най-добрите летища в Канада. Не бих класифицирал това като летища от третия свят. Удобствата след 2100 часа почти не съществуват. Невъзможно е да се намери бира или вино. Ако обичате бързо хранене и кафе, имате късмет с 4 отворени места в заведението за хранене. Персоналът беше приятен, но всички гишета на авиокомпаниите бяха празни от персонал. Ако не беше фактът, че е единствената врата на изток в Канада, определено щях да го избегна.",
+                  "output": "Здравей Майкъл,\nСъжаляваме да научим, че не си имал положителен опит. Ще разгледаме възможността за добавяне на още удобства и удължаване на работните часове за опциите за храна и напитки. Благодарим Ви за обратната връзка."
+               }
+            ],
+            "enabled": true
+         }
+      }
+   },
+   "E-mail s odpoveďou (SK)": {
+      "name": "E-mail s odpoveďou",
+      "language": "SK",
+      "buttonName": "E-mail s odpoveďou",
+      "inputs": [
+         "Martin:\nVynikajúci a dobre udržiavaný. Vysoko organizované a efektívne. Dobre zvláda prevádzku aj v tomto ročnom období, keď je obrovský nápor zahraničných študentov prichádzajúcich na univerzity vo Vancouveri. Množstvo taxislužieb dostupných priamo pri letisku.  Mimoriadne ochotný personál.",
+         "David:\nViac ako 50 % letov do a z YVR mešká, pracovníci bezpečnostnej služby, konkrétne tí, ktorí riešia problémy s parkovaním, sú hrubí, toalety sú väčšinou špinavé.",
+         "Karel:\nVeľmi pekné letisko na čakanie na let. Pohodlné sedadlá a rôzne usporiadanie sedenia okolo umeleckých energií vrátane sochy Billa Reida a ďalších vodných prvkov a sôch. Sú tu obchody s potravinami a maloobchodné predajne. Pôsobí takmer ako nákupné centrum, nie ako letisko, čo je veľmi príjemné. Pravdepodobne by sa hodilo viac nabíjacích staníc v blízkosti miest na sedenie."
+      ],
+      "topics": {
+         "topic1": {
+            "topicName": "E-mail s odpoveďou",
+            "models": [
+               {
+                  "meta-llama/llama-3-70b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-2-70b-chat": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "meta-llama/llama-3-8b-instruct": {
+                     "decoding_method": "greedy",
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200,
+                     "repetition_penalty": 1.1,
+                     "stop_sequences": [
+                        "\n\n"
+                     ]
+                  }
+               },
+               {
+                  "ibm/granite-20b-multilingual": {
+                     "decoding_method": "greedy",
+                     "repetition_penalty": 1.1,
+                     "min_new_tokens": 10,
+                     "max_new_tokens": 200
+                  }
+               }
+            ],
+            "instruction": {
+               "detailed": "Vytvoriť odpoveď na hodnotenie, ktoré zanechali cestujúci z medzinárodného letiska Vancouver.",
+               "summarized": "Vytvorte odpoveď na recenziu používateľa."
+            },
+            "inputPrefix": "Recenzia: ",
+            "outputPrefix": "Reakcia:",
+            "examples": [
+               {
+                  "input": "Tara Elizabeth:\nParking bol jednoduchý a značenie nám jasne ukázalo, kam sa máme ísť odbaviť na náš let. Posielala som svoje dospievajúce deti a personál spoločnosti Air Canada bol naozaj nápomocný.",
+                  "output": "Ahoj Tara!\nTak sme radi, že ste mali vy a vaše deti skvelú skúsenosť!"
+               },
+               {
+                  "input": "Daniel Xu:\nTak moderné! Veľmi čistá a skvelá atmosféra.",
+                  "output": "Ahoj Daniel\n Ďakujeme za recenziu, sme radi, že sa vám návšteva páčila!"
+               },
+               {
+                  "input":"C. Nazima London:\nMám postihnuté dieťa, ktoré používa Tobi Dynavox AAC na rozprávanie.\nPrecestovali sme takmer celé Spojené štáty, kde sa moje dieťa narodilo, a NIKDY jej TSA nezobrala AAC na kontrolu.\nMoje dieťa kričalo a povedali jej, že sa ho musí vzdať, ak chce ísť domov.\nTo je smiešne, s nikým by sa takto nemalo zaobchádzať. Tento AAC je jej hlas, ako si to dovoľujú.\nMali sme neskorý večerný let 8.9.23. Moje dieťa plakalo a plakalo, nechápalo, prečo jej berú hlas.\nDozorca mi povedal, že nie je pripojený k nej, takže musí prejsť kontrolou, potom, keď prešiel, držali ho od nej, kým ju prehľadávali, nemala možnosť povedať im, či jej ubližujú alebo ju zahanbujú. \Odporúčam všetkým rodičom alebo osobám, ktoré používajú rečové zariadenie, aby NELIETALI DO KANADY, majú tam tých najhorších ľudí v TSA. nikdy nebudeme môcť navštíviť našu staršiu rodinu, ktorá žije v Kanade. niekto to musí okamžite napraviť!!!!",
+                  "output": "Ahoj Nazima,\nJe nám veľmi ľúto, že si tým musela prejsť. Tento problém okamžite prešetríme."
+               },
+               {
+                  "input": "Reg Natarajan:\nJsem zaujatý, pretože je to môj domáci prístav, ale YVR je naozaj najlepšie letisko na svete.",
+                  "output": "Ahoj, Reg!\nRadi sme, že si sa dobre bavil!"
+               },
+               {
+                  "input": "SANJEEV JAIN:\nTade sa presuniete do haly D. Salónik je dobre udržiavaný a má dostatok miest na sedenie.\nNa jedenie tu toho veľa nie je, základné veci a čaj/káva. Možnosti sú veľmi obmedzené. Samoobslužný salónik.",
+                  "output": "Ahoj Sanjeev!\nĎakujeme za tvoju spätnú väzbu, budeme sa zaoberať rozšírením možností stravovania v salóniku."
+               },
+               {
+                  "input": "Sharon Doyle:\nNa tomto letisku nie je dostatok kaviarní, najmä miest s raňajkami. V blízkosti našej brány bola kaviareň, ktorá vyzerala, akoby bola trvalo zatvorená. Bola tam tma, brány boli spustené a zamknuté, a ak ste nahliadli cez zamknuté brány, vyzeralo to, že v nich skladujú veľa vecí. Dlho som chodil okolo a hľadal niečo na raňajky a nakoniec som sa rozhodol čakať v naozaj dlhom rade, ktorý trval hodne cez 20 minút, v reštaurácii Tim Horton. Dal som si muffin a džús. Na letisku som sa rozprával s niekoľkými ďalšími ľuďmi, ktorí mali rovnaký názor na nedostatok raňajkových kaviarní. Všetci sme boli frustrovaní.",
+                  "output": "Ahoj Sharon!Je mi ľúto, že si mala problém nájsť miesto na raňajky. V budúcnosti sa budeme snažiť pridať viac možností na raňajky."
+               },
+               {
+                  "input": "DS C:\nAká škoda.\nKtokoľvek plánoval výstavbu v piatok pred predĺženým víkendom, potrebuje trochu pozornosti a dôkladné pochopenie situácie. Po značnom čakaní chvíľu trvalo, kým sme zohnali taxík. Rideshare bol na tom rovnako. Žiadne auto neprišlo.\nPrečo ste sa rozhodli zablokovať všetky pruhy okrem jedného, keď viete, že budete mať veľa cestujúcich?",
+                  "output": "Dobrý deň, DS C,\nOspravedlňujeme sa za nepríjemnosti spôsobené výstavbou. Chápeme, že v tomto čase bolo rušno a budeme hľadať spôsoby, ako minimalizovať vplyv budúcich stavebných projektov."
+               },
+               {
+                  "input": "Wareef Kabbani:\nStránka je pekná. Má však veľmi málo zamestnancov. Letecké linky sú super pomalé a sú tam veľké fronty. Vzdialenosť k niektorým bránam sa môže blížiť k jednej míli. Inak pekné a suché prostredie.",
+                  "output": "Ahoj Wareef!Ďakujem za tvoj názor. Pokúsime sa pridať viac zamestnancov, aby sme zvýšili efektivitu odbavenia a skrátili čakacie doby."
+               },
+               {
+                  "input": "Cheekeye the-dog:\nNajhoršie letisko na svete\nBuďte tam o 2 hodiny dlhšie, ako odporúčajú.\n89% šanca, že stratíte batožinu, takže si zbaľte AirTags\nMajú čistokrvných psov, takže aspoň nebudete mať zlú chuť v ústach, aj keď je to najhoršie letisko na svete.",
+                  "output": "Ahoj Cheekeye,\nMrzí nás, že máš negatívnu skúsenosť. Urobíme všetko pre to, aby sme zlepšili naše služby a minimalizovali riziko straty batožiny. Ďakujeme vám za vašu spätnú väzbu."
+               },
+               {
+                  "input": "Wajahat Faiz:\nToto letisko nemá jeden, ale dva časové terminály.",
+                  "output": "Ahoj Wajahat!Sme radi, že si nadšený z Tim Hortons! Postaráme sa, aby boli otvorené a pripravené na tvoju ďalšiu návštevu."
+               },
+               {
+                  "input": "Michael Smith:\nPovažuje sa za jedno z najlepších letísk v Kanade. Neklasifikoval by som ho ako letisko tretieho sveta. Zariadenia po 21.00 hodine takmer neexistujú. Nemožné dostať pivo alebo víno. Ak máte radi rýchle občerstvenie a kávu, máte šťastie, v stravovacom areáli sú otvorené 4 podniky. Personál bol priateľský, ale všetky prepážky leteckých spoločností boli bez personálu. Nebyť toho, že je to jediná brána na východ Kanady, určite by som sa jej vyhol.",
+                  "output": "Ahoj Michael,\nJe nám ľúto, že ste nemali pozitívne skúsenosti. Budeme sa snažiť pridať viac vybavenia a predĺžiť prevádzkové hodiny pre možnosti stravovania. Ďakujeme za vašu spätnú väzbu."
                }
             ],
             "enabled": true
