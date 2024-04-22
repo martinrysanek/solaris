@@ -14,7 +14,7 @@
                   "meta-llama/llama-3-70b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -25,7 +25,7 @@
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -36,7 +36,7 @@
                   "meta-llama/llama-2-70b-chat":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -47,7 +47,7 @@
                   "meta-llama/llama-3-8b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -59,7 +59,7 @@
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
-                        "max_new_tokens":50
+                        "max_new_tokens":70
                     }
                }
             ],
@@ -108,7 +108,7 @@
                   "meta-llama/llama-3-70b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -119,7 +119,7 @@
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -130,7 +130,7 @@
                   "meta-llama/llama-2-70b-chat":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -141,7 +141,7 @@
                   "meta-llama/llama-3-8b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -153,7 +153,7 @@
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
-                        "max_new_tokens":50
+                        "max_new_tokens":70
                     }
                }
             ],
@@ -202,7 +202,7 @@
                   "meta-llama/llama-3-70b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -213,7 +213,7 @@
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -224,7 +224,7 @@
                   "meta-llama/llama-2-70b-chat":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -235,7 +235,7 @@
                   "meta-llama/llama-3-8b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -247,7 +247,7 @@
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
-                        "max_new_tokens":50
+                        "max_new_tokens":70
                     }
                }
             ],
@@ -296,7 +296,7 @@
                   "meta-llama/llama-3-70b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -307,7 +307,7 @@
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -318,7 +318,7 @@
                   "meta-llama/llama-2-70b-chat":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -329,7 +329,7 @@
                   "meta-llama/llama-3-8b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -341,7 +341,7 @@
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
-                        "max_new_tokens":50
+                        "max_new_tokens":70
                     }
                }
             ],
@@ -390,7 +390,7 @@
                   "meta-llama/llama-3-70b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -401,7 +401,7 @@
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -412,7 +412,7 @@
                   "meta-llama/llama-2-70b-chat":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -423,7 +423,7 @@
                   "meta-llama/llama-3-8b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -435,7 +435,7 @@
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
-                        "max_new_tokens":50
+                        "max_new_tokens":70
                     }
                }
             ],
@@ -484,7 +484,7 @@
                   "meta-llama/llama-3-70b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -495,7 +495,7 @@
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -506,7 +506,7 @@
                   "meta-llama/llama-2-70b-chat":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -517,7 +517,7 @@
                   "meta-llama/llama-3-8b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -529,7 +529,7 @@
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
-                        "max_new_tokens":50
+                        "max_new_tokens":70
                     }
                }
             ],
@@ -578,7 +578,7 @@
                   "meta-llama/llama-3-70b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -589,7 +589,7 @@
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -600,7 +600,7 @@
                   "meta-llama/llama-2-70b-chat":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -611,7 +611,7 @@
                   "meta-llama/llama-3-8b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -623,7 +623,7 @@
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
-                        "max_new_tokens":50
+                        "max_new_tokens":70
                     }
                }
             ],
@@ -672,7 +672,7 @@
                   "meta-llama/llama-3-70b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -683,7 +683,7 @@
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -694,7 +694,7 @@
                   "meta-llama/llama-2-70b-chat":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -705,7 +705,7 @@
                   "meta-llama/llama-3-8b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -717,7 +717,7 @@
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
-                        "max_new_tokens":50
+                        "max_new_tokens":70
                     }
                }
             ],
@@ -766,7 +766,7 @@
                   "meta-llama/llama-3-70b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -777,7 +777,7 @@
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -788,7 +788,7 @@
                   "meta-llama/llama-2-70b-chat":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -799,7 +799,7 @@
                   "meta-llama/llama-3-8b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "max_new_tokens":70,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -811,7 +811,7 @@
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
-                        "max_new_tokens":50
+                        "max_new_tokens":70
                     }
                }
             ],
@@ -845,16 +845,16 @@
    }
 
  , 
-"Topics (CZ)":{
-      "name":"Topics",
+"Nadpisy (CZ)":{
+      "name":"Nadpisy",
       "language":"CZ",
-      "buttonName":"Topics",
+      "buttonName":"Nadpisy",
       "inputs":[
           "Nobelovu cenu za fyziologii a lékařství získala biochemička Katalin Karikóová původem z Maďarska a americký imunolog Drew Weissman, kteří položili základy pro vývoj mRNA vakcín při svém působení na Pensylvánské univerzitě ve Filadelfii a položili tak základy pro vývoj vakcín proti nemoci covid-19.", "Gernot Döllner vede Audi od začátku září, kdy vystřídal Markuse Duesmanna. Ten skončil kvůli roztržce s představenstvem Audi, kterému se nelíbilo, že značka ztrácí v přímé konkurenci dalších německých prémiových výrobců BMW a Mercedes-Benz. Vlak jí ujíždí především v elektromobilitě. V rozhovoru pro německý deník Handelsblatt Döllner řekl, že bude trvat mnohem déle, než Audi vygeneruje stejné výnosy u elektromobilů jako u spalovacích motorů. Audi však trápí vysoké náklady na výrobu baterií a pořízení surovin pro elektromobily, zvláště vzácných kovů. ", "Největší ledovec světa se dal do pohybu. Obří kus ledu pojmenovaný A23a o rozloze téměř čtyř tisíc kilometrů čtverečních se v roce 1986 oddělil od antarktické pevniny, brzy však zakotvil ve Weddellově moři, a stal se tak prakticky ledovým ostrovem. V uplynulém roce však začal být unášen značnou rychlostí pryč a nyní se chystá vyplout mimo vody Antarktidy, informuje BBC.", "Švýcarští vědci vyvinuli umělou inteligenci, která podle nich zjednoduší boj proti padělkům vína na evropském trhu a zároveň pomůže vyrábět ještě lepší víno. Umělá inteligence může být také velmi užitečným nástrojem pro prevenci častých a těžko prokazatelných podvodů ve vinařském průmyslu, zjistili vědci z Ženevské univerzity. Konkrétně vyvinuli umělou inteligenci, která na základě malého vzorku vína dokáže s mimořádnou přesností určit, odkud víno pochází. Neurčuje pouze užší zeměpisnou oblast, ale přesnou vinici nebo vinařství, shrnuje výzkum deník Guardian.", "Neobvyklý spor vedou mezi sebou dvě firmy v oblasti luxusní kosmetiky. Na jedné straně je francouzský výrobce luxusních parfémů – Chanel, na druhé český prodejce voňavek Notino. Společnost založená slavnou návrhářkou Coco Chanel požaduje po českém obchodníkovi, aby jí sdělil, kde nakoupil její výrobky, které přeprodává ve svém e-shopu. Chanel si totiž důkladně vybírá, komu své zboží umožní prodávat. Zájemce musí splnit přísné požadavky, než s ním světoznámý výrobce uzavře smlouvu. ", "Některé automobilky zpomalily své plány na vývoj a výrobu elektromobilů. Ford odložil investici ve výši 12 miliard dolarů a General Motors opustil od představy vyrobit 500 tisíc elektrických vozů do půlky roku 2024.  Ve Spojených státech se má letos prodat milion elektrických vozů, což je devět procent tamního trhu s novými auty uvádí poradenská společnost Atlas Public Policy. Analytici banky Goldman Sachs předpokládají, že se ceny elektrických a spalovacích aut vyrovnají do poloviny této dekády. Výzkumná společnost Gartner tento moment tipuje na rok 2027 a dodává, že celosvětový odbyt osobních aut s elektrickým pohonem se v příštím roce zvýší o zhruba 19 procent na téměř 18 milionů vozů."
       ],
       "topics":{
          "topic1":{
-            "topicName":"Topics",
+            "topicName":"Nadpisy",
             "models":[
                {
                   "meta-llama/llama-3-70b-instruct":{
@@ -1682,6 +1682,100 @@
                {
                   "input":"Процесорите Meteor Lake малко напомнят на пускането на първото реално поколение 10nm процесори на Intel (Ice Lake) преди четири години. Въпреки че би трябвало да имат добра енергийна ефективност, тактовите им скорости са спаднали поради 4nm технология, така че производителността на процесора не се е променила много (нито ядрата са спечелили много). Но има една област, в която Meteor Lake може да е силно - в интегрирания GPU. Той докосна и дори може да надмине графиките RDNA 3 в мобилния Ryzen.",
                   "output":"Интегрирана GPU производителност на Intel"
+               }                  
+
+            ],
+            "enabled":true
+         }
+      }
+   }
+
+, 
+"Titulky (SK)":{
+      "name":"Titulky",
+      "language":"SK",
+      "buttonName":"Titulky",
+      "inputs":[
+          "Nobelova cena za fyziológiu alebo medicínu bola udelená biochemičke maďarského pôvodu Katalin Karikó a americkému imunológovi Drewovi Weissmanovi, ktorí počas svojho pôsobenia na Pensylvánskej univerzite vo Filadelfii položili základy vývoja mRNA vakcín, čím položili základ pre vývoj vakcín proti chorobe covid-19.", "Gernot Döllner vedie Audi od začiatku septembra, keď vystriedal Markusa Duesmanna. Odišiel pre rozpory s predstavenstvom Audi, ktorému sa nepáčilo, že značka stráca na priamej konkurencii ostatných nemeckých prémiových výrobcov BMW a Mercedes-Benz. Uchádza jej vlak najmä v oblasti elektromobility. V rozhovore pre nemecký denník Handelsblatt Döllner uviedol, že Audi bude potrebovať oveľa viac času na to, aby dosiahlo rovnaké príjmy z elektrických vozidiel ako zo spaľovacích motorov. Audi však trápia vysoké náklady na výrobu batérií a získavanie surovín pre elektromobily, najmä drahých kovov. ", "Najväčší ľadovec na svete sa dal do pohybu. Obrovský kus ľadu s názvom A23a s rozlohou takmer štyritisíc kilometrov štvorcových sa v roku 1986 odtrhol od antarktickej pevniny, ale čoskoro zakotvil vo Weddellovom mori a stal sa prakticky ľadovým ostrovom. V minulom roku sa však začal značnou rýchlosťou vzďaľovať a teraz je pripravený vyplávať z antarktických vôd, uvádza BBC.", "Švajčiarski vedci vyvinuli umelú inteligenciu, ktorá podľa nich zjednoduší boj proti falšovaniu vína na európskom trhu a zároveň pomôže vyrábať ešte kvalitnejšie víno. Umelá inteligencia môže byť veľmi užitočným nástrojom aj na predchádzanie častým a ťažko odhaliteľným podvodom vo vinárskom priemysle, zistili vedci zo Ženevskej univerzity. Konkrétne vyvinuli umelú inteligenciu, ktorá dokáže na základe malej vzorky vína s mimoriadnou presnosťou určiť, odkiaľ víno pochádza. Identifikuje nielen úzku geografickú oblasť, ale aj presnú vinicu alebo vinárstvo, sumarizuje výskum denník Guardian.", "Dve luxusné kozmetické spoločnosti sa dostali do nezvyčajného sporu. Na jednej strane stojí francúzsky výrobca luxusných parfumov Chanel, na druhej český predajca vôní Notino. Spoločnosť, ktorú založila slávna návrhárka Coco Chanel, požaduje, aby jej český predajca povedal, kde kúpil jej výrobky, ktoré ďalej predáva vo svojom e-shope. Spoločnosť Chanel si starostlivo vyberá, komu umožní predávať svoj tovar. Záujemca musí splniť prísne požiadavky, kým s ním svetoznámy výrobca uzavrie zmluvu. ", "Niektoré automobilky spomalili svoje plány na vývoj a výrobu elektrických vozidiel. Ford odložil investíciu vo výške 12 miliárd dolárov a General Motors sa vzdal myšlienky vyrobiť 500 000 elektromobilov do polovice roka 2024. Podľa poradenskej spoločnosti Atlas Public Policy sa v Spojených štátoch tento rok predá milión elektromobilov, čo predstavuje deväť percent tamojšieho trhu s novými automobilmi. Analytici banky Goldman Sachs predpokladajú, že ceny elektromobilov a automobilov so spaľovacími motormi sa do polovice tohto desaťročia vyrovnajú. Výskumná spoločnosť Gartner predpovedá tento moment v roku 2027 a dodáva, že celosvetový predaj osobných automobilov na elektrický pohon sa v budúcom roku zvýši približne o 19 percent na takmer 18 miliónov vozidiel."
+      ],
+      "topics":{
+         "topic1":{
+            "topicName":"Titulky",
+            "models":[
+               {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
+                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
+                  "meta-llama/llama-2-70b-chat":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               }, 
+               {
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":4,
+                     "max_new_tokens":50,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
+                        "decoding_method":"greedy",
+                        "repetition_penalty":1.1,
+                        "min_new_tokens":4,
+                        "max_new_tokens":50
+                    }
+               }
+            ],
+            "instruction":{
+               "detailed":"Prečítajte si nasledujúci dokument, vytvorte krátky a výstižný nadpis dokumentu:",
+               "summarized":"Vytvorte nadpis dokumentu:"
+            },
+            "inputPrefix":"Vytvorte stručný názov dokumentu:",
+            "outputPrefix":"Vytvorte dokument: Predmet:",
+            "examples":[
+                
+               {
+                  "input":"Čínska vláda oznámila sériu opatrení na zabránenie ďalšieho šírenia respiračných ochorení v krajine. Cestujúcim prichádzajúcim do Číny by sa mala na hraniciach merať teplota a prísnejšie preventívne a kontrolné opatrenia by mali byť zavedené aj v školách a domovoch dôchodcov. Čína v poslednom čase zaznamenala nárast počtu respiračných ochorení v krajine.",
+                  "output":"Prevencia šírenia respiračných ochorení v Číne"
+               }                  
+,
+               {
+                  "input":"Obrovský kus ľadu s názvom A23a, ktorý pokrýva takmer 4 000 km2 a je najväčším ľadovcom na svete, sa chystá vyplávať z antarktických vôd. Podľa BBC je ľadovec poháňaný vetrom a morskými prúdmi v pohybe už viac ako 30 rokov a teraz míňa severný cíp Antarktického polostrova.",
+                  "output":"Pohyb obrovského antarktického ľadovca"
+               }                  
+,
+               {
+                  "input":"Procesory Meteor Lake trochu pripomínajú vydanie prvej skutočnej generácie 10 nm procesorov Intel (Ice Lake) pred štyrmi rokmi. Hoci by mali mať dobrú energetickú účinnosť, ich taktovacie frekvencie klesli v dôsledku 4nm technológie, takže výkon procesora sa veľmi neposunul (ani jadrá veľa nezískali). Je tu však jedna oblasť, v ktorej by mohol byť Meteor Lake silný - v integrovanom GPU. Dotkla sa a mohla by dokonca prekonať grafiku RDNA 3 v mobilných Ryzenoch.",
+                  "output":"Výkon integrovaného GPU spoločnosti Intel"
                }                  
 
             ],
@@ -2687,7 +2781,7 @@
                   "meta-llama/llama-3-70b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -2698,7 +2792,7 @@
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -2709,7 +2803,7 @@
                   "meta-llama/llama-2-70b-chat":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -2720,7 +2814,7 @@
                   "meta-llama/llama-3-8b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -2732,7 +2826,7 @@
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
-                        "max_new_tokens":150
+                        "max_new_tokens":120
                     }
                }
             ],
@@ -2781,7 +2875,7 @@
                   "meta-llama/llama-3-70b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -2792,7 +2886,7 @@
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -2803,7 +2897,7 @@
                   "meta-llama/llama-2-70b-chat":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -2814,7 +2908,7 @@
                   "meta-llama/llama-3-8b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -2826,7 +2920,7 @@
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
-                        "max_new_tokens":150
+                        "max_new_tokens":120
                     }
                }
             ],
@@ -2875,7 +2969,7 @@
                   "meta-llama/llama-3-70b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -2886,7 +2980,7 @@
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -2897,7 +2991,7 @@
                   "meta-llama/llama-2-70b-chat":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -2908,7 +3002,7 @@
                   "meta-llama/llama-3-8b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -2920,7 +3014,7 @@
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
-                        "max_new_tokens":150
+                        "max_new_tokens":120
                     }
                }
             ],
@@ -2969,7 +3063,7 @@
                   "meta-llama/llama-3-70b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -2980,7 +3074,7 @@
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -2991,7 +3085,7 @@
                   "meta-llama/llama-2-70b-chat":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -3002,7 +3096,7 @@
                   "meta-llama/llama-3-8b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -3014,7 +3108,7 @@
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
-                        "max_new_tokens":150
+                        "max_new_tokens":120
                     }
                }
             ],
@@ -3063,7 +3157,7 @@
                   "meta-llama/llama-3-70b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -3074,7 +3168,7 @@
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -3085,7 +3179,7 @@
                   "meta-llama/llama-2-70b-chat":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -3096,7 +3190,7 @@
                   "meta-llama/llama-3-8b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -3108,7 +3202,7 @@
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
-                        "max_new_tokens":150
+                        "max_new_tokens":120
                     }
                }
             ],
@@ -3157,7 +3251,7 @@
                   "meta-llama/llama-3-70b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -3168,7 +3262,7 @@
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -3179,7 +3273,7 @@
                   "meta-llama/llama-2-70b-chat":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -3190,7 +3284,7 @@
                   "meta-llama/llama-3-8b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -3202,7 +3296,7 @@
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
-                        "max_new_tokens":150
+                        "max_new_tokens":120
                     }
                }
             ],
@@ -3251,7 +3345,7 @@
                   "meta-llama/llama-3-70b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -3262,7 +3356,7 @@
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -3273,7 +3367,7 @@
                   "meta-llama/llama-2-70b-chat":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -3284,7 +3378,7 @@
                   "meta-llama/llama-3-8b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -3296,7 +3390,7 @@
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
-                        "max_new_tokens":150
+                        "max_new_tokens":120
                     }
                }
             ],
@@ -3345,7 +3439,7 @@
                   "meta-llama/llama-3-70b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -3356,7 +3450,7 @@
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -3367,7 +3461,7 @@
                   "meta-llama/llama-2-70b-chat":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -3378,7 +3472,7 @@
                   "meta-llama/llama-3-8b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -3390,7 +3484,7 @@
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
-                        "max_new_tokens":150
+                        "max_new_tokens":120
                     }
                }
             ],
@@ -3434,7 +3528,7 @@
                   "meta-llama/llama-3-70b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -3445,7 +3539,7 @@
                   "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -3456,7 +3550,7 @@
                   "meta-llama/llama-2-70b-chat":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -3467,7 +3561,7 @@
                   "meta-llama/llama-3-8b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
-                     "max_new_tokens":150,
+                     "max_new_tokens":120,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -3479,7 +3573,7 @@
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
-                        "max_new_tokens":150
+                        "max_new_tokens":120
                     }
                }
             ],
@@ -3513,16 +3607,16 @@
    }
 
  , 
-"Categorization (CZ)":{
-      "name":"Categorization",
+"Kategorizace (CZ)":{
+      "name":"Kategorizace",
       "language":"CZ",
-      "buttonName":"Categorization",
+      "buttonName":"Kategorizace",
       "inputs":[
           "Andy:\nVynikající a dobře udržované. Vysoce organizovaný a efektivní. Zvládá provoz tak dobře i v tomto ročním období, kdy je obrovský příliv zahraničních studentů, kteří přijíždějí na univerzity ve Vancouveru. Spousta taxislužeb k dispozici hned u letiště.  Mimořádně ochotný personál.", "Chris Martin:\nVíce než 50 % letů na YVR a z YVR je zpožděno, bezpečnostní personál aka curbside operations, konkrétně ti, kteří se zabývají otázkami parkování, jsou hrubí, toalety jsou většinou špinavé.", "Joey:\nVelmi příjemné letiště pro čekání na let. Pohodlná sedadla a různá uspořádání míst k sezení kolem uměleckých energií včetně sochy Billa Reida a dalších vodních prvků a soch. Jsou zde obchody s potravinami a maloobchodní prodejny. Působí téměř jako nákupní centrum, nikoli jako letiště, což je velmi příjemné. Pravděpodobně by se hodilo více nabíjecích stanic v blízkosti míst k sezení."
       ],
       "topics":{
          "topic1":{
-            "topicName":"Categorization",
+            "topicName":"Kategorizace",
             "models":[
                {
                   "meta-llama/llama-3-70b-instruct":{
@@ -4538,6 +4632,120 @@
       }
    }
 
+, 
+"Kategorizácia (SK)":{
+      "name":"Kategorizácia",
+      "language":"SK",
+      "buttonName":"Kategorizácia",
+      "inputs":[
+          "Andy:\nVynikajúce a dobre udržiavané. Vysoko organizované a efektívne. Dobre zvláda dopravu aj v tomto ročnom období, keď je obrovský nápor zahraničných študentov prichádzajúcich na vancouverské univerzity. Množstvo taxislužieb dostupných priamo pri letisku.  Mimoriadne ochotný personál.", "Chris Martin:\nViac ako 50 % letov do a z YVR mešká, pracovníci bezpečnostnej služby, konkrétne tí, ktorí riešia problémy s parkovaním, sú hrubí, toalety sú väčšinou špinavé.", "Joey:\nVeľmi pekné letisko na čakanie na let. Pohodlné sedadlá a rôzne usporiadanie sedenia okolo umeleckých energií vrátane sochy Billa Reida a ďalších vodných prvkov a sôch. K dispozícii sú obchody s potravinami a maloobchodné predajne. Pôsobí takmer ako nákupné centrum, nie ako letisko, čo je veľmi príjemné. Pravdepodobne by sa hodilo viac nabíjacích staníc v blízkosti miest na sedenie."
+      ],
+      "topics":{
+         "topic1":{
+            "topicName":"Kategorizácia",
+            "models":[
+               {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":100,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
+                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":100,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
+                  "meta-llama/llama-2-70b-chat":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":100,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               }, 
+               {
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":100,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
+                        "decoding_method":"greedy",
+                        "repetition_penalty":1.1,
+                        "min_new_tokens":10,
+                        "max_new_tokens":100
+                    }
+               }
+            ],
+            "instruction":{
+               "detailed":"Kategorizujte recenziu ako pozitívnu, negatívnu alebo zmiešanú a zhrňte kľúčové body.",
+               "summarized":"Kategorizujte recenziu a zhrňte kľúčové body."
+            },
+            "inputPrefix":"Recenzia:",
+            "outputPrefix":"Zhrňte kľúčové body:",
+            "examples":[
+                
+               {
+                  "input":"Dizajn letiska je pekný, prichádza sem prirodzené svetlo, takže je veľmi svetlé a útulné. Obchody a kaviarne sú veľmi dobre zorganizované. Fontány s vodou sú pred toaletami, veľmi ľahko prístupné. Toalety sú čisté a je tam jedno oddelenie, ktoré je dostatočne veľké na to, aby sa tam zmestil invalidný vozík. Veľmi pohodlné. \Znížil som jednu hviezdičku za hrubé správanie, s ktorým som sa stretol počas bezpečnostnej kontroly. Pokyny personálu boli nejasné a vôbec neboli užitočné. Myslím, že človek by nemal očakávať priateľské správanie pri bezpečnostných kontrolách v Severnej Amerike, ako mi povedali moje predchádzajúce cestovné skúsenosti.",
+                  "output":"Pozitívne recenzie\n- Dobré vybavenie a zariadenia \n- Príjemný zákaznícky servis\n- Dobré prostredie"
+               }                  
+,
+               {
+                  "input":"Aká škoda.\nKtokoľvek plánoval stavbu v piatok pred predĺženým víkendom, potrebuje trochu pozornosti a dôkladné pochopenie situácie. Chvíľu trvalo, kým sa po dlhom čakaní dostal taxík. Rideshare bol na tom rovnako. Žiadne auto neprišlo.\nPrečo ste sa rozhodli zablokovať všetky jazdné pruhy okrem jedného, keď viete, že budete mať veľa cestujúcich?",
+                  "output":"Negatívne hodnotenia\n- Zlé plánovanie stavebných činností\n- Dlhé čakanie na taxík a zdieľanie áut\n- Frustrujúca skúsenosť."
+               }                  
+,
+               {
+                  "input":"Priletel som sem ako posádka leteckej spoločnosti po 12-hodinovom lete, po prílete som bol fyzicky unavený. Bol som svedkom toho, ako jednému z našej posádky kontrolovali batožinu na mieste takmer 1 hodinu.\nPočuli sme, že to bolo len na školenie pre mladšieho colníka! (Nie som si istý. Len som o tom počul.)\nNašu kolegyňu sme nemohli nechať na letisku, kým sme zamierili do hotela.\nByli sme takí vyčerpaní, že sme si potrebovali hneď oddýchnuť! Jediné, čo sme mohli urobiť, bolo čakať.\nMohli by nám colníci venovať trochu ľudskosti?\nCeníme si vašu prácu.\nAle prosím, dokončite kontrolu našej batožiny včas, pretože si zaslúžime aj trochu rešpektu!",
+                  "output":"Negatívne recenzie\n- Dlhé čakanie na odbavenie batožiny\n- Nedostatok empatie a rešpektu k posádke letu\n- Neľudské zaobchádzanie."
+               }                  
+,
+               {
+                  "input":"Letisko je pekné. Má však veľmi málo zamestnancov. Letecké spoločnosti sú super pomalé a sú tam dlhé rady. Vzdialenosť k niektorým bránam môže byť takmer kilometer. Inak pekná, suchá atmosféra.",
+                  "output":"Zmiešané recenzie\n- Pekné letisko\n- Nedostatok personálu\n- Pomalé linky\n- Veľká vzdialenosť k niektorým bránam."
+               }                  
+,
+               {
+                  "input":"Prileteli sme sem ako posádka leteckej spoločnosti po 12-hodinovom lete, po prílete sme boli fyzicky dosť unavení. Boli sme svedkami toho, ako jednej posádke nášho tímu kontrolovali batožinu na mieste takmer 1 hodinu.Počuli sme, že to bolo len na školenie pre mladšieho colníka! (Nie som si istý. Len som o tom počul.)\nNašu kolegyňu sme nemohli nechať na letisku, kým sme zamierili do hotela.\nByli sme takí vyčerpaní, že sme si potrebovali hneď oddýchnuť! Jediné, čo sme mohli urobiť, bolo čakať.\nMohli by nám colníci venovať trochu ľudskosti?\nCeníme si vašu prácu.\nAle prosím, dokončite kontrolu našej batožiny včas, pretože si zaslúžime aj trochu rešpektu!",
+                  "output":"Negatívne hodnotenia\n- Dlhé čakanie na odbavenie batožiny\n- Nedostatok empatie a rešpektu voči posádke lietadla\n- Neľudské zaobchádzanie."
+               }                  
+,
+               {
+                  "input":"Označenie nebolo dobré. Musel som sa pýtať, kde sú toalety, a potom som sa dostal do salónika, keď som chcel odletovú bránu. Inak celkom dobrý prístup k odletovým bránam.",
+                  "output":"Zmiešané recenzie\n- Slabé značenie\n- Mätúce usporiadanie\n- Dobrý prístup k odletovým bránam"
+               }                  
+,
+               {
+                  "input":"Je to veľké letisko, takže musíte chodiť pešo a sledovať značky. Bezpečnostné rady môžu byť dlhé, ale aspoň sa pohybujú primeranou rýchlosťou. Výber potravín je v poriadku. Parkovanie je veľmi mätúce. Ak vás niekto príde vyzdvihnúť, je problém sa s ním stretnúť, takže sa uistite, že môžete zavolať a zistiť, kto je kde.",
+                  "output":"Zmiešané hodnotenia\n- Veľké letisko, dlhé prechádzky\n- Dlhé bezpečnostné kontroly\n- Dobrý výber jedla\n- Nejasné parkovanie"
+               }                  
+
+            ],
+            "enabled":true
+         }
+      }
+   }
+
  , 
 "Car Review Summary (CZ)":{
       "name":"Car Review Summary",
@@ -5520,16 +5728,16 @@
    }
 
  , 
-"Generate Response (CZ)":{
-      "name":"Generate Response",
+"E-mail s odpovědí (CZ)":{
+      "name":"E-mail s odpovědí",
       "language":"CZ",
-      "buttonName":"Generate Response",
+      "buttonName":"E-mail s odpovědí",
       "inputs":[
-          "Andy:\nVynikající a dobře udržované. Vysoce organizovaný a efektivní. Zvládá provoz tak dobře i v tomto ročním období, kdy je obrovský příliv zahraničních studentů, kteří přijíždějí na univerzity ve Vancouveru. Spousta taxislužeb k dispozici hned u letiště.  Mimořádně ochotný personál.", "Chris Martin:\nVíce než 50 % letů na YVR a z YVR je zpožděno, bezpečnostní personál aka curbside operations, konkrétně ti, kteří se zabývají otázkami parkování, jsou hrubí, toalety jsou většinou špinavé.", "Joey:\nVelmi příjemné letiště pro čekání na let. Pohodlná sedadla a různá uspořádání míst k sezení kolem uměleckých energií včetně sochy Billa Reida a dalších vodních prvků a soch. Jsou zde obchody s potravinami a maloobchodní prodejny. Působí téměř jako nákupní centrum, nikoli jako letiště, což je velmi příjemné. Pravděpodobně by se hodilo více nabíjecích stanic v blízkosti míst k sezení."
+          "Martin:\nVynikající a dobře udržované. Vysoce organizovaný a efektivní. Zvládá provoz tak dobře i v tomto ročním období, kdy je obrovský příliv zahraničních studentů, kteří přijíždějí na univerzity ve Vancouveru. Spousta taxislužeb k dispozici hned u letiště.  Mimořádně ochotný personál.", "David:\nVíce než 50 % letů na YVR a z YVR je zpožděno, bezpečnostní personál aka curbside operations, konkrétně ti, kteří se zabývají otázkami parkování, jsou hrubí, toalety jsou většinou špinavé.", "Karel:\nVelmi příjemné letiště pro čekání na let. Pohodlná sedadla a různá uspořádání míst k sezení kolem uměleckých energií včetně sochy Billa Reida a dalších vodních prvků a soch. Jsou zde obchody s potravinami a maloobchodní prodejny. Působí téměř jako nákupní centrum, nikoli jako letiště, což je velmi příjemné. Pravděpodobně by se hodilo více nabíjecích stanic v blízkosti míst k sezení."
       ],
       "topics":{
          "topic1":{
-            "topicName":"Generate Response",
+            "topicName":"E-mail s odpovědí",
             "models":[
                {
                   "meta-llama/llama-3-70b-instruct":{
@@ -6717,6 +6925,140 @@
                {
                   "input":"Майкъл Смит:\nПредполага се, че е едно от най-добрите летища в Канада. Не бих класифицирал това като летища от третия свят. Удобствата след 2100 часа почти не съществуват. Невъзможно е да се намери бира или вино. Ако обичате бързо хранене и кафе, имате късмет с 4 отворени места в заведението за хранене. Персоналът беше приятен, но всички гишета на авиокомпаниите бяха празни от персонал. Ако не беше фактът, че е единствената врата на изток в Канада, определено щях да го избегна.",
                   "output":"Здравей Майкъл,\nСъжаляваме да научим, че не си имал положителен опит. Ще разгледаме възможността за добавяне на още удобства и удължаване на работните часове за опциите за храна и напитки. Благодарим Ви за обратната връзка."
+               }                  
+
+            ],
+            "enabled":true
+         }
+      }
+   }
+
+, 
+"E-mail s odpoveďou (CZ)":{
+      "name":"E-mail s odpoveďou",
+      "language":"CZ",
+      "buttonName":"E-mail s odpoveďou",
+      "inputs":[
+          "Martin:\nVynikajúci a dobre udržiavaný. Vysoko organizované a efektívne. Dobre zvláda prevádzku aj v tomto ročnom období, keď je obrovský nápor zahraničných študentov prichádzajúcich na univerzity vo Vancouveri. Množstvo taxislužieb dostupných priamo pri letisku.  Mimoriadne ochotný personál.", "David:\nViac ako 50 % letov do a z YVR mešká, pracovníci bezpečnostnej služby, konkrétne tí, ktorí riešia problémy s parkovaním, sú hrubí, toalety sú väčšinou špinavé.", "Karel:\nVeľmi pekné letisko na čakanie na let. Pohodlné sedadlá a rôzne usporiadanie sedenia okolo umeleckých energií vrátane sochy Billa Reida a ďalších vodných prvkov a sôch. Sú tu obchody s potravinami a maloobchodné predajne. Pôsobí takmer ako nákupné centrum, nie ako letisko, čo je veľmi príjemné. Pravdepodobne by sa hodilo viac nabíjacích staníc v blízkosti miest na sedenie."
+      ],
+      "topics":{
+         "topic1":{
+            "topicName":"E-mail s odpoveďou",
+            "models":[
+               {
+                  "meta-llama/llama-3-70b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
+                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                 
+               {
+                  "meta-llama/llama-2-70b-chat":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               }, 
+               {
+                  "meta-llama/llama-3-8b-instruct":{
+                     "decoding_method":"greedy",
+                     "min_new_tokens":10,
+                     "max_new_tokens":200,
+                     "repetition_penalty":1.1,
+                     "stop_sequences":[
+                        "\n\n"
+                     ]
+                  }
+               },                
+               {
+                    "ibm/granite-20b-multilingual":{
+                        "decoding_method":"greedy",
+                        "repetition_penalty":1.1,
+                        "min_new_tokens":10,
+                        "max_new_tokens":200
+                    }
+               }
+            ],
+            "instruction":{
+               "detailed":"Vytvoriť odpoveď na hodnotenie, ktoré zanechali cestujúci z medzinárodného letiska Vancouver.",
+               "summarized":"Vytvorte odpoveď na recenziu používateľa."
+            },
+            "inputPrefix":"Recenzia: Vancouver Vancouver - Vancouverská letecká spoločnosť, s. r. o:",
+            "outputPrefix":"Re:",
+            "examples":[
+                
+               {
+                  "input":"Tara Elizabeth:\nParking bol jednoduchý a značenie nám jasne ukázalo, kam sa máme ísť odbaviť na náš let. Posielala som svoje dospievajúce deti a personál spoločnosti Air Canada bol naozaj nápomocný.",
+                  "output":"Ahoj Tara!\nTak sme radi, že ste mali vy a vaše deti skvelú skúsenosť!"
+               }                  
+,
+               {
+                  "input":"Daniel Xu:\nTak moderné! Veľmi čistá a skvelá atmosféra.",
+                  "output":"Ahoj Daniel\n Ďakujeme za recenziu, sme radi, že sa vám návšteva páčila!"
+               }                  
+,
+               {
+                  "input":"C. Nazima London:\nMám postihnuté dieťa, ktoré používa Tobi Dynavox AAC na rozprávanie.\nPrecestovali sme takmer celé Spojené štáty, kde sa moje dieťa narodilo, a NIKDY jej TSA nezobrala AAC na kontrolu.\nMoje dieťa kričalo a povedali jej, že sa ho musí vzdať, ak chce ísť domov.\nTo je smiešne, s nikým by sa takto nemalo zaobchádzať. Tento AAC je jej hlas, ako si to dovoľujú.\nMali sme neskorý večerný let 8.9.23. Moje dieťa plakalo a plakalo, nechápalo, prečo jej berú hlas.\nDozorca mi povedal, že nie je pripojený k nej, takže musí prejsť kontrolou, potom, keď prešiel, držali ho od nej, kým ju prehľadávali, nemala možnosť povedať im, či jej ubližujú alebo ju zahanbujú. \Odporúčam všetkým rodičom alebo osobám, ktoré používajú rečové zariadenie, aby NELIETALI DO KANADY, majú tam tých najhorších ľudí v TSA. nikdy nebudeme môcť navštíviť našu staršiu rodinu, ktorá žije v Kanade. niekto to musí okamžite napraviť!!!!",
+                  "output":"Ahoj Nazima,\nJe nám veľmi ľúto, že si tým musela prejsť. Tento problém okamžite prešetríme."
+               }                  
+,
+               {
+                  "input":"Reg Natarajan:\nJsem zaujatý, pretože je to môj domáci prístav, ale YVR je naozaj najlepšie letisko na svete.",
+                  "output":"Ahoj, Reg!\nRadi sme, že si sa dobre bavil!"
+               }                  
+,
+               {
+                  "input":"SANJEEV JAIN:\nTade sa presuniete do haly D. Salónik je dobre udržiavaný a má dostatok miest na sedenie.\nNa jedenie tu toho veľa nie je, základné veci a čaj/káva. Možnosti sú veľmi obmedzené. Samoobslužný salónik.",
+                  "output":"Ahoj Sanjeev!\nĎakujeme za tvoju spätnú väzbu, budeme sa zaoberať rozšírením možností stravovania v salóniku."
+               }                  
+,
+               {
+                  "input":"Sharon Doyle:\nNa tomto letisku nie je dostatok kaviarní, najmä miest s raňajkami. V blízkosti našej brány bola kaviareň, ktorá vyzerala, akoby bola trvalo zatvorená. Bola tam tma, brány boli spustené a zamknuté, a ak ste nahliadli cez zamknuté brány, vyzeralo to, že v nich skladujú veľa vecí. Dlho som chodil okolo a hľadal niečo na raňajky a nakoniec som sa rozhodol čakať v naozaj dlhom rade, ktorý trval hodne cez 20 minút, v reštaurácii Tim Horton. Dal som si muffin a džús. Na letisku som sa rozprával s niekoľkými ďalšími ľuďmi, ktorí mali rovnaký názor na nedostatok raňajkových kaviarní. Všetci sme boli frustrovaní.",
+                  "output":"Ahoj Sharon!Je mi ľúto, že si mala problém nájsť miesto na raňajky. V budúcnosti sa budeme snažiť pridať viac možností na raňajky."
+               }                  
+,
+               {
+                  "input":"DS C:\nAká škoda.\nKtokoľvek plánoval výstavbu v piatok pred predĺženým víkendom, potrebuje trochu pozornosti a dôkladné pochopenie situácie. Po značnom čakaní chvíľu trvalo, kým sme zohnali taxík. Rideshare bol na tom rovnako. Žiadne auto neprišlo.\nPrečo ste sa rozhodli zablokovať všetky pruhy okrem jedného, keď viete, že budete mať veľa cestujúcich?",
+                  "output":"Dobrý deň, DS C,\nOspravedlňujeme sa za nepríjemnosti spôsobené výstavbou. Chápeme, že v tomto čase bolo rušno a budeme hľadať spôsoby, ako minimalizovať vplyv budúcich stavebných projektov."
+               }                  
+,
+               {
+                  "input":"Wareef Kabbani:\nStránka je pekná. Má však veľmi málo zamestnancov. Letecké linky sú super pomalé a sú tam veľké fronty. Vzdialenosť k niektorým bránam sa môže blížiť k jednej míli. Inak pekné a suché prostredie.",
+                  "output":"Ahoj Wareef!Ďakujem za tvoj názor. Pokúsime sa pridať viac zamestnancov, aby sme zvýšili efektivitu odbavenia a skrátili čakacie doby."
+               }                  
+,
+               {
+                  "input":"Cheekeye the-dog:\nNajhoršie letisko na svete\nBuďte tam o 2 hodiny dlhšie, ako odporúčajú.\n89% šanca, že stratíte batožinu, takže si zbaľte AirTags\nMajú čistokrvných psov, takže aspoň nebudete mať zlú chuť v ústach, aj keď je to najhoršie letisko na svete.",
+                  "output":"Ahoj Cheekeye,\nMrzí nás, že máš negatívnu skúsenosť. Urobíme všetko pre to, aby sme zlepšili naše služby a minimalizovali riziko straty batožiny. Ďakujeme vám za vašu spätnú väzbu."
+               }                  
+,
+               {
+                  "input":"Wajahat Faiz:\nToto letisko nemá jeden, ale dva časové terminály.",
+                  "output":"Ahoj Wajahat!Sme radi, že si nadšený z Tim Hortons! Postaráme sa, aby boli otvorené a pripravené na tvoju ďalšiu návštevu."
+               }                  
+,
+               {
+                  "input":"Michael Smith:\nPovažuje sa za jedno z najlepších letísk v Kanade. Neklasifikoval by som ho ako letisko tretieho sveta. Zariadenia po 21.00 hodine takmer neexistujú. Nemožné dostať pivo alebo víno. Ak máte radi rýchle občerstvenie a kávu, máte šťastie, v stravovacom areáli sú otvorené 4 podniky. Personál bol priateľský, ale všetky prepážky leteckých spoločností boli bez personálu. Nebyť toho, že je to jediná brána na východ Kanady, určite by som sa jej vyhol.",
+                  "output":"Ahoj Michael,\nJe nám ľúto, že ste nemali pozitívne skúsenosti. Budeme sa snažiť pridať viac vybavenia a predĺžiť prevádzkové hodiny pre možnosti stravovania. Ďakujeme za vašu spätnú väzbu."
                }                  
 
             ],
