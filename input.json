@@ -22,7 +22,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":70,
@@ -33,7 +33,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":70,
@@ -55,7 +55,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -116,7 +116,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":70,
@@ -127,7 +127,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":70,
@@ -149,7 +149,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -210,7 +210,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":70,
@@ -221,7 +221,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":70,
@@ -243,7 +243,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -304,7 +304,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":70,
@@ -315,7 +315,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":70,
@@ -337,7 +337,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -398,7 +398,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":70,
@@ -409,7 +409,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":70,
@@ -431,7 +431,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -492,7 +492,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":70,
@@ -503,7 +503,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":70,
@@ -525,7 +525,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -586,7 +586,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":70,
@@ -597,7 +597,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":70,
@@ -619,7 +619,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -680,7 +680,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":70,
@@ -691,7 +691,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":70,
@@ -713,7 +713,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -774,7 +774,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":70,
@@ -785,7 +785,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":70,
@@ -807,7 +807,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -868,7 +868,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -879,7 +879,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -901,7 +901,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -962,7 +962,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -973,7 +973,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -995,7 +995,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -1056,7 +1056,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -1067,7 +1067,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -1089,7 +1089,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -1150,7 +1150,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -1161,7 +1161,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -1183,7 +1183,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -1244,7 +1244,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -1255,7 +1255,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -1277,7 +1277,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -1338,7 +1338,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -1349,7 +1349,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -1371,7 +1371,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -1432,7 +1432,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -1443,7 +1443,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -1465,7 +1465,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -1526,7 +1526,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -1537,7 +1537,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -1559,7 +1559,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -1620,7 +1620,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -1631,7 +1631,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -1653,7 +1653,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -1714,7 +1714,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -1725,7 +1725,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -1747,7 +1747,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -1808,7 +1808,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -1819,7 +1819,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -1841,7 +1841,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -1917,7 +1917,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -1928,7 +1928,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -1950,7 +1950,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -2026,7 +2026,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -2037,7 +2037,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -2059,7 +2059,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -2135,7 +2135,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -2146,7 +2146,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -2168,7 +2168,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -2244,7 +2244,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -2255,7 +2255,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -2277,7 +2277,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -2353,7 +2353,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -2364,7 +2364,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -2386,7 +2386,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -2462,7 +2462,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -2473,7 +2473,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -2495,7 +2495,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -2571,7 +2571,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -2582,7 +2582,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -2604,7 +2604,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -2680,7 +2680,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -2691,7 +2691,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":4,
                      "max_new_tokens":50,
@@ -2713,7 +2713,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":4,
@@ -2789,7 +2789,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":120,
@@ -2800,7 +2800,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":120,
@@ -2822,7 +2822,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -2883,7 +2883,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":120,
@@ -2894,7 +2894,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":120,
@@ -2916,7 +2916,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -2977,7 +2977,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":120,
@@ -2988,7 +2988,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":120,
@@ -3010,7 +3010,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -3071,7 +3071,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":120,
@@ -3082,7 +3082,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":120,
@@ -3104,7 +3104,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -3165,7 +3165,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":120,
@@ -3176,7 +3176,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":120,
@@ -3198,7 +3198,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -3259,7 +3259,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":120,
@@ -3270,7 +3270,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":120,
@@ -3292,7 +3292,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -3353,7 +3353,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":120,
@@ -3364,7 +3364,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":120,
@@ -3386,7 +3386,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -3447,7 +3447,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":120,
@@ -3458,7 +3458,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":120,
@@ -3480,7 +3480,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -3536,7 +3536,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":120,
@@ -3547,7 +3547,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":120,
@@ -3569,7 +3569,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -3630,7 +3630,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":100,
@@ -3641,7 +3641,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":100,
@@ -3663,7 +3663,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -3744,7 +3744,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":100,
@@ -3755,7 +3755,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":100,
@@ -3777,7 +3777,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -3858,7 +3858,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":100,
@@ -3869,7 +3869,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":100,
@@ -3891,7 +3891,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -3972,7 +3972,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":100,
@@ -3983,7 +3983,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":100,
@@ -4005,7 +4005,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -4086,7 +4086,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":100,
@@ -4097,7 +4097,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":100,
@@ -4119,7 +4119,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -4200,7 +4200,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":100,
@@ -4211,7 +4211,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":100,
@@ -4233,7 +4233,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -4314,7 +4314,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":100,
@@ -4325,7 +4325,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":100,
@@ -4347,7 +4347,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -4428,7 +4428,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":100,
@@ -4439,7 +4439,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":100,
@@ -4461,7 +4461,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -4542,7 +4542,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":100,
@@ -4553,7 +4553,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":100,
@@ -4575,7 +4575,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -4656,7 +4656,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":100,
@@ -4667,7 +4667,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":100,
@@ -4689,7 +4689,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -4770,7 +4770,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -4781,7 +4781,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -4803,7 +4803,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -4879,7 +4879,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -4890,7 +4890,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -4912,7 +4912,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -4988,7 +4988,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -4999,7 +4999,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -5021,7 +5021,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -5097,7 +5097,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -5108,7 +5108,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -5130,7 +5130,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -5206,7 +5206,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -5217,7 +5217,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -5239,7 +5239,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -5315,7 +5315,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -5326,7 +5326,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -5348,7 +5348,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -5424,7 +5424,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -5435,7 +5435,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -5457,7 +5457,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -5533,7 +5533,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -5544,7 +5544,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -5566,7 +5566,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -5642,7 +5642,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -5653,7 +5653,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -5675,7 +5675,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -5751,7 +5751,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -5762,7 +5762,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -5784,7 +5784,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -5885,7 +5885,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -5896,7 +5896,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -5918,7 +5918,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -6019,7 +6019,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -6030,7 +6030,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -6052,7 +6052,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -6153,7 +6153,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -6164,7 +6164,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -6186,7 +6186,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -6287,7 +6287,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -6298,7 +6298,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -6320,7 +6320,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -6421,7 +6421,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -6432,7 +6432,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -6454,7 +6454,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -6555,7 +6555,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -6566,7 +6566,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -6588,7 +6588,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -6689,7 +6689,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -6700,7 +6700,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -6722,7 +6722,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -6823,7 +6823,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -6834,7 +6834,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -6856,7 +6856,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
@@ -6957,7 +6957,7 @@
                   }
                },                 
                {
-                  "ibm-mistralai/mixtral-8x7b-instruct-v01-q":{
+                  "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -6968,7 +6968,7 @@
                   }
                },                 
                {
-                  "meta-llama/llama-2-70b-chat":{
+                  "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
                      "min_new_tokens":10,
                      "max_new_tokens":200,
@@ -6990,7 +6990,7 @@
                   }
                },                
                {
-                    "ibm/granite-20b-multilingual":{
+                    "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
                         "min_new_tokens":10,
