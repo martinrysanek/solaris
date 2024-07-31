@@ -1799,8 +1799,8 @@
                {
                   "meta-llama/llama-3-70b-instruct":{
                      "decoding_method":"greedy",
-                     "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "min_new_tokens":2,
+                     "max_new_tokens":10,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -1810,8 +1810,8 @@
                {
                   "mistralai/mixtral-8x7b-instruct-v01":{
                      "decoding_method":"greedy",
-                     "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "min_new_tokens":2,
+                     "max_new_tokens":10,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -1821,8 +1821,8 @@
                {
                   "meta-llama/llama-3-405b-instruct":{
                      "decoding_method":"greedy",
-                     "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "min_new_tokens":2,
+                     "max_new_tokens":10,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -1832,8 +1832,8 @@
                {
                   "meta-llama/llama-3-8b-instruct":{
                      "decoding_method":"greedy",
-                     "min_new_tokens":4,
-                     "max_new_tokens":50,
+                     "min_new_tokens":2,
+                     "max_new_tokens":10,
                      "repetition_penalty":1.1,
                      "stop_sequences":[
                         "\n\n"
@@ -1844,8 +1844,8 @@
                     "mistralai/mistral-large":{
                         "decoding_method":"greedy",
                         "repetition_penalty":1.1,
-                        "min_new_tokens":4,
-                        "max_new_tokens":50
+                        "min_new_tokens":2,
+                        "max_new_tokens":10
                     }
                }
             ],
